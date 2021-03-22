@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.2.0...v1.3.0) (2021-03-22)
+
+
+### Features
+
+* add chips for used programs ([a2ce094](https://github.com/DerYeger/magdalena-jirku/commit/a2ce094872b14238652b1a2e1457ead9b80df48b))
+
 # [1.2.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.1.0...v1.2.0) (2021-03-22)
 
 
