@@ -1,0 +1,70 @@
+html {
+  overflow-y: auto !important;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    width: 64rem;
+  }
+}
+
+.article-container {
+  width: 100%;
+}
+
+article {
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.2;
+  }
+
+  h2 {
+    margin-top: 3rem;
+  }
+
+  .nuxt-content {
+    .nuxt-content-highlight {
+      position: relative;
+
+      & + p {
+        margin-top: 1rem;
+      }
+
+      code {
+        all: unset !important;
+      }
+
+      pre {
+        border-radius: 0.25rem;
+      }
+
+      .filename {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        margin-right: 0.5rem;
+        margin-top: 0.25rem;
+        font-weight: 300;
+        font-size: 0.875rem;
+        color: #c3cee3;
+      }
+    }
+
+    .v-image {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.masonry-wall {
+  width: 100%;
+}
