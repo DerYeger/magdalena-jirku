@@ -3,6 +3,14 @@
     <article>
       <h1>{{ project.title }}</h1>
       <p>{{ project.date }}</p>
+      <p>
+        <v-chip
+          v-for="program of project.programs"
+          :key="program"
+          class="program-chip"
+          >{{ program }}</v-chip
+        >
+      </p>
       <table-of-contents
         v-if="project.toc.length > 0"
         :document="project"
@@ -59,3 +67,9 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+.program-chip:not(:last-child) {
+  margin-right: 0.5rem;
+}
+</style>

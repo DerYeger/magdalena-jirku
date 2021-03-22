@@ -3,13 +3,17 @@ title: Bycicle Tracking Composition
 image: bycicle/thumbnail.webp
 date: Jänner 2020
 createdAt: 2020-01-00T00:00:00Z
+programs:
+  - Autodesk Maya 2019
+  - Redshift
+  - Substance Painter
+  - PFTrack
+  - Adobe After Effects
 ---
 
 Das vierte Uni-Projekt ist ein Tracking Projekt gewesen.
 Hierbei soll ein 3D Objekt in ein reales Filmmaterial eingebettet werden.
 Ich entschied mich für ein Fahrrad im Retro-Stil, welches ich vor ein Tor im Wald setzte.
-
-Programme: Autodesk Maya 2019, Redshift, Substance Painter, PF Track, Adobe After Effects
 
 <asset-video src="bycicle/splitscreen.mp4"></asset-video>
 
