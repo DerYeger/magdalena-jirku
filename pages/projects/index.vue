@@ -27,8 +27,8 @@ export default defineComponent({
     $content: contentFunc
   }) {
     const projects = (await $content(`${app.i18n.locale}/projects`)
-      .only(['title', 'path', 'image'])
-      .sortBy('title', 'asc')
+      .only(['title', 'path', 'image', 'date', 'createdAt'])
+      .sortBy('createdAt', 'desc')
       .fetch<Project>()) as Project[]
     return {
       projects: localizeDocumentPaths(projects, app.i18n.locale),

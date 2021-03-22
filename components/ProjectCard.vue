@@ -18,7 +18,7 @@
         </template>
       </v-img>
       <v-card-title>{{ project.title }}</v-card-title>
-      <v-card-subtitle>{{ formatDate(project.createdAt) }}</v-card-subtitle>
+      <v-card-subtitle>{{ project.date }}</v-card-subtitle>
     </v-card>
   </v-hover>
 </template>

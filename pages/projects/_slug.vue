@@ -2,7 +2,7 @@
   <div class="article-container">
     <article>
       <h1>{{ project.title }}</h1>
-      <p>Last update: {{ formatDate(project.updatedAt) }}</p>
+      <p>{{ project.date }}</p>
       <table-of-contents
         v-if="project.toc.length > 0"
         :document="project"
@@ -35,8 +35,8 @@ export default defineComponent({
     ).fetch()
 
     const [prev, next] = await $content(`${app.i18n.locale}/projects`)
-      .only(['title', 'path'])
-      .sortBy('createdAt', 'asc')
+      .only(['title', 'path', 'createdAt'])
+      .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
 
