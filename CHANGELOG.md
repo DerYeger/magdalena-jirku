@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.0.0...v1.1.0) (2021-03-22)
+
+
+### Features
+
+* sort projects by date ([9d79162](https://github.com/DerYeger/magdalena-jirku/commit/9d791626d625d57cd814f6a9f304efe29f143efa))
+
 # 1.0.0 (2021-03-22)
 
 
