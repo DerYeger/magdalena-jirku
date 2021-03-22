@@ -23,3 +23,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+video:focus {
+  outline: unset;
+}
+</style>
