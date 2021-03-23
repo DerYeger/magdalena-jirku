@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.3.0...v1.3.1) (2021-03-23)
+
+
+### Bug Fixes
+
+* add vertical spacing to program chips ([4eb2a66](https://github.com/DerYeger/magdalena-jirku/commit/4eb2a669ede1da508a1fb31d6ed2665dd09c8b7b))
+
 # [1.3.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.2.0...v1.3.0) (2021-03-22)
 
 
