@@ -3,7 +3,7 @@
     <article>
       <h1>{{ project.title }}</h1>
       <p>{{ project.date }}</p>
-      <p>
+      <p class="program-chip-container">
         <v-chip
           v-for="program of project.programs"
           :key="program"
@@ -68,8 +68,16 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
-.program-chip:not(:last-child) {
-  margin-right: 0.5rem;
+<style lang="scss" scoped>
+.program-chip-container {
+  margin-top: -0.5rem;
+}
+
+.program-chip {
+  margin-top: 0.5rem;
+
+  &:not(:last-child) {
+    margin-right: 0.5rem;
+  }
 }
 </style>
