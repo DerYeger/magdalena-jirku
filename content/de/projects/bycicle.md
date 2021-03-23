@@ -4,11 +4,11 @@ image: bycicle/thumbnail.webp
 date: Jänner 2020
 createdAt: 2020-01-00T00:00:00Z
 programs:
-  - Autodesk Maya 2019
+  - Autodesk Maya
   - Redshift
   - Substance Painter
   - PFTrack
-  - Adobe After Effects
+  - After Effects
 ---
 
 Das vierte Uni-Projekt ist ein Tracking Projekt gewesen.

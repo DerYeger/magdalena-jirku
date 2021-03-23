@@ -13,5 +13,5 @@ Einige davon sind bei meinen Hobby-Arbeiten zu sehen.
 Meine Aufgabenbereiche umfassen Grafikdesign und seit Anfang 2020 auch Visual Effects und 3D Animation.
 Praktische Erfahrung mit Kunden habe ich bereits bei Logo-, Etiketten- und Bannerdesigns erarbeitet.
 
-Ich besitze folgende Programmerfahrung:\
-Adobe Photoshop, InDesign, Illustrator, After Effects, Lightroom, Autodesk Maya, Substance Painter, Redshift, PFTrack.
+## Programmerfahrung
+<chip-list :elements="['Photoshop', 'InDesign', 'Illustrator', 'After Effects', 'Lightroom', 'Autodesk Maya', 'Substance Painter', 'Redshift', 'PFTrack']" class="mt-1"></chip-list>

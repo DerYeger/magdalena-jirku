@@ -3,13 +3,8 @@
     <article>
       <h1>{{ project.title }}</h1>
       <p>{{ project.date }}</p>
-      <p class="program-chip-container">
-        <v-chip
-          v-for="program of project.programs"
-          :key="program"
-          class="program-chip"
-          >{{ program }}</v-chip
-        >
+      <p>
+        <chip-list :elements="project.programs" />
       </p>
       <table-of-contents
         v-if="project.toc.length > 0"
@@ -67,17 +62,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style lang="scss" scoped>
-.program-chip-container {
-  margin-top: -0.5rem;
-}
-
-.program-chip {
-  margin-top: 0.5rem;
-
-  &:not(:last-child) {
-    margin-right: 0.5rem;
-  }
-}
-</style>
