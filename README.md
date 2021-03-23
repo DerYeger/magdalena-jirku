@@ -1,5 +1,16 @@
 # magdalena-jirku
 
+> Personal website of [Magdalena Jirku](https://github.com/Keshyx).
+
+[![CI](https://github.com/DerYeger/magdalena-jirku/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/DerYeger/magdalena-jirku/actions/workflows/ci.yml)
+[![CD](https://github.com/DerYeger/magdalena-jirku/actions/workflows/cd.yml/badge.svg)](https://github.com/DerYeger/magdalena-jirku/actions/workflows/cd.yml)
+
+Built with the [Jamstack](https://jamstack.org/) architecture, using [@nuxt/content](https://content.nuxtjs.org/).
+
+CI and CD are handled by GitHub Actions.
+
+The website is hosted with GitHub Pages at https://magdalena-jirku.at.
+
 ## Build Setup
 
 ```bash
