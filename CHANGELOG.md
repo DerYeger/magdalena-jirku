@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.5.1...v1.6.0) (2021-03-24)
+
+
+### Features
+
+* add hobby content ([0094641](https://github.com/DerYeger/magdalena-jirku/commit/0094641b66d520849286b484e6b83ddf8dc3ac24))
+
 ## [1.5.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.5.0...v1.5.1) (2021-03-24)
 
 
