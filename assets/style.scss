@@ -18,11 +18,10 @@ html {
 }
 
 article {
-  margin-bottom: 3rem;
-
   h1 {
     font-size: clamp(2rem, 3vw, 3rem);
     line-height: 1.2;
+    margin-bottom: 1rem;
   }
 
   h2 {

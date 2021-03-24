@@ -16,7 +16,7 @@ import { defineComponent } from '@nuxtjs/composition-api'
 export default defineComponent({
   props: {
     elements: {
-      type: Object as () => string,
+      type: Array as () => string[],
       required: true,
     },
   },

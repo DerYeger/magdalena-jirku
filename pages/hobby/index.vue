@@ -4,7 +4,9 @@
     :ssr="{ columns: 1 }"
     :options="{ width: 400, padding: 12 }"
   >
-    <h1>Under construction</h1>
+    <template #default="{ item }">
+      <hobby-card :hobby="item" />
+    </template>
   </vue-masonry-wall>
 </template>
 
@@ -12,10 +14,9 @@
 import { contentFunc } from '@nuxt/content/types/content'
 import { defineComponent } from '@nuxtjs/composition-api'
 import { NuxtAppOptions } from '@nuxt/types'
-import { Hobby, hasTags } from '~/model/hobby'
+import { Hobby } from '~/model/hobby'
 import { hobbyBreadcrumb, homeBreadcrumb } from '~/model/breadcrumbs'
 import { localizeDocumentPaths, routes } from '~/model/routes'
-import { formatDate } from '~/model/utils'
 
 export default defineComponent({
   async asyncData({
@@ -26,7 +27,7 @@ export default defineComponent({
     $content: contentFunc
   }) {
     const hobbies = (await $content(`${app.i18n.locale}/hobby`)
-      .only(['title', 'path', 'createdAt', 'tags', 'image'])
+      .only(['title', 'path', 'createdAt', 'image'])
       .sortBy('createdAt', 'desc')
       .fetch<Hobby>()) as Hobby[]
     return {
@@ -36,10 +37,6 @@ export default defineComponent({
   mounted() {
     this.$store.commit('setTitle', routes.hobby.title)
     this.$store.commit('setBreadcrumbs', [homeBreadcrumb, hobbyBreadcrumb])
-  },
-  methods: {
-    hasTags,
-    formatDate,
   },
 })
 </script>

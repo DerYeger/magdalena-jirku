@@ -1,14 +1,14 @@
 <template>
   <p class="link-container">
-    <NuxtLink v-if="prev" :to="prev.path">
+    <nuxt-link v-if="prev" :to="prev.path" class="mr-4">
       <v-icon v-text="'mdi-chevron-left'" />
       <span>{{ prev.title }}</span>
-    </NuxtLink>
+    </nuxt-link>
     <span v-else />
-    <NuxtLink v-if="next" :to="next.path">
+    <nuxt-link v-if="next" :to="next.path" style="text-align: right">
       <span>{{ next.title }}</span>
       <v-icon v-text="'mdi-chevron-right'" />
-    </NuxtLink>
+    </nuxt-link>
     <span v-else />
   </p>
 </template>
@@ -40,7 +40,7 @@ export default defineComponent({
     display: flex;
     align-items: center;
     color: unset !important;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2vw, 1.25rem);
     font-weight: bold;
     text-decoration: none;
 
