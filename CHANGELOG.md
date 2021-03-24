@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.6.0...v1.6.1) (2021-03-24)
+
+
+### Bug Fixes
+
+* use v-show instead of v-if ([ded7ac1](https://github.com/DerYeger/magdalena-jirku/commit/ded7ac1a46753ebb370b8c2705cca85e42fa106a))
+
 # [1.6.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.5.1...v1.6.0) (2021-03-24)
 
 
