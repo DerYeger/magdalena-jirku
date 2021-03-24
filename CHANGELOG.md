@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.6.1...v1.6.2) (2021-03-24)
+
+
+### Bug Fixes
+
+* correct spelling ([e7e1ffd](https://github.com/DerYeger/magdalena-jirku/commit/e7e1ffd204688648b48fe1710afeaa987354143c))
+
 ## [1.6.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.6.0...v1.6.1) (2021-03-24)
 
 
