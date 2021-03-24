@@ -6,10 +6,7 @@
       <p>
         <chip-list :elements="project.programs" />
       </p>
-      <table-of-contents
-        v-if="project.toc.length > 0"
-        :document="project"
-      ></table-of-contents>
+      <table-of-contents v-show="project.toc.length > 0" :document="project" />
       <nuxt-content :document="project" />
     </article>
     <document-switcher
