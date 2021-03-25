@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.8.0...v1.8.1) (2021-03-25)
+
+
+### Bug Fixes
+
+* use custom date in project-card ([dc163e3](https://github.com/DerYeger/magdalena-jirku/commit/dc163e3384b5de1fc77f44de66b5668ba7f62566))
+
 # [1.8.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.7.0...v1.8.0) (2021-03-25)
 
 
