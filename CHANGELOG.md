@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.7.0...v1.8.0) (2021-03-25)
+
+
+### Features
+
+* localize date time formats ([0383c34](https://github.com/DerYeger/magdalena-jirku/commit/0383c3417e84f2d8c3d95e55d2259f8cdff6b65a))
+
 # [1.7.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.6.3...v1.7.0) (2021-03-25)
 
 
