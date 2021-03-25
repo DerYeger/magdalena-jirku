@@ -18,25 +18,23 @@
         </template>
       </v-img>
       <v-card-title>{{ hobby.title }}</v-card-title>
-      <v-card-subtitle>{{ formatDate(hobby.createdAt) }}</v-card-subtitle>
+      <v-card-subtitle>
+        {{ $d(new Date(hobby.createdAt), 'short') }}
+      </v-card-subtitle>
     </v-card>
   </v-hover>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
-import { formatDate } from '~/model/utils'
-import { Project } from '~/model/project'
+import { Hobby } from '~/model/hobby'
 
 export default defineComponent({
   props: {
     hobby: {
-      type: Object as () => Project,
+      type: Object as () => Hobby,
       required: true,
     },
-  },
-  methods: {
-    formatDate,
   },
 })
 </script>

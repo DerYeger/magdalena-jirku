@@ -2,7 +2,7 @@
   <div class="article-container">
     <article>
       <h1>{{ hobby.title }}</h1>
-      <p>{{ formatDate(hobby.createdAt) }}</p>
+      <p>{{ $d(new Date(hobby.createdAt), 'long') }}</p>
       <div class="mb-4">
         <asset-image
           :src="'hobby/' + hobby.image"
@@ -21,7 +21,6 @@
 <script>
 import { defineComponent } from '@nuxtjs/composition-api'
 import { localizeDocumentPath, routes } from '~/model/routes'
-import { formatDate } from '~/model/utils'
 import {
   documentBreadcrumb,
   hobbyBreadcrumb,
@@ -64,9 +63,6 @@ export default defineComponent({
       hobbyBreadcrumb,
       documentBreadcrumb(this.hobby, this.$i18n.locale),
     ])
-  },
-  methods: {
-    formatDate,
   },
 })
 </script>

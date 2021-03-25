@@ -18,14 +18,15 @@
         </template>
       </v-img>
       <v-card-title>{{ project.title }}</v-card-title>
-      <v-card-subtitle>{{ project.date }}</v-card-subtitle>
+      <v-card-subtitle>
+        {{ $d(new Date(project.createdAt), 'short') }}
+      </v-card-subtitle>
     </v-card>
   </v-hover>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
-import { formatDate } from '~/model/utils'
 import { Project } from '~/model/project'
 
 export default defineComponent({
@@ -34,9 +35,6 @@ export default defineComponent({
       type: Object as () => Project,
       required: true,
     },
-  },
-  methods: {
-    formatDate,
   },
 })
 </script>

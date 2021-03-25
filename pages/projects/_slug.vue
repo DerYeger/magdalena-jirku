@@ -9,17 +9,12 @@
       <table-of-contents v-show="project.toc.length > 0" :document="project" />
       <nuxt-content :document="project" />
     </article>
-    <document-switcher
-      :collection="'projects'"
-      :prev="prev"
-      :next="next"
-    ></document-switcher>
+    <document-switcher :prev="prev" :next="next" />
   </div>
 </template>
 
 <script>
 import { defineComponent } from '@nuxtjs/composition-api'
-import { formatDate } from '~/model/utils'
 import { localizeDocumentPath, routes } from '~/model/routes'
 import {
   documentBreadcrumb,
@@ -53,9 +48,6 @@ export default defineComponent({
       projectsBreadcrumb,
       documentBreadcrumb(this.project, this.$i18n.locale),
     ])
-  },
-  methods: {
-    formatDate,
   },
 })
 </script>

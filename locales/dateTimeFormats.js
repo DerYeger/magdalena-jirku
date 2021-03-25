@@ -1,7 +1,4 @@
-import de from './de.json'
-import en from './en.json'
-
-const dateTimeFormats = {
+export const dateTimeFormats = {
   en: {
     short: {
       year: 'numeric',
@@ -26,11 +23,4 @@ const dateTimeFormats = {
       day: 'numeric',
     },
   },
-}
-
-export default {
-  locale: 'en',
-  fallbackLocale: 'en',
-  messages: { de, en },
-  dateTimeFormats,
 }
