@@ -8,7 +8,6 @@
           :src="'hobby/' + hobby.image"
           :alt="hobby.title"
           contain
-          class="mb-4"
           max-height="60vh"
           max-width="100%"
         />
