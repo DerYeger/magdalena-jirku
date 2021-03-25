@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.6.3...v1.7.0) (2021-03-25)
+
+
+### Features
+
+* add fullscreen overlay to asset-image ([7f6bff5](https://github.com/DerYeger/magdalena-jirku/commit/7f6bff5d5379b24649244eebdd30005e9145ef82))
+
 ## [1.6.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.6.2...v1.6.3) (2021-03-25)
 
 
