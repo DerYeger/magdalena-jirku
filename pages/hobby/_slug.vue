@@ -3,30 +3,19 @@
     <article>
       <h1>{{ hobby.title }}</h1>
       <p>{{ formatDate(hobby.createdAt) }}</p>
-      <v-img
-        v-if="hobby.image"
-        :src="image"
-        contain
-        class="mb-4 main-image"
-        max-height="60vh"
-        max-width="100%"
-        @click.stop="overlay = true"
-      />
+      <div class="mb-4">
+        <asset-image
+          :src="'hobby/' + hobby.image"
+          :alt="hobby.title"
+          contain
+          class="mb-4"
+          max-height="60vh"
+          max-width="100%"
+        />
+      </div>
       <nuxt-content :document="hobby" />
     </article>
     <document-switcher :prev="prev" :next="next" />
-    <v-overlay :value="overlay" opacity="1">
-      <v-img
-        v-if="hobby.image"
-        :src="image"
-        contain
-        height="100vh"
-        width="100vw"
-      />
-      <v-btn icon class="close-button" @click.stop="overlay = false">
-        <v-icon v-text="'mdi-close'" />
-      </v-btn>
-    </v-overlay>
   </div>
 </template>
 
@@ -82,15 +71,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.close-button {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-
-.main-image {
-  cursor: pointer;
-}
-</style>

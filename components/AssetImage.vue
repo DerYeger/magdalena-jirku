@@ -1,5 +1,34 @@
 <template>
-  <v-img :src="imgSrc()" :lazy-src="lazyImgSrc()" :alt="alt" />
+  <div style="display: contents">
+    <v-img
+      :src="imgSrc"
+      :lazy-src="lazyImgSrc"
+      :alt="alt"
+      :contain="contain"
+      class="main-image"
+      :max-height="maxHeight"
+      :max-width="maxWidth"
+      @click="overlay = true"
+    >
+      <template #placeholder>
+        <v-row class="fill-height ma-0" align="center" justify="center">
+          <v-progress-circular indeterminate color="primary" />
+        </v-row>
+      </template>
+    </v-img>
+    <v-overlay :value="overlay" opacity="1">
+      <v-img
+        :src="imgSrc"
+        :lazy-src="lazyImgSrc"
+        contain
+        height="100vh"
+        width="100vw"
+      />
+      <v-btn icon class="close-button" @click="overlay = false">
+        <v-icon v-text="'mdi-close'" />
+      </v-btn>
+    </v-overlay>
+  </div>
 </template>
 
 <script>
@@ -19,8 +48,22 @@ export default defineComponent({
       type: String,
       required: true,
     },
+    contain: Boolean,
+    maxHeight: {
+      type: String,
+      default: undefined,
+    },
+    maxWidth: {
+      type: String,
+      default: undefined,
+    },
   },
-  methods: {
+  data() {
+    return {
+      overlay: false,
+    }
+  },
+  computed: {
     imgSrc() {
       try {
         return require(`~/assets/content/${this.src}`)
@@ -38,3 +81,15 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+.close-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.main-image {
+  cursor: pointer;
+}
+</style>
