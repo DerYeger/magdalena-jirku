@@ -3,5 +3,6 @@ title: Dragonfire
 createdAt: 2020-01-22T00:00:00Z
 image: dragonfire.webp
 ---
-My inspiration to this artpiece came from an art-exhibition which displayed drawings/ paintings of one of my favourite Renaissance artists, Caravaggio.
-His lightning/shading technique is incredibly inspiring.
+Meine Inspiration zu diesem Bild kam nach einer Ausstellung in der Albertina in Wien.
+Ich bin ein sehr großer Fan der Renaissance als Kunst-Epoche und verpasse nur selten die neuesten Ausstellungen.
+Hierbei handelt es sich um den großen italienischen Maler Caravaggio. Seine Licht- und Schattentechniken sind atemberaubend und wahnsinnig inspirierend.

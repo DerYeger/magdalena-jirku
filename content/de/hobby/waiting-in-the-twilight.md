@@ -3,4 +3,5 @@ title: Waiting in the Twilight
 createdAt: 2021-03-2T00:00:00Z
 image: waiting_in_the_twilight.webp
 ---
-Fanart of a Nintendo video game called "The Legend Of Zelda - Twilight Princess". It's a game I enjoyed as a kid as much as I enjoy it as an adult.
+Sowohl als Kind, als auch als Erwachsener, verbringe ich ab und zu meine Freizeit mit Videospielen.
+»The Legend Of Zelda – Twilight Princess« ist nach wie vor mein Lieblingsspiel, weshalb ich nicht widerstehen konnte, ein Bild davon zu malen.
