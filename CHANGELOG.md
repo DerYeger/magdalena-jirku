@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.8.2...v1.9.0) (2021-03-26)
+
+
+### Features
+
+* translate about me content ([79ff5a8](https://github.com/DerYeger/magdalena-jirku/commit/79ff5a894ecb65a5eb0b92a08cbe8a41efe45791))
+* translate hobby content ([a42f7f1](https://github.com/DerYeger/magdalena-jirku/commit/a42f7f13bd203537c3b83c5978025e93fe4b2f27))
+
 ## [1.8.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.8.1...v1.8.2) (2021-03-26)
 
 
