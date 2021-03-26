@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.8.1...v1.8.2) (2021-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nuxt-i18n to v6.22.2 ([8cd310f](https://github.com/DerYeger/magdalena-jirku/commit/8cd310f8ac46b03c91f983e537b0fba154759671))
+
 ## [1.8.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.8.0...v1.8.1) (2021-03-25)
 
 
