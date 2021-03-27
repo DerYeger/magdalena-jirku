@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.9.0...v1.10.0) (2021-03-27)
+
+
+### Features
+
+* update content ([1dff657](https://github.com/DerYeger/magdalena-jirku/commit/1dff657ff432295d8b596c2ef2ce8d9b00d12a83))
+
 # [1.9.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.8.2...v1.9.0) (2021-03-26)
 
 
