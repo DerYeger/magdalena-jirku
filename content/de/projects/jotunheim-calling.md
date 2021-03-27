@@ -1,0 +1,20 @@
+---
+title: Jotunheim Calling
+image: jotunheim-calling/jotunheim_is_calling.webp
+date: November 2019
+createdAt: 2019-11-00T00:00:00Z
+programs:
+- Photoshop
+---
+
+Das Ergebnis meines ersten Uni-Projektes.
+Ziel war es, ein 2D Environment im Concept-Art Stil zu entwickeln.
+Der Concept-Art Stil ist etwas abweichend von meinem eigenen gewesen, weshalb ich mich erst in dieses Bild einarbeiten musste.
+Die nordische Mythologie diente mir hierbei als Anhaltspunkt.
+Die nordische Mythologie beinhaltet 9 Welten, ich entschied mich für Jotunheim, die Heimat der Eisriesen.
+Hierbei wurde ich zum ersten Mal mit Bergen und Schnee konfrontiert, weshalb es für mich eine gute Möglichkeit war, mehr über die kalten Elemente in Erfahrung zu bringen.
+
+<asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt=""></asset-image>
+<asset-image src="jotunheim-calling/jotunheim_1.webp" alt=""></asset-image>
+<asset-image src="jotunheim-calling/jotunheim_2.webp" alt=""></asset-image>
+<asset-image src="jotunheim-calling/jotunheim_3.webp" alt=""></asset-image>
