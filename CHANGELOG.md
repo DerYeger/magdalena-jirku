@@ -1,3 +1,18 @@
+# [1.11.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.10.0...v1.11.0) (2021-03-27)
+
+
+### Bug Fixes
+
+* disable fullscreen view for avatar ([fdd04e9](https://github.com/DerYeger/magdalena-jirku/commit/fdd04e9656f43ea2024519e9acd43ed4f891db59))
+* remove useless p ([5943f75](https://github.com/DerYeger/magdalena-jirku/commit/5943f75eb79371eb3d939728fd17147af97f0649))
+
+
+### Features
+
+* add Bitter font for headlines ([ec65671](https://github.com/DerYeger/magdalena-jirku/commit/ec656714584e9fb8e5f335da6f29fb5c342a6d70))
+* update content ([2613463](https://github.com/DerYeger/magdalena-jirku/commit/26134636ed886b3d7a705b72b1640c260c6f20c4))
+* update content ([07ad410](https://github.com/DerYeger/magdalena-jirku/commit/07ad41064dc58d06c653a4b7ebd37fa9308da191))
+
 # [1.10.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.9.0...v1.10.0) (2021-03-27)
 
 
