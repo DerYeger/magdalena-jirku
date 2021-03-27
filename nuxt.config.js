@@ -26,6 +26,15 @@ export default {
         rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
       },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&display=swap',
+      },
     ],
   },
 
