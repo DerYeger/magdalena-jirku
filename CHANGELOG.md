@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.11.0...v1.12.0) (2021-03-27)
+
+
+### Features
+
+* add logo and update favicon ([e296a45](https://github.com/DerYeger/magdalena-jirku/commit/e296a45261427a35044b045c1260d4b2df224c74))
+
 # [1.11.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.10.0...v1.11.0) (2021-03-27)
 
 
