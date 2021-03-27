@@ -3,10 +3,7 @@
     <article>
       <h1>{{ project.title }}</h1>
       <p>{{ project.date }}</p>
-      <p>
-        <chip-list :elements="project.programs" />
-      </p>
-      <table-of-contents v-show="project.toc.length > 0" :document="project" />
+      <chip-list :elements="project.programs" />
       <nuxt-content :document="project" />
     </article>
     <document-switcher :prev="prev" :next="next" />
