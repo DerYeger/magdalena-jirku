@@ -14,7 +14,13 @@ Die nordische Mythologie diente mir hierbei als Anhaltspunkt.
 Die nordische Mythologie beinhaltet 9 Welten, ich entschied mich für Jotunheim, die Heimat der Eisriesen.
 Hierbei wurde ich zum ersten Mal mit Bergen und Schnee konfrontiert, weshalb es für mich eine gute Möglichkeit war, mehr über die kalten Elemente in Erfahrung zu bringen.
 
-<asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt=""></asset-image>
-<asset-image src="jotunheim-calling/jotunheim_1.webp" alt=""></asset-image>
-<asset-image src="jotunheim-calling/jotunheim_2.webp" alt=""></asset-image>
-<asset-image src="jotunheim-calling/jotunheim_3.webp" alt=""></asset-image>
+<asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt="Jotunheim Calling"></asset-image>
+
+## Skizze
+<asset-image src="jotunheim-calling/jotunheim_1.webp" alt="Skizze"></asset-image>
+
+## Beginn der Schatten- und Lichtsetzung
+<asset-image src="jotunheim-calling/jotunheim_2.webp" alt="Beginn der Schatten- und Lichtsetzung"></asset-image>
+
+## Detaillierte Ausarbeitung
+<asset-image src="jotunheim-calling/jotunheim_3.webp" alt="Detaillierte Ausarbeitung"></asset-image>

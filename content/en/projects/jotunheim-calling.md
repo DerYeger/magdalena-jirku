@@ -14,6 +14,12 @@ Since I am a big fan of the norse mythology, I chose Jotunheim as my preferred d
 It was my first time drawing snow, so it was a great opportunity for me to learn more about various materials and the change of weather.
 
 <asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt=""></asset-image>
-<asset-image src="jotunheim-calling/jotunheim_1.webp" alt=""></asset-image>
-<asset-image src="jotunheim-calling/jotunheim_2.webp" alt=""></asset-image>
-<asset-image src="jotunheim-calling/jotunheim_3.webp" alt=""></asset-image>
+
+## Sketch
+<asset-image src="jotunheim-calling/jotunheim_1.webp" alt="Sketch"></asset-image>
+
+## Placement of shadows and lighting
+<asset-image src="jotunheim-calling/jotunheim_2.webp" alt="Placement of shadows and lighting"></asset-image>
+
+## Refined details
+<asset-image src="jotunheim-calling/jotunheim_3.webp" alt="Refined details"></asset-image>

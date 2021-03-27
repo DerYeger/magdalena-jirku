@@ -1,5 +1,7 @@
 # About me
 
+<p></p>
+
 *Magdalena // 22 // Vienna // Graphic design // VFX & 3D Animation student at SAE*
 
 I finished my graphic and communication design education at the «Höhere Graphische Bundes- Lehr und Versuchsanstalt» in 2018 in Vienna.

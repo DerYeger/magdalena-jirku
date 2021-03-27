@@ -16,8 +16,8 @@ Der Stil ist sehr an jener von Comics angelehnt. Alle Texturen die zu sehen sind
 
 Das Diorama ist zu sehen auf: https://www.artstation.com/artwork/KaXPqW
 
-<asset-image src="crows-creek/beautyshot_1.webp" alt=""></asset-image>
-<asset-image src="crows-creek/beautyshot_2.webp" alt=""></asset-image>
-<asset-image src="crows-creek/beautyshot_3.webp" alt=""></asset-image>
-<asset-image src="crows-creek/beautyshot_4.webp" alt=""></asset-image>
-<asset-image src="crows-creek/beautyshot_5.webp" alt=""></asset-image>
+<asset-image src="crows-creek/beautyshot_1.webp" alt="Beautyshot 1"></asset-image>
+<asset-image src="crows-creek/beautyshot_2.webp" alt="Beautyshot 2"></asset-image>
+<asset-image src="crows-creek/beautyshot_3.webp" alt="Beautyshot 3"></asset-image>
+<asset-image src="crows-creek/beautyshot_4.webp" alt="Beautyshot 4"></asset-image>
+<asset-image src="crows-creek/beautyshot_5.webp" alt="Beautyshot 5"></asset-image>

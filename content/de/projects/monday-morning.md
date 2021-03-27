@@ -21,7 +21,14 @@ YT Link: https://www.youtube.com/watch?v=gMUWjkDX2kY
 
 <asset-video src="monday-morning/monday_morning.webm"></asset-video>
 
-<asset-image src="monday-morning/01_concept_art.webp" alt=""></asset-image>
-<asset-image src="monday-morning/02_storyboard.webp" alt=""></asset-image>
-<asset-image src="monday-morning/03_wip_bee.webp" alt=""></asset-image>
-<asset-image src="monday-morning/04_render.webp" alt=""></asset-image>
+## Concept Art
+<asset-image src="monday-morning/01_concept_art.webp" alt="Concept Art"></asset-image>
+
+## Storyboard
+<asset-image src="monday-morning/02_storyboard.webp" alt="Storyboard"></asset-image>
+
+## WIP Screenshot
+<asset-image src="monday-morning/03_wip_bee.webp" alt="WIP Screenshot"></asset-image>
+
+## Beautyshot
+<asset-image src="monday-morning/04_render.webp" alt="Beautyshot"></asset-image>
