@@ -16,4 +16,6 @@ Meine Aufgabenbereiche umfassen Grafikdesign und seit Anfang 2020 auch Visual Ef
 Praktische Erfahrung in der Arbeitswelt habe ich bereits bei Logo-, Etiketten- und Bannerdesigns erarbeitet.
 
 ## Programmerfahrung
+
+<p class="half-p"></p>
 <chip-list :elements="['Photoshop', 'InDesign', 'Illustrator', 'After Effects', 'Lightroom', 'Autodesk Maya', 'Substance Painter', 'Redshift', 'PFTrack']" class="mt-1"></chip-list>

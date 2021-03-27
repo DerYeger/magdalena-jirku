@@ -47,4 +47,8 @@ export default defineComponent({
     margin-right: 0.5rem;
   }
 }
+
+.half-p {
+  margin-bottom: 0.5rem !important;
+}
 </style>

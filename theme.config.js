@@ -1,6 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
-const primaryColor = '#007aff'
+export const primaryColor = '#54B3DD'
 
 export const themes = {
   dark: {

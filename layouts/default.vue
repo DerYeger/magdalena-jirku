@@ -23,6 +23,7 @@
       <v-spacer />
       <content-search />
       <v-spacer />
+      <logo />
     </v-app-bar>
     <v-main>
       <breadcrumbs v-if="breadcrumbs.length > 0" />

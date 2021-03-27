@@ -1,6 +1,5 @@
-import colors from 'vuetify/es5/util/colors'
 import i18n from './locales/i18n'
-import { themes } from './theme.config'
+import { primaryColor, themes } from './theme.config'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -106,6 +105,6 @@ export default {
   build: {},
 
   loading: {
-    color: colors.blue.darken2,
+    color: primaryColor,
   },
 }

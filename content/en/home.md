@@ -16,4 +16,6 @@ My areas of responsibilities include graphic design and since early 2020 also vi
 I have already gained some practical experience on logo-, label- and bannerdesigns in various work environments.
 
 ## Program experience
+
+<p class="half-p"></p>
 <chip-list :elements="['Photoshop', 'InDesign', 'Illustrator', 'After Effects', 'Lightroom', 'Autodesk Maya', 'Substance Painter', 'Redshift', 'PFTrack']" class="mt-1"></chip-list>
