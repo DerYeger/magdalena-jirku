@@ -5,7 +5,7 @@
       :lazy-src="lazyImgSrc"
       :alt="alt"
       :contain="contain"
-      class="main-image"
+      :class="allowFullscreen ? 'main-image' : ''"
       :max-height="maxHeight"
       :max-width="maxWidth"
       @click="overlay = true"
@@ -16,7 +16,7 @@
         </v-row>
       </template>
     </v-img>
-    <v-overlay :value="overlay" opacity="1">
+    <v-overlay v-if="allowFullscreen" :value="overlay" opacity="1">
       <v-img
         :src="imgSrc"
         :lazy-src="lazyImgSrc"
@@ -56,6 +56,10 @@ export default defineComponent({
     maxWidth: {
       type: String,
       default: undefined,
+    },
+    allowFullscreen: {
+      type: Boolean,
+      default: true,
     },
   },
   data() {
