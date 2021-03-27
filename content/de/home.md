@@ -13,7 +13,7 @@ In meiner Freizeit finde ich beim Spazierengehen in der Natur, beim Ski- und Rad
 Einige davon sind bei meinen Hobby-Arbeiten zu sehen.
 
 Meine Aufgabenbereiche umfassen Grafikdesign und seit Anfang 2020 auch Visual Effects und 3D Animation.
-Praktische Erfahrung mit Kunden habe ich bereits bei Logo-, Etiketten- und Bannerdesigns erarbeitet.
+Praktische Erfahrung in der Arbeitswelt habe ich bereits bei Logo-, Etiketten- und Bannerdesigns erarbeitet.
 
 ## Programmerfahrung
 <chip-list :elements="['Photoshop', 'InDesign', 'Illustrator', 'After Effects', 'Lightroom', 'Autodesk Maya', 'Substance Painter', 'Redshift', 'PFTrack']" class="mt-1"></chip-list>
