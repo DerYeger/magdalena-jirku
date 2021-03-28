@@ -27,6 +27,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
+video {
+  display: block;
+}
 video:focus {
   outline: unset;
 }
