@@ -1,10 +1,20 @@
 <template>
-  <v-col class="mt-5">
+  <v-col class="mt-4">
     <v-row class="flex-wrap">
-      <v-col :sm="3" :xl="2">
-        <v-row justify="center" class="ma-3"><avatar /></v-row>
+      <v-col :xs="6" :sm="5" :md="4" :lg="3" :xl="2">
+        <v-row justify="center" class="mb-4 mt-2 ml-1 mr-1"><avatar /></v-row>
+        <v-row justify="center">
+          <account-link
+            v-for="(account, index) of accounts"
+            :key="index"
+            :name="account.name"
+            :icon="account.icon"
+            :href="account.href"
+            :color="account.color"
+          />
+        </v-row>
       </v-col>
-      <v-col :sm="9" :xl="10">
+      <v-col :xs="6" :sm="7" :md="8" :lg="9" :xl="10">
         <nuxt-content :document="document"></nuxt-content>
       </v-col>
     </v-row>
@@ -30,25 +40,33 @@ export default defineComponent({
       document,
     }
   },
+  data() {
+    return {
+      accounts: [
+        {
+          name: 'ArtStation',
+          href: 'https://www.artstation.com/keshyx',
+          icon: 'fab fa-artstation',
+          color: '#00AFEB',
+        },
+        {
+          name: 'DeviantArt',
+          href: 'https://www.deviantart.com/keshyx',
+          icon: 'fab fa-deviantart',
+          color: '#00E5A1',
+        },
+        {
+          name: 'Instagram',
+          href: 'https://www.instagram.com/keshyx_/',
+          icon: 'fab fa-instagram',
+          color: '#ED3651',
+        },
+      ],
+    }
+  },
   mounted() {
     this.$store.commit('setTitle', routes.home.title)
     this.$store.commit('setBreadcrumbs', [])
   },
 })
 </script>
-
-<style lang="scss">
-.account-link {
-  text-decoration: none;
-  color: unset !important;
-
-  span {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-}
-
-.half-p {
-  margin-bottom: 0.5rem !important;
-}
-</style>
