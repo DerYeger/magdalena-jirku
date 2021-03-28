@@ -4,7 +4,8 @@
   },
   "actions": {
     "read-more": "Mehr lesen",
-    "search": "Suchen"
+    "search": "Suchen",
+    "view-on": "Ansehen auf"
   },
   "hobby": {
     "title": "Hobby"

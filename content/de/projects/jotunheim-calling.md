@@ -14,6 +14,9 @@ Die nordische Mythologie diente mir hierbei als Anhaltspunkt.
 Die nordische Mythologie beinhaltet 9 Welten, ich entschied mich für Jotunheim, die Heimat der Eisriesen.
 Hierbei wurde ich zum ersten Mal mit Bergen und Schnee konfrontiert, weshalb es für mich eine gute Möglichkeit war, mehr über die kalten Elemente in Erfahrung zu bringen.
 
+<view-on-link href="https://www.artstation.com/artwork/Oomo2K" icon="fab fa-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<view-on-link href="https://www.deviantart.com/keshyx/art/Jotunheim-Is-Calling-827629161" icon="fab fa-deviantart" name="DeviantArt" color="#00E5A1"></view-on-link>
+
 <asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt="Jotunheim Calling"></asset-image>
 
 ## Skizze
