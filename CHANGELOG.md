@@ -1,3 +1,17 @@
+# [1.13.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.12.0...v1.13.0) (2021-03-28)
+
+
+### Bug Fixes
+
+* import light theme correctly ([0ffb982](https://github.com/DerYeger/magdalena-jirku/commit/0ffb98246c203a77882cd19781d5f4b3b3d05968))
+* remove extra bottom space from video ([2ea47c9](https://github.com/DerYeger/magdalena-jirku/commit/2ea47c954a094126d5db9b6bd96d3fa1effa945b))
+
+
+### Features
+
+* add account links ([5dfef05](https://github.com/DerYeger/magdalena-jirku/commit/5dfef05267336f7735918c95142aa24c4ae23cf5))
+* add view-on-link component ([c5e6f42](https://github.com/DerYeger/magdalena-jirku/commit/c5e6f42906443a2bcbb4aa6331ecf5a5f569b199))
+
 # [1.12.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.11.0...v1.12.0) (2021-03-27)
 
 
