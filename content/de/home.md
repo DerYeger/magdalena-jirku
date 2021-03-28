@@ -17,5 +17,5 @@ Praktische Erfahrung in der Arbeitswelt habe ich bereits bei Logo-, Etiketten- u
 
 ## Programmerfahrung
 
-<p class="half-p"></p>
+<p class="mb-2"></p>
 <chip-list :elements="['Photoshop', 'InDesign', 'Illustrator', 'After Effects', 'Lightroom', 'Autodesk Maya', 'Substance Painter', 'Redshift', 'PFTrack']" class="mt-1"></chip-list>

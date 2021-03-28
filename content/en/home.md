@@ -17,5 +17,5 @@ I have already gained some practical experience on logo-, label- and bannerdesig
 
 ## Program experience
 
-<p class="half-p"></p>
+<p class="mb-2"></p>
 <chip-list :elements="['Photoshop', 'InDesign', 'Illustrator', 'After Effects', 'Lightroom', 'Autodesk Maya', 'Substance Painter', 'Redshift', 'PFTrack']" class="mt-1"></chip-list>
