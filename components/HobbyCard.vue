@@ -5,12 +5,7 @@
       :elevation="hover ? 12 : 2"
       :class="hover ? 'primary--text' : 'text'"
     >
-      <v-img
-        v-if="hobby.image"
-        :src="require('~/assets/content/hobby/' + hobby.image)"
-        :aspect-ratio="16 / 9"
-        max-height="14rem"
-      >
+      <v-img :src="image" :aspect-ratio="16 / 9" max-height="14rem">
         <template #placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
             <v-progress-circular indeterminate color="primary" />
@@ -34,6 +29,12 @@ export default defineComponent({
     hobby: {
       type: Object as () => Hobby,
       required: true,
+    },
+  },
+  computed: {
+    image(): any {
+      return require('~/assets/content/hobby/' +
+        (this.hobby.thumbnail || this.hobby.image))
     },
   },
 })

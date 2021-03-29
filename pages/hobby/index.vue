@@ -27,7 +27,7 @@ export default defineComponent({
     $content: contentFunc
   }) {
     const hobbies = (await $content(`${app.i18n.locale}/hobby`)
-      .only(['title', 'path', 'createdAt', 'image'])
+      .only(['title', 'path', 'createdAt', 'thumbnail', 'image'])
       .sortBy('createdAt', 'desc')
       .fetch<Hobby>()) as Hobby[]
     return {
