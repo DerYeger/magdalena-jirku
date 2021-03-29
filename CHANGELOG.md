@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.13.0...v1.14.0) (2021-03-29)
+
+
+### Features
+
+* add specialized thumbnail images ([c5f0b36](https://github.com/DerYeger/magdalena-jirku/commit/c5f0b36db26644a6e3a03308092d92d045f72117))
+
 # [1.13.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.12.0...v1.13.0) (2021-03-28)
 
 
