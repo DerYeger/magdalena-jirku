@@ -1,7 +1,13 @@
 <template>
   <v-col class="mt-4">
-    <v-row class="flex-wrap">
-      <v-col :xs="6" :sm="5" :md="4" :lg="3" :xl="2">
+    <v-row>
+      <v-col
+        sm="5"
+        md="4"
+        lg="3"
+        xl="2"
+        :class="$vuetify.breakpoint.xs ? 'max-width' : ''"
+      >
         <v-row justify="center" class="mb-4 mt-2 ml-1 mr-1"><avatar /></v-row>
         <v-row justify="center">
           <account-link
@@ -14,7 +20,7 @@
           />
         </v-row>
       </v-col>
-      <v-col :xs="6" :sm="7" :md="8" :lg="9" :xl="10">
+      <v-col>
         <nuxt-content :document="document"></nuxt-content>
       </v-col>
     </v-row>
@@ -70,3 +76,9 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+.max-width {
+  flex-basis: 100%;
+}
+</style>
