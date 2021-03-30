@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.14.2...v1.15.0) (2021-03-30)
+
+
+### Features
+
+* add meta description ([40ad8e3](https://github.com/DerYeger/magdalena-jirku/commit/40ad8e3ed03b331dbbf9563a59fca8c012d87237))
+
 ## [1.14.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.14.1...v1.14.2) (2021-03-30)
 
 
