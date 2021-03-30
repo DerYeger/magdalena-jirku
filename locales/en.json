@@ -13,6 +13,9 @@
   "home": {
     "title": "Home"
   },
+  "meta": {
+    "description": "Personal portfolio website of Magdalena Jirku, a graphic design and visual effects artist."
+  },
   "misc": {
     "tags": "Tags"
   },
