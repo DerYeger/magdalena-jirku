@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.15.1...v1.16.0) (2021-03-31)
+
+
+### Features
+
+* configure sitemap ([acd60a1](https://github.com/DerYeger/magdalena-jirku/commit/acd60a1d772fc62c26f1c62f3fab71283fca77fe))
+
 ## [1.15.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.15.0...v1.15.1) (2021-03-31)
 
 
