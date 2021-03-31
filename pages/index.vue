@@ -67,6 +67,12 @@ export default defineComponent({
           icon: 'fab fa-instagram',
           color: '#ED3651',
         },
+        {
+          name: 'XING',
+          href: 'https://www.xing.com/profile/Magdalena_Jirku/cv',
+          icon: 'fab fa-xing-square',
+          color: '#006566',
+        },
       ],
     }
   },
