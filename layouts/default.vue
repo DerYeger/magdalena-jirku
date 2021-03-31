@@ -17,6 +17,11 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <v-list-item class="jan-link-container">
+        <a rel="noopener" href="https://github.com/DerYeger" target="_blank">
+          Website by Jan Müller
+        </a>
+      </v-list-item>
     </v-navigation-drawer>
     <v-app-bar :clipped-left="true" fixed app dark>
       <v-app-bar-nav-icon
@@ -35,7 +40,9 @@
       </v-container>
     </v-main>
     <v-footer app dark>
-      <span>&copy; {{ new Date().getFullYear() }}, Magdalena Jirku</span>
+      <span :style="$vuetify.breakpoint.xs ? 'font-size: 0.8rem' : ''">
+        &copy; {{ new Date().getFullYear() }}, Magdalena Jirku
+      </span>
       <v-spacer />
       <theme-toggle />
       <v-spacer />
@@ -74,3 +81,20 @@ export default defineComponent({
   computed: mapState(['title', 'breadcrumbs']),
 })
 </script>
+
+<style lang="scss" scoped>
+.jan-link-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0.8rem;
+
+  a {
+    color: unset;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
