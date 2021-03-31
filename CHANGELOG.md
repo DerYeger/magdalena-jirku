@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.16.0...v1.16.1) (2021-03-31)
+
+
+### Bug Fixes
+
+* add aria-labels to buttons ([868c7ad](https://github.com/DerYeger/magdalena-jirku/commit/868c7ad1575ca512acaf6f1b6174ec903b18348f))
+
 # [1.16.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.15.1...v1.16.0) (2021-03-31)
 
 
