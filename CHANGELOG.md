@@ -1,3 +1,12 @@
+## [1.16.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.16.1...v1.16.2) (2021-03-31)
+
+
+### Bug Fixes
+
+* add link to myself ([94c0524](https://github.com/DerYeger/magdalena-jirku/commit/94c0524ee5773fb7ed9272bcc59d2574a548f11f))
+* add link to xing account ([9b5a2f3](https://github.com/DerYeger/magdalena-jirku/commit/9b5a2f3375ef8a56e9e092d03724a4a3a5dff3ab))
+* use correct attribute ([ef08829](https://github.com/DerYeger/magdalena-jirku/commit/ef08829433de9bd06c789ecdc4f6b0da0669317d))
+
 ## [1.16.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.16.0...v1.16.1) (2021-03-31)
 
 
