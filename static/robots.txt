@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magdalena-jirku.at/sitemap.xml
