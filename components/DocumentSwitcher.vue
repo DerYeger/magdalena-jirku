@@ -2,11 +2,11 @@
   <p class="link-container">
     <nuxt-link v-if="prev" :to="prev.path" class="mr-4">
       <v-icon v-text="'mdi-chevron-left'" />
-      <span>{{ prev.title }}</span>
+      <span>{{ prev.shortTitle || prev.title }}</span>
     </nuxt-link>
     <span v-else />
     <nuxt-link v-if="next" :to="next.path" style="text-align: right">
-      <span>{{ next.title }}</span>
+      <span>{{ next.shortTitle || next.title }}</span>
       <v-icon v-text="'mdi-chevron-right'" />
     </nuxt-link>
     <span v-else />

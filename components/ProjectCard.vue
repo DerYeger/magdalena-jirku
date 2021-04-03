@@ -6,8 +6,8 @@
       :class="hover ? 'primary--text' : 'text'"
     >
       <v-img
-        v-if="project.image"
-        :src="require('~/assets/content/' + project.image)"
+        v-if="project.thumbnail"
+        :src="require('~/assets/content/' + project.thumbnail)"
         :aspect-ratio="16 / 9"
         max-height="14rem"
       >
@@ -17,7 +17,7 @@
           </v-row>
         </template>
       </v-img>
-      <v-card-title>{{ project.title }}</v-card-title>
+      <v-card-title>{{ project.shortTitle || project.title }}</v-card-title>
       <v-card-subtitle>{{ project.date }}</v-card-subtitle>
     </v-card>
   </v-hover>

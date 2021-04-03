@@ -1,6 +1,6 @@
 ---
 title: Monday Morning
-image: monday-morning/thumbnail.webp
+thumbnail: monday-morning/thumbnail.webp
 date: August 2020
 createdAt: 2020-08-00T00:00:00Z
 programs:

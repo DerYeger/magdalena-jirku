@@ -27,10 +27,12 @@ export default defineComponent({
     ).fetch()
 
     const [prev, next] = await $content(`${app.i18n.locale}/projects`)
-      .only(['title', 'path', 'createdAt'])
+      .only(['title', 'shortTitle', 'path', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
+
+    console.table(next)
 
     return {
       project,

@@ -1,6 +1,6 @@
 ---
 title: Crows Creek Wild West Town
-image: crows-creek/thumbnail.webp
+thumbnail: crows-creek/thumbnail.webp
 date: März 2020
 createdAt: 2020-03-00T00:00:00Z
 programs:

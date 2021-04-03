@@ -31,7 +31,7 @@ export function documentBreadcrumb(
   locale: string
 ): Breadcrumb {
   return {
-    text: document.title,
+    text: document.shortTitle ?? document.title,
     to: localizeDocumentPath(document, locale)!.path,
   }
 }

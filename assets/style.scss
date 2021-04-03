@@ -31,6 +31,12 @@ h1 {
   line-height: 1.2;
 }
 
+.v-overlay__content {
+  .v-image {
+    margin: 0 !important;
+  }
+}
+
 article {
   .nuxt-content {
     .nuxt-content-highlight {
@@ -70,4 +76,8 @@ article {
 
 .masonry-wall {
   width: 100%;
+}
+
+a:not(:hover) {
+  text-decoration: none;
 }

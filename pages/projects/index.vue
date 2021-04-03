@@ -27,7 +27,7 @@ export default defineComponent({
     $content: contentFunc
   }) {
     const projects = (await $content(`${app.i18n.locale}/projects`)
-      .only(['title', 'path', 'image', 'date', 'createdAt'])
+      .without(['body'])
       .sortBy('createdAt', 'desc')
       .fetch<Project>()) as Project[]
     return {

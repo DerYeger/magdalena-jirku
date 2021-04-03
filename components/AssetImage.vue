@@ -5,7 +5,7 @@
       :lazy-src="lazyImgSrc"
       :alt="alt"
       :contain="contain"
-      :class="allowFullscreen ? 'main-image' : ''"
+      :class="`elevation-${elevation} ` + (allowFullscreen ? 'main-image' : '')"
       :max-height="maxHeight"
       :max-width="maxWidth"
       @click="overlay = true"
@@ -60,6 +60,10 @@ export default defineComponent({
     allowFullscreen: {
       type: Boolean,
       default: true,
+    },
+    elevation: {
+      type: Number,
+      default: 6,
     },
   },
   data() {

@@ -10,6 +10,7 @@
           contain
           max-height="60vh"
           max-width="100%"
+          elevation="0"
         />
       </div>
       <nuxt-content :document="hobby" />

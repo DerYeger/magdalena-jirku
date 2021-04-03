@@ -1,5 +1,5 @@
 <template>
-  <video controls width="100%">
+  <video controls width="100%" class="elevation-6">
     <source :src="videoSrc()" />
   </video>
 </template>
