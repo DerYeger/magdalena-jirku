@@ -1,7 +1,7 @@
 ---
 title: Monday Morning
 thumbnail: monday-morning/thumbnail.webp
-date: August 2020
+subtitle: 3D Animation, August 2020
 createdAt: 2020-08-00T00:00:00Z
 programs:
 - Photoshop

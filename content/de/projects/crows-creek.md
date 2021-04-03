@@ -1,7 +1,7 @@
 ---
 title: Crows Creek Wild West Town
 thumbnail: crows-creek/thumbnail.webp
-date: März 2020
+subtitle: 3D Diorama, März 2020
 createdAt: 2020-03-00T00:00:00Z
 programs:
 - Photoshop

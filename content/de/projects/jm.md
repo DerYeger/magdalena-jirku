@@ -1,7 +1,7 @@
 ---
-title: »JM« Logo
+title: JM
 thumbnail: jm/thumbnail.webp
-date: März 2021
+subtitle: Logo, März 2021
 createdAt: 2021-03-00T00:00:00Z
 programs:
 - Illustrator

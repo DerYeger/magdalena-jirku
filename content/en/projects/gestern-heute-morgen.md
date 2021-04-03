@@ -1,8 +1,7 @@
 ---
-title: «Gestern –  Heute – Morgen» Exhibition Catalog
-shortTitle: «GHM» Exhibition Catalog
+title: Gestern – Heute – Morgen
 thumbnail: gestern-heute-morgen/thumbnail.webp
-date: June 2018
+subtitle: Exhibition Catalog, June 2018
 createdAt: 2018-06-00T00:00:00Z
 programs:
 - InDesign
@@ -15,7 +14,6 @@ Afterwards we wrote biographies about the artists who were once students at the 
 We even found artists like Trude Fleischmann or Margit Doppler, who were already creatively active in the 1910s and 1920s.
 
 My task was to create a catalog for the exhibition.
-Since each floor in our school stood for a particular creative department, self-made pencil illustrations of those areas adorn a glimpse of what is to come.
 In total, I assembled over 30 artists, all of whom were immortalized in this catalog with their biographies and works.
 
 <asset-image src="gestern-heute-morgen/cover.webp" alt="Cover"></asset-image>

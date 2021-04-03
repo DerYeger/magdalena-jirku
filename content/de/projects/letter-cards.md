@@ -1,7 +1,7 @@
 ---
-title: Billets
+title: Billetts
 thumbnail: letter-cards/thumbnail.webp
-date: Dezember 2019 - November 2020
+subtitle: Dezember 2019 - November 2020
 createdAt: 2020-08-00T00:00:00Z
 programs:
 - Photoshop

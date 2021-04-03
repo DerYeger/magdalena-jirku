@@ -2,7 +2,7 @@
   <div class="article-container">
     <article>
       <h1>{{ project.title }}</h1>
-      <p>{{ project.date }}</p>
+      <p>{{ project.subtitle }}</p>
       <chip-list :elements="project.programs" />
       <nuxt-content :document="project" />
     </article>

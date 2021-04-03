@@ -1,7 +1,7 @@
 ---
 title: Bycicle Tracking Composition
 thumbnail: bycicle/thumbnail.webp
-date: January 2021
+subtitle: 3D Tracking, January 2021
 createdAt: 2021-01-00T00:00:00Z
 programs:
   - Autodesk Maya

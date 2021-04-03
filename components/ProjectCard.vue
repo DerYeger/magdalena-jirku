@@ -17,8 +17,8 @@
           </v-row>
         </template>
       </v-img>
-      <v-card-title>{{ project.shortTitle || project.title }}</v-card-title>
-      <v-card-subtitle>{{ project.date }}</v-card-subtitle>
+      <v-card-title>{{ project.title }}</v-card-title>
+      <v-card-subtitle>{{ project.subtitle }}</v-card-subtitle>
     </v-card>
   </v-hover>
 </template>

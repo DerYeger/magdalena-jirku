@@ -1,8 +1,8 @@
 ---
-title: Kupferstich – Harmonie
+title: Harmonie
 thumbnail: harmony/thumbnail.webp
-date: 2017
-createdAt: 2017-01-00T00:00:00Z
+subtitle: Kupferstich, Mai 2017
+createdAt: 2017-05-00T00:00:00Z
 programs:
 - Kupferstich
 - Druckerpresse

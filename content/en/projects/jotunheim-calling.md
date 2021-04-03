@@ -1,7 +1,7 @@
 ---
 title: Jotunheim Calling
 thumbnail: jotunheim-calling/thumbnail.webp
-date: November 2019
+subtitle: Concept Art, November 2019
 createdAt: 2019-11-00T00:00:00Z
 programs:
 - Photoshop

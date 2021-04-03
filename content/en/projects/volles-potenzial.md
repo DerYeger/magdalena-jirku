@@ -1,7 +1,7 @@
 ---
-title: «VollesPotenzial» Logo
+title: VollesPotenzial
 thumbnail: volles-potenzial/thumbnail.webp
-date: October  2019
+subtitle: Logo, October 2019
 createdAt: 2019-10-00T00:00:00Z
 programs:
 - Illustrator

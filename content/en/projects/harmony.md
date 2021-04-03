@@ -1,7 +1,7 @@
 ---
-title: Copper Engraving – Harmony
+title: Harmony
 thumbnail: harmony/thumbnail.webp
-date: 2017
+subtitle: Copper engraving, 2017
 createdAt: 2017-01-00T00:00:00Z
 programs:
 - Copper engraving

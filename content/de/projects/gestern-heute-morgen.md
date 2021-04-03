@@ -1,8 +1,7 @@
 ---
-title: »Gestern –  Heute – Morgen« Ausstellungskatalog
-shortTitle: »GHM« Ausstellungskatalog
+title: Gestern – Heute – Morgen
 thumbnail: gestern-heute-morgen/thumbnail.webp
-date: Juni 2018
+subtitle: Ausstellungskatalog, Juni 2018
 createdAt: 2018-06-00T00:00:00Z
 programs:
 - InDesign
@@ -15,7 +14,6 @@ Anschließend verfassten wir Biographien über die Künstler und Künstlerinnen,
 Wir konnten sogar Künstlerinnen wie Trude Fleischmann oder Margit Doppler ausfindig machen, die bereits in den 1910er und 1920er Jahren kreativ tätig waren.
 
 Meine Aufgabe lag darin, einen Katalog für die Ausstellung zu erstellen.
-Da jeder Stock in unserer Schule für eine bestimmte kreative Abteilung stand, zieren selbst angefertigte Bleistiftillustrationen jener Bereiche einen Einblick in das Kommende.
 Insgesamt fügte ich über 30 Künstler zusammen, welche alle in diesem Katalog mit ihren Biographien und Werken verewigt wurden.
 
 <asset-image src="gestern-heute-morgen/cover.webp" alt="Cover"></asset-image>
