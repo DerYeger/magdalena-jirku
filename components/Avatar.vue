@@ -1,5 +1,5 @@
 <template>
-  <v-avatar size="100%" width="100%" class="avatar">
+  <v-avatar size="100%" width="100%" class="avatar elevation-6">
     <asset-image
       src="images/avatar.webp"
       lazy-src="images/avatar-lazy.webp"
