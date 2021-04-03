@@ -1,3 +1,11 @@
+## [1.17.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.17.0...v1.17.1) (2021-04-03)
+
+
+### Bug Fixes
+
+* add elevation to avatar ([22d8c67](https://github.com/DerYeger/magdalena-jirku/commit/22d8c6729265523b5c220a28b37f5ab9f377ef71))
+* add subtitle to project model ([5d4f2ef](https://github.com/DerYeger/magdalena-jirku/commit/5d4f2efada4e338f69cc0b5cfe628bc7c6280892))
+
 # [1.17.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.16.2...v1.17.0) (2021-04-03)
 
 
