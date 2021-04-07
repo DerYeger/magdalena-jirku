@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.17.1...v1.17.2) (2021-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nuxt-i18n to v6.23.0 ([dd762dd](https://github.com/DerYeger/magdalena-jirku/commit/dd762dd741bcc70fd5b9d69f5d045b346b61e388))
+
 ## [1.17.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.17.0...v1.17.1) (2021-04-03)
 
 
