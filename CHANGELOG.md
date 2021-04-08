@@ -1,3 +1,15 @@
+# [1.18.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.17.3...v1.18.0) (2021-04-08)
+
+
+### Bug Fixes
+
+* localize error page ([e12582b](https://github.com/DerYeger/magdalena-jirku/commit/e12582bc361b28008e34309dce2835ce24c05edd))
+
+
+### Features
+
+* overhaul page layout ([f2640dc](https://github.com/DerYeger/magdalena-jirku/commit/f2640dc136f9d87426b5dd33370ed6f7e8d1e461))
+
 ## [1.17.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.17.2...v1.17.3) (2021-04-08)
 
 
