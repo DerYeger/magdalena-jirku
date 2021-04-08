@@ -1,16 +1,16 @@
 <template>
-  <v-menu offset-y bottom rounded="xl" open-on-click>
+  <v-menu :value="showResults" offset-y bottom rounded="xl" open-on-click>
     <template #activator="{ on, attrs }">
       <v-text-field
         v-model="query"
-        filled
         dense
         rounded
+        filled
         v-bind="attrs"
         hide-details="auto"
         prepend-inner-icon="mdi-magnify"
         :placeholder="$t('actions.search')"
-        class="search-input"
+        class="search-input unselectable"
         v-on="on"
       />
     </template>
@@ -20,10 +20,13 @@
         :key="result.path"
         :to="result.path"
         width="100%"
-        @click.stop="query = ''"
+        @click="reset()"
       >
         <v-list-item-title>{{ result.title }}</v-list-item-title>
       </v-list-item>
+    </v-list>
+    <v-list v-else>
+      <v-list-item>{{ $t('misc.no-results') }}</v-list-item>
     </v-list>
   </v-menu>
 </template>
@@ -37,6 +40,7 @@ export default defineComponent({
     return {
       results: [],
       query: '',
+      showResults: false,
     }
   },
   computed: {
@@ -75,6 +79,10 @@ export default defineComponent({
         ],
         locale
       )
+    },
+    reset() {
+      this.query = ''
+      this.showResults = false
     },
   },
 })

@@ -3,7 +3,7 @@
     <v-chip
       v-for="(element, index) of elements"
       :key="index"
-      class="program-chip"
+      class="program-chip unselectable"
     >
       {{ element }}
     </v-chip>

@@ -1,10 +1,15 @@
 <template>
-  <v-breadcrumbs :items="breadcrumbs" nuxt="true" large>
+  <v-breadcrumbs :items="breadcrumbs" nuxt="true" large class="breadcrumbs">
     <template #divider>
       <v-icon v-text="'mdi-chevron-right'" />
     </template>
     <template #item="{ item }">
-      <v-breadcrumbs-item :to="item.to" :disabled="item.disabled" :exact="true">
+      <v-breadcrumbs-item
+        :to="item.to"
+        :disabled="item.disabled"
+        :exact="true"
+        class="unselectable"
+      >
         <v-icon
           v-if="item.text.startsWith('mdi-')"
           class="text--primary"
@@ -40,10 +45,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-.v-breadcrumbs--large,
-.v-breadcrumbs {
+.breadcrumbs {
   li .v-icon {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   a {

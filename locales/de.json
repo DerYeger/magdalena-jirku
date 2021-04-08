@@ -19,6 +19,9 @@
   "meta": {
     "description": "Persönliche Portfolio-Webseite von Magdalena Jirku, einer Graphikdesignerin und Visual Effects Künstlerin."
   },
+  "misc": {
+    "no-results": "Keine Ergebnisse"
+  },
   "projects": {
     "title": "Projekte"
   }

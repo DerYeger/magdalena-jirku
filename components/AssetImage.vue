@@ -16,7 +16,7 @@
         </v-row>
       </template>
     </v-img>
-    <v-overlay v-if="allowFullscreen" :value="overlay" opacity="1">
+    <v-overlay v-if="allowFullscreen" :value="overlay" opacity="1" z-index="42">
       <v-img
         :src="imgSrc"
         :lazy-src="lazyImgSrc"

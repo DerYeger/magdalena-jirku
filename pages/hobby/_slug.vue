@@ -1,5 +1,5 @@
 <template>
-  <div class="article-container">
+  <div style="width: 100%">
     <article>
       <h1>{{ hobby.title }}</h1>
       <p>{{ $d(new Date(hobby.createdAt), 'long') }}</p>
@@ -10,12 +10,12 @@
           contain
           max-height="60vh"
           max-width="100%"
-          elevation="0"
+          :elevation="0"
         />
       </div>
       <nuxt-content :document="hobby" />
+      <document-switcher :prev="prev" :next="next" />
     </article>
-    <document-switcher :prev="prev" :next="next" />
   </div>
 </template>
 

@@ -1,53 +1,24 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" :clipped="true" fixed app dark>
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="localePath(item.to)"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="$t(item.title)" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-      <v-list-item class="jan-link-container">
-        <a rel="noopener" href="https://github.com/DerYeger" target="_blank">
-          Website by Jan Müller
-        </a>
-      </v-list-item>
+    <v-navigation-drawer
+      v-model="drawerOpen"
+      fixed
+      app
+      :expand-on-hover="$vuetify.breakpoint.lgAndUp"
+    >
+      <app-navigation />
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="true" fixed app dark>
-      <v-app-bar-nav-icon
-        :aria-label="$t(drawer ? 'actions.close-menu' : 'actions.open-menu')"
-        @click.stop="drawer = !drawer"
-      />
-      <v-spacer />
-      <content-search />
-      <v-spacer />
-      <logo />
-    </v-app-bar>
+    <app-header :drawer-open="drawerOpen" :on-nav-icon-clicked="toggleDrawer" />
     <v-main>
-      <breadcrumbs v-if="breadcrumbs.length > 0" />
+      <breadcrumbs
+        v-if="$vuetify.breakpoint.mdAndDown && breadcrumbs.length > 0"
+        class="pa-3"
+      />
       <v-container class="page-container">
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer app dark>
-      <span :style="$vuetify.breakpoint.xs ? 'font-size: 0.8rem' : ''">
-        &copy; {{ new Date().getFullYear() }}, Magdalena Jirku
-      </span>
-      <v-spacer />
-      <theme-toggle />
-      <v-spacer />
-      <language-toggle />
-    </v-footer>
+    <app-footer />
   </v-app>
 </template>
 
@@ -59,7 +30,7 @@ import { routes } from '~/model/routes'
 export default defineComponent({
   data() {
     return {
-      drawer: false,
+      drawerOpen: false,
       items: Object.values(routes),
     }
   },
@@ -79,21 +50,10 @@ export default defineComponent({
     }
   },
   computed: mapState(['title', 'breadcrumbs']),
+  methods: {
+    toggleDrawer() {
+      this.drawerOpen = !this.drawerOpen
+    },
+  },
 })
 </script>
-
-<style lang="scss" scoped>
-.jan-link-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  font-size: 0.8rem;
-
-  a {
-    color: unset;
-    width: 100%;
-    text-align: center;
-  }
-}
-</style>

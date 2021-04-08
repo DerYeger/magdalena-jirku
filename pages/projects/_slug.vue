@@ -1,12 +1,12 @@
 <template>
-  <div class="article-container">
+  <div style="width: 100%">
     <article>
       <h1>{{ project.title }}</h1>
       <p>{{ project.subtitle }}</p>
       <chip-list :elements="project.programs" />
       <nuxt-content :document="project" />
+      <document-switcher :prev="prev" :next="next" />
     </article>
-    <document-switcher :prev="prev" :next="next" />
   </div>
 </template>
 
@@ -31,8 +31,6 @@ export default defineComponent({
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
-
-    console.table(next)
 
     return {
       project,

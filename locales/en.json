@@ -20,6 +20,7 @@
     "description": "Personal portfolio website of Magdalena Jirku, a graphic design and visual effects artist."
   },
   "misc": {
+    "no-results": "No results",
     "tags": "Tags"
   },
   "projects": {

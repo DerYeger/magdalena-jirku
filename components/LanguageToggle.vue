@@ -1,12 +1,11 @@
 <template>
-  <div>
+  <div style="width: max-content">
     <v-btn
       v-for="locale of locales"
       :key="locale.code"
+      plain
+      x-small
       :to="switchLocalePath(locale.code)"
-      text
-      :x-small="$vuetify.breakpoint.xs"
-      :small="$vuetify.breakpoint.smAndUp"
     >
       {{ locale.name }}
     </v-btn>
@@ -33,9 +32,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.v-btn {
-  margin: 0.25rem;
-}
-</style>
