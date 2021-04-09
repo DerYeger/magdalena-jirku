@@ -1,3 +1,11 @@
+## [1.18.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.0...v1.18.1) (2021-04-09)
+
+
+### Bug Fixes
+
+* use div instead of duplicate v-app in error layout ([df111c6](https://github.com/DerYeger/magdalena-jirku/commit/df111c640084d74b9a5de64845af73fba7a7e0bc))
+* **deps:** update dependency nuxt-i18n to v6.24.0 ([c1da104](https://github.com/DerYeger/magdalena-jirku/commit/c1da1043ece5192c13a39e6b6321cfc3e1e9fcc0))
+
 # [1.18.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.17.3...v1.18.0) (2021-04-08)
 
 
