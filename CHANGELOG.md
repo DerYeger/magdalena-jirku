@@ -1,3 +1,10 @@
+## [1.18.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.1...v1.18.2) (2021-04-09)
+
+
+### Bug Fixes
+
+* offset search input when nav drawer is present ([c4b9c1b](https://github.com/DerYeger/magdalena-jirku/commit/c4b9c1b3f8d3125c7e2b96fe0d93f0694f446a8c))
+
 ## [1.18.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.0...v1.18.1) (2021-04-09)
 
 
