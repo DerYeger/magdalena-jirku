@@ -25,13 +25,11 @@
 <script>
 import { defineComponent } from '@nuxtjs/composition-api'
 import { mapState } from 'vuex'
-import { routes } from '~/model/routes'
 
 export default defineComponent({
   data() {
     return {
       drawerOpen: false,
-      items: Object.values(routes),
     }
   },
   head() {
