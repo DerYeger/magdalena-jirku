@@ -4,12 +4,12 @@ Information in accordance with §5 of the E-Commerce Act, §14 of the Unternehme
 
 Magdalena Jirku
 
-1230 Wien,\
+1090 Wien,\
 Österreich
 
 **Email:** magi.jirku@hotmail.com
 
-Source: Created with the Impressum Generator by AdSimple
+Source: Created with the [Impressum Generator](https://www.adsimple.at/impressum-generator/) by AdSimple
 
 # Privacy policy
 
