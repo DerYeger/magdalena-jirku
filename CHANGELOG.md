@@ -1,3 +1,10 @@
+## [1.18.10](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.9...v1.18.10) (2021-04-26)
+
+
+### Bug Fixes
+
+* update legal notice ([10e5f56](https://github.com/DerYeger/magdalena-jirku/commit/10e5f56ccb01a010254ef7fd8588426de40c5dba))
+
 ## [1.18.9](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.8...v1.18.9) (2021-04-25)
 
 
