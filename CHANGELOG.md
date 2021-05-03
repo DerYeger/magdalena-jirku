@@ -1,3 +1,16 @@
+# [1.19.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.12...v1.19.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* add canonical rel to default layout ([0fd3127](https://github.com/DerYeger/magdalena-jirku/commit/0fd31272dab14e51d90931f0cb1246d802f17e22))
+* use trailing slash in sitemap ([a4e7fd7](https://github.com/DerYeger/magdalena-jirku/commit/a4e7fd7e411b85bf1d325be8f9ddfd8860c7bc4b))
+
+
+### Features
+
+* add arkana project ([9c18a43](https://github.com/DerYeger/magdalena-jirku/commit/9c18a43192a9f3d262587b699f71199b9d60c0c9))
+
 ## [1.18.12](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.11...v1.18.12) (2021-04-28)
 
 
