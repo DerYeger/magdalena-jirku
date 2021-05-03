@@ -1,3 +1,11 @@
+## [1.19.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.19.0...v1.19.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* update model to include all fields of documents ([12c87da](https://github.com/DerYeger/magdalena-jirku/commit/12c87dafa5afbde7ea1751139ea16e50acbf7266))
+* use static titles instead of store ([d8c5da0](https://github.com/DerYeger/magdalena-jirku/commit/d8c5da0fa105712154f056284196e460c5bfabe5))
+
 # [1.19.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.18.12...v1.19.0) (2021-05-03)
 
 
