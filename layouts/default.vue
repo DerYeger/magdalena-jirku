@@ -45,6 +45,12 @@ export default defineComponent({
           content: this.$t('meta.description'),
         },
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: `https://magdalena-jirku.at${this.$route.path}/`,
+        },
+      ],
     }
   },
   computed: mapState(['title', 'breadcrumbs']),
