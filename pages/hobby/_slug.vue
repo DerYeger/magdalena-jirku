@@ -21,7 +21,7 @@
 
 <script>
 import { defineComponent } from '@nuxtjs/composition-api'
-import { localizeDocumentPath, routes } from '~/model/routes'
+import { localizeDocumentPath } from '~/model/routes'
 import {
   documentBreadcrumb,
   hobbyBreadcrumb,
@@ -52,13 +52,17 @@ export default defineComponent({
       overlay: false,
     }
   },
+  head() {
+    return {
+      title: this.$t(this.hobby.title),
+    }
+  },
   computed: {
     image() {
       return require('~/assets/content/hobby/' + this.hobby.image)
     },
   },
   mounted() {
-    this.$store.commit('setTitle', routes.hobby.title)
     this.$store.commit('setBreadcrumbs', [
       homeBreadcrumb,
       hobbyBreadcrumb,

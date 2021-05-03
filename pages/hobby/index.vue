@@ -34,8 +34,12 @@ export default defineComponent({
       hobbies: localizeDocumentPaths(hobbies, app.i18n.locale),
     }
   },
+  head() {
+    return {
+      title: (this.$t as Function)(routes.hobby.title),
+    }
+  },
   mounted() {
-    this.$store.commit('setTitle', routes.hobby.title)
     this.$store.commit('setBreadcrumbs', [homeBreadcrumb, hobbyBreadcrumb])
   },
 })
