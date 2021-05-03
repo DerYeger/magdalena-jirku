@@ -54,11 +54,8 @@ article {
 
   margin: auto;
 
-  .nuxt-content {
-    video,
-    .v-image {
-      margin-bottom: 1rem;
-    }
+  :is(video, .v-image) {
+    margin-bottom: 1rem;
   }
 }
 
