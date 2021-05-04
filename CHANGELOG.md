@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.19.2...v1.19.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prism-themes to v1.7.0 ([428981c](https://github.com/DerYeger/magdalena-jirku/commit/428981c5df0bedb35514c822af533dae228047e8))
+
 ## [1.19.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.19.1...v1.19.2) (2021-05-03)
 
 
