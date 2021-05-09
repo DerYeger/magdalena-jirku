@@ -28,7 +28,7 @@
     "@nuxtjs/composition-api": "0.23.4",
     "@nuxtjs/sitemap": "2.4.0",
     "core-js": "3.12.1",
-    "nuxt": "2.15.4",
+    "nuxt": "2.15.5",
     "nuxt-i18n": "6.27.0",
     "prism-themes": "1.7.0",
     "vue-masonry-wall": "0.3.2",
@@ -37,7 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
-    "@nuxt/types": "2.15.4",
+    "@nuxt/types": "2.15.5",
     "@nuxt/typescript-build": "2.1.0",
     "@nuxtjs/eslint-config-typescript": "6.0.0",
     "@nuxtjs/eslint-module": "3.0.2",
