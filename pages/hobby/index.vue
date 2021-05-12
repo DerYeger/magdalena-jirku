@@ -17,6 +17,7 @@ import { NuxtAppOptions } from '@nuxt/types'
 import { Hobby } from '~/model/hobby'
 import { hobbyBreadcrumb, homeBreadcrumb } from '~/model/breadcrumbs'
 import { localizeDocumentPaths, routes } from '~/model/routes'
+import { generateSocialTags } from '~/model/meta'
 
 export default defineComponent({
   async asyncData({
@@ -35,8 +36,11 @@ export default defineComponent({
     }
   },
   head() {
+    const title = (this.$t as Function)(routes.hobby.title)
+    const description = (this.$t as Function)('meta.description')
     return {
-      title: (this.$t as Function)(routes.hobby.title),
+      title,
+      meta: [...generateSocialTags(title, description)],
     }
   },
   mounted() {

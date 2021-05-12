@@ -27,6 +27,7 @@ import {
   hobbyBreadcrumb,
   homeBreadcrumb,
 } from '~/model/breadcrumbs'
+import { generateSocialTags } from '~/model/meta'
 
 export default defineComponent({
   async asyncData({ app, $content, params }) {
@@ -53,8 +54,11 @@ export default defineComponent({
     }
   },
   head() {
+    const title = this.$t(this.hobby.title)
+    const description = this.$t('meta.description')
     return {
-      title: this.$t(this.hobby.title),
+      title,
+      meta: [...generateSocialTags(title, description)],
     }
   },
   computed: {

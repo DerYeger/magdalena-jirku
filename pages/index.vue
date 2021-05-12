@@ -41,6 +41,7 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import { NuxtAppOptions } from '@nuxt/types'
 import { contentFunc } from '@nuxt/content/types/content'
 import { routes } from '~/model/routes'
+import { generateSocialTags } from '~/model/meta'
 
 export default defineComponent({
   async asyncData({
@@ -77,6 +78,12 @@ export default defineComponent({
           color: '#ED3651',
         },
         {
+          name: 'LinkedIn',
+          href: 'https://www.linkedin.com/in/magdalena-jirku-81bb16210/',
+          icon: 'fab fa-linkedin',
+          color: '#0077B0',
+        },
+        {
           name: 'XING',
           href: 'https://www.xing.com/profile/Magdalena_Jirku/cv',
           icon: 'fab fa-xing-square',
@@ -86,8 +93,11 @@ export default defineComponent({
     }
   },
   head() {
+    const title = (this.$t as Function)(routes.home.title)
+    const description = (this.$t as Function)('meta.description')
     return {
-      title: (this.$t as Function)(routes.home.title),
+      title,
+      meta: [...generateSocialTags(title, description)],
     }
   },
   mounted() {
