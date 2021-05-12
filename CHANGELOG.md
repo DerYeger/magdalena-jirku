@@ -1,3 +1,10 @@
+## [1.19.8](https://github.com/DerYeger/magdalena-jirku/compare/v1.19.7...v1.19.8) (2021-05-12)
+
+
+### Bug Fixes
+
+* add social meta tags ([ea13fa3](https://github.com/DerYeger/magdalena-jirku/commit/ea13fa320ad5233a851b34f620121af36cde75f8))
+
 ## [1.19.7](https://github.com/DerYeger/magdalena-jirku/compare/v1.19.6...v1.19.7) (2021-05-08)
 
 
