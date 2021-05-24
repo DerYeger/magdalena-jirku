@@ -13,8 +13,8 @@ I have been drawing digitally for some years now, but I have never done anything
 Since I am a big fan of the norse mythology, I chose Jotunheim as my preferred destination.
 It was my first time drawing snow, so it was a great opportunity for me to learn more about various materials and the change of weather.
 
-<view-on-link href="https://www.artstation.com/artwork/Oomo2K" icon="fab fa-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
-<view-on-link href="https://www.deviantart.com/keshyx/art/Jotunheim-Is-Calling-827629161" icon="fab fa-deviantart" name="DeviantArt" color="#00E5A1"></view-on-link>
+<view-on-link href="https://www.artstation.com/artwork/Oomo2K" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<view-on-link href="https://www.deviantart.com/keshyx/art/Jotunheim-Is-Calling-827629161" icon="mdi-deviantart" name="DeviantArt" color="#00E5A1"></view-on-link>
 
 <asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt=""></asset-image>
 

@@ -2,7 +2,7 @@
 
 <p></p>
 
-*Magdalena // 22 // Wien // Grafikdesign // VFX & 3D Animation Studentin am SAE*
+*Magdalena // 23 // Wien // Grafikdesign // VFX & 3D Animation Studentin am SAE*
 
 2018 beendete ich meine Grafik- und Kommunikationsdesign Ausbildung an der *»Höheren Graphischen Bundes- Lehr und Versuchsanstalt«* in Wien.
 Ende 2019 begann ich eine Ausbildung zum 3D Artist, mit dem Schwerpunkt auf VFX (Visual Effects) und 3D Animation.

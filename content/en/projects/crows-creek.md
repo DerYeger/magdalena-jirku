@@ -14,7 +14,7 @@ While working on this project I gained my first 3D experiences, which is one of 
 During this project, I also started to understand how UV cuts work and how to create simple High Poly models.
 The style is very similar to that of comics. All textures that can be seen were created in Photoshop.
 
-<view-on-link href="https://www.artstation.com/artwork/KaXPqW" icon="fab fa-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<view-on-link href="https://www.artstation.com/artwork/KaXPqW" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
 
 <asset-image src="crows-creek/beautyshot_1.webp" alt="Beautyshot 1"></asset-image>
 <asset-image src="crows-creek/beautyshot_2.webp" alt="Beautyshot 2"></asset-image>

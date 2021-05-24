@@ -16,8 +16,8 @@ The object that I chose to track is a retro styled bicycle. The textures were la
 PFTrack was used to create the trackers, so that the object always stays at the same spot.
 The final compositing steps were done in After Effects.
 
-<view-on-link href="https://www.youtube.com/watch?v=PkKU9GS_rfk" icon="fab fa-youtube" name="YouTube" color="#FF001C"></view-on-link>
-<view-on-link href="https://www.artstation.com/artwork/D5o4Y0" icon="fab fa-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<view-on-link href="https://www.youtube.com/watch?v=PkKU9GS_rfk" icon="mdi-youtube" name="YouTube" color="#FF001C"></view-on-link>
+<view-on-link href="https://www.artstation.com/artwork/D5o4Y0" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
 
 <asset-video src="bycicle/splitscreen.mp4"></asset-video>
 

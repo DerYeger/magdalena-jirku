@@ -24,8 +24,8 @@ After compositing was completed, the background music followed. The sound was cr
 Everything in this video is fictional, we did not use a pre-existing product.
 This video was created for private use only, it's not a real commercial.
 
-<view-on-link href="https://www.youtube.com/watch?v=3u3r_N1_c_E" icon="fab fa-youtube" name="YouTube" color="#FF001C"></view-on-link>
-<view-on-link href="https://www.artstation.com/artwork/oAGqmq" icon="fab fa-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<view-on-link href="https://www.youtube.com/watch?v=3u3r_N1_c_E" icon="mdi-youtube" name="YouTube" color="#FF001C"></view-on-link>
+<view-on-link href="https://www.artstation.com/artwork/oAGqmq" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
 
 <asset-video src="arkana/arkana.webm"></asset-video>
 

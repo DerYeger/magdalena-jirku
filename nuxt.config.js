@@ -18,10 +18,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: 'stylesheet',
-        href: 'https://use.fontawesome.com/releases/v5.8.0/css/all.css',
-      },
-      {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },
