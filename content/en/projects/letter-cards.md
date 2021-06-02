@@ -1,13 +1,17 @@
 ---
 title: Letter Cards
 thumbnail: letter-cards/thumbnail.webp
-subtitle: December 2019 - November 2020
+subtitle: December 2019 - May 2021
 createdAt: 2020-08-00T00:00:00Z
 programs:
 - Photoshop
 ---
 
-## Birthday Card
+## Birthday Cards
+**May 2021**
+<asset-image src="letter-cards/birthday_card_2.webp" alt="Birthday Card"></asset-image>
+[Brochure psd created by rawpixel.com - www.freepik.com](https://www.freepik.com/psd/brochure)
+
 **November 2020**
 <asset-image src="letter-cards/birthday_card.webp" alt="Birthday Card"></asset-image>
 [Brochure psd created by rawpixel.com - www.freepik.com](https://www.freepik.com/psd/brochure)
