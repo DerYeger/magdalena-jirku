@@ -1,3 +1,11 @@
+# [1.21.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.20.5...v1.21.0) (2021-06-02)
+
+
+### Features
+
+* add vector-graphics content ([cbc97cd](https://github.com/DerYeger/magdalena-jirku/commit/cbc97cd0e873552b57c67afcdcb32740345c1af0))
+* update letter-cards content ([d360379](https://github.com/DerYeger/magdalena-jirku/commit/d360379c048108854f3888b3c988ba3f5d032f91))
+
 ## [1.20.5](https://github.com/DerYeger/magdalena-jirku/compare/v1.20.4...v1.20.5) (2021-06-02)
 
 
