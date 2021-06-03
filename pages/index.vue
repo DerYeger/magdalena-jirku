@@ -1,13 +1,7 @@
 <template>
   <v-col class="bound-width">
     <v-row>
-      <v-col
-        xs="6"
-        sm="5"
-        md="4"
-        class="pt-0"
-        :class="$vuetify.breakpoint.xs ? 'max-width' : ''"
-      >
+      <v-col cols="12" sm="5" md="4" class="pt-0">
         <v-row justify="center" class="mb-4 mt-2 ml-1 mr-1">
           <avatar />
         </v-row>
@@ -105,9 +99,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.max-width {
-  flex-basis: 100%;
-}
-</style>
