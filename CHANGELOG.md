@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.21.0...v1.21.1) (2021-06-03)
+
+
+### Bug Fixes
+
+* remove deprecated attributes ([a793155](https://github.com/DerYeger/magdalena-jirku/commit/a7931554a12a62c3577a0566fef722dbe616e4c1))
+
 # [1.21.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.20.5...v1.21.0) (2021-06-02)
 
 
