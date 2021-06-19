@@ -11,28 +11,23 @@
 </template>
 
 <script lang="ts">
-import { contentFunc } from '@nuxt/content/types/content'
 import { defineComponent } from '@nuxtjs/composition-api'
-import { NuxtAppOptions } from '@nuxt/types'
+import { Context } from '@nuxt/types'
 import { Hobby } from '~/model/hobby'
 import { hobbyBreadcrumb, homeBreadcrumb } from '~/model/breadcrumbs'
 import { localizeDocumentPaths, routes } from '~/model/routes'
 import { generateSocialTags } from '~/model/meta'
 
 export default defineComponent({
-  async asyncData({
-    app,
-    $content,
-  }: {
-    app: NuxtAppOptions
-    $content: contentFunc
-  }) {
-    const hobbies = (await $content(`${app.i18n.locale}/hobby`)
+  async asyncData(context: Context) {
+    const locale = context.app.i18n.locale
+    const hobbies = (await context
+      .$content(`${locale}/hobby`)
       .without(['body'])
       .sortBy('createdAt', 'desc')
       .fetch<Hobby>()) as Hobby[]
     return {
-      hobbies: localizeDocumentPaths(hobbies, app.i18n.locale),
+      hobbies: localizeDocumentPaths(hobbies, locale),
     }
   },
   head() {
