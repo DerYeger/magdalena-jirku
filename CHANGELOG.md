@@ -1,3 +1,10 @@
+## [1.21.5](https://github.com/DerYeger/magdalena-jirku/compare/v1.21.4...v1.21.5) (2021-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to v3.15.0 ([1369dea](https://github.com/DerYeger/magdalena-jirku/commit/1369dea90d9a3269aefc91fb969093560fe52fe7))
+
 ## [1.21.4](https://github.com/DerYeger/magdalena-jirku/compare/v1.21.3...v1.21.4) (2021-06-15)
 
 
