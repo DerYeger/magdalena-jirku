@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.0...v1.22.1) (2021-07-16)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency vue to 2.6.14 ([886e506](https://github.com/DerYeger/magdalena-jirku/commit/886e5069d9a6cc56a15e7982688cf5a926f22acf))
+
 # [1.22.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.21.12...v1.22.0) (2021-07-16)
 
 
