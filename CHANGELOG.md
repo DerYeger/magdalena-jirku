@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.21.12...v1.22.0) (2021-07-16)
+
+
+### Features
+
+* add marmoset viewer ([c208076](https://github.com/DerYeger/magdalena-jirku/commit/c20807620ae4520771e4480b5677ec88d5bc0203))
+
 ## [1.21.12](https://github.com/DerYeger/magdalena-jirku/compare/v1.21.11...v1.21.12) (2021-07-12)
 
 
