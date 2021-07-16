@@ -43,6 +43,7 @@ h1 {
 .page-container {
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .bound-width {
@@ -54,7 +55,7 @@ article {
 
   margin: auto;
 
-  :is(video, .v-image) {
+  :is(video, .v-image, .model-viewer) {
     margin-bottom: 1rem;
   }
 }
@@ -62,7 +63,8 @@ article {
 @media (max-width: 960px) {
   article {
     video,
-    .v-image {
+    .v-image,
+    .model-viewer {
       margin-left: -12px;
       margin-right: -12px;
       width: calc(100% + 24px);

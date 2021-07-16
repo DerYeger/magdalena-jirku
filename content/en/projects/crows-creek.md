@@ -16,6 +16,8 @@ The style is very similar to that of comics. All textures that can be seen were 
 
 <view-on-link href="https://www.artstation.com/artwork/KaXPqW" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
 
+<model-viewer src="/crows-creek.mview"></model-viewer>
+
 <asset-image src="crows-creek/beautyshot_1.webp" alt="Beautyshot 1"></asset-image>
 <asset-image src="crows-creek/beautyshot_2.webp" alt="Beautyshot 2"></asset-image>
 <asset-image src="crows-creek/beautyshot_3.webp" alt="Beautyshot 3"></asset-image>
