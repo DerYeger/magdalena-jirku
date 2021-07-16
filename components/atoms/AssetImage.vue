@@ -31,7 +31,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
@@ -72,14 +72,14 @@ export default defineComponent({
     }
   },
   computed: {
-    imgSrc() {
+    imgSrc(): any | null {
       try {
         return require(`~/assets/content/${this.src}`)
       } catch (error) {
         return null
       }
     },
-    lazyImgSrc() {
+    lazyImgSrc(): any | null {
       try {
         return require(`~/assets/content/${this.lazySrc}`)
       } catch (error) {

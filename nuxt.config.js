@@ -35,7 +35,11 @@ export default {
   plugins: [{ src: '~/plugins/vue-masonry-wall' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    '~/components/atoms/',
+    '~/components/molecules/',
+    '~/components/organisms/',
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
