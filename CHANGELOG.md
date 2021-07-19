@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.1...v1.22.2) (2021-07-19)
+
+
+### Bug Fixes
+
+* always show sidebar on error page ([c6652bc](https://github.com/DerYeger/magdalena-jirku/commit/c6652bc631ff6b1f4bb6cf0cdd7c1533dfab7aba))
+
 ## [1.22.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.0...v1.22.1) (2021-07-16)
 
 
