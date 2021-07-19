@@ -1,3 +1,10 @@
+## [1.22.4](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.3...v1.22.4) (2021-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue-marmoset-viewer to v1.3.2 ([583b15b](https://github.com/DerYeger/magdalena-jirku/commit/583b15bce352d781d968c542e834cfdbb4f52bf3))
+
 ## [1.22.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.2...v1.22.3) (2021-07-19)
 
 
