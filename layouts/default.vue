@@ -8,7 +8,7 @@
     >
       <app-sidebar />
     </v-navigation-drawer>
-    <app-header :drawer-open="drawerOpen" :on-nav-icon-clicked="toggleDrawer" />
+    <app-header v-model="drawerOpen" />
     <v-main>
       <breadcrumbs
         v-if="$vuetify.breakpoint.mdAndDown && breadcrumbs.length > 0"
@@ -22,14 +22,14 @@
   </v-app>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 import { mapState } from 'vuex'
 
 export default defineComponent({
   data() {
     return {
-      drawerOpen: false,
+      drawerOpen: this.$vuetify.breakpoint.lgAndUp,
     }
   },
   head() {
@@ -41,7 +41,7 @@ export default defineComponent({
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('meta.description'),
+          content: this.$t('meta.description') as string,
         },
       ],
       link: [
@@ -53,10 +53,5 @@ export default defineComponent({
     }
   },
   computed: mapState(['breadcrumbs']),
-  methods: {
-    toggleDrawer() {
-      this.drawerOpen = !this.drawerOpen
-    },
-  },
 })
 </script>
