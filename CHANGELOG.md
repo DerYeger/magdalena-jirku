@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.23.0...v1.24.0) (2021-07-20)
+
+
+### Features
+
+* add page transition ([6d8a40e](https://github.com/DerYeger/magdalena-jirku/commit/6d8a40edfb9034125eda1926de184a4d1c6ccee5))
+
 # [1.23.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.4...v1.23.0) (2021-07-20)
 
 
