@@ -1,3 +1,15 @@
+# [1.23.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.4...v1.23.0) (2021-07-20)
+
+
+### Bug Fixes
+
+* reduce on hover card elevation ([7f293c8](https://github.com/DerYeger/magdalena-jirku/commit/7f293c8c9f712c949833aad8f8cb50bf519b9a07))
+
+
+### Features
+
+* add improved models ([6a7a20a](https://github.com/DerYeger/magdalena-jirku/commit/6a7a20a2e1ccd062699a7f08b55e9716547b8ac8))
+
 ## [1.22.4](https://github.com/DerYeger/magdalena-jirku/compare/v1.22.3...v1.22.4) (2021-07-19)
 
 
