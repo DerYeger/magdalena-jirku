@@ -27,7 +27,7 @@
     "@nuxt/content": "1.14.0",
     "@nuxtjs/composition-api": "0.26.0",
     "@nuxtjs/sitemap": "2.4.0",
-    "core-js": "3.16.0",
+    "core-js": "3.16.1",
     "nuxt": "2.15.7",
     "nuxt-i18n": "6.28.1",
     "prism-themes": "1.8.0",
