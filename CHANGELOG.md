@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.24.7...v1.25.0) (2021-08-09)
+
+
+### Features
+
+* add hover scale transition to hobby and project cards ([de7f57d](https://github.com/DerYeger/magdalena-jirku/commit/de7f57d0bfc0a4de8a304f17d1d9f3292c0078a0))
+
 ## [1.24.7](https://github.com/DerYeger/magdalena-jirku/compare/v1.24.6...v1.24.7) (2021-08-08)
 
 
