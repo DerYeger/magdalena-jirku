@@ -3,7 +3,8 @@
     <v-card
       :to="hobby.path"
       :elevation="hover ? 6 : 2"
-      :class="hover ? 'primary--text' : 'text'"
+      class="zoomable-card"
+      :class="{ 'primary--text': hover, text: !hover, active: hover }"
     >
       <v-img :src="image" :aspect-ratio="16 / 9" max-height="14rem">
         <template #placeholder>
@@ -39,3 +40,13 @@ export default defineComponent({
   },
 })
 </script>
+
+<style lang="scss">
+.zoomable-card {
+  transition: transform 0.25s ease;
+
+  &.active {
+    transform: scale(1.05);
+  }
+}
+</style>
