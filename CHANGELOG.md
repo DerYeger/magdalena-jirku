@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.26.0...v1.26.1) (2021-08-10)
+
+
+### Bug Fixes
+
+* **banner:** increase vertical margins ([97d8667](https://github.com/DerYeger/magdalena-jirku/commit/97d8667267c4dec12c8249686a36f355de336653))
+
 # [1.26.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.25.0...v1.26.0) (2021-08-10)
 
 
