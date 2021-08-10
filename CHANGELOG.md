@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.26.1...v1.27.0) (2021-08-10)
+
+
+### Features
+
+* use inlined icons for improved performance ([615b19f](https://github.com/DerYeger/magdalena-jirku/commit/615b19f10954263b4e0291bc934611a7b9ab227f))
+
 ## [1.26.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.26.0...v1.26.1) (2021-08-10)
 
 
