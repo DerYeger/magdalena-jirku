@@ -16,7 +16,7 @@
       <breadcrumbs v-show="$vuetify.breakpoint.lgAndUp" class="pa-0" />
     </div>
     <div
-      class="d-flex justify-center mt-1"
+      class="d-flex justify-center"
       :style="
         $vuetify.breakpoint.mdAndDown
           ? 'flex-basis: auto'

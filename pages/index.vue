@@ -2,12 +2,7 @@
   <v-row class="bound-width" no-gutters>
     <v-col>
       <v-row>
-        <v-col
-          cols="12"
-          sm="auto"
-          md="4"
-          class="d-flex flex-column align-center"
-        >
+        <v-col cols="12" sm="auto" class="d-flex flex-column align-center">
           <avatar class="mx-auto" />
           <account-link-row class="justify-center mt-4" />
         </v-col>
@@ -17,12 +12,13 @@
           </h1>
           <quick-facts />
           <nuxt-content :document="paragraphs[0]" />
+          <banner />
           <nuxt-content :document="paragraphs[1]" />
           <nuxt-content :document="paragraphs[2]" />
-          <h2>
+          <h2 class="text-center text-sm-left mb-4">
             {{ $t('misc.software') }}
           </h2>
-          <software-list />
+          <software-list class="justify-center justify-sm-start" />
         </v-col>
       </v-row>
     </v-col>
@@ -35,8 +31,10 @@ import { Context } from '@nuxt/types'
 import { routes } from '~/model/routes'
 import { generateSocialTags } from '~/model/meta'
 import { Paragraph } from '~/model/paragraph'
+import Banner from '~/components/atoms/Banner.vue'
 
 export default defineComponent({
+  components: { Banner },
   async asyncData(context: Context) {
     const paragraphs = (await context
       .$content(`${context.app.i18n.locale}/home`)
