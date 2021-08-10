@@ -4,7 +4,7 @@
       :src="require('~/assets/images/banner.webp')"
       :lazy-src="require('~/assets/images/banner-lazy.webp')"
       alt="Banner"
-      class="mb-4 rounded"
+      class="my-5 rounded"
       width="100%"
     />
   </div>
