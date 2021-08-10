@@ -1,0 +1,58 @@
+<template>
+  <div class="responsive-list align-center">
+    <icon-link
+      name="Photoshop"
+      icon="photoshop"
+      author="Flatart"
+      href="https://www.iconfinder.com/Flatart"
+    />
+    <icon-link
+      name="InDesign"
+      icon="indesign"
+      author="Flatart"
+      href="https://www.iconfinder.com/Flatart"
+    />
+    <icon-link
+      name="Illustrator"
+      icon="illustrator"
+      author="Flatart"
+      href="https://www.iconfinder.com/Flatart"
+    />
+    <icon-link
+      name="After Effects"
+      icon="after_effects"
+      author="Flatart"
+      href="https://www.iconfinder.com/Flatart"
+    />
+    <icon-link
+      name="Lightroom"
+      icon="lightroom"
+      author="Flatart"
+      href="https://www.iconfinder.com/Flatart"
+    />
+    <icon-link
+      name="Autodesk Maya"
+      icon="maya"
+      author="seeklogo"
+      href="https://seeklogo.com/vector-logo/308077/autodesk-maya"
+    />
+    <icon-link
+      name="Substance Painter"
+      icon="substance_painter"
+      author="seeklogo"
+      href="https://seeklogo.com/vector-logo/373349/substance-by-adobe"
+    />
+    <icon-link
+      name="Redshift"
+      icon="redshift"
+      author="seeklogo"
+      href="https://seeklogo.com/vector-logo/399625/redshift"
+    />
+    <icon-link
+      name="PFTrack"
+      icon="pftrack"
+      author="seeklogo"
+      href="https://seeklogo.com/vector-logo/317002/pftrack"
+    />
+  </div>
+</template>

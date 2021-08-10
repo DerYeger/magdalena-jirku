@@ -1,33 +1,32 @@
 <template>
-  <v-col class="bound-width">
-    <v-row>
-      <v-col cols="12" sm="5" md="4" class="pt-0">
-        <v-row justify="center" class="mb-4 mt-2 ml-1 mr-1">
-          <avatar />
-        </v-row>
-        <v-row justify="center">
-          <account-link
-            v-for="(account, index) of accounts"
-            :key="index"
-            :name="account.name"
-            :icon="account.icon"
-            :href="account.href"
-            :color="account.color"
-          />
-        </v-row>
-      </v-col>
-      <v-col
-        class="pt-0"
-        :style="
-          $vuetify.breakpoint.xs ? 'padding-left: 0; padding-right: 0' : ''
-        "
-      >
-        <article>
-          <nuxt-content :document="document" />
-        </article>
-      </v-col>
-    </v-row>
-  </v-col>
+  <v-row class="bound-width" no-gutters>
+    <v-col>
+      <v-row>
+        <v-col
+          cols="12"
+          sm="auto"
+          md="4"
+          class="d-flex flex-column align-center"
+        >
+          <avatar class="mx-auto" />
+          <account-link-row class="justify-center mt-4" />
+        </v-col>
+        <v-col>
+          <h1 class="text-center text-sm-left mb-4">
+            {{ $t('misc.about-me') }}
+          </h1>
+          <quick-facts />
+          <nuxt-content :document="paragraphs[0]" />
+          <nuxt-content :document="paragraphs[1]" />
+          <nuxt-content :document="paragraphs[2]" />
+          <h2>
+            {{ $t('misc.software') }}
+          </h2>
+          <software-list />
+        </v-col>
+      </v-row>
+    </v-col>
+  </v-row>
 </template>
 
 <script lang="ts">
@@ -35,50 +34,16 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import { Context } from '@nuxt/types'
 import { routes } from '~/model/routes'
 import { generateSocialTags } from '~/model/meta'
+import { Paragraph } from '~/model/paragraph'
 
 export default defineComponent({
   async asyncData(context: Context) {
-    const document = await context
+    const paragraphs = (await context
       .$content(`${context.app.i18n.locale}/home`)
-      .fetch()
+      .sortBy('part')
+      .fetch()) as Paragraph[]
     return {
-      document,
-    }
-  },
-  data() {
-    return {
-      accounts: [
-        {
-          name: 'ArtStation',
-          href: 'https://www.artstation.com/keshyx',
-          icon: 'mdi-artstation',
-          color: '#00AFEB',
-        },
-        {
-          name: 'DeviantArt',
-          href: 'https://www.deviantart.com/keshyx',
-          icon: 'mdi-deviantart',
-          color: '#00E5A1',
-        },
-        {
-          name: 'Instagram',
-          href: 'https://www.instagram.com/keshyx_/',
-          icon: 'mdi-instagram',
-          color: '#ED3651',
-        },
-        {
-          name: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/magdalena-jirku-81bb16210/',
-          icon: 'mdi-linkedin',
-          color: '#0077B0',
-        },
-        {
-          name: 'XING',
-          href: 'https://www.xing.com/profile/Magdalena_Jirku/cv',
-          icon: 'mdi-xing',
-          color: '#006566',
-        },
-      ],
+      paragraphs,
     }
   },
   head() {
@@ -94,3 +59,19 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25em;
+}
+
+h1,
+h2 {
+  line-height: 1;
+}
+</style>

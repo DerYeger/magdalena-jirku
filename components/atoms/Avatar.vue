@@ -1,9 +1,9 @@
 <template>
-  <v-avatar size="100%" width="100%" class="avatar elevation-6">
+  <v-avatar size="256px" class="avatar elevation-6">
     <asset-image
       src="images/avatar.webp"
       lazy-src="images/avatar-lazy.webp"
-      alt="Avatar"
+      alt="Magdalena"
       :allow-fullscreen="false"
     />
   </v-avatar>

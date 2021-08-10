@@ -81,6 +81,21 @@ a:not(:hover) {
   text-decoration: none;
 }
 
+
+.responsive-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+.svg-icon {
+  font-size: 0;
+}
+
 .v-toolbar__content,
 .v-footer {
   display: flex;

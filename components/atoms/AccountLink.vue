@@ -2,13 +2,16 @@
   <v-btn
     rel="noopener"
     icon
-    x-large
+    large
+    height="48"
+    width="48"
     target="_blank"
     :aria-label="name"
     :color="color"
     :href="href"
+    class="ma-0"
   >
-    <v-icon v-text="icon" />
+    <v-icon large :class="{ 'text--primary': !color }" v-text="icon" />
   </v-btn>
 </template>
 
@@ -31,7 +34,7 @@ export default defineComponent({
     },
     color: {
       type: String,
-      default: 'primary',
+      default: undefined,
     },
   },
 })
