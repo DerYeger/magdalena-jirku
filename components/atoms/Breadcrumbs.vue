@@ -1,7 +1,7 @@
 <template>
   <v-breadcrumbs :items="breadcrumbs" nuxt="true" large class="breadcrumbs">
     <template #divider>
-      <v-icon v-text="'mdi-chevron-right'" />
+      <v-icon>{{ mdiChevronRight }}</v-icon>
     </template>
     <template #item="{ item }">
       <v-breadcrumbs-item
@@ -11,9 +11,10 @@
         class="unselectable"
       >
         <v-icon
-          v-if="item.text.startsWith('mdi-')"
+          v-if="item.icon"
           class="text--primary"
-          v-text="item.text"
+          :aria-label="$t(item.text)"
+          v-text="item.icon"
         />
         <template v-else>
           {{ $t(item.text) }}
@@ -24,10 +25,16 @@
 </template>
 
 <script lang="ts">
+import { mdiChevronRight } from '@mdi/js'
 import { defineComponent } from '@nuxtjs/composition-api'
 import { Breadcrumb } from '~/model/breadcrumbs'
 
 export default defineComponent({
+  data() {
+    return {
+      mdiChevronRight,
+    }
+  },
   computed: {
     breadcrumbs() {
       const locale = this.$i18n.locale
@@ -38,6 +45,7 @@ export default defineComponent({
       return rawCrumbs.map((crumb: Breadcrumb, index: number) => ({
         text: crumb.text,
         to: this.localePath(crumb.to, locale),
+        icon: crumb.icon,
         disabled: index >= rawCrumbs.length - 1,
       }))
     },

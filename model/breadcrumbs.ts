@@ -1,14 +1,17 @@
+import { mdiHome } from '@mdi/js'
 import { localizeDocumentPath, routes } from '~/model/routes'
 import { Content } from '~/model/content'
 
 export interface Breadcrumb {
   text: string
   to: string
+  icon?: string
 }
 
 export const homeBreadcrumb: Breadcrumb = {
-  text: 'mdi-home',
+  text: routes.home.title,
   to: routes.home.to,
+  icon: mdiHome,
 }
 
 export const hobbyBreadcrumb: Breadcrumb = {

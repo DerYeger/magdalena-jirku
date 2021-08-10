@@ -23,8 +23,8 @@ Diese wurde von Alex Omari, passend im Rhythmus zu unserem Video, erstellt.
 
 Hierbei handelt es sich um ein fiktionales Produkt. Dieses Video ist ein rein privates Projekt und ist keine echte Werbung.
 
-<view-on-link href="https://www.youtube.com/watch?v=3u3r_N1_c_E" icon="mdi-youtube" name="YouTube" color="#FF001C"></view-on-link>
-<view-on-link href="https://www.artstation.com/artwork/oAGqmq" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<youtube-link video="3u3r_N1_c_E"></youtube-link>
+<artstation-link artwork="oAGqmq"></artstation-link>
 
 <asset-video src="arkana/arkana.webm"></asset-video>
 

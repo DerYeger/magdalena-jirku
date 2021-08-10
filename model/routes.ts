@@ -1,3 +1,4 @@
+import { mdiBrush, mdiFileDocument, mdiHome, mdiMovieOpenStar } from '@mdi/js'
 import { Content } from '~/model/content'
 
 export interface Route {
@@ -10,22 +11,22 @@ export const routes: Record<string, Route> = {
   home: {
     title: 'home.title',
     to: '/',
-    icon: 'mdi-home',
+    icon: mdiHome,
   },
   projects: {
     title: 'projects.title',
     to: '/projects',
-    icon: 'mdi-movie-open-star',
+    icon: mdiMovieOpenStar,
   },
   hobby: {
     title: 'hobby.title',
     to: '/hobby',
-    icon: 'mdi-brush',
+    icon: mdiBrush,
   },
   about: {
     title: 'about.title',
     to: '/about',
-    icon: 'mdi-file-document',
+    icon: mdiFileDocument,
   },
 }
 

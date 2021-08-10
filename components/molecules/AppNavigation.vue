@@ -20,7 +20,7 @@
       class="unselectable jan-link-container"
     >
       <v-list-item-icon>
-        <v-icon v-text="'mdi-github'" />
+        <v-icon>{{ mdiGithub }}</v-icon>
       </v-list-item-icon>
       <v-list-item-content>
         <v-list-item-title>Website by Jan Müller</v-list-item-title>
@@ -30,12 +30,14 @@
 </template>
 
 <script lang="ts">
+import { mdiGithub } from '@mdi/js'
 import { defineComponent } from '@nuxtjs/composition-api'
 import { routes } from '~/model/routes'
 
 export default defineComponent({
   data() {
     return {
+      mdiGithub,
       routes: Object.values(routes),
     }
   },

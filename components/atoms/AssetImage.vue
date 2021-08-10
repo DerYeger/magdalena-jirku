@@ -25,13 +25,14 @@
         width="100vw"
       />
       <v-btn icon class="close-button" @click="overlay = false">
-        <v-icon v-text="'mdi-close'" />
+        <v-icon>{{ mdiClose }}</v-icon>
       </v-btn>
     </v-overlay>
   </div>
 </template>
 
 <script lang="ts">
+import { mdiClose } from '@mdi/js'
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
@@ -68,6 +69,7 @@ export default defineComponent({
   },
   data() {
     return {
+      mdiClose,
       overlay: false,
     }
   },

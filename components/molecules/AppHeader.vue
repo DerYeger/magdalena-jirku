@@ -12,7 +12,9 @@
         :aria-label="$t(value ? 'actions.close-menu' : 'actions.open-menu')"
         style="margin-left: -16px"
         @click="$emit('input', !value)"
-      />
+      >
+        <v-icon>{{ mdiMenu }}</v-icon>
+      </v-app-bar-nav-icon>
       <breadcrumbs v-show="$vuetify.breakpoint.lgAndUp" class="pa-0" />
     </div>
     <div
@@ -33,6 +35,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { mdiMenu } from '@mdi/js'
 
 export default defineComponent({
   props: {
@@ -40,6 +43,11 @@ export default defineComponent({
       type: Boolean,
       required: true,
     },
+  },
+  data() {
+    return {
+      mdiMenu,
+    }
   },
 })
 </script>

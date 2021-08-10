@@ -17,8 +17,8 @@ Für die Zeitspanne die wir vorgegeben hatten, haben wir uns ein bisschen zu vie
 Sehr viele Arbeitsschritte würde ich mittlerweile anders machen, aber genau diese Videos gehören nun mal zum Lernprozess. :)
 Dieses Video ist in Zusammenarbeit mit Atlanta Kyriakoulis entstanden.
 
-<view-on-link href="https://www.youtube.com/watch?v=gMUWjkDX2kY" icon="mdi-youtube" name="YouTube" color="#FF001C"></view-on-link>
-<view-on-link href="https://www.artstation.com/artwork/zOXmA2" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<youtube-link video="gMUWjkDX2kY"></youtube-link>
+<artstation-link artwork="zOXmA2"></artstation-link>
 
 <asset-video src="monday-morning/monday_morning.webm"></asset-video>
 

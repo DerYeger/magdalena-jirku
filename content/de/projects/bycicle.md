@@ -16,8 +16,8 @@ Das zu trackende Objekt ist ein Fahrrad im Retro Stil, bei welchem die Texturen 
 Mit PFTrack entstanden die Tracker, damit das Fahrrad immer an derselben Stelle vor dem Tor stehen bleibt.
 In After Effects fanden die finalen Compositing Schritte statt.
 
-<view-on-link href="https://www.youtube.com/watch?v=PkKU9GS_rfk" icon="mdi-youtube" name="YouTube" color="#FF001C"></view-on-link>
-<view-on-link href="https://www.artstation.com/artwork/D5o4Y0" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<youtube-link video="PkKU9GS_rfk"></youtube-link>
+<artstation-link artwork="D5o4Y0"></artstation-link>
 
 <asset-video src="bycicle/splitscreen.mp4"></asset-video>
 

@@ -14,7 +14,7 @@ Bei diesem Projekt sammelte ich meine ersten Erfahrungen im 3D Bereich, weshalb 
 Auch das Zuschneiden von UVs traf hier zum ersten Mal auf mich.
 Der Stil ist sehr an jener von Comics angelehnt. Alle Texturen die zu sehen sind, sind in Photoshop zustande gekommen.
 
-<view-on-link href="https://www.artstation.com/artwork/KaXPqW" icon="mdi-artstation" name="ArtStation" color="#00AFEB"></view-on-link>
+<artstation-link artwork="KaXPqW"></artstation-link>
 
 <model-viewer src="/models/crows-creek.mview"></model-viewer>
 <model-viewer src="/models/winchester.mview"></model-viewer>
