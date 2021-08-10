@@ -1,3 +1,12 @@
+# [1.26.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.25.0...v1.26.0) (2021-08-10)
+
+
+### Features
+
+* **hobby:** add a-drop-of-water ([998bf67](https://github.com/DerYeger/magdalena-jirku/commit/998bf67ef78109f3caf050e7a142c58501ce9833))
+* add banner to home page ([ef386b6](https://github.com/DerYeger/magdalena-jirku/commit/ef386b6575c07aa36c78216d5b641534d90ecf05))
+* rework home page ([3f6762c](https://github.com/DerYeger/magdalena-jirku/commit/3f6762c812b5a3342e0635d45d3ab1171737443b))
+
 # [1.25.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.24.7...v1.25.0) (2021-08-09)
 
 
