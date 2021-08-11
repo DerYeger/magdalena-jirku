@@ -11,7 +11,7 @@
             {{ $t('misc.about-me') }}
           </h1>
           <quick-facts />
-          <nuxt-content :document="paragraphs[0]" />
+          <nuxt-content :document="paragraphs[0]" class="mb-n4" />
           <banner />
           <nuxt-content :document="paragraphs[1]" />
           <nuxt-content :document="paragraphs[2]" />

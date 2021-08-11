@@ -12,7 +12,15 @@
 
 <style scoped>
 .banner {
+  position: relative;
+  display: inline-flex;
   width: 100%;
+}
+
+.banner::after {
+  content: '';
+  display: block;
+  padding-bottom: calc(25% + 2.5rem);
 }
 
 .banner::v-deep .v-responsive__content {
