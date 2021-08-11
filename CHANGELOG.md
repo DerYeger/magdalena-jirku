@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.27.0...v1.28.0) (2021-08-11)
+
+
+### Features
+
+* **banner:** prevent layout shift on load ([57f0bb7](https://github.com/DerYeger/magdalena-jirku/commit/57f0bb7e63100fa68fac24c78e6c593965a92bd4))
+
 # [1.27.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.26.1...v1.27.0) (2021-08-10)
 
 
