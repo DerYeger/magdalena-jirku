@@ -1,3 +1,16 @@
+# [1.29.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.28.0...v1.29.0) (2021-08-12)
+
+
+### Bug Fixes
+
+* **content:** correct typo ([2867074](https://github.com/DerYeger/magdalena-jirku/commit/2867074b89ddd71429848264df81ccc9434340d4))
+* **nuxt:** remove redundant component import ([3b25e1c](https://github.com/DerYeger/magdalena-jirku/commit/3b25e1cde0d7dfc6b1d389d822ab58cd3d965943))
+
+
+### Features
+
+* **projects:** use software-list instead of chips ([6917c87](https://github.com/DerYeger/magdalena-jirku/commit/6917c87157669c92db8896f2fec67b1b2295958f))
+
 ## [1.29.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.29.0...v1.29.1) (2021-08-12)
 
 
