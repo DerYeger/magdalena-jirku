@@ -4,9 +4,8 @@ thumbnail: crows-creek/thumbnail.webp
 subtitle: 3D Diorama, März 2020
 createdAt: 2020-03-00T00:00:00Z
 programs:
-- Photoshop
-- Autodesk Maya
-- Marmorset Toolbag
+- photoshop
+- maya
 ---
 
 Mein zweites Uni-Projekt sollte ein 3D Diorama im Low-Poly Stil werden.

@@ -3,9 +3,6 @@ title: Harmony
 thumbnail: harmony/thumbnail.webp
 subtitle: Copper engraving, 2017
 createdAt: 2017-01-00T00:00:00Z
-programs:
-- Copper engraving
-- Printing press
 ---
 
 A copperplate engraving back from my school days.

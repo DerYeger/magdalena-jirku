@@ -4,10 +4,10 @@ thumbnail: monday-morning/thumbnail.webp
 subtitle: 3D Animation, August 2020
 createdAt: 2020-08-00T00:00:00Z
 programs:
-- Photoshop
-- Autodesk Maya
-- Redshift
-- After Effects
+- photoshop
+- maya
+- redshift
+- afterEffects
 ---
 
 Das dritte Uni Projekt ist ein kurzer Animationsfilm, welcher in Zusammenarbeit mit einer Kollegin aus meinem Universitäts-Kurs entstanden ist.

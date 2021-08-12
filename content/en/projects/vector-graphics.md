@@ -4,7 +4,7 @@ thumbnail: vector-graphics/thumbnail.webp
 subtitle: May 2021
 createdAt: 2021-05
 programs:
-- Illustrator
+- illustrator
 ---
 
 Vector graphics created by drawing paths.

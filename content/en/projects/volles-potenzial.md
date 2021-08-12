@@ -4,7 +4,7 @@ thumbnail: volles-potenzial/thumbnail.webp
 subtitle: Logo, October 2019
 createdAt: 2019-10-00T00:00:00Z
 programs:
-- Illustrator
+- illustrator
 ---
 
 A logo design for «[VollesPotenzial](https://www.vollespotenzial.at/)».

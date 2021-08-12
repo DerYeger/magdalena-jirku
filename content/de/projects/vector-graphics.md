@@ -4,7 +4,7 @@ thumbnail: vector-graphics/thumbnail.webp
 subtitle: Mai 2021
 createdAt: 2021-05
 programs:
-- Illustrator
+- illustrator
 ---
 
 Vektorgrafiken, die mit der Setzung von Pfaden entstanden sind.

@@ -4,10 +4,10 @@ thumbnail: monday-morning/thumbnail.webp
 subtitle: 3D Animation, August 2020
 createdAt: 2020-08-00T00:00:00Z
 programs:
-- Photoshop
-- Autodesk Maya
-- Redshift
-- After Effects
+- photoshop
+- maya
+- redshift
+- afterEffects
 ---
 
 My third university project was a short animated film, which was created in collaboration with a colleague from my university course.

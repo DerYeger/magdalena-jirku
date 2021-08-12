@@ -3,7 +3,11 @@
     <article>
       <h1>{{ project.title }}</h1>
       <p>{{ project.subtitle }}</p>
-      <chip-list :elements="project.programs" />
+      <software-list
+        v-if="project.programs"
+        :filter="project.programs"
+        class="mb-4"
+      />
       <nuxt-content :document="project" />
       <document-switcher :prev="prev" :next="next" />
     </article>

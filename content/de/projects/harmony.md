@@ -3,9 +3,6 @@ title: Harmonie
 thumbnail: harmony/thumbnail.webp
 subtitle: Kupferstich, Mai 2017
 createdAt: 2017-05-00T00:00:00Z
-programs:
-- Kupferstich
-- Druckerpresse
 ---
 
 Ein Kupferstich aus meiner Schulzeit.

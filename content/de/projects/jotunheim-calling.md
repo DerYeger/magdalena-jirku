@@ -4,7 +4,7 @@ thumbnail: jotunheim-calling/thumbnail.webp
 subtitle: Concept Art, November 2019
 createdAt: 2019-11-00T00:00:00Z
 programs:
-- Photoshop
+- photoshop
 ---
 
 Das Ergebnis meines ersten Uni-Projektes.

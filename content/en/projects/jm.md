@@ -4,7 +4,7 @@ thumbnail: jm/thumbnail.webp
 subtitle: Logo, March 2021
 createdAt: 2021-03-00T00:00:00Z
 programs:
-- Illustrator
+- illustrator
 ---
 
 Logodesign for [Jan Müller](https://jan-mueller.at/).

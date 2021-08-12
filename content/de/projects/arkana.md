@@ -4,11 +4,11 @@ thumbnail: arkana/thumbnail.webp
 subtitle: Motion Graphics, April 2021
 createdAt: 2021-04-00
 programs:
-- Photoshop CC
-- Autodesk Maya
-- Substance Painter
-- Redshift
-- After Effects
+- photoshop
+- maya
+- substancePainter
+- redshift
+- afterEffects
 ---
 
 Das Ergebnis meines fünften Uni Projektes.

@@ -4,7 +4,7 @@ thumbnail: gestern-heute-morgen/thumbnail.webp
 subtitle: Exhibition Catalog, June 2018
 createdAt: 2018-06-00T00:00:00Z
 programs:
-- InDesign
+- inDesign
 ---
 
 This is my final project (diploma thesis) back from my school days.

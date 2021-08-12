@@ -4,7 +4,7 @@ thumbnail: letter-cards/thumbnail.webp
 subtitle: Dezember 2019 - Mai 2021
 createdAt: 2020-08-00T00:00:00Z
 programs:
-- Photoshop
+- photoshop
 ---
 
 ## Geburtstagskarten
