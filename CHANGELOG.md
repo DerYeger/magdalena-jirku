@@ -1,3 +1,10 @@
+## [1.29.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.29.0...v1.29.1) (2021-08-12)
+
+
+### Bug Fixes
+
+* **nuxt:** remove redundant component import ([85ba8d0](https://github.com/DerYeger/magdalena-jirku/commit/85ba8d01797288b29aecd3739ec17e9dabf5f5ec))
+
 # [1.29.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.28.0...v1.29.0) (2021-08-12)
 
 
