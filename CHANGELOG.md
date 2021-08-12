@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.29.0...v1.30.0) (2021-08-12)
+
+
+### Features
+
+* **i18n:** migrate to @nuxtjs/i18n ([4972fac](https://github.com/DerYeger/magdalena-jirku/commit/4972facafb171ea7275b94adee1904ccc9134112))
+
 # [1.29.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.28.0...v1.29.0) (2021-08-12)
 
 
