@@ -1,3 +1,15 @@
+# [1.29.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.28.0...v1.29.0) (2021-08-12)
+
+
+### Bug Fixes
+
+* **content:** correct typo ([2366d7c](https://github.com/DerYeger/magdalena-jirku/commit/2366d7c89fe145544fc88c10b6719bac872fd587))
+
+
+### Features
+
+* **projects:** use software-list instead of chips ([b2660d3](https://github.com/DerYeger/magdalena-jirku/commit/b2660d302291cd3fe6bce81122403681513ee061))
+
 # [1.28.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.27.0...v1.28.0) (2021-08-11)
 
 
