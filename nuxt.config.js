@@ -1,6 +1,8 @@
 import i18n from './locales/i18n'
 import { primaryColor, themes } from './theme.config'
 
+const host = 'https://magdalena-jirku.at'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -53,28 +55,12 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxtjs/composition-api/module',
-    [
-      'nuxt-i18n',
-      {
-        defaultLocale: 'en',
-        noPrefixDefaultLocale: false,
-        locales: [
-          {
-            code: 'en',
-            name: 'English',
-          },
-          {
-            code: 'de',
-            name: 'Deutsch',
-          },
-        ],
-        vueI18n: i18n,
-      },
-    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // https://i18n.nuxtjs.org/
+    '@nuxtjs/i18n',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
@@ -89,9 +75,28 @@ export default {
     },
   },
 
+  i18n: {
+    baseUrl: host,
+    defaultLocale: 'en',
+    noPrefixDefaultLocale: false,
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        iso: 'en-US',
+      },
+      {
+        code: 'de',
+        name: 'Deutsch',
+        iso: 'de-DE',
+      },
+    ],
+    vueI18n: i18n,
+  },
+
   sitemap: {
     gzip: true,
-    hostname: 'https://magdalena-jirku.at',
+    hostname: host,
     i18n: true,
     trailingSlash: true,
     routes: async () => {

@@ -20,7 +20,7 @@
       "@nuxt/content",
       "@nuxtjs/vuetify",
       "@types/node",
-      "nuxt-i18n"
+      "@nuxtjs/i18n"
     ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
