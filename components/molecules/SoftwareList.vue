@@ -97,6 +97,12 @@ const additionalSoftware: Record<string, Software> = {
     author: 'PNG Store',
     href: 'https://www.iconfinder.com/Akhil284',
   },
+  houdini: {
+    name: 'Houdini',
+    icon: 'houdini',
+    author: 'SideFX',
+    href: 'https://www.sidefx.com/company/press/',
+  },
 }
 
 export default defineComponent({
@@ -107,22 +113,18 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const filterSoftware = function (
-      filter: string[],
-      softwareRecord: Record<string, Software | undefined>
-    ): Software[] {
+    const filterSoftware = function (filter: string[]): Software[] {
       return filter
-        .map((element: string) => softwareRecord[element])
+        .map(
+          (element: string) =>
+            additionalSoftware[element] ?? defaultSoftware[element]
+        )
         .filter((element) => element !== undefined) as Software[]
     }
     const { filter } = toRefs(props)
-    const software = computed(() => [
-      ...filterSoftware(
-        filter?.value ?? Object.keys(defaultSoftware),
-        defaultSoftware
-      ),
-      ...filterSoftware(filter?.value ?? [], additionalSoftware),
-    ])
+    const software = computed(() =>
+      filterSoftware(filter?.value ?? Object.keys(defaultSoftware))
+    )
     return {
       software,
     }
