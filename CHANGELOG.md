@@ -1,3 +1,10 @@
+## [1.31.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.0...v1.31.1) (2021-08-14)
+
+
+### Bug Fixes
+
+* **content:** use higher quality creartive video ([03319e4](https://github.com/DerYeger/magdalena-jirku/commit/03319e41b297fcde1354387329f608fb3ab48ea4))
+
 # [1.31.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.30.0...v1.31.0) (2021-08-14)
 
 
