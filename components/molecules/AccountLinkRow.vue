@@ -12,13 +12,7 @@
 </template>
 
 <script lang="ts">
-import {
-  mdiArtstation,
-  mdiDeviantart,
-  mdiInstagram,
-  mdiLinkedin,
-  mdiXing,
-} from '@mdi/js'
+import { mdiArtstation, mdiDeviantart, mdiLinkedin, mdiXing } from '@mdi/js'
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
@@ -36,12 +30,6 @@ export default defineComponent({
           href: 'https://www.deviantart.com/keshyx',
           icon: mdiDeviantart,
           color: '#00E5A1',
-        },
-        {
-          name: 'Instagram',
-          href: 'https://www.instagram.com/keshyx_/',
-          icon: mdiInstagram,
-          color: '#ED3651',
         },
         {
           name: 'LinkedIn',
