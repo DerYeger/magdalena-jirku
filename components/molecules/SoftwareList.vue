@@ -51,6 +51,7 @@ const defaultSoftware: Record<string, Software | undefined> = {
     author: 'Flatart',
     href: 'https://www.iconfinder.com/Flatart',
   },
+
   lightroom: {
     name: 'Lightroom',
     icon: 'lightroom',
@@ -83,6 +84,21 @@ const defaultSoftware: Record<string, Software | undefined> = {
   },
 }
 
+const additionalSoftware: Record<string, Software> = {
+  animate: {
+    name: 'Animate',
+    icon: 'animate',
+    author: 'Flatart',
+    href: 'https://www.iconfinder.com/Flatart',
+  },
+  premiere: {
+    name: 'Premiere Pro',
+    icon: 'premiere',
+    author: 'PNG Store',
+    href: 'https://www.iconfinder.com/Akhil284',
+  },
+}
+
 export default defineComponent({
   props: {
     filter: {
@@ -91,17 +107,22 @@ export default defineComponent({
     },
   },
   setup(props) {
+    const filterSoftware = function (
+      filter: string[],
+      softwareRecord: Record<string, Software | undefined>
+    ): Software[] {
+      return filter
+        .map((element: string) => softwareRecord[element])
+        .filter((element) => element !== undefined) as Software[]
+    }
     const { filter } = toRefs(props)
-    const software = computed(() => {
-      const filterValue = filter.value
-      if (filterValue !== undefined) {
-        return filterValue
-          .map((element) => defaultSoftware[element])
-          .filter((element) => element !== undefined)
-      } else {
-        return Object.values(defaultSoftware)
-      }
-    })
+    const software = computed(() => [
+      ...filterSoftware(
+        filter?.value ?? Object.keys(defaultSoftware),
+        defaultSoftware
+      ),
+      ...filterSoftware(filter?.value ?? [], additionalSoftware),
+    ])
     return {
       software,
     }
