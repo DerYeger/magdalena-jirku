@@ -51,7 +51,12 @@ const defaultSoftware: Record<string, Software | undefined> = {
     author: 'Flatart',
     href: 'https://www.iconfinder.com/Flatart',
   },
-
+  premiere: {
+    name: 'Premiere Pro',
+    icon: 'premiere',
+    author: 'PNG Store',
+    href: 'https://www.iconfinder.com/Akhil284',
+  },
   lightroom: {
     name: 'Lightroom',
     icon: 'lightroom',
@@ -90,12 +95,6 @@ const additionalSoftware: Record<string, Software> = {
     icon: 'animate',
     author: 'Flatart',
     href: 'https://www.iconfinder.com/Flatart',
-  },
-  premiere: {
-    name: 'Premiere Pro',
-    icon: 'premiere',
-    author: 'PNG Store',
-    href: 'https://www.iconfinder.com/Akhil284',
   },
   houdini: {
     name: 'Houdini',
