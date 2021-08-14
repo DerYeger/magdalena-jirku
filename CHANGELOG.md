@@ -1,3 +1,20 @@
+# [1.31.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.30.0...v1.31.0) (2021-08-14)
+
+
+### Bug Fixes
+
+* **accounts:** remove instagram ([fb7d623](https://github.com/DerYeger/magdalena-jirku/commit/fb7d6231b4e932ac1cbe27d6ccab67fae432c4ab))
+* **content:** update spelling ([dbe4295](https://github.com/DerYeger/magdalena-jirku/commit/dbe429504251f7b2e6a0ef8faa67e00f96b90acf))
+* **routes:** update projects icon ([80da9e1](https://github.com/DerYeger/magdalena-jirku/commit/80da9e18f2e8abded214e375a2e32adab939fe59))
+* **software-list:** include premiere by default ([d4e2776](https://github.com/DerYeger/magdalena-jirku/commit/d4e277681db3ba2b30ed6f1cca8ac451e061bb18))
+
+
+### Features
+
+* **content:** add creartive ([e50f214](https://github.com/DerYeger/magdalena-jirku/commit/e50f2142ca5fd3623691f3e8341032d1f42cd6d1))
+* **content:** add data transfer with difficulties project ([1cb78e3](https://github.com/DerYeger/magdalena-jirku/commit/1cb78e3f112725c53da0264cbde3ed2af85b61dc))
+* **software-list:** implement additional icons ([e780fbc](https://github.com/DerYeger/magdalena-jirku/commit/e780fbc51580d8703cf451dd5086f6763dbf053c))
+
 # [1.30.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.29.0...v1.30.0) (2021-08-12)
 
 
