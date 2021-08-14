@@ -1,4 +1,4 @@
-import { mdiBrush, mdiFileDocument, mdiHome, mdiMovieOpenStar } from '@mdi/js'
+import { mdiBrush, mdiFileDocument, mdiHome, mdiMovieOpen } from '@mdi/js'
 import { Content } from '~/model/content'
 
 export interface Route {
@@ -16,7 +16,7 @@ export const routes: Record<string, Route> = {
   projects: {
     title: 'projects.title',
     to: '/projects',
-    icon: mdiMovieOpenStar,
+    icon: mdiMovieOpen,
   },
   hobby: {
     title: 'hobby.title',
