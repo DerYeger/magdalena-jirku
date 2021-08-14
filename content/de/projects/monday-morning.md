@@ -10,10 +10,10 @@ programs:
 - afterEffects
 ---
 
-Das dritte Uni Projekt ist ein kurzer Animationsfilm, welcher in Zusammenarbeit mit einer Kollegin aus meinem Universitäts-Kurs entstanden ist.
+Das dritte Uni-Projekt ist ein kurzer Animationsfilm, welcher in Zusammenarbeit mit einer Kollegin aus meinem Universitäts-Kurs entstanden ist.
 Es war unser erstes 3D animierte Video.
 Hierbei sind Animatics, Storyboards, Rigging, Charakteranimationen, Kamerafahrten, Lighting und Rendering zum ersten Mal aufgetreten.
-Für die Zeitspanne die wir vorgegeben hatten, haben wir uns ein bisschen zu viel vorgenommen. Daher musste das Video gekürzt und das Konzept abgeändert werden.
+Für die Zeitspanne, die wir vorgegeben hatten, haben wir uns ein bisschen zu viel vorgenommen. Daher musste das Video gekürzt und das Konzept abgeändert werden.
 Sehr viele Arbeitsschritte würde ich mittlerweile anders machen, aber genau diese Videos gehören nun mal zum Lernprozess. :)
 Dieses Video ist in Zusammenarbeit mit Atlanta Kyriakoulis entstanden.
 

@@ -10,8 +10,8 @@ programs:
 - afterEffects
 ---
 
-My third university project was a short animated film, which was created in collaboration with a colleague from my university course.
-It was our first 3D animated video.
+My third university project was an animated short-film, which was created in collaboration with a colleague from my university course.
+It was our first 3D-animated video.
 Animatics, Storyboards, Rigging, Character Animation, Tracking Shots, Lighting and Rendering all made their first appearance here.
 For the amount of time we were given, we took on a bit too much. Therefore, the video had to be shortened and the concept changed.
 There are a lot of steps I would do differently now, but those steps are part of the learning process. :)

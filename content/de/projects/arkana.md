@@ -11,17 +11,18 @@ programs:
 - afterEffects
 ---
 
-Das Ergebnis meines fünften Uni Projektes.
+Das Ergebnis meines fünften Uni-Projektes.
 Die Aufgabe lag darin, ein Video mit Motion Graphics zu erzeugen.
 Dieses Projekt entstand in Zusammenarbeit mit meiner Kollegin Atlanta Kyriakoulis.
 Nachdem das grobe Konzept feststand, begann ich mit dem Anfertigen mehrerer Skizzen, um das Produkt ein einzigartiges Aussehen zu verleihen.
-Folgend mit dem 3D Modell, kamen Texturierungen, Kamera, Lichtsetzung und Kompositionstechniken zum Einsatz.
+Folgend mit dem 3D-Modell, kamen Texturen, Kamera, Lichtsetzung und Kompositionstechniken zum Einsatz.
 Die Postproduktion war bei diesem Projekt besonders wichtig.
 Die einzelnen Sequenzen wurden alle individuell gestaltet und mit Motion Graphics ausgestattet.
 Als der Zusammenschnitt fertiggestellt wurde, folgte die musikalische Untermalung.
 Diese wurde von Alex Omari, passend im Rhythmus zu unserem Video, erstellt.
 
-Hierbei handelt es sich um ein fiktionales Produkt. Dieses Video ist ein rein privates Projekt und ist keine echte Werbung.
+Hierbei handelt es sich um ein fiktionales Produkt.
+Dieses Video ist ein rein privates Projekt und ist keine echte Werbung.
 
 <youtube-link video="3u3r_N1_c_E"></youtube-link>
 <artstation-link artwork="oAGqmq"></artstation-link>
