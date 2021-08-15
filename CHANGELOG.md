@@ -1,3 +1,10 @@
+## [1.31.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.1...v1.31.2) (2021-08-15)
+
+
+### Bug Fixes
+
+* **software-list:** add prop validation ([9451dc2](https://github.com/DerYeger/magdalena-jirku/commit/9451dc28fca344035e00781c133298e0e200ba28))
+
 ## [1.31.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.0...v1.31.1) (2021-08-14)
 
 
