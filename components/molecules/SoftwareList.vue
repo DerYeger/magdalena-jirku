@@ -19,14 +19,7 @@ import {
   toRefs,
 } from '@nuxtjs/composition-api'
 
-interface Software {
-  name: string
-  icon: string
-  author?: string
-  href?: string
-}
-
-const defaultSoftware: Record<string, Software | undefined> = {
+const availableSoftware = {
   photoshop: {
     name: 'Photoshop',
     icon: 'photoshop',
@@ -87,9 +80,6 @@ const defaultSoftware: Record<string, Software | undefined> = {
     author: 'seeklogo',
     href: 'https://seeklogo.com/vector-logo/317002/pftrack',
   },
-}
-
-const additionalSoftware: Record<string, Software> = {
   animate: {
     name: 'Animate',
     icon: 'animate',
@@ -104,25 +94,36 @@ const additionalSoftware: Record<string, Software> = {
   },
 }
 
+type SoftwareName = keyof typeof availableSoftware
+
+const defaultSoftware: SoftwareName[] = [
+  'photoshop',
+  'inDesign',
+  'illustrator',
+  'afterEffects',
+  'premiere',
+  'lightroom',
+  'maya',
+  'substancePainter',
+  'redshift',
+  'pfTrack',
+]
+
 export default defineComponent({
   props: {
     filter: {
-      type: Array as PropType<string[] | undefined>,
-      default: undefined,
+      type: Array as PropType<SoftwareName[]>,
+      default: () => defaultSoftware,
+      validator: (filter: SoftwareName[]) =>
+        filter.every(
+          (name: SoftwareName) => availableSoftware[name] !== undefined
+        ),
     },
   },
   setup(props) {
-    const filterSoftware = function (filter: string[]): Software[] {
-      return filter
-        .map(
-          (element: string) =>
-            additionalSoftware[element] ?? defaultSoftware[element]
-        )
-        .filter((element) => element !== undefined) as Software[]
-    }
     const { filter } = toRefs(props)
     const software = computed(() =>
-      filterSoftware(filter?.value ?? Object.keys(defaultSoftware))
+      filter.value.map((element: SoftwareName) => availableSoftware[element])
     )
     return {
       software,
