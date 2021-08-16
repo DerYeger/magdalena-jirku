@@ -1,13 +1,15 @@
 <template>
-  <vue-masonry-wall
+  <masonry-wall
     :items="hobbies"
-    :ssr="{ columns: 1 }"
-    :options="{ width: 400, padding: 12 }"
+    :ssr-columns="1"
+    :column-width="400"
+    :padding="24"
+    class="px-3"
   >
     <template #default="{ item }">
       <hobby-card :hobby="item" />
     </template>
-  </vue-masonry-wall>
+  </masonry-wall>
 </template>
 
 <script lang="ts">
