@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.3...v1.32.0) (2021-08-16)
+
+
+### Features
+
+* **vue:** migrate to @yeger/vue2-masonry-wall ([099fd4f](https://github.com/DerYeger/magdalena-jirku/commit/099fd4fb615ab204c43557b32b29cb458d26bfe7))
+
 ## [1.31.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.2...v1.31.3) (2021-08-16)
 
 
