@@ -1,3 +1,16 @@
+# [1.33.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.32.0...v1.33.0) (2021-08-16)
+
+
+### Bug Fixes
+
+* **breadcrumbs:** prevent wrapping ([f0d4849](https://github.com/DerYeger/magdalena-jirku/commit/f0d4849dad6803dd979ad30a586ab09a106361e3))
+
+
+### Features
+
+* **hobby:** add posing-in-the-sky ([11e3cb2](https://github.com/DerYeger/magdalena-jirku/commit/11e3cb2504fd468c0614241e61641bdebd6be4dc))
+* **hobby:** add underwater-tour ([a806ac1](https://github.com/DerYeger/magdalena-jirku/commit/a806ac1b356e36c4684cdc876bf6a99efc0254cd))
+
 # [1.32.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.3...v1.32.0) (2021-08-16)
 
 
