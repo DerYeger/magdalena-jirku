@@ -1,3 +1,10 @@
+## [1.31.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.2...v1.31.3) (2021-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nuxt to v2.15.8 ([34e288d](https://github.com/DerYeger/magdalena-jirku/commit/34e288dd5f71b0c554b8da465ef3fec105bfac76))
+
 ## [1.31.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.31.1...v1.31.2) (2021-08-15)
 
 
