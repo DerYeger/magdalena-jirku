@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.34.0...v1.35.0) (2021-08-17)
+
+
+### Features
+
+* **avatar:** remove loading indicator ([bc2d9fb](https://github.com/DerYeger/magdalena-jirku/commit/bc2d9fbbe81b29511114d62f3331ed5ba3ae0096))
+
 # [1.34.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.33.1...v1.34.0) (2021-08-17)
 
 
