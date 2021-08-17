@@ -1,3 +1,15 @@
+# [1.34.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.33.1...v1.34.0) (2021-08-17)
+
+
+### Bug Fixes
+
+* **header:** disable background transition ([d4c89ee](https://github.com/DerYeger/magdalena-jirku/commit/d4c89ee29f5666c174165b8773185d6f056b0fc7))
+
+
+### Features
+
+* use nuxt-color-mode ([219068f](https://github.com/DerYeger/magdalena-jirku/commit/219068f3f217eb65224fdd9d6d7fe6d425bf49fa))
+
 ## [1.33.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.33.0...v1.33.1) (2021-08-17)
 
 
