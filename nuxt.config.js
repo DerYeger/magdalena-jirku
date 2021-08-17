@@ -64,7 +64,14 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
+    // https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode',
   ],
+
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
