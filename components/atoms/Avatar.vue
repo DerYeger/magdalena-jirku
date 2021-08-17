@@ -5,6 +5,7 @@
       lazy-src="images/avatar-lazy.webp"
       alt="Magdalena"
       :allow-fullscreen="false"
+      :placeholder="false"
     />
   </v-avatar>
 </template>
