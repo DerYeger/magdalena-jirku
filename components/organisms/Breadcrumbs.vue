@@ -1,5 +1,5 @@
 <template>
-  <v-breadcrumbs :items="breadcrumbs" nuxt="true" large class="breadcrumbs">
+  <v-breadcrumbs :items="breadcrumbs" nuxt :large="!small" class="breadcrumbs">
     <template #divider>
       <v-icon>{{ mdiChevronRight }}</v-icon>
     </template>
@@ -30,13 +30,19 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import { Breadcrumb } from '~/model/breadcrumbs'
 
 export default defineComponent({
+  props: {
+    small: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data() {
     return {
       mdiChevronRight,
     }
   },
   computed: {
-    breadcrumbs() {
+    breadcrumbs(): Breadcrumb[] {
       const locale = this.$i18n.locale
       const rawCrumbs = this.$store.state.breadcrumbs
       if (rawCrumbs.length < 2) {
