@@ -1,3 +1,10 @@
+## [1.33.1](https://github.com/DerYeger/magdalena-jirku/compare/v1.33.0...v1.33.1) (2021-08-17)
+
+
+### Bug Fixes
+
+* **breadcrumbs:** prevent overflow on small screens ([7ba7e3a](https://github.com/DerYeger/magdalena-jirku/commit/7ba7e3a4126142c8bff1fdf0026ea43d77089fbe))
+
 # [1.33.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.32.0...v1.33.0) (2021-08-16)
 
 
