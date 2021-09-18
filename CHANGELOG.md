@@ -1,3 +1,10 @@
+## [1.35.13](https://github.com/DerYeger/magdalena-jirku/compare/v1.35.12...v1.35.13) (2021-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prism-themes to v1.9.0 ([875078b](https://github.com/DerYeger/magdalena-jirku/commit/875078b03bfd06dddf703fee6691721bc7efb69e))
+
 ## [1.35.12](https://github.com/DerYeger/magdalena-jirku/compare/v1.35.11...v1.35.12) (2021-09-10)
 
 
