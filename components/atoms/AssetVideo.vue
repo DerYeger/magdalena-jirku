@@ -30,6 +30,7 @@ export default defineComponent({
 video {
   display: block;
 }
+
 video:focus {
   outline: unset;
 }
