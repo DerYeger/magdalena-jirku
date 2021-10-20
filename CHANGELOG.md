@@ -1,3 +1,10 @@
+## [1.36.6](https://github.com/DerYeger/magdalena-jirku/compare/v1.36.5...v1.36.6) (2021-10-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/i18n to v7.1.0 ([929e18a](https://github.com/DerYeger/magdalena-jirku/commit/929e18a87d57defd79ff928d79bfc2b13f343206))
+
 ## [1.36.5](https://github.com/DerYeger/magdalena-jirku/compare/v1.36.4...v1.36.5) (2021-10-15)
 
 
