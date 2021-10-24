@@ -59,7 +59,7 @@
     "eslint-plugin-vuetify": "1.1.0",
     "husky": "4.3.8",
     "jest": "27.3.1",
-    "lint-staged": "11.2.3",
+    "lint-staged": "11.2.4",
     "prettier": "2.4.1",
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "9.0.3",
