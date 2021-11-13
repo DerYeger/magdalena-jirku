@@ -1,6 +1,6 @@
 {
   "name": "magdalena-jirku",
-  "version": "1.36.14",
+  "version": "1.36.15",
   "private": true,
   "scripts": {
     "dev": "nuxt",
