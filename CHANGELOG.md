@@ -1,3 +1,10 @@
+## [1.36.16](https://github.com/DerYeger/magdalena-jirku/compare/v1.36.15...v1.36.16) (2021-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxt/content to v1.15.1 ([21491b9](https://github.com/DerYeger/magdalena-jirku/commit/21491b92606880482461e4e9194d8f1972bfd707))
+
 ## [1.36.15](https://github.com/DerYeger/magdalena-jirku/compare/v1.36.14...v1.36.15) (2021-11-13)
 
 
