@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.37.0...v1.38.0) (2021-11-23)
+
+
+### Features
+
+* **content:** update image ([fb97fe7](https://github.com/DerYeger/magdalena-jirku/commit/fb97fe732466632bd6ec248055b49e7f69ac02d6))
+
 # [1.37.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.36.16...v1.37.0) (2021-11-21)
 
 
