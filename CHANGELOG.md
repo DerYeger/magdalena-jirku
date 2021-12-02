@@ -1,3 +1,10 @@
+## [1.38.3](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.2...v1.38.3) (2021-12-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/composition-api to v0.31.0 ([14d539f](https://github.com/DerYeger/magdalena-jirku/commit/14d539ffe4eee6055a88d7bf4b9075fab82634dc))
+
 ## [1.38.2](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.1...v1.38.2) (2021-11-30)
 
 
