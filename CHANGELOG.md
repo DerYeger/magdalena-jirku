@@ -1,3 +1,10 @@
+## [1.38.13](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.12...v1.38.13) (2022-01-10)
+
+
+### Bug Fixes
+
+* **vuetify:** use conditional mini-variant ([6c7978f](https://github.com/DerYeger/magdalena-jirku/commit/6c7978fe15b8a17090f08694b947a258ce38db84))
+
 ## [1.38.12](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.11...v1.38.12) (2022-01-07)
 
 
