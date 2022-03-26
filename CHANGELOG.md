@@ -1,3 +1,10 @@
+## [1.38.27](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.26...v1.38.27) (2022-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @yeger/vue2-masonry-wall to v2.0.23 ([f1c2bce](https://github.com/DerYeger/magdalena-jirku/commit/f1c2bce8dcd2bb0da4864d84ee07c08bff76a66f))
+
 ## [1.38.26](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.25...v1.38.26) (2022-03-20)
 
 
