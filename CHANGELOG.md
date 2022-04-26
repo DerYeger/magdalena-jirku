@@ -1,3 +1,10 @@
+## [1.38.35](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.34...v1.38.35) (2022-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/i18n to v7.2.2 ([cb1f329](https://github.com/DerYeger/magdalena-jirku/commit/cb1f3293409443f9570b6c6f3220390603bfe4bd))
+
 ## [1.38.34](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.33...v1.38.34) (2022-04-22)
 
 
