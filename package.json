@@ -62,7 +62,7 @@
     "jest": "27.5.1",
     "lint-staged": "13.0.2",
     "postcss-html": "1.4.1",
-    "prettier": "2.7.0",
+    "prettier": "2.7.1",
     "stylelint": "14.9.1",
     "stylelint-config-html": "1.0.0",
     "stylelint-config-prettier": "9.0.3",
