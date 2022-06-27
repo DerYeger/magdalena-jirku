@@ -3,8 +3,16 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <nav class="justify-end flex flex-row gap-4 px-4">
-    <router-link to="/">{{ t('button.home') }}</router-link>
-    <router-link to="/projects">Projects</router-link>
+  <nav class="navigation justify-end flex flex-row gap-8 px-8">
+    <NavLink to="/">{{ t('pages.home') }}</NavLink>
+    <NavLink to="/graphic-design">
+      {{ t('pages.graphic-design') }}
+    </NavLink>
+    <NavLink to="/motion-design">
+      {{ t('pages.motion-design') }}
+    </NavLink>
+    <NavLink to="/drawings">
+      {{ t('pages.drawings') }}
+    </NavLink>
   </nav>
 </template>
