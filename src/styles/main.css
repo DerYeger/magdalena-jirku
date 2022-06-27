@@ -28,6 +28,7 @@ mark {
 :root {
   --primary: #54b3dd;
   --c-link: var(--primary);
+  --c-shadow: #2222;
   --anim-slow: 500ms;
   --anim-medium: 200ms;
 }
