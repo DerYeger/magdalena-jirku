@@ -4,7 +4,7 @@ thumbnail: jotunheim-calling/thumbnail.webp
 subtitle: Concept Art, November 2019
 createdAt: 2019-11-00T00:00:00Z
 programs:
-- photoshop
+  - photoshop
 ---
 
 Das Ergebnis meines ersten Uni-Projektes.
@@ -20,10 +20,13 @@ Hierbei wurde ich zum ersten Mal mit Bergen und Schnee konfrontiert, weshalb es 
 <asset-image src="jotunheim-calling/jotunheim_is_calling.webp" alt="Jotunheim Calling"></asset-image>
 
 ## Skizze
+
 <asset-image src="jotunheim-calling/jotunheim_1.webp" alt="Skizze"></asset-image>
 
 ## Beginn der Schatten- und Lichtsetzung
+
 <asset-image src="jotunheim-calling/jotunheim_2.webp" alt="Beginn der Schatten- und Lichtsetzung"></asset-image>
 
 ## Detaillierte Ausarbeitung
+
 <asset-image src="jotunheim-calling/jotunheim_3.webp" alt="Detaillierte Ausarbeitung"></asset-image>

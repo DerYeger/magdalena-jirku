@@ -4,8 +4,8 @@ thumbnail: crows-creek/thumbnail.webp
 subtitle: 3D Diorama, March 2020
 createdAt: 2020-03-00T00:00:00Z
 programs:
-- photoshop
-- maya
+  - photoshop
+  - maya
 ---
 
 My second university project had to be a 3D Diorama in a Low-Poly style.

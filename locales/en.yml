@@ -1,0 +1,18 @@
+about:
+  facts: Magdalena // {age} // Vienna // Graphic design // VFX & 3D Animation student at SAE
+
+button:
+  about: About / Impressum
+  back: Back
+  home: Home
+
+english: English
+
+german: German
+
+languages: Languages
+
+meta:
+  description: Personal portfolio website of Magdalena Jirku, a graphic design and visual effects artist.
+
+source: Source

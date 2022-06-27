@@ -1,15 +1,3 @@
-<template>
-  <div>
-    <h1 v-if="error.statusCode === 404">
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <nuxt-link :to="localePath('/')">{{ $t('home.title') }}</nuxt-link>
-  </div>
-</template>
-
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 
@@ -36,3 +24,15 @@ export default defineComponent({
   },
 })
 </script>
+
+<template>
+  <div>
+    <h1 v-if="error.statusCode === 404">
+      {{ pageNotFound }}
+    </h1>
+    <h1 v-else>
+      {{ otherError }}
+    </h1>
+    <nuxt-link :to="localePath('/')">{{ $t('home.title') }}</nuxt-link>
+  </div>
+</template>

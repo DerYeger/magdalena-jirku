@@ -4,11 +4,11 @@ thumbnail: bycicle/thumbnail.webp
 subtitle: 3D Tracking, January 2021
 createdAt: 2021-01-00T00:00:00Z
 programs:
-- maya
-- redshift
-- substancePainter
-- pfTrack
-- afterEffects
+  - maya
+  - redshift
+  - substancePainter
+  - pfTrack
+  - afterEffects
 ---
 
 The fourth university project was a 3D tracking project. The goal was to embed a 3D object into a real footage.

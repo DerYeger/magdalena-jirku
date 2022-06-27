@@ -1,0 +1,46 @@
+@import './markdown.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+}
+
+mark {
+  background: none;
+  color: inherit;
+  font-style: italic;
+  font-weight: bold;
+}
+
+:root {
+  --primary: #54b3dd;
+  --c-link: var(--primary);
+}
+
+a {
+  color: var(--c-link);
+  transition: opacity 200ms ease;
+}
+
+a:hover {
+  opacity: 80%;
+}
+
+img.square::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}

@@ -4,11 +4,11 @@ thumbnail: bycicle/thumbnail.webp
 subtitle: 3D Tracking, Januar 2021
 createdAt: 2021-01-00T00:00:00Z
 programs:
-- maya
-- redshift
-- substancePainter
-- pfTrack
-- afterEffects
+  - maya
+  - redshift
+  - substancePainter
+  - pfTrack
+  - afterEffects
 ---
 
 Das vierte Uni-Projekt ist ein 3D Tracking Projekt gewesen. Hierbei wird ein 3D Objekt in ein reales Filmmaterial eingebettet.

@@ -4,7 +4,7 @@ thumbnail: gestern-heute-morgen/thumbnail.webp
 subtitle: Ausstellungskatalog, Juni 2018
 createdAt: 2018-06-00T00:00:00Z
 programs:
-- inDesign
+  - inDesign
 ---
 
 Hierbei handelt es sich um mein Abschlussprojekt (Diplomarbeit) aus meiner Schulzeit.
