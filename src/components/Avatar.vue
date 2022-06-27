@@ -9,7 +9,6 @@
 <style scoped>
 .avatar {
   border-radius: 50%;
-  background: #e0e0e0;
-  box-shadow: 22px 22px 43px #bebebe, -22px -22px 43px #ffffff;
+  box-shadow: 0.5rem 0.5rem 1rem #bebebe, -0.5rem -0.5rem 1rem #ffffff;
 }
 </style>
