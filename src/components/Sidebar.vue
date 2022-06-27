@@ -17,7 +17,7 @@ const color = useHighlightColor(0.3)
 
 .sidebar {
   height: 100%;
-  filter: drop-shadow(0.25rem 0 0.1rem var(--c-shadow));
+  filter: drop-shadow(0.25rem 0 0.25rem var(--c-shadow));
 }
 
 .sidebar:after,

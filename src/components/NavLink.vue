@@ -23,7 +23,6 @@ const color = useHighlightColor(0.8)
   height: 0.125em;
   background-color: v-bind(color);
   transition: all var(--anim-medium) ease;
-  filter: drop-shadow(0 0.25em 0.1em var(--c-shadow));
 }
 
 .nav-link:hover {

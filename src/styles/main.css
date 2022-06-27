@@ -6,6 +6,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background: #eee;
 }
 
 #nprogress {
@@ -28,7 +29,7 @@ mark {
 :root {
   --primary: #54b3dd;
   --c-link: var(--primary);
-  --c-shadow: #2222;
+  --c-shadow: #42424266;
   --anim-slow: 500ms;
   --anim-medium: 200ms;
 }
