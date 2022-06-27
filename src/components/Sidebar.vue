@@ -5,7 +5,11 @@ const color = useHighlightColor(0.3)
 </script>
 
 <template>
-  <aside class="sidebar display-none md:display-initial"></aside>
+  <aside
+    class="sidebar display-none md:display-flex flex-col items-center py-4"
+  >
+    <Logo />
+  </aside>
 </template>
 
 <style scoped>

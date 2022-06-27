@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     Facts: typeof import('./components/Facts.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
+    Logo: typeof import('./components/Logo.vue')['default']
     Main: typeof import('./components/Main.vue')['default']
     Navigation: typeof import('./components/Navigation.vue')['default']
     NavLink: typeof import('./components/NavLink.vue')['default']
