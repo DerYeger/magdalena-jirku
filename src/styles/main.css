@@ -28,11 +28,13 @@ mark {
 :root {
   --primary: #54b3dd;
   --c-link: var(--primary);
+  --anim-slow: 500ms;
+  --anim-medium: 200ms;
 }
 
 a {
   color: var(--c-link);
-  transition: opacity 200ms ease;
+  transition: opacity var(--anim-medium) ease;
 }
 
 a:hover {
