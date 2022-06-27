@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { useAccounts } from '~/composables'
+
 const { t } = useI18n()
+const accounts = useAccounts()
 </script>
 
 <template>
@@ -27,6 +30,15 @@ const { t } = useI18n()
     <div>
       <span>Social</span>
       <a
+        v-for="(account, index) of accounts"
+        :key="index"
+        :href="account.link"
+        rel="noopener"
+        target="_blank"
+      >
+        {{ account.name }}
+      </a>
+      <a
         href="https://github.com/DerYeger/magdalena-jirku"
         rel="noopener"
         target="_blank"
@@ -41,6 +53,7 @@ const { t } = useI18n()
 .footer > div {
   display: flex;
   flex-direction: column;
+  gap: 0.25rem;
 }
 .footer > div > span:first-child {
   font-weight: bold;
