@@ -4,11 +4,11 @@ thumbnail: arkana/thumbnail.webp
 subtitle: Motion Graphics, April 2021
 createdAt: 2021-04-00
 programs:
-- photoshop
-- maya
-- substancePainter
-- redshift
-- afterEffects
+  - photoshop
+  - maya
+  - substancePainter
+  - redshift
+  - afterEffects
 ---
 
 Das Ergebnis meines fünften Uni-Projektes.
@@ -30,16 +30,20 @@ Dieses Video ist ein rein privates Projekt und ist keine echte Werbung.
 <asset-video src="arkana/arkana.webm"></asset-video>
 
 ## Concept Art
+
 <asset-image src="arkana/concept_art.webp" alt="Concept Art"></asset-image>
 
 ## 3D Modell
+
 <asset-image src="arkana/model.webp" alt="3D Modell"></asset-image>
 <asset-image src="arkana/sideview.webp" alt="Seitenansicht"></asset-image>
 <asset-image src="arkana/frontview.webp" alt="Frontansicht"></asset-image>
 
 ## Motion Graphics
+
 <asset-image src="arkana/motion_graphics_1.webp" alt="Motion Graphics"></asset-image>
 <asset-image src="arkana/motion_graphics_2.webp" alt="Motion Graphics"></asset-image>
 
 ## Logoanimation
+
 <asset-image src="arkana/logo.webp" alt="Logoanimation"></asset-image>

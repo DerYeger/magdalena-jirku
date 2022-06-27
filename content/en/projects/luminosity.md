@@ -4,8 +4,8 @@ thumbnail: luminosity/thumbnail.webp
 subtitle: Logo, Businesscard, Stationery Design, October 2021
 createdAt: 2021-10
 programs:
-- photoshop
-- illustrator
+  - photoshop
+  - illustrator
 ---
 
 In the course of my bachelor studies in business administration classes, we created the fictitious company «Luminosity Pictures».

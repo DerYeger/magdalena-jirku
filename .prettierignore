@@ -1,5 +1,0 @@
-.nuxt
-coverage
-dist
-node_modules
-static/sw.js

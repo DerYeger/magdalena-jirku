@@ -4,13 +4,13 @@ thumbnail: creartive/thumbnail.webp
 subtitle: Houdini-Simulation, Juli 2021
 createdAt: 2021-07
 programs:
-- photoshop
-- illustrator
-- maya
-- substancePainter
-- redshift
-- houdini
-- afterEffects
+  - photoshop
+  - illustrator
+  - maya
+  - substancePainter
+  - redshift
+  - houdini
+  - afterEffects
 ---
 
 Das Ergebnis meines Diplomprojektes im Rahmen meines Studiums auf dem SAE Institute.
@@ -34,9 +34,11 @@ Dieses Video wurde alleine für den privaten Gebrauch erschaffen.
 <asset-video src="creartive/creartive.webm"></asset-video>
 
 ## Storyboard
+
 <asset-image src="creartive/storyboard.webp" alt="Storyboard"></asset-image>
 
 ## Beautyshots
+
 <asset-image src="creartive/1_beautyshot_pencils.webp" alt="Beautyshot"></asset-image>
 <asset-image src="creartive/3_beautyshot_overview.webp" alt="Beautyshot"></asset-image>
 <asset-image src="creartive/4_beautyshot_closing_overview.webp" alt="Beautyshot"></asset-image>
@@ -44,6 +46,7 @@ Dieses Video wurde alleine für den privaten Gebrauch erschaffen.
 <asset-image src="creartive/6_beautyshot_closed.webp" alt="Beautyshot"></asset-image>
 
 ## Copyright
+
 - [Hintergrundmusik](https://www.youtube.com/watch?v=BLQ1gPGSzXM)
 - [Flyby Soundeffekt](https://freesound.org/people/kwahmah_02/sounds/316658/)
 - [Flyby 2 Soundeffekt](https://freesound.org/people/Robinhood76/sounds/263670/)

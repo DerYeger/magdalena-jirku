@@ -4,10 +4,10 @@ thumbnail: monday-morning/thumbnail.webp
 subtitle: 3D Animation, August 2020
 createdAt: 2020-08-00T00:00:00Z
 programs:
-- photoshop
-- maya
-- redshift
-- afterEffects
+  - photoshop
+  - maya
+  - redshift
+  - afterEffects
 ---
 
 My third university project was an animated short-film, which was created in collaboration with a colleague from my university course.
@@ -23,13 +23,17 @@ This video was made in collaboration with Atlanta Kyriakoulis.
 <asset-video src="monday-morning/monday_morning.webm"></asset-video>
 
 ## Concept Art
+
 <asset-image src="monday-morning/01_concept_art.webp" alt="Concept Art"></asset-image>
 
 ## Storyboard
+
 <asset-image src="monday-morning/02_storyboard.webp" alt="Storyboard"></asset-image>
 
 ## WIP Screenshot
+
 <asset-image src="monday-morning/03_wip_bee.webp" alt="WIP Screenshot"></asset-image>
 
 ## Beautyshot
+
 <asset-image src="monday-morning/04_render.webp" alt="Beautyshot"></asset-image>

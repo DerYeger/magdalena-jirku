@@ -4,7 +4,7 @@ thumbnail: storyboards/thumbnail.webp
 subtitle: 2018 - 2021
 createdAt: 2021-01
 programs:
-- photoshop
+  - photoshop
 ---
 
 You can see different storyboards, which were either created in the course of my university studies, or my hobby projects.

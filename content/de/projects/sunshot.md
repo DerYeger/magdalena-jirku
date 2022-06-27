@@ -4,10 +4,10 @@ thumbnail: sunshot/thumbnail.png
 subtitle: November 2021
 createdAt: 2021-11
 programs:
-- photoshop
-- substancePainter
-- redshift
-- afterEffects
+  - photoshop
+  - substancePainter
+  - redshift
+  - afterEffects
 ---
 
 Dieses Projekt war ein Speed-Projekt, an dem ich insgesamt eine Woche gearbeitet habe.

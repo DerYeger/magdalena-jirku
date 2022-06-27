@@ -4,8 +4,8 @@ thumbnail: luminosity/thumbnail.webp
 subtitle: Logo, Visitenkarten, Briefpapier Design, Oktober 2021
 createdAt: 2021-10
 programs:
-- photoshop
-- illustrator
+  - photoshop
+  - illustrator
 ---
 
 Im Zuge meines Bachelorstudiums im Unterricht für Betriebwirtschaftslehre, entstand das fiktive Unternehmen »Luminosity Pictures«.

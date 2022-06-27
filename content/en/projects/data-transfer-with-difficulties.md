@@ -4,9 +4,9 @@ thumbnail: data-transfer-with-difficulties/thumbnail.webp
 subtitle: 2D Animation, April 2019
 createdAt: 2019-04
 programs:
-- photoshop
-- animate
-- premiere
+  - photoshop
+  - animate
+  - premiere
 ---
 
 A video for the admission exam at the FH Salzburg.
@@ -20,5 +20,6 @@ Unfortunately, a virus was downloaded, which is now inside the computer and begi
 <asset-video src="data-transfer-with-difficulties/data_transfer_with_difficulties.webm"></asset-video>
 
 ## Concept Art
+
 <asset-image src="data-transfer-with-difficulties/concept_01.webp" alt="Concept Art"></asset-image>
 <asset-image src="data-transfer-with-difficulties/concept_02.webp" alt="Concept Art"></asset-image>
