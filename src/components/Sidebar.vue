@@ -5,14 +5,14 @@ const color = computed(() => {
   if (route.path === '/') {
     return 'rgba(255, 0, 0, 0.3)'
   } else if (route.path.startsWith('/projects')) {
-    return 'rgba(0, 0, 255, 0.3)'
+    return 'rgba(0, 50, 255, 0.3)'
   }
   return 'rgba(0, 0, 0, 0)'
 })
 </script>
 
 <template>
-  <aside class="sidebar"></aside>
+  <aside class="sidebar display-none md:display-initial"></aside>
 </template>
 
 <style scoped>
