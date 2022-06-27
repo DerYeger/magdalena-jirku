@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useHighlightColor } from '~/composables'
 
-const color = useHighlightColor()
+const color = useHighlightColor(0.3)
 </script>
 
 <template>
@@ -17,6 +17,7 @@ const color = useHighlightColor()
 
 .sidebar {
   height: 100%;
+  filter: drop-shadow(0.25rem 0 0.1rem var(--c-shadow));
 }
 
 .sidebar:after,

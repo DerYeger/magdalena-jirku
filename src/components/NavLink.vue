@@ -3,7 +3,7 @@ import { useHighlightColor } from '~/composables'
 
 const props = defineProps<{ to: string }>()
 const { to } = toRefs(props)
-const color = useHighlightColor()
+const color = useHighlightColor(0.8)
 </script>
 
 <template>
@@ -20,9 +20,10 @@ const color = useHighlightColor()
   width: 2em;
   left: calc(50% - 2em / 2);
   top: 1.35em;
-  height: 0.25em;
+  height: 0.125em;
   background-color: v-bind(color);
   transition: all var(--anim-medium) ease;
+  filter: drop-shadow(0 0.25em 0.1em var(--c-shadow));
 }
 
 .nav-link:hover {
@@ -30,8 +31,15 @@ const color = useHighlightColor()
 }
 
 .nav-link:hover::after {
+  width: max(50%, 2em);
+  left: calc(50% - max(50%, 2em) / 2);
+  top: 1.5em;
+}
+
+.nav-link.router-link-exact-active::after {
   width: 100%;
   left: 0;
-  top: 1.5em;
+  height: 0.2em;
+  top: calc(1.35em + 0.125em + 0.5 * 0.2em);
 }
 </style>

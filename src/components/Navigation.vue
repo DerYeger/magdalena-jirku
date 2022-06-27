@@ -3,7 +3,9 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <nav class="navigation justify-end flex flex-row gap-8 px-8">
+  <nav
+    class="navigation text-xs sm:text-sm justify-center md:justify-end flex flex-row gap-8 px-8 flex-wrap"
+  >
     <NavLink to="/">{{ t('pages.home') }}</NavLink>
     <NavLink to="/graphic-design">
       {{ t('pages.graphic-design') }}
