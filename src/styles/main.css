@@ -34,11 +34,12 @@ mark {
 
 a {
   color: var(--c-link);
+  text-decoration: none;
   transition: opacity var(--anim-medium) ease;
 }
 
 a:hover {
-  opacity: 80%;
+  opacity: 50%;
 }
 
 img.square::after {
