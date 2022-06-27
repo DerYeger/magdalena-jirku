@@ -4,6 +4,8 @@ const route = useRoute()
 const color = computed(() => {
   if (route.path === '/') {
     return 'rgba(255, 0, 0, 0.3)'
+  } else if (route.path.startsWith('/projects')) {
+    return 'rgba(0, 0, 255, 0.3)'
   }
   return 'rgba(0, 0, 0, 0)'
 })
@@ -42,7 +44,8 @@ const color = computed(() => {
 }
 
 .sidebar:after {
-  background: v-bind(color);
+  background-color: v-bind(color);
+  transition: all var(--anim-slow) ease;
   z-index: -1;
 }
 </style>

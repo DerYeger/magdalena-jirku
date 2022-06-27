@@ -1,7 +1,7 @@
 <template>
-  <div class="flex w-full h-full">
+  <div class="flex w-full h-full overflow-y-hidden">
     <Sidebar />
-    <div class="flex-1">
+    <div class="flex-1 overflow-y-auto">
       <Header />
       <Main>
         <router-view />
