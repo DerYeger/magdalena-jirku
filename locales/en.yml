@@ -15,4 +15,10 @@ languages: Languages
 meta:
   description: Personal portfolio website of Magdalena Jirku, a graphic design and visual effects artist.
 
+pages:
+  drawings: Drawings
+  graphic-design: Graphic Design
+  home: Home
+  motion-design: Motion Design
+
 source: Source

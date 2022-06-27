@@ -1,14 +1,7 @@
 <script setup lang="ts">
-const route = useRoute()
+import { useHighlightColor } from '~/composables'
 
-const color = computed(() => {
-  if (route.path === '/') {
-    return 'rgba(255, 0, 0, 0.3)'
-  } else if (route.path.startsWith('/projects')) {
-    return 'rgba(0, 50, 255, 0.3)'
-  }
-  return 'rgba(0, 0, 0, 0)'
-})
+const color = useHighlightColor()
 </script>
 
 <template>
