@@ -1,11 +1,6 @@
 about:
   facts: Magdalena // {age} // Vienna // Graphic design // VFX & 3D Animation student at SAE
 
-button:
-  about: About / Impressum
-  back: Back
-  home: Home
-
 english: English
 
 german: German
@@ -19,6 +14,8 @@ pages:
   drawings: Drawings
   graphic-design: Graphic Design
   home: Home
+  impressum: Impressum
+  legal: Legal
   motion-design: Motion Design
 
 source: Source
