@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     DateRange: typeof import('./components/date/DateRange.vue')['default']
     Dot: typeof import('./components/Dot.vue')['default']
     Facts: typeof import('./components/Facts.vue')['default']
+    FeaturedContent: typeof import('./components/FeaturedContent.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
     Logo: typeof import('./components/Logo.vue')['default']

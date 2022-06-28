@@ -12,7 +12,7 @@ const color = useHighlightColor(0.3)
     <Spacer />
     <div class="text-white text-center flex flex-col gap-2">
       <span>Magdalena Jirku</span>
-      <span class="text-xs">Creative Artist</span>
+      <span class="text-serif text-xl">Creative Artist</span>
     </div>
     <Spacer />
     <Logo class="hidden" />

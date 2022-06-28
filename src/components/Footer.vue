@@ -9,9 +9,6 @@ const accounts = useAccounts()
   <footer class="footer pa-4 text-xs flex flex-wrap justify-center gap-8">
     <div>
       <span>{{ t('pages.legal') }}</span>
-      <span class="text-lighter">
-        2021 - {{ new Date().getFullYear() }} &copy; Magdalena Jirku
-      </span>
       <router-link
         to="/impressum"
         :title="t('pages.impressum')"
@@ -26,6 +23,16 @@ const accounts = useAccounts()
       >
         {{ t('pages.legal') }}
       </router-link>
+      <span class="text-lighter">
+        2021 - {{ new Date().getFullYear() }} &copy; Magdalena Jirku
+      </span>
+      <a
+        href="https://github.com/DerYeger/magdalena-jirku"
+        rel="noopener"
+        target="_blank"
+      >
+        {{ t('source') }}
+      </a>
     </div>
     <div>
       <span>Social</span>
@@ -37,13 +44,6 @@ const accounts = useAccounts()
         target="_blank"
       >
         {{ account.name }}
-      </a>
-      <a
-        href="https://github.com/DerYeger/magdalena-jirku"
-        rel="noopener"
-        target="_blank"
-      >
-        {{ t('source') }}
       </a>
     </div>
   </footer>
