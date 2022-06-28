@@ -99,10 +99,12 @@ export default defineConfig({
           fonts: {
             // these will extend the default theme
             sans: 'Montserrat:400,500,700',
+            serif: 'Playfair Display:400',
           },
         }),
       ],
       shortcuts: [
+        ['text-serif', 'font-serif font-extralight'],
         ['text-primary', 'text-black'],
         ['text-light', 'op95'],
         ['text-lighter', 'op70'],
