@@ -2,6 +2,8 @@
 import { useHighlightColor } from '~/composables'
 
 const color = useHighlightColor(0.3)
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -11,8 +13,10 @@ const color = useHighlightColor(0.3)
     <Logo />
     <Spacer />
     <div class="text-white text-center flex flex-col gap-2">
-      <span>Magdalena Jirku</span>
-      <span class="text-serif text-xl">Creative Artist</span>
+      <span>{{ t('about.name') }}</span>
+      <span class="text-serif text-xl uppercase">{{
+        t('about.creative-artist')
+      }}</span>
     </div>
     <Spacer />
     <Logo class="hidden" />

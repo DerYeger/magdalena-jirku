@@ -97,8 +97,7 @@ export default defineConfig({
         }),
         presetWebFonts({
           fonts: {
-            // these will extend the default theme
-            sans: 'Montserrat:400,500,700',
+            sans: 'Source Sans Pro:400,500,700',
             serif: 'Playfair Display:400',
           },
         }),
