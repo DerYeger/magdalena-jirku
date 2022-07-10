@@ -27,6 +27,7 @@
     "prism-theme-vars": "0.2.3",
     "vue": "3.2.37",
     "vue-demi": "0.13.1",
+    "vue-easy-lightbox": "1.5.0",
     "vue-i18n": "9.1.10",
     "vue-marmoset-viewer": "3.0.33",
     "vue-router": "4.0.16"

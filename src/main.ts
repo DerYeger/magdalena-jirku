@@ -2,6 +2,7 @@ import MasonryWall from '@yeger/vue-masonry-wall'
 import { setupLayouts } from 'virtual:generated-layouts'
 import generatedRoutes from 'virtual:generated-pages'
 import { ViteSSG } from 'vite-ssg'
+import VueEasyLightbox from 'vue-easy-lightbox'
 import * as VueMarmosetViewer from 'vue-marmoset-viewer'
 
 import App from './App.vue'
@@ -23,5 +24,6 @@ export const createApp = ViteSSG(
     )
     ctx.app.use(MasonryWall)
     ctx.app.use(VueMarmosetViewer.MarmosetViewer)
+    ctx.app.use(VueEasyLightbox)
   }
 )
