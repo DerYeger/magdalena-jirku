@@ -9,42 +9,12 @@ export type RouteWithFrontmatter = RouteRecordNormalized & {
   }
 }
 
-export interface Award {
-  name: string
-  date: string
-  href?: string
-}
+export type ImageType = 'webp' | 'jpg' | 'png'
 
-export interface Document extends File<'documents'> {
-  language: string
-}
+export type ImagePath = `/img/${string}.${ImageType}`
 
-export interface Education {
-  name: string
-  institution: string
-  startDate: string
-  endDate?: string
-}
-
-export interface Experience {
-  name: string
-  description: string
-  startDate: string
-  endDate?: string
-  href?: string
-}
-
-export interface File<Type extends 'documents' | 'models'> {
-  name: string
-  date: string
-  dateFormat?: 'default' | 'month'
-  type: Type
-}
-
-export type Model = File<'models'>
-
-export interface Project {
-  repo: string
-  img: string
-  title: string
+export interface GalleryImage {
+  src: ImagePath
+  title?: string
+  thumbnail?: ImagePath
 }
