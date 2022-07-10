@@ -7,7 +7,7 @@ const age = useAge()
 
 <template>
   <div class="container mx-auto md:pa-8">
-    <div
+    <section
       class="flex md:gap-12 flex-col md:flex-row items-center md:items-start"
     >
       <Avatar />
@@ -19,18 +19,6 @@ const age = useAge()
         <span class="text-justify">{{ t('about.text.second') }}</span>
         <span class="text-justify" v-html="t('about.text.third')" />
       </div>
-    </div>
-    <div class="mt-16">
-      <h1 class="text-serif text-5xl capitalize">
-        {{ t('headings.most-recent-artwork') }}
-      </h1>
-      <div
-        class="flex gap-4 flex-col lg:flex-row lg:justify-evenly children:min-w-0 children:flex-1"
-      >
-        <FeaturedContent />
-        <FeaturedContent />
-        <FeaturedContent />
-      </div>
-    </div>
+    </section>
   </div>
 </template>
