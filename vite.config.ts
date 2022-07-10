@@ -114,10 +114,6 @@ export default defineConfig({
         ['icon-btn', 'btn-base'],
         ['prose', 'text-light fw400 lh-7'],
         ['flex-center', 'flex items-center'],
-        [
-          'card',
-          'pa-4 border-solid border-2 border-$primary text-light hover:shadow-xl rounded-xl flex flex-col gap-4 text-primary op80 hover:op100',
-        ],
         ['subheading', 'mt-0 mb-2'],
       ],
     }),
