@@ -9,7 +9,7 @@ export type RouteWithFrontmatter = RouteRecordNormalized & {
   }
 }
 
-export type ImageType = 'webp' | 'jpg' | 'png'
+export type ImageType = 'webp'
 
 export type ImagePath = `/img/${string}.${ImageType}`
 

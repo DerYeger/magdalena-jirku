@@ -1,9 +1,14 @@
 import type { Showcase } from '~/types'
 
-const billettShowcase: Showcase = {
+const birthdayCardShowcase: Showcase = {
   title: 'Birthday Cards',
   images: [
-    { src: '/img/graphic-design/billett/birthday.png', title: 'Birthday' },
+    {
+      src: '/img/graphic-design/birthday_cards/birthday_card_1.webp',
+    },
+    {
+      src: '/img/graphic-design/birthday_cards/birthday_card_2.webp',
+    },
   ],
 }
 
@@ -75,7 +80,7 @@ const showcases = [
   vectorGraphicsShowcase,
   storyboardShowcase,
   exhibitionCatalogShowcase,
-  billettShowcase,
+  birthdayCardShowcase,
 ]
 
 export function useGraphicDesignShowcases(): Showcase[] {
