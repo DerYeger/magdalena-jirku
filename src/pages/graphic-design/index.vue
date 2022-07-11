@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import { useGraphicDesignGallery } from '~/composables'
-import type { GalleryImage } from '~/types'
+import { useGraphicDesignShowcases } from '~/composables'
 
-const images: GalleryImage[] = useGraphicDesignGallery()
+const showcases = useGraphicDesignShowcases()
 </script>
 
 <template>
-  <Gallery :images="images" />
+  <Showcase
+    v-for="(showcase, index) of showcases"
+    :key="index"
+    :title="showcase.title"
+    :images="showcase.images"
+  />
 </template>
