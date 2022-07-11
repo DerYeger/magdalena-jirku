@@ -19,6 +19,7 @@ declare module '@vue/runtime-core' {
     NavLink: typeof import('./components/NavLink.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Showcase: typeof import('./components/Showcase.vue')['default']
     Sidebar: typeof import('./components/Sidebar.vue')['default']
     Spacer: typeof import('./components/Spacer.vue')['default']
     Wrapper: typeof import('./components/Wrapper.vue')['default']

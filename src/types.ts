@@ -18,3 +18,8 @@ export interface GalleryImage {
   title?: string
   thumbnail?: ImagePath
 }
+
+export interface Showcase {
+  title: string
+  images: GalleryImage[]
+}
