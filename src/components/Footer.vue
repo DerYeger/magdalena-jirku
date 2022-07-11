@@ -6,7 +6,7 @@ const accounts = useAccounts()
 </script>
 
 <template>
-  <footer class="footer pa-4 text-xs flex flex-wrap justify-center gap-8">
+  <footer class="footer pa-4 text-xs flex justify-center gap-8">
     <div>
       <span>{{ t('pages.legal') }}</span>
       <router-link
@@ -24,7 +24,8 @@ const accounts = useAccounts()
         {{ t('pages.legal') }}
       </router-link>
       <span class="text-lighter">
-        2021 - {{ new Date().getFullYear() }} &copy; Magdalena Jirku
+        2021 - {{ new Date().getFullYear() }} &copy;<br />
+        Magdalena Jirku
       </span>
       <a
         href="https://github.com/DerYeger/magdalena-jirku"
@@ -35,7 +36,7 @@ const accounts = useAccounts()
       </a>
     </div>
     <div>
-      <span>Social</span>
+      <span>{{ t('footer.social') }}</span>
       <a
         v-for="(account, index) of accounts"
         :key="index"
@@ -44,6 +45,33 @@ const accounts = useAccounts()
         target="_blank"
       >
         {{ account.name }}
+      </a>
+    </div>
+    <div>
+      <span>{{ t('footer.credits') }}</span>
+      <a href="https://www.freepik.com" target="_blank" rel="noopener">
+        Mockup by rawpixel.com
+      </a>
+      <a
+        href="https://www.freepik.com/psd/brochure"
+        target="_blank"
+        rel="noopener"
+      >
+        Mockup by eightonesix
+      </a>
+      <a
+        href="https://www.freepik.com/psd/brochure"
+        target="_blank"
+        rel="noopener"
+      >
+        Mockup by crowf
+      </a>
+      <a
+        href="https://www.freepik.com/psd/brochure"
+        target="_blank"
+        rel="noopener"
+      >
+        Mockup by ehby
       </a>
     </div>
   </footer>
