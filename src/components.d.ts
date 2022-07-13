@@ -6,6 +6,7 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Avatar: typeof import('./components/Avatar.vue')['default']
+    Creartive: typeof import('./components/projects/Creartive.vue')['default']
     Date: typeof import('./components/date/Date.vue')['default']
     DateRange: typeof import('./components/date/DateRange.vue')['default']
     Dot: typeof import('./components/Dot.vue')['default']
