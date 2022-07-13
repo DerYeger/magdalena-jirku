@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import type { GalleryImage } from '~/types'
 
-const props = defineProps<{
-  images: GalleryImage[]
-}>()
+const props = withDefaults(
+  defineProps<{
+    images: GalleryImage[]
+    imageWidth: number
+  }>(),
+  { imageWidth: 300 }
+)
 const { images } = toRefs(props)
 
 const selectedImage = ref<number | undefined>(undefined)
@@ -24,8 +28,9 @@ const { width } = useWindowSize()
   <masonry-wall
     v-slot="{ item, index }"
     :items="images"
-    :column-width="width >= 767 ? 300 : 150"
+    :column-width="width >= 767 ? imageWidth : imageWidth / 2"
     :gap="16"
+    class="w-full"
   >
     <div
       class="w-full children:w-full"
