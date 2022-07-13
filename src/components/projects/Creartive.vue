@@ -17,7 +17,7 @@ const images: GalleryImage[] = [
       <video
         controls
         controlslist="nodownload"
-        class="max-w-full md:max-w-32rem display-block"
+        class="w-full md:max-w-32rem display-block"
         poster="/img/projects/creartive/1_Beautyshot_Pencils.webp"
       >
         <source src="/img/projects/creartive/Creartive.webm" />

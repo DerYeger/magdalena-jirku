@@ -8,7 +8,7 @@ const { title, images } = toRefs(props)
 
 <template>
   <section class="showcase max-w-85rem mx-auto">
-    <h1 class="font-serif">{{ title }}</h1>
+    <h1 class="font-serif text-center">{{ title }}</h1>
     <slot />
     <Gallery :images="images" />
   </section>

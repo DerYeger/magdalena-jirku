@@ -8,7 +8,7 @@ const props = withDefaults(
   }>(),
   { imageWidth: 300 }
 )
-const { images } = toRefs(props)
+const { images, imageWidth } = toRefs(props)
 
 const selectedImage = ref<number | undefined>(undefined)
 
@@ -22,29 +22,29 @@ function clearSelection() {
 const lightboxVisible = computed(() => selectedImage.value !== undefined)
 
 const { width } = useWindowSize()
+
+const imageSize = computed(() =>
+  width.value >= 767 ? imageWidth.value : imageWidth.value / 2
+)
 </script>
 
 <template>
-  <masonry-wall
-    v-slot="{ item, index }"
-    :items="images"
-    :column-width="width >= 767 ? imageWidth : imageWidth / 2"
-    :gap="16"
-    class="w-full"
-  >
+  <div class="w-full flex flex-row justify-center flex-wrap gap-4">
     <div
-      class="w-full children:w-full"
+      v-for="(image, index) of images"
+      :key="index"
       :style="{
-        backgroundImage: `url(${item.thumbnail ?? item.src})`,
+        backgroundImage: `url(${image.thumbnail ?? image.src})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         minHeight: '64px',
-        height: 'auto',
+        height: `${imageSize}px`,
+        width: `${imageSize}px`,
         aspectRatio: '1',
       }"
       @click="() => selectImage(index)"
     />
-  </masonry-wall>
+  </div>
   <ClientOnly>
     <vue-easy-lightbox
       move-disabled
