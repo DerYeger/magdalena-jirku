@@ -23,6 +23,7 @@ declare module '@vue/runtime-core' {
     Showcase: typeof import('./components/Showcase.vue')['default']
     Sidebar: typeof import('./components/Sidebar.vue')['default']
     Spacer: typeof import('./components/Spacer.vue')['default']
+    TrackingComp: typeof import('./components/projects/TrackingComp.vue')['default']
     Wrapper: typeof import('./components/Wrapper.vue')['default']
   }
 }
