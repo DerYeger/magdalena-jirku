@@ -13,7 +13,7 @@
           src="/img/projects/tracking_comp/Bycicle_Comp_Splitscreen_1.webm"
         />
       </video>
-      <span class="text-center md:text-end">
+      <span class="text-justify">
         This is the result of my first tracking project. The goal was to embed a
         3D object into real footage. I chose an old gate in the woods with an
         already rusted bike leaning against it. All content in this video was

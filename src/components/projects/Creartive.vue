@@ -22,7 +22,7 @@ const images: GalleryImage[] = [
       >
         <source src="/img/projects/creartive/Creartive.webm" />
       </video>
-      <span class="text-center md:text-start">
+      <span class="text-justify">
         Creative is the result of my diploma project. The goal was to create an
         advertisement for a colored pencil case. The color scheme is colorful
         and playful, yet classy. The focus was to achieve a flow within the
