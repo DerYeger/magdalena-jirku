@@ -6,12 +6,14 @@
       <video
         controls
         controlslist="nodownload"
+        playsinline
         class="w-full md:max-w-32rem flex-shrink-0 display-block"
         poster="/img/projects/tracking_comp/beautyshot.webp"
       >
         <source
           src="/img/projects/tracking_comp/Bycicle_Comp_Splitscreen_1.webm"
         />
+        <source src="/img/projects/tracking_comp/splitscreen.mp4" />
       </video>
       <span class="text-justify">
         This is the result of my first tracking project. The goal was to embed a
