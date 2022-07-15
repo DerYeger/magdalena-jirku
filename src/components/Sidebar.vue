@@ -32,7 +32,8 @@ const { t } = useI18n()
 
 .sidebar {
   height: 100%;
-  filter: drop-shadow(0.25rem 0 0.25rem var(--c-shadow));
+  /* TODO: Enable once Safari flickering is solved */
+  /* filter: drop-shadow(0.25rem 0 0.25rem var(--c-shadow)); */
 }
 .sidebar,
 .sidebar > * {
