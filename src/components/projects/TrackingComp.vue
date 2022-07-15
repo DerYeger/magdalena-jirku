@@ -6,7 +6,7 @@
       <video
         controls
         controlslist="nodownload"
-        class="w-full md:max-w-32rem display-block"
+        class="w-full md:max-w-32rem flex-shrink-0 display-block"
         poster="/img/projects/tracking_comp/beautyshot.webp"
       >
         <source
