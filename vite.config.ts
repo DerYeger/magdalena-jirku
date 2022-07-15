@@ -142,7 +142,7 @@ export default defineConfig({
       manifest: {
         name: 'Magdalena Jirku',
         short_name: 'Magdalena Jirku',
-        theme_color: '#ffffff',
+        theme_color: '#eee',
         icons: [
           {
             src: '/pwa-192x192.png',

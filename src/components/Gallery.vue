@@ -4,7 +4,7 @@ import type { GalleryImage } from '~/types'
 const props = withDefaults(
   defineProps<{
     images: GalleryImage[]
-    imageWidth: number
+    imageWidth?: number
   }>(),
   { imageWidth: 300 }
 )
