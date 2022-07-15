@@ -6,5 +6,7 @@ const images: GalleryImage[] = useDrawingsGallery()
 </script>
 
 <template>
-  <Gallery :images="images" />
+  <div class="w-full max-w-85rem mx-auto">
+    <Gallery :images="images" />
+  </div>
 </template>

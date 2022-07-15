@@ -6,7 +6,7 @@ const age = useAge()
 </script>
 
 <template>
-  <div class="container mx-auto md:pa-8">
+  <div class="container max-w-65rem mx-auto md:pa-8">
     <section
       class="flex md:gap-12 flex-col md:flex-row items-center md:items-start"
     >

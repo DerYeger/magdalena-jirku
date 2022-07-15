@@ -2,10 +2,12 @@
 import type { GalleryImage } from '~/types'
 
 const images: GalleryImage[] = [
-  { src: '/img/projects/creartive/1_Beautyshot_Pencils.webp' },
-  { src: '/img/projects/creartive/3_Beautyshot_Overview.webp' },
-  { src: '/img/projects/creartive/4_Beautyshot_Closing_Overview.1064.webp' },
-  { src: '/img/projects/creartive/5_Beautyshot_Closing.webp' },
+  { src: '/img/projects/creartive/5_Beautyshot_Creartive_Pencilrow_HD.jpg' },
+  { src: '/img/projects/creartive/7_Beautyshot_Creartive_Overview_HD.jpg' },
+  { src: '/img/projects/creartive/8_Beautyshot_Creartive_Closing_HD.jpg' },
+  {
+    src: '/img/projects/creartive/10_Beautyshot_Creartive_Closing_Overview_HD.jpg',
+  },
 ]
 </script>
 
@@ -17,8 +19,8 @@ const images: GalleryImage[] = [
       <video
         controls
         controlslist="nodownload"
-        class="w-full md:max-w-32rem display-block"
-        poster="/img/projects/creartive/Creartive_Thumbnail.png"
+        class="w-full md:max-w-32rem flex-shrink-0 display-block"
+        :poster="images[0].src"
       >
         <source src="/img/projects/creartive/Creartive.webm" />
       </video>
