@@ -26,6 +26,7 @@ const color = useHighlightColor(0.8)
 }
 
 .nav-link:hover {
+  opacity: 100%;
   scale: 1.1;
 }
 
