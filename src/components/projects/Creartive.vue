@@ -19,10 +19,12 @@ const images: GalleryImage[] = [
       <video
         controls
         controlslist="nodownload"
+        playsinline
         class="w-full md:max-w-32rem flex-shrink-0 display-block"
         :poster="images[0].src"
       >
         <source src="/img/projects/creartive/Creartive.webm" />
+        <source src="/img/projects/creartive/Creartive.mp4" />
       </video>
       <span class="text-justify">
         Creative is the result of my diploma project. The goal was to create an
