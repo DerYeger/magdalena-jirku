@@ -6,8 +6,6 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Avatar: typeof import('./components/Avatar.vue')['default']
-    CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
-    CarbonLogoXing: typeof import('~icons/carbon/logo-xing')['default']
     Creartive: typeof import('./components/projects/Creartive.vue')['default']
     Date: typeof import('./components/date/Date.vue')['default']
     DateRange: typeof import('./components/date/DateRange.vue')['default']
