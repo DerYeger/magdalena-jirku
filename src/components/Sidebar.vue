@@ -13,7 +13,7 @@ const bannerImage = computed(() => {
   } else if (route.path.startsWith(`/graphic-design`)) {
     return 'url(/img/graphic-design/Vector_Graphics/Howling_Sunset.webp)'
   } else if (route.path.startsWith(`/motion-design`)) {
-    return 'url(/img/projects/Creartive/7_Beautyshot_Creartive_Overview_HD.jpg)'
+    return 'url(/img/projects/creartive/7_Beautyshot_Creartive_Overview_HD.jpg)'
   } else if (route.path.startsWith(`/drawings`)) {
     return 'url(/img/drawings/waiting_in_the_twilight.webp)'
   }
