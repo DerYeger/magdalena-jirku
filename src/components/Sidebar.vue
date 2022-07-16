@@ -23,18 +23,53 @@ const bannerImage = computed(() => {
 
 <template>
   <aside
-    class="sidebar display-none md:display-flex flex-col items-center py-4"
+    class="sidebar display-none md:display-flex flex-col items-center justify-between"
   >
-    <Logo />
-    <Spacer />
+    <Logo class="pt-4" />
     <div class="text-white text-center flex flex-col gap-2">
       <span>{{ t('about.name') }}</span>
       <span class="text-serif text-xl uppercase">
         {{ t('about.creative-artist') }}
       </span>
     </div>
-    <Spacer />
-    <Logo class="hidden" />
+    <div class="flex gap-1 space-around pb-2">
+      <a
+        class="icon-btn"
+        href="https://www.artstation.com/keshyx"
+        rel="noopener"
+        target="_blank"
+        title="ArtStation"
+      >
+        <simple-icons-artstation />
+      </a>
+      <a
+        class="icon-btn"
+        href="https://www.deviantart.com/keshyx"
+        rel="noopener"
+        target="_blank"
+        title="DeviantArt"
+      >
+        <simple-icons-deviantart />
+      </a>
+      <a
+        class="icon-btn"
+        href="https://www.linkedin.com/in/magdalena-jirku-81bb16210/?original_referer=https%3A%2F%2Fmagdalena-jirku.at%2F"
+        rel="noopener"
+        target="_blank"
+        title="LinkedIn"
+      >
+        <simple-icons-linkedin />
+      </a>
+      <a
+        class="icon-btn"
+        href="https://www.xing.com/profile/Magdalena_Jirku"
+        rel="noopener"
+        target="_blank"
+        title="XING"
+      >
+        <simple-icons-xing />
+      </a>
+    </div>
   </aside>
 </template>
 

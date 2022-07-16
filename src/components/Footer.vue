@@ -27,13 +27,6 @@ const accounts = useAccounts()
         2021 - {{ new Date().getFullYear() }} &copy;<br />
         Magdalena Jirku
       </span>
-      <a
-        href="https://github.com/DerYeger/magdalena-jirku"
-        rel="noopener"
-        target="_blank"
-      >
-        {{ t('source') }}
-      </a>
     </div>
     <div>
       <span>{{ t('footer.social') }}</span>
@@ -49,6 +42,13 @@ const accounts = useAccounts()
     </div>
     <div>
       <span>{{ t('footer.credits') }}</span>
+      <a
+        href="https://github.com/DerYeger/magdalena-jirku"
+        rel="noopener"
+        target="_blank"
+      >
+        Website by Jan Müller
+      </a>
       <a href="https://www.freepik.com" target="_blank" rel="noopener">
         Mockup by rawpixel.com
       </a>
