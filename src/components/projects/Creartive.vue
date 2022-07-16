@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useSlideIn } from '~/composables'
 import type { GalleryImage } from '~/types'
 
 const images: GalleryImage[] = [
@@ -9,10 +10,13 @@ const images: GalleryImage[] = [
     src: '/img/projects/creartive/10_Beautyshot_Creartive_Closing_Overview_HD.jpg',
   },
 ]
+
+const section = ref<HTMLElement>()
+useSlideIn(section)
 </script>
 
 <template>
-  <section class="max-w-65rem flex flex-col items-center gap-8">
+  <section ref="section" class="max-w-65rem flex flex-col items-center gap-8">
     <h1 class="font-serif">Creartive</h1>
     <h2 class="text-lighter font-serif mt--6 text-lg">July 2021</h2>
     <div class="flex flex-col items-center justify-center gap-8 md:flex-row">
