@@ -6,6 +6,8 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Avatar: typeof import('./components/Avatar.vue')['default']
+    CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
+    CarbonLogoXing: typeof import('~icons/carbon/logo-xing')['default']
     Creartive: typeof import('./components/projects/Creartive.vue')['default']
     Date: typeof import('./components/date/Date.vue')['default']
     DateRange: typeof import('./components/date/DateRange.vue')['default']
@@ -22,6 +24,10 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     Showcase: typeof import('./components/Showcase.vue')['default']
     Sidebar: typeof import('./components/Sidebar.vue')['default']
+    SimpleIconsArtstation: typeof import('~icons/simple-icons/artstation')['default']
+    SimpleIconsDeviantart: typeof import('~icons/simple-icons/deviantart')['default']
+    SimpleIconsLinkedin: typeof import('~icons/simple-icons/linkedin')['default']
+    SimpleIconsXing: typeof import('~icons/simple-icons/xing')['default']
     Spacer: typeof import('./components/Spacer.vue')['default']
     TrackingComp: typeof import('./components/projects/TrackingComp.vue')['default']
     Wrapper: typeof import('./components/Wrapper.vue')['default']

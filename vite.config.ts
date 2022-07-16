@@ -77,7 +77,12 @@ export default defineConfig({
         // https://github.com/antfu/unplugin-icons
         IconsResolver({
           componentPrefix: '',
-          enabledCollections: ['carbon', 'logos', 'vscode-icons'],
+          enabledCollections: [
+            'carbon',
+            'logos',
+            'vscode-icons',
+            'simple-icons',
+          ],
         }),
       ],
 
@@ -111,7 +116,7 @@ export default defineConfig({
           'btn-base',
           'px-2 py-1 rounded inline-flex justify-center gap-2 leading-30px children:mya !no-underline cursor-pointer text-black opacity-50 hover:opacity-80',
         ],
-        ['icon-btn', 'btn-base'],
+        ['icon-btn', 'btn-base text-white op-100'],
         ['prose', 'text-light fw400 lh-7'],
         ['flex-center', 'flex items-center'],
         ['subheading', 'mt-0 mb-2'],
