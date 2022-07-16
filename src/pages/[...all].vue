@@ -5,6 +5,7 @@ const { t } = useI18n()
 const highlightColor = useHighlightColor(0.5)
 
 const router = useRouter()
+onMounted(() => router.push('/'))
 </script>
 
 <template>
