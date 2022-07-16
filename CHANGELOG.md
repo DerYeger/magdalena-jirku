@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.0.2...v2.1.0) (2022-07-16)
+
+
+### Bug Fixes
+
+* update image path ([56c7ed2](https://github.com/DerYeger/magdalena-jirku/commit/56c7ed20edaa87fd8fc466612a374d7b9b6e17da))
+
+
+### Features
+
+* improve slide-in ([9647df7](https://github.com/DerYeger/magdalena-jirku/commit/9647df763ed224a6bacf3876fe3db055977d89e5))
+* prevent contextmenu ([eb3cdcd](https://github.com/DerYeger/magdalena-jirku/commit/eb3cdcd04433b6fc766461dc04acfa8dcc11e980))
+
 ## [2.0.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.0.1...v2.0.2) (2022-07-16)
 
 
