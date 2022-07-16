@@ -53,11 +53,14 @@ img.square::after {
 
 @media (prefers-reduced-motion: no-preference) {
   .slide-in {
-    transform: translateY(10rem);
-    transition: transform var(--anim-slow) ease;
+    opacity: 0;
+    transform: translateY(5rem);
+    transition: opacity var(--anim-slow) ease-out,
+      transform var(--anim-slow) ease-out;
   }
 
   .slide-in-visible {
+    opacity: initial;
     transform: unset;
   }
 }

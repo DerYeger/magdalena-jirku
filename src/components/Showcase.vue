@@ -12,14 +12,14 @@ useSlideIn(showcase)
 
 <template>
   <section ref="showcase" class="showcase max-w-85rem mx-auto">
-    <h1 class="font-serif text-center">{{ title }}</h1>
+    <h1 class="font-serif text-center my-12">{{ title }}</h1>
     <slot />
     <Gallery :images="images" />
   </section>
 </template>
 
 <style scoped>
-.showcase + .showcase {
-  margin-top: 4rem;
+.showcase {
+  margin-bottom: 6rem;
 }
 </style>
