@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.0.0...v2.0.1) (2022-07-16)
+
+
+### Bug Fixes
+
+* prevent contained lightbox ([10e790b](https://github.com/DerYeger/magdalena-jirku/commit/10e790bbb45e4204b515fe3902980f7ffb95a0c1))
+
 # [2.0.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.53...v2.0.0) (2022-07-16)
 
 
