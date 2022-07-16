@@ -58,6 +58,6 @@ img.square::after {
   }
 
   .slide-in-visible {
-    transform: translateY(0);
+    transform: unset;
   }
 }
