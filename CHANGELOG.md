@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.0.1...v2.0.2) (2022-07-16)
+
+
+### Bug Fixes
+
+* navigate on 404 ([a115d77](https://github.com/DerYeger/magdalena-jirku/commit/a115d7745a419d3af211f720eb589ff9542ddfe9))
+
 ## [2.0.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.0.0...v2.0.1) (2022-07-16)
 
 
