@@ -28,5 +28,8 @@ export const createApp = ViteSSG(
     ctx.app.use(MasonryWall)
     ctx.app.use(VueMarmosetViewer.MarmosetViewer)
     ctx.app.use(VueEasyLightbox)
+    if (!import.meta.env.DEV && !import.meta.env.SSR) {
+      document.body.oncontextmenu = () => false
+    }
   }
 )
