@@ -1,3 +1,47 @@
+# [2.0.0](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.53...v2.0.0) (2022-07-16)
+
+
+### Bug Fixes
+
+* add mp4 fallbacks ([7a46c03](https://github.com/DerYeger/magdalena-jirku/commit/7a46c03a4861010896a217c73509cac07baf0173))
+* change text align ([a418edd](https://github.com/DerYeger/magdalena-jirku/commit/a418edd43a8956f69473e459b5f3e9264ef981f6))
+* keep nav links opaque ([63235c5](https://github.com/DerYeger/magdalena-jirku/commit/63235c5109e02ce9f9b18482082eeb26ddc7d9cb))
+* prevent shadow flickering ([3732c2b](https://github.com/DerYeger/magdalena-jirku/commit/3732c2b7c526bd66c7efa9ba21f19a4c2128b14a))
+
+
+### Features
+
+* add account icons to sidebar ([546993c](https://github.com/DerYeger/magdalena-jirku/commit/546993ca61a65979a24932b0fc88c8337060d84e))
+* add accounts ([aa50d77](https://github.com/DerYeger/magdalena-jirku/commit/aa50d7788ef6604337f3e90d81fc17e459e00bb3))
+* add credits ([36f853e](https://github.com/DerYeger/magdalena-jirku/commit/36f853e0dcb2a81b759e1f91ed42645f5799937c))
+* add fallback page ([6cccfec](https://github.com/DerYeger/magdalena-jirku/commit/6cccfecab842be38ddcbefaef5084ee0191e7211))
+* add header ([246e985](https://github.com/DerYeger/magdalena-jirku/commit/246e9853a80a7ba47bc69ad6313901adccd56ec2))
+* add home page ([ee64582](https://github.com/DerYeger/magdalena-jirku/commit/ee64582fde7a2d82263dd589ba73d66c90436ac3))
+* add logo ([b827a27](https://github.com/DerYeger/magdalena-jirku/commit/b827a27018ff461613a71fdf804c44c645165f6b))
+* add project ([b8dec4b](https://github.com/DerYeger/magdalena-jirku/commit/b8dec4bbbdad32cc4539083a382075fc4d16eaf2))
+* add project ([fe0b63e](https://github.com/DerYeger/magdalena-jirku/commit/fe0b63ed21dcfc29d284777b5bcf0c397b00f1de))
+* add scroll animations ([909e35a](https://github.com/DerYeger/magdalena-jirku/commit/909e35a4a93b4fbb117268e272403284e621e1ed))
+* add showcases ([194414f](https://github.com/DerYeger/magdalena-jirku/commit/194414f8154a9b3802cb4fd58b140a89a4ce1ced))
+* animate nav links ([1898897](https://github.com/DerYeger/magdalena-jirku/commit/1898897e54117d938443efdd758b8e77a1a39f89))
+* create gallery component ([78abb41](https://github.com/DerYeger/magdalena-jirku/commit/78abb41824a47106eb271040aaf003a522c32ce5))
+* create sidebar ([de09c3a](https://github.com/DerYeger/magdalena-jirku/commit/de09c3a1f3d0b99267353cc2b4f055d073013981))
+* hide sidebar on mobile ([69631ff](https://github.com/DerYeger/magdalena-jirku/commit/69631ffeecbf58afb5a5a89b85c9bbbf62240b36))
+* improve design ([0157a01](https://github.com/DerYeger/magdalena-jirku/commit/0157a015d8a2157dabced18517a6a1377da19659))
+* improve footer ([d2ce76a](https://github.com/DerYeger/magdalena-jirku/commit/d2ce76aed9d1537b748aae657277cbe1c671c7ae))
+* improve highlight colors ([3cc8346](https://github.com/DerYeger/magdalena-jirku/commit/3cc83463809c9ba69fe6a9012f6fe6f0c5ccbde1))
+* improve layout ([8487b8d](https://github.com/DerYeger/magdalena-jirku/commit/8487b8defa2066849952752100ec1fdf305781ee))
+* migrate to vite ([8072b67](https://github.com/DerYeger/magdalena-jirku/commit/8072b676bb255020ec30c7c293d2a211e23a6014))
+* migrate to vite 3 ([2ce9ab5](https://github.com/DerYeger/magdalena-jirku/commit/2ce9ab5ffda53ceafdaec2ad0cb0d9fa35bbe2aa))
+* prevent copying of logo ([5b211ea](https://github.com/DerYeger/magdalena-jirku/commit/5b211ea1cbac32ce659acd76589c281cb602d899))
+* update og image ([b161861](https://github.com/DerYeger/magdalena-jirku/commit/b16186197cc660c5ab16823f3631616704435936))
+* use banners per page ([a0a3645](https://github.com/DerYeger/magdalena-jirku/commit/a0a364578fdbf37cabad19b63c50ba8ff1f04908))
+* use flexbox for gallery ([385984e](https://github.com/DerYeger/magdalena-jirku/commit/385984ebc9d077e44ec856a7e2986b28b6932714))
+
+
+### BREAKING CHANGES
+
+* Migrate to Vite
+
 ## [1.38.53](https://github.com/DerYeger/magdalena-jirku/compare/v1.38.52...v1.38.53) (2022-06-26)
 
 
