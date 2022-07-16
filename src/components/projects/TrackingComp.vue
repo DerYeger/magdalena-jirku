@@ -1,5 +1,12 @@
+<script setup lang="ts">
+import { useSlideIn } from '~/composables'
+
+const section = ref<HTMLElement>()
+useSlideIn(section)
+</script>
+
 <template>
-  <section class="max-w-65rem flex flex-col items-center gap-8">
+  <section ref="section" class="max-w-65rem flex flex-col items-center gap-8">
     <h1 class="font-serif">Tracking Comp</h1>
     <h2 class="text-lighter font-serif mt--6 text-lg">January 2021</h2>
     <div class="flex flex-col items-center justify-center gap-8 md:flex-row">

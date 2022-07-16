@@ -1,13 +1,17 @@
 <script setup lang="ts">
+import { useSlideIn } from '~/composables'
 import type { GalleryImage } from '~/types'
 
 const props = defineProps<{ title: string; images: GalleryImage[] }>()
 
 const { title, images } = toRefs(props)
+
+const showcase = ref<HTMLElement>()
+useSlideIn(showcase)
 </script>
 
 <template>
-  <section class="showcase max-w-85rem mx-auto">
+  <section ref="showcase" class="showcase max-w-85rem mx-auto">
     <h1 class="font-serif text-center">{{ title }}</h1>
     <slot />
     <Gallery :images="images" />

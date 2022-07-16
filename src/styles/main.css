@@ -50,3 +50,14 @@ img.square::after {
   display: block;
   padding-bottom: 100%;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .slide-in {
+    transform: translateY(10rem);
+    transition: transform var(--anim-slow) ease;
+  }
+
+  .slide-in-visible {
+    transform: translateY(0);
+  }
+}
