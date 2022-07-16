@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.1.0...v2.2.0) (2022-07-16)
+
+
+### Features
+
+* add pwa icons ([a1e2669](https://github.com/DerYeger/magdalena-jirku/commit/a1e26692bb9b9b5d880b5b1438b7f09b423ef33a))
+
 # [2.1.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.0.2...v2.1.0) (2022-07-16)
 
 
