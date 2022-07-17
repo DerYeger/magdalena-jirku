@@ -3,11 +3,11 @@ import { useSlideIn } from '~/composables'
 import type { GalleryImage } from '~/types'
 
 const images: GalleryImage[] = [
-  { src: '/img/projects/creartive/5_Beautyshot_Creartive_Pencilrow_HD.jpg' },
-  { src: '/img/projects/creartive/7_Beautyshot_Creartive_Overview_HD.jpg' },
-  { src: '/img/projects/creartive/8_Beautyshot_Creartive_Closing_HD.jpg' },
+  { src: '/img/projects/creartive/pencilrow.webp' },
+  { src: '/img/projects/creartive/overview.webp' },
+  { src: '/img/projects/creartive/closing.webp' },
   {
-    src: '/img/projects/creartive/10_Beautyshot_Creartive_Closing_Overview_HD.jpg',
+    src: '/img/projects/creartive/closing_overview.webp',
   },
 ]
 
