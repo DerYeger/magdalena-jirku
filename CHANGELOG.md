@@ -1,3 +1,12 @@
+## [2.2.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.2.0...v2.2.1) (2022-07-17)
+
+
+### Bug Fixes
+
+* improve link contrast ([6467b2f](https://github.com/DerYeger/magdalena-jirku/commit/6467b2f36318d04eec3bad99aa46ca370c3cc283))
+* normalize footer margin ([fb79b57](https://github.com/DerYeger/magdalena-jirku/commit/fb79b5783ea2778010a2f42a456d69f373b02b90))
+* replace jpg images ([d539b7a](https://github.com/DerYeger/magdalena-jirku/commit/d539b7a88a51e5d1b512341636419a2b997024a7))
+
 # [2.2.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.1.0...v2.2.0) (2022-07-16)
 
 
