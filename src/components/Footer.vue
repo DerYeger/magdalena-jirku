@@ -6,7 +6,7 @@ const accounts = useAccounts()
 </script>
 
 <template>
-  <footer class="footer pa-4 text-xs flex justify-center gap-8">
+  <footer class="footer pa-4 text-xs flex justify-center gap-8 mt-24">
     <div>
       <span>{{ t('pages.legal') }}</span>
       <router-link

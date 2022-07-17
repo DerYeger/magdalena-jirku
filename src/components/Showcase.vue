@@ -19,7 +19,7 @@ useSlideIn(showcase)
 </template>
 
 <style scoped>
-.showcase {
-  margin-bottom: 6rem;
+.showcase + .showcase {
+  margin-top: 6rem;
 }
 </style>

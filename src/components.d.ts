@@ -3,6 +3,8 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 import '@vue/runtime-core'
 
+export {}
+
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Avatar: typeof import('./components/Avatar.vue')['default']
@@ -31,5 +33,3 @@ declare module '@vue/runtime-core' {
     Wrapper: typeof import('./components/Wrapper.vue')['default']
   }
 }
-
-export {}
