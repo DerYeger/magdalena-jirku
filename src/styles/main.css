@@ -27,7 +27,7 @@ mark {
 }
 
 :root {
-  --primary: #54b3dd;
+  --primary: rgba(0, 50, 255, 0.8);
   --background: #eee;
   --c-link: var(--primary);
   --c-shadow: #42424266;
