@@ -1,15 +1,37 @@
-# magdalena-jirku
+<p align="center">
+  <img src="/public/og-logo.png" alt="Logo" width="384px">
+</p>
 
-> Personal website of [Magdalena Jirku](https://github.com/Keshyx).
+<p align="center">
+  Personal website of <a href="https://github.com/Kesxhyx">
+    Magdalena Jirku
+  </a>
+</p>
 
-[![CI](https://github.com/DerYeger/magdalena-jirku/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/DerYeger/magdalena-jirku/actions/workflows/ci.yml)
-[![CD](https://github.com/DerYeger/magdalena-jirku/actions/workflows/cd.yml/badge.svg)](https://github.com/DerYeger/magdalena-jirku/actions/workflows/cd.yml)
+<p align="center">
+  <a href="https://github.com/DerYeger/magdalena-jirku/actions/workflows/ci.yml">
+    <img alt="CI" src="https://img.shields.io/github/workflow/status/DerYeger/magdalena-jirku/CI?label=ci&logo=github&color=#4DC71F">
+  </a>
+  <a href="https://github.com/DerYeger/magdalena-jirku/actions/workflows/cd.yml">
+    <img alt="CD" src="https://img.shields.io/github/workflow/status/DerYeger/magdalena-jirku/CD?label=cd&logo=github&color=#4DC71F">
+  </a>
+</p>
 
-Built with the [Jamstack](https://jamstack.org/) architecture, using [@nuxt/content](https://content.nuxtjs.org/).
+<p align="center">
+  <a href="https://magdalena-jirku.at">
+    magdalena-jirku.at
+  </a>
+</p>
 
-CI and CD are handled by GitHub Actions.
+## Features
 
-The website is hosted with GitHub Pages at https://magdalena-jirku.at.
+- Vue 3 with composition API and `<script setup>`
+- SSG based on [Vitesse](https://github.com/antfu/vitesse)
+- Styled using [UnoCSS](https://github.com/antfu/unocss)
+- E2E testing with [Cypress](https://www.cypress.io/)
+- Unit testing with [Vitest](https://vitest.dev/)
+- Automated CI/CD pipeline using GitHub Actions
+- Hosted by GitHub Pages at [magdalena-jirku.at](https://magdalena-jirku.at)
 
 ## Build Setup
 
@@ -17,10 +39,19 @@ The website is hosted with GitHub Pages at https://magdalena-jirku.at.
 # install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3333
 $ yarn dev
 
-# build for production and launch server
+# build for production and launch preview server
 $ yarn build
-$ yarn preview`
+$ yarn preview
+
+# run unit tests
+$ yarn test
+
+# run e2e tests
+$ yarn test:e2e
+
+# lint
+$ yarn lint
 ```
