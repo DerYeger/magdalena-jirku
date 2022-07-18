@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.2.2...v2.3.0) (2022-07-18)
+
+
+### Features
+
+* use dedicated thumbnails ([bd260d4](https://github.com/DerYeger/magdalena-jirku/commit/bd260d4be753daf942a4b31ebcc8db334d936be4))
+
 ## [2.2.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.2.1...v2.2.2) (2022-07-18)
 
 
