@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.3.0...v2.3.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vueuse/core to v9 ([f9b9838](https://github.com/DerYeger/magdalena-jirku/commit/f9b9838b17ff907f3716585d2b9d19bc550f7c68))
+
 # [2.3.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.2.2...v2.3.0) (2022-07-18)
 
 
