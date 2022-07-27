@@ -1215,10 +1215,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/logos@1.1.12":
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.1.12.tgz#12d20d09f0c5bb5e78311f118e79643ef3b57806"
-  integrity sha512-uTdalwrfBvi9nxI3kCB8sIDeP1IXznU7fty00HJEIaNTFQU+ell5+2+hdaMBN98yRHEpMVfYtir/jXmpRsGJpA==
+"@iconify-json/logos@1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.1.13.tgz#75d698275cfa95fc135ce8b9f2bc2945b025ac5f"
+  integrity sha512-OHZRQT2e4O9414XZ7U+dEbVMxGQUIuDZCxcA7odIOkdtX+VfoaySRbzd4CFxKMie4oV+8HwG8PyVYPpDT10RJA==
   dependencies:
     "@iconify/types" "*"
 
@@ -2112,10 +2112,17 @@
   dependencies:
     native-dash "^1.22.1"
 
-"@yeger/debounce@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@yeger/debounce/-/debounce-1.0.23.tgz#81462ee2d56e40051fb18cf29d4081a9ec78edb6"
-  integrity sha512-3dVJtK1iyFonLUKTTE0F+1Z7DUxRLbkCQCjFz0hmRtoLdTIPAkMfRblGcsYTblH6Jp9NG0DK1Hn5z21yMMR+1w==
+"@yankeeinlondon/happy-wrapper@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@yankeeinlondon/happy-wrapper/-/happy-wrapper-2.5.0.tgz#d83106c0986ba271c89b2bb90c24b99df8b271ca"
+  integrity sha512-HjpmUbm0RbV6NdLJnGyxrLh4M0ifBSt3hjinRJ5CTXGlft49J5kYI1nHPC5Qt2W5ueJ65o8I9wiQV48dk43nAg==
+  dependencies:
+    native-dash "^1.22.1"
+
+"@yeger/debounce@1.0.25":
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/@yeger/debounce/-/debounce-1.0.25.tgz#262063ee6a08e052cb58649c6ba98cd3efbf8528"
+  integrity sha512-QfNkwbvP3ggQT6pc1TRqhtfyBVYGz4lhRNThJU/029PcJhxO5vIoL7gRRB3Ch08mOVnK21sx2VOylTRKKGZM6g==
 
 "@yeger/eslint-config@1.4.33":
   version "1.4.33"
@@ -8662,23 +8669,23 @@ unplugin-icons@0.14.7:
     local-pkg "^0.4.1"
     unplugin "^0.7.0"
 
-unplugin-vue-components@0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.21.1.tgz#8ff156da1faaef368d8fad9fa7573c80ad4ccfa0"
-  integrity sha512-8MhIT323q1EUu7rz6NfQeiHqDrZKtygy6s9jzcQAuuZUM2T38SHlPT5YJjBOZmM0Bau6YuNTKfBBX4iHzeusaQ==
+unplugin-vue-components@0.21.2:
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.21.2.tgz#d5b04b05e0521aa71fdfdba0b4ca392e3caa964d"
+  integrity sha512-HBU+EuesDj/HRs7EtYH7gBACljVhqLylltrCLModRmCToIIrrNvMh54aylUt4AD4qiwylgOx4Vgb9sBlrIcRDw==
   dependencies:
     "@antfu/utils" "^0.5.2"
     "@rollup/pluginutils" "^4.2.1"
     chokidar "^3.5.3"
     debug "^4.3.4"
     fast-glob "^3.2.11"
-    local-pkg "^0.4.1"
+    local-pkg "^0.4.2"
     magic-string "^0.26.2"
     minimatch "^5.1.0"
     resolve "^1.22.1"
-    unplugin "^0.7.1"
+    unplugin "^0.7.2"
 
-unplugin@^0.7.0, unplugin@^0.7.1, unplugin@^0.7.2:
+unplugin@^0.7.0, unplugin@^0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.7.2.tgz#4127012fdc2c84ea4ce03ce75e3d4f54ea47bba1"
   integrity sha512-m7thX4jP8l5sETpLdUASoDOGOcHaOVtgNyrYlToyQUvILUtEzEnngRBrHnAX3IKqooJVmXpoa/CwQ/QqzvGaHQ==
@@ -8799,13 +8806,13 @@ vite-plugin-inspect@0.6.0:
     sirv "^2.0.2"
     ufo "^0.8.5"
 
-vite-plugin-md@0.19.11:
-  version "0.19.11"
-  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.19.11.tgz#bab79f4cc907ec5ba38ffc6e975a928f2cea3687"
-  integrity sha512-lpKYptYrzG+crz85aol7vDAbCOBBTU/rUOHbBmIZbD4U3o7sAmIiAyYpWFMJ10ixqP94MqmZzplCp5ZHCnDRlQ==
+vite-plugin-md@0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.20.0.tgz#946da376c0cdbf4d79c218f59de85f12380c8aba"
+  integrity sha512-koOINU9h1OIx+8PNq2++edaBevPE11tuZH2fKo91GISkXc1ITbecJQ4xzZAgnffssUbW0BOGvSR9QzFBQwtIzA==
   dependencies:
     "@yankeeinlondon/builder-api" "*"
-    "@yankeeinlondon/happy-wrapper" "^2.4.0"
+    "@yankeeinlondon/happy-wrapper" "^2.5.0"
     gray-matter "^4.0.3"
     markdown-it "^13.0.1"
     source-map-js "^1.0.2"
@@ -8906,15 +8913,20 @@ vitest@0.19.1:
     tinyspy "^1.0.0"
     vite "^2.9.12 || ^3.0.0-0"
 
-vue-demi@*, vue-demi@0.13.5:
+vue-demi@*:
   version "0.13.5"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.5.tgz#d5eddbc9eaefb89ce5995269d1fa6b0486312092"
   integrity sha512-tO3K2bML3AwiHmVHeKCq6HLef2st4zBXIV5aEkoJl6HZ+gJWxWv2O8wLH8qrA3SX3lDoTDHNghLX1xZg83MXvw==
 
-vue-easy-lightbox@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/vue-easy-lightbox/-/vue-easy-lightbox-1.7.0.tgz#0944f682a3338d43190d1becc51c1252523b92e0"
-  integrity sha512-IIhRmya2khO7fJRANhSGfzbAZUh2Q1O+Z15dso3xGVxIDig1sD3c4RqgpfZjBf2zTQvDn6E5wbTj5LJ5fsrMsQ==
+vue-demi@0.13.6:
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.6.tgz#f9433cbd75e68a970dec066647f4ba6c08ced48f"
+  integrity sha512-02NYpxgyGE2kKGegRPYlNQSL1UWfA/+JqvzhGCOYjhfbLWXU5QQX0+9pAm/R2sCOPKr5NBxVIab7fvFU0B1RxQ==
+
+vue-easy-lightbox@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/vue-easy-lightbox/-/vue-easy-lightbox-1.7.1.tgz#fd21136118dc8fbb0567852c540299f1f681d10d"
+  integrity sha512-1K23EGnn7eEhDb/9qq4QNY/Z/6ukPBZuVMZ42SXSL79YKlmrj7zF5/6HkdeECs0KOOeDdTLUXCqLrF3mbpUS0g==
 
 vue-eslint-parser@^9.0.1:
   version "9.0.3"
@@ -8939,12 +8951,12 @@ vue-i18n@9.1.10:
     "@intlify/vue-devtools" "9.1.10"
     "@vue/devtools-api" "^6.0.0-beta.7"
 
-vue-marmoset-viewer@3.0.37:
-  version "3.0.37"
-  resolved "https://registry.yarnpkg.com/vue-marmoset-viewer/-/vue-marmoset-viewer-3.0.37.tgz#15a316f555b0b050f3deb83719d71cd62ffde7d8"
-  integrity sha512-MJ38g4w86r+xSK1BIbPLgKrf7r9pa+lc2IwHLJ3PrVFHhFoxJwn/Cios7Wvvbf9+htiwl4aiMhHLjctmSuinRg==
+vue-marmoset-viewer@3.0.39:
+  version "3.0.39"
+  resolved "https://registry.yarnpkg.com/vue-marmoset-viewer/-/vue-marmoset-viewer-3.0.39.tgz#c2605ab0294e34229c99ad49c41aca170e27fd5e"
+  integrity sha512-+lGI4bP7Osx0Z4Z1E9md/sNiWNkBwYaGTWgnMHkXIq59z46TW0a9BEfBz2IWC6MFuEr/1zd+WscfGv50sbTOHw==
   dependencies:
-    "@yeger/debounce" "1.0.23"
+    "@yeger/debounce" "1.0.25"
 
 vue-router@4.1.2:
   version "4.1.2"
