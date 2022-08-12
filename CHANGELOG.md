@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.3.2...v2.4.0) (2022-08-12)
+
+
+### Features
+
+* use type module ([a8acf67](https://github.com/DerYeger/magdalena-jirku/commit/a8acf67aa28cfb1faea263843ed5757633a6cb6b))
+
 ## [2.3.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.3.1...v2.3.2) (2022-07-28)
 
 
