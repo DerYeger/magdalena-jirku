@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.5.0...v2.5.1) (2022-08-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue-marmoset-viewer to v3.0.46 ([caab417](https://github.com/DerYeger/magdalena-jirku/commit/caab417b4cfc2a65df1cf7d9b08121872763ba6c))
+
 # [2.5.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.4.1...v2.5.0) (2022-08-17)
 
 
