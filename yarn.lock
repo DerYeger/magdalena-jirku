@@ -2108,10 +2108,10 @@
   dependencies:
     native-dash "^1.23.2"
 
-"@yeger/debounce@1.0.29":
-  version "1.0.29"
-  resolved "https://registry.yarnpkg.com/@yeger/debounce/-/debounce-1.0.29.tgz#fc0e549daaa899a33590cda3cf0447f417fac3e8"
-  integrity sha512-EfOEzTWeNRh0Ge96GAgqpepXcRHqU3M5a5gHroUkvoentB+ndPK1kGntu4AgSEsQA0W6DqJv6wjuM3L0LP7i7w==
+"@yeger/debounce@1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@yeger/debounce/-/debounce-1.0.30.tgz#52ebfb328470c67441738be1c872b6d7ac79bba3"
+  integrity sha512-T41uEON1LqM2a9xwNbM6+pRYmZUslB9GPEzToNV8BTPhioiHn9vItJPzb3AwwajEV1obXOnrEC+H5aBxruCesg==
 
 "@yeger/eslint-config@1.4.36":
   version "1.4.36"
@@ -8974,12 +8974,12 @@ vue-i18n@9.2.2:
     "@intlify/vue-devtools" "9.2.2"
     "@vue/devtools-api" "^6.2.1"
 
-vue-marmoset-viewer@3.0.45:
-  version "3.0.45"
-  resolved "https://registry.yarnpkg.com/vue-marmoset-viewer/-/vue-marmoset-viewer-3.0.45.tgz#72cd812b27513cc59e2cb475c3d8462247339874"
-  integrity sha512-ALQ9+1TghU6nje41Ae7NOeTCwY3UFgFr+Iv6GJLnGh83vFSJZ2gCczy3yii93QKNHWq5x5TrbgXqn8HOuosscg==
+vue-marmoset-viewer@3.0.46:
+  version "3.0.46"
+  resolved "https://registry.yarnpkg.com/vue-marmoset-viewer/-/vue-marmoset-viewer-3.0.46.tgz#04ec8472d1a0ab1d848372bb9f7ff91c10a9bd12"
+  integrity sha512-MP+pY++AZ2OScX1QKj29bP/9aNC5qVJGDEEoD/9rZLPeM53SoVbj9vmFggW9yd0K8hW+KtPZ1PKiAXvavb/bNw==
   dependencies:
-    "@yeger/debounce" "1.0.29"
+    "@yeger/debounce" "1.0.30"
 
 vue-router@4.1.3:
   version "4.1.3"
