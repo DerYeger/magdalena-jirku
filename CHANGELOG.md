@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.5.1...v2.6.0) (2022-08-19)
+
+
+### Features
+
+* update head ([1d7d86d](https://github.com/DerYeger/magdalena-jirku/commit/1d7d86d0110cd4fd27ba4e440b7232a66e4c6a24))
+
 ## [2.5.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.5.0...v2.5.1) (2022-08-18)
 
 
