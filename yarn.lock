@@ -2131,10 +2131,10 @@
     prettier "2.7.1"
     yaml-eslint-parser "1.1.0"
 
-"@yeger/vue-masonry-wall@3.0.47":
-  version "3.0.47"
-  resolved "https://registry.yarnpkg.com/@yeger/vue-masonry-wall/-/vue-masonry-wall-3.0.47.tgz#9f8e4772f8b91eccade1c4805f0e6da0a59be231"
-  integrity sha512-UozSI9qchwnknn794G6dD4pStLka9uKH9p9yNUB2grxSRtx6ugHFYy2P7EWiXEWAxEUs15St/MF+4yWOOE3W2g==
+"@yeger/vue-masonry-wall@3.0.48":
+  version "3.0.48"
+  resolved "https://registry.yarnpkg.com/@yeger/vue-masonry-wall/-/vue-masonry-wall-3.0.48.tgz#add258c7bdadd89eca32c4d68a9784d2b74b092b"
+  integrity sha512-bWVGzLoI3GQlowqsPPUViaHZfpktiOr/cT8rx41c6MOyLyEmCm1Tpi6V3i/Ri1rDPUQt4ahglZM09zIWWoRykw==
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -8859,10 +8859,10 @@ vite-plugin-pwa@0.12.3:
     workbox-build "^6.5.3"
     workbox-window "^6.5.3"
 
-vite-plugin-ssg-utils@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vite-plugin-ssg-utils/-/vite-plugin-ssg-utils-1.0.4.tgz#bb6a557a88aa1a30cf13a11b85890d78dae6deea"
-  integrity sha512-t8bQtqa7hY/ninKir8YsgPGVEoHnw22W2m/+E4b463emy3CyMQX61lXKwUIEG4MT2J1UJ9c2R8RSP+rGQK3hUA==
+vite-plugin-ssg-utils@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ssg-utils/-/vite-plugin-ssg-utils-1.0.5.tgz#61115ce32731b4b0d5e354027e60ed298582cebe"
+  integrity sha512-wzAZ3ifXfjw9tNEzOrP6fsrT3XMl62fbdeSM7dwCGis/o1hSnuXWtl7up8PDqEhGRLmiQjveKTY/Dj0v8ikReg==
   dependencies:
     kolorist "1.5.1"
 
@@ -8889,10 +8889,10 @@ vite-ssg@0.20.2:
     prettier "^2.7.1"
     yargs "^17.5.1"
 
-vite@3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.8.tgz#aa095ad8e3e5da46d9ec7e878f262678965d6531"
-  integrity sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==
+vite@3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.9.tgz#45fac22c2a5290a970f23d66c1aef56a04be8a30"
+  integrity sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==
   dependencies:
     esbuild "^0.14.47"
     postcss "^8.4.16"
@@ -8981,10 +8981,10 @@ vue-i18n@9.2.2:
     "@intlify/vue-devtools" "9.2.2"
     "@vue/devtools-api" "^6.2.1"
 
-vue-marmoset-viewer@3.0.47:
-  version "3.0.47"
-  resolved "https://registry.yarnpkg.com/vue-marmoset-viewer/-/vue-marmoset-viewer-3.0.47.tgz#19ec8a0b90b0487fd153d36d7b6a199c3689ab70"
-  integrity sha512-CHashoAOpZhWRrakywxbaS3jGIO6HQp/4Jm4iT3HdVI5Q5+s1LjujC/CixJSedJ/rEU5cS3gkb+EOORZbFAJlw==
+vue-marmoset-viewer@3.0.48:
+  version "3.0.48"
+  resolved "https://registry.yarnpkg.com/vue-marmoset-viewer/-/vue-marmoset-viewer-3.0.48.tgz#f9ef5124bc917341099fb0c23a7acabf19481887"
+  integrity sha512-DS7LUz/JKXmdu8QJ6rw+PqWfX9F9fixhM7n/pzYa+CKtUDaH8dDRN9OKYVh2tdsykstMrfHnh8wBSnsTQjf4Mg==
   dependencies:
     "@yeger/debounce" "1.0.31"
 
