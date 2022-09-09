@@ -1,7 +1,7 @@
 {
   "name": "magdalena-jirku",
   "type": "module",
-  "version": "2.6.7",
+  "version": "2.6.8",
   "private": true,
   "scripts": {
     "prepare": "husky install",
