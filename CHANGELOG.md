@@ -1,3 +1,10 @@
+## [2.6.9](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.8...v2.6.9) (2022-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update vue monorepo to v3.2.39 ([3c0f322](https://github.com/DerYeger/magdalena-jirku/commit/3c0f322905bff08058cbe1aba841d69b03bd6158))
+
 ## [2.6.8](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.7...v2.6.8) (2022-09-09)
 
 
