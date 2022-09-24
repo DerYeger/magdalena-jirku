@@ -1,3 +1,10 @@
+## [2.6.10](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.9...v2.6.10) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v6 ([8821513](https://github.com/DerYeger/magdalena-jirku/commit/8821513b84b55bed5e18b7b21a93cb67c89a5d7d))
+
 ## [2.6.9](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.8...v2.6.9) (2022-09-10)
 
 
