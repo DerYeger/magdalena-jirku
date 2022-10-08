@@ -1,3 +1,11 @@
+## [2.6.12](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.11...v2.6.12) (2022-10-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency happy-dom to v7 ([072b45c](https://github.com/DerYeger/magdalena-jirku/commit/072b45cbc3e3c51344a0012d66351b69c85c6fea))
+* **deps:** update dependency vue-tsc to v1 ([c6505e9](https://github.com/DerYeger/magdalena-jirku/commit/c6505e9db9406ceb884595a2197ef40b311d1755))
+
 ## [2.6.11](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.10...v2.6.11) (2022-10-01)
 
 
