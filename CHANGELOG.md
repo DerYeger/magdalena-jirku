@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.13...v2.7.0) (2022-10-25)
+
+
+### Features
+
+* add content ([1aa6044](https://github.com/DerYeger/magdalena-jirku/commit/1aa604440269d5c4be45d298ab66c74d2f3a1b62))
+
 ## [2.6.13](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.12...v2.6.13) (2022-10-15)
 
 
