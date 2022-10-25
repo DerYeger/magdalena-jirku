@@ -50,6 +50,9 @@ const accounts = useAccounts()
         Website by Jan Müller
       </a>
       <a href="https://www.freepik.com" target="_blank" rel="noopener">
+        Mockup by freepik
+      </a>
+      <a href="https://www.freepik.com" target="_blank" rel="noopener">
         Mockup by rawpixel.com
       </a>
       <a

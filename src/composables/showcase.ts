@@ -1,17 +1,17 @@
 import type { Showcase } from '~/types'
 
-const birthdayCardShowcase: Showcase = {
-  title: 'Birthday Cards',
+const illustratedCardsShowcase: Showcase = {
+  title: 'Illustrated Cards',
   images: [
     {
-      src: '/img/graphic-design/birthday_cards/birthday_card_1.webp',
+      src: '/img/graphic-design/illustrated_cards/mockup_realistic.webp',
       thumbnail:
-        '/img/graphic-design/birthday_cards/birthday_card_1_thumbnail.webp',
+        '/img/graphic-design/illustrated_cards/mockup_realistic_thumbnail.webp',
     },
     {
-      src: '/img/graphic-design/birthday_cards/birthday_card_2.webp',
+      src: '/img/graphic-design/illustrated_cards/mockup_comic.webp',
       thumbnail:
-        '/img/graphic-design/birthday_cards/birthday_card_2_thumbnail.webp',
+        '/img/graphic-design/illustrated_cards/mockup_comic_thumbnail.webp',
     },
   ],
 }
@@ -104,12 +104,28 @@ const vectorGraphicsShowcase: Showcase = {
   ],
 }
 
+const weddingShowcase: Showcase = {
+  title: 'Wedding',
+  images: [
+    {
+      title: 'Photo by Philipp Schuster',
+      src: '/img/graphic-design/wedding/Wedding_Photo.webp',
+      thumbnail: '/img/graphic-design/wedding/Wedding_Photo_Thumbnail.webp',
+    },
+    {
+      src: '/img/graphic-design/wedding/Wedding_Mockup.webp',
+      thumbnail: '/img/graphic-design/wedding/Wedding_Mockup_Thumbnail.webp',
+    },
+  ],
+}
+
 const showcases = [
+  weddingShowcase,
   logoDesignShowcase,
   vectorGraphicsShowcase,
   storyboardShowcase,
   exhibitionCatalogShowcase,
-  birthdayCardShowcase,
+  illustratedCardsShowcase,
 ]
 
 export function useGraphicDesignShowcases(): Showcase[] {
