@@ -1,3 +1,10 @@
+## [2.7.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.0...v2.7.1) (2022-10-25)
+
+
+### Bug Fixes
+
+* update image names ([a738467](https://github.com/DerYeger/magdalena-jirku/commit/a7384679dfba2e74f36622cc43d3fcdd9755a7f9))
+
 # [2.7.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.6.13...v2.7.0) (2022-10-25)
 
 
