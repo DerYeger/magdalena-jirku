@@ -1,3 +1,10 @@
+## [2.7.8](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.7...v2.7.8) (2022-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v11 ([76fdf08](https://github.com/DerYeger/magdalena-jirku/commit/76fdf0884587dd9f33fadae890eadd97882cf6d0))
+
 ## [2.7.7](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.6...v2.7.7) (2022-11-12)
 
 
