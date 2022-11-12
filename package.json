@@ -21,7 +21,7 @@
   "dependencies": {
     "@unocss/reset": "0.46.3",
     "@vueuse/core": "9.4.0",
-    "@vueuse/head": "0.9.8",
+    "@vueuse/head": "1.0.0",
     "@yeger/vue-masonry-wall": "3.2.22",
     "nprogress": "0.2.0",
     "prism-theme-vars": "0.2.4",
