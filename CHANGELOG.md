@@ -1,3 +1,10 @@
+## [2.7.9](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.8...v2.7.9) (2022-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vueuse/head to v1 ([a9be720](https://github.com/DerYeger/magdalena-jirku/commit/a9be720ba5e4d70837ca947528d6ca336b56c0bb))
+
 ## [2.7.8](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.7...v2.7.8) (2022-11-12)
 
 
