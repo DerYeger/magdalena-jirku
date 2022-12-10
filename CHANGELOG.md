@@ -1,3 +1,12 @@
+## [2.7.14](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.13...v2.7.14) (2022-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v12 ([#77](https://github.com/DerYeger/magdalena-jirku/issues/77)) ([2b369eb](https://github.com/DerYeger/magdalena-jirku/commit/2b369ebddc3b6f19c42dffc30b4155d29d875f4b))
+* **deps:** update dependency happy-dom to v8 ([#78](https://github.com/DerYeger/magdalena-jirku/issues/78)) ([401ea90](https://github.com/DerYeger/magdalena-jirku/commit/401ea90d7770be2ba7f68ed70201ee7af5710041))
+* **deps:** update dependency vite to v4 ([#79](https://github.com/DerYeger/magdalena-jirku/issues/79)) ([47bf9ee](https://github.com/DerYeger/magdalena-jirku/commit/47bf9ee0dfa672085ec5cb9b8b3dd386a0ec0daa))
+
 ## [2.7.13](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.12...v2.7.13) (2022-12-10)
 
 
