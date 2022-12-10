@@ -1,3 +1,10 @@
+## [2.7.15](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.14...v2.7.15) (2022-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vitejs/plugin-vue to v4 ([#76](https://github.com/DerYeger/magdalena-jirku/issues/76)) ([c2f72ca](https://github.com/DerYeger/magdalena-jirku/commit/c2f72cab5e8c0048fd1e5e7aa21965ba25655653))
+
 ## [2.7.14](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.13...v2.7.14) (2022-12-10)
 
 
