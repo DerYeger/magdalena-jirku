@@ -4953,15 +4953,14 @@ handle-thing@^2.0.0:
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
   integrity sha512-9Qn4yBxelxoh2Ow62nP+Ka/kMnOXRi8BXnRaUwezLNhqelnN49xKz4F/dPP8OYLxLxq6JDtZb2i9XznUQbNPTg==
 
-happy-dom@7.6.6:
-  version "7.6.6"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-7.6.6.tgz#f94ce99c5a32d1ea8578b75e8f584e8fcd162513"
-  integrity sha512-28NxRiHXjzhr+BGciLNUoQW4OaBnQPRT/LPYLufh0Fj3Iwh1j9qJaozjBm/Uqdj5Ps4cukevQ7ERieA6Ddwf1g==
+happy-dom@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-8.1.0.tgz#45b7d16e0e671b297aea90bc6e0c79bbabef34fd"
+  integrity sha512-R9NVb5815gpMFsldZF0wVSHw2uSobx6yitSkCdQPda1kwfAmVw4Ut8ZspxGHXkK6OA93SznldkcvrbhKFr6JcA==
   dependencies:
     css.escape "^1.5.1"
     he "^1.2.0"
     node-fetch "^2.x.x"
-    sync-request "^6.1.0"
     webidl-conversions "^7.0.0"
     whatwg-encoding "^2.0.0"
     whatwg-mimetype "^3.0.0"
