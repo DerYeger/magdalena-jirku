@@ -2,6 +2,42 @@
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
     "/assets/virtual_pwa-register-c720c811.js"
   ],
+  "src/composables/gallery.ts": [
+    "/assets/index-061835db.js"
+  ],
+  "src/pages/drawings/index.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/index-061835db.js"
+  ],
+  "src/pages/drawings/index.vue": [
+    "/assets/index-061835db.js"
+  ],
+  "src/pages/legal.md?vue&type=script&setup=true&lang.ts": [
+    "/assets/legal-1efe7131.js"
+  ],
+  "src/pages/legal.md": [
+    "/assets/legal-1efe7131.js"
+  ],
+  "src/pages/impressum.md?vue&type=script&setup=true&lang.ts": [
+    "/assets/impressum-1beb6e84.js"
+  ],
+  "src/pages/impressum.md": [
+    "/assets/impressum-1beb6e84.js"
+  ],
+  "src/composables/slide-in.ts": [
+    "/assets/slide-in-c60ecd6b.js"
+  ],
+  "node_modules/@vueuse/shared/index.mjs": [
+    "/assets/Gallery-d86c8b5b.js"
+  ],
+  "node_modules/@vueuse/core/index.mjs": [
+    "/assets/Gallery-d86c8b5b.js"
+  ],
+  "src/components/Gallery.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Gallery-d86c8b5b.js"
+  ],
+  "src/components/Gallery.vue": [
+    "/assets/Gallery-d86c8b5b.js"
+  ],
   "../../../../../img/projects/tracking_comp/beautyshot.webp": [
     "/assets/index-dc2d1865.js"
   ],
@@ -44,17 +80,8 @@
   "src/pages/motion-design/index.vue": [
     "/assets/index-dc2d1865.js"
   ],
-  "src/composables/slide-in.ts": [
-    "/assets/slide-in-c60ecd6b.js"
-  ],
-  "src/composables/gallery.ts": [
-    "/assets/index-061835db.js"
-  ],
-  "src/pages/drawings/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-061835db.js"
-  ],
-  "src/pages/drawings/index.vue": [
-    "/assets/index-061835db.js"
+  "node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
+    "/assets/workbox-window.prod.es5-295a6886.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
     "/assets/_...all_-dbb08008.js",
@@ -91,33 +118,6 @@
   "src/pages/graphic-design/index.vue": [
     "/assets/index-9c944857.js",
     "/assets/index-926068f3.css"
-  ],
-  "src/pages/legal.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/legal-1efe7131.js"
-  ],
-  "src/pages/legal.md": [
-    "/assets/legal-1efe7131.js"
-  ],
-  "node_modules/@vueuse/shared/index.mjs": [
-    "/assets/Gallery-d86c8b5b.js"
-  ],
-  "node_modules/@vueuse/core/index.mjs": [
-    "/assets/Gallery-d86c8b5b.js"
-  ],
-  "src/components/Gallery.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Gallery-d86c8b5b.js"
-  ],
-  "src/components/Gallery.vue": [
-    "/assets/Gallery-d86c8b5b.js"
-  ],
-  "src/pages/impressum.md?vue&type=script&setup=true&lang.ts": [
-    "/assets/impressum-1beb6e84.js"
-  ],
-  "src/pages/impressum.md": [
-    "/assets/impressum-1beb6e84.js"
-  ],
-  "node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
-    "/assets/workbox-window.prod.es5-295a6886.js"
   ],
   "\u0000vite/modulepreload-polyfill": [],
   "locales/en.yml": [],
