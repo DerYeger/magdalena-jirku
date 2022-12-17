@@ -8,6 +8,7 @@ export const install: UserModule = ({ isClient, router }) => {
 
   router.isReady().then(async () => {
     // @ts-expect-error Missing types
+
     const { registerSW } = await import('virtual:pwa-register')
     registerSW({ immediate: true })
   })
