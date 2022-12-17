@@ -1,5 +1,7 @@
 import MasonryWall from '@yeger/vue-masonry-wall'
+// eslint-disable-next-line import/no-unresolved
 import { setupLayouts } from 'virtual:generated-layouts'
+// eslint-disable-next-line import/no-unresolved
 import generatedRoutes from 'virtual:generated-pages'
 import { ViteSSG } from 'vite-ssg'
 import VueEasyLightbox from 'vue-easy-lightbox'
@@ -8,7 +10,7 @@ import * as VueMarmosetViewer from 'vue-marmoset-viewer'
 import App from './App.vue'
 
 import '@unocss/reset/normalize.css'
-
+// eslint-disable-next-line import/no-unresolved
 import 'uno.css'
 import './styles/main.css'
 import type { UserModule } from '~/types'
