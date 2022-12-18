@@ -47,7 +47,7 @@
     "@vue/compiler-sfc": "3.2.45",
     "@vue/server-renderer": "3.2.45",
     "@vue/test-utils": "2.2.6",
-    "@yeger/eslint-config": "1.7.2",
+    "@yeger/eslint-config": "1.8.1",
     "critters": "0.0.16",
     "cross-env": "7.0.3",
     "cypress": "12.1.0",
@@ -74,7 +74,7 @@
     "vite-plugin-vue-layouts": "0.7.0",
     "vite-ssg": "0.22.1",
     "vitest": "0.25.8",
-    "vue-tsc": "1.0.13"
+    "vue-tsc": "1.0.14"
   },
   "lint-staged": {
     "*.{js,json,md,ts,vue,yaml,yml}": "eslint --fix"
