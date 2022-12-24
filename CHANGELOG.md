@@ -1,3 +1,10 @@
+## [2.7.21](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.20...v2.7.21) (2022-12-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v7 ([#84](https://github.com/DerYeger/magdalena-jirku/issues/84)) ([72dc5ab](https://github.com/DerYeger/magdalena-jirku/commit/72dc5ab7098795f6462a18bcaa4e341fa77ca07d))
+
 ## [2.7.20](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.19...v2.7.20) (2022-12-24)
 
 
