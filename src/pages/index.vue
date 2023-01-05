@@ -27,8 +27,8 @@ const age = useAge()
       class="mx-auto mt-16 max-w-[min(100%,600px)] display-block"
       poster="/img/reels/thumbnail.webp"
     >
-      <source src="/img/reels/2022.webm" />
-      <source src="/img/reels/2022.mp4" />
+      <source src="/img/reels/reel.webm" />
+      <source src="/img/reels/reel.mp4" />
     </video>
   </div>
 </template>

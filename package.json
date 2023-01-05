@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "prebuild": "yarn typecheck",
     "build": "vite-ssg build",
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333",
     "preview": "vite preview",
     "preview-https": "serve dist",
     "lint": "yeger-lint",
