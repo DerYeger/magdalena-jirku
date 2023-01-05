@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.22...v2.8.0) (2023-01-05)
+
+
+### Features
+
+* add new reel ([14f380d](https://github.com/DerYeger/magdalena-jirku/commit/14f380dc75ff8dcb0a9dce29c7a1a568cdbe7ff3))
+
 ## [2.7.22](https://github.com/DerYeger/magdalena-jirku/compare/v2.7.21...v2.7.22) (2022-12-31)
 
 
