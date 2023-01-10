@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.8.1...v2.9.0) (2023-01-10)
+
+
+### Features
+
+* update avatar ([c242aa7](https://github.com/DerYeger/magdalena-jirku/commit/c242aa736353d034468951736bc690096428369a))
+
 ## [2.8.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.8.0...v2.8.1) (2023-01-07)
 
 
