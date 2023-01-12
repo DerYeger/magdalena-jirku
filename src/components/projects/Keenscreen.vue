@@ -25,7 +25,7 @@ useSlideIn(section)
   <section ref="section" class="max-w-65rem flex flex-col items-center gap-8">
     <h1 class="font-serif">Keenscreen</h1>
     <h2 class="text-lighter font-serif mt--6 text-lg">July 2022</h2>
-    <div class="flex flex-col items-center justify-center gap-8 md:flex-row">
+    <div class="flex flex-col items-center justify-center gap-8 lg:flex-row">
       <video
         controls
         controlslist="nodownload"
