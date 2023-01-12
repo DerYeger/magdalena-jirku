@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.9.0...v2.10.0) (2023-01-12)
+
+
+### Features
+
+* add `Baufon` project ([8be81da](https://github.com/DerYeger/magdalena-jirku/commit/8be81da8e28cae48218223f63be8cf64de54ad19))
+
 # [2.9.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.8.1...v2.9.0) (2023-01-10)
 
 
