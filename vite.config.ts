@@ -143,7 +143,12 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['logo.svg', 'robots.txt', 'safari-pinned-tab.svg'],
+      includeAssets: [
+        'logo.svg',
+        'portfolio-2023.pdf',
+        'robots.txt',
+        'safari-pinned-tab.svg',
+      ],
       manifest: {
         name: 'Magdalena Jirku',
         short_name: 'Magdalena Jirku',
