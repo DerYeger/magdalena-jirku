@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.10.3...v2.11.0) (2023-01-25)
+
+
+### Features
+
+* add portfolio static file ([f530528](https://github.com/DerYeger/magdalena-jirku/commit/f5305288784371d8769bf64a44586e9b3c9be5f0))
+
 ## [2.10.3](https://github.com/DerYeger/magdalena-jirku/compare/v2.10.2...v2.10.3) (2023-01-21)
 
 
