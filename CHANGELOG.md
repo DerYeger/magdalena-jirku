@@ -1,3 +1,10 @@
+## [2.11.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.11.0...v2.11.1) (2023-01-25)
+
+
+### Bug Fixes
+
+* include portfolio in pwa assets ([6489b32](https://github.com/DerYeger/magdalena-jirku/commit/6489b32a64d8f79b10d94f4e56d0c4c131a267eb))
+
 # [2.11.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.10.3...v2.11.0) (2023-01-25)
 
 
