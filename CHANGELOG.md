@@ -1,3 +1,10 @@
+## [2.11.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.11.1...v2.11.2) (2023-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vitest to v0.28.3 ([485189a](https://github.com/DerYeger/magdalena-jirku/commit/485189a73190e099902c767823fd5b1406434d6f))
+
 ## [2.11.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.11.0...v2.11.1) (2023-01-25)
 
 
