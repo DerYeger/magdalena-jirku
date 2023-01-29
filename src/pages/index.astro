@@ -1,0 +1,52 @@
+---
+import Avatar from '~/components/Avatar.astro'
+import MainLayout from '~/layouts/MainLayout.astro'
+---
+
+<MainLayout>
+  <div class="container mx-auto max-w-[65rem] md:p-8">
+    <section
+      class="flex flex-col items-center justify-center gap-16 lg:flex-row"
+    >
+      <Avatar />
+      <div class="children:text-justify prose flex max-w-full flex-col gap-4">
+        <span class="text-lighter italic"
+          >Motion Graphics | Compositing | Graphic- & Communication Design</span
+        >
+        <span
+          >Hello! My name is Magdalena Jirku and I am a visual effects artist
+          and graphic designer living in Vienna, Austria. I first came in touch
+          with compositing and design as a student when I went to the «Höhere
+          Graphische Bundes- Lehr und Versuchsanstalt» where I finished my A
+          levels and got a diploma in graphic & communication design. I later on
+          started visiting the «SAE Institute» in Vienna to study visual effects
+          and 3D animations. I have already finished my diploma and I am aiming
+          to obtain a bachelor's degree in March 2023.</span
+        >
+        <span
+          >I really enjoy being a compositing artist – Motion Design/Graphics,
+          Color Grading, Typography, Layouts, Storyboards, Illustrations, etc.
+          really gained my interest.</span
+        >
+        <span>
+          If you would like to get in touch with me, please contact me via <a
+            href="https://www.linkedin.com/in/magdalena-jirku-81bb16210/"
+            rel="noopener"
+            class=""
+            target="_blank">LinkedIn</a
+          >.
+        </span>
+      </div>
+    </section>
+    <video
+      controls
+      controlslist="nodownload"
+      playsinline
+      class="mx-auto mt-16 block max-w-[min(100%,600px)]"
+      poster="/img/reels/thumbnail.webp"
+    >
+      <source src="/img/reels/reel.webm" />
+      <source src="/img/reels/reel.mp4" />
+    </video>
+  </div>
+</MainLayout>

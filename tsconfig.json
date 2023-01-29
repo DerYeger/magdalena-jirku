@@ -1,28 +1,11 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "ESNext",
-    "target": "es2016",
-    "lib": ["DOM", "ESNext"],
-    "strict": true,
-    "esModuleInterop": true,
-    "incremental": false,
+    "baseUrl": "./",
     "skipLibCheck": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
-    "types": [
-      "cypress",
-      "vite/client",
-      "vite-plugin-pages/client",
-      "vite-plugin-vue-layouts/client"
-    ],
     "paths": {
       "~/*": ["src/*"]
     }
-  },
-  "exclude": ["dist", "index.html", "node_modules"]
+  }
 }

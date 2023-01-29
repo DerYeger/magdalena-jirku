@@ -1,0 +1,39 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["sync"],
+      "outputs": ["dist/**"]
+    },
+    "check": {
+      "dependsOn": ["check:astro", "check:tsc", "check:vue"],
+      "outputs": []
+    },
+    "check:astro": {
+      "dependsOn": ["sync"],
+      "inputs": ["src/**/*.astro"],
+      "outputs": []
+    },
+    "check:tsc": {
+      "dependsOn": ["sync"],
+      "outputs": []
+    },
+    "check:vue": {
+      "dependsOn": ["sync"],
+      "inputs": ["src/**/*.vue"],
+      "outputs": []
+    },
+    "lint": {
+      "dependsOn": ["sync"],
+      "outputs": []
+    },
+    "preview": {
+      "dependsOn": ["build"],
+      "cache": false,
+      "persistent": true
+    },
+    "sync": {
+      "outputs": [".astro/**"]
+    }
+  }
+}

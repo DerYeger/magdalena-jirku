@@ -1,0 +1,79 @@
+---
+import { useAccounts } from '~/composables'
+const accounts = useAccounts()
+
+const currentYear = new Date().getFullYear()
+---
+
+<footer class="footer mt-24 flex justify-center gap-8 p-4 text-xs">
+  <div>
+    <span>Legal</span>
+    <a href="/impressum" title="Impressum" active-class="!text-$primary op90">
+      Impressum
+    </a>
+    <a href="/legal" title="Legal" active-class="!text-$primary op90"> Legal</a>
+    <span class="text-lighter">
+      2021 - {currentYear} &copy;<br />
+      Magdalena Jirku
+    </span>
+  </div>
+  <div>
+    <span>Social</span>
+    {
+      accounts.map((account) => (
+        <a href={account.link} rel="noopener" target="_blank">
+          {account.name}
+        </a>
+      ))
+    }
+  </div>
+  <div>
+    <span>Credits</span>
+    <a
+      href="https://github.com/DerYeger/magdalena-jirku"
+      rel="noopener"
+      target="_blank"
+    >
+      Website by Jan Müller
+    </a>
+    <a href="https://www.freepik.com" target="_blank" rel="noopener">
+      Mockup by freepik
+    </a>
+    <a href="https://www.freepik.com" target="_blank" rel="noopener">
+      Mockup by rawpixel.com
+    </a>
+    <a
+      href="https://www.freepik.com/psd/brochure"
+      target="_blank"
+      rel="noopener"
+    >
+      Mockup by eightonesix
+    </a>
+    <a
+      href="https://www.freepik.com/psd/brochure"
+      target="_blank"
+      rel="noopener"
+    >
+      Mockup by crowf
+    </a>
+    <a
+      href="https://www.freepik.com/psd/brochure"
+      target="_blank"
+      rel="noopener"
+    >
+      Mockup by ehby
+    </a>
+  </div>
+</footer>
+
+<style>
+  .footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .footer > div > span:first-child {
+    font-weight: bold;
+  }
+</style>

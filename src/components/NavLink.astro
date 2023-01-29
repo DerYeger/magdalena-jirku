@@ -1,0 +1,54 @@
+---
+import { getHighlightColor } from '~/composables'
+
+interface Props {
+  href: string
+}
+
+const { href } = Astro.props
+
+const path = Astro.url.pathname
+const highlightColor = getHighlightColor(path, 0.8)
+
+const isActive = href === Astro.url.pathname
+---
+
+<a
+  href={href}
+  rel="prefetch"
+  class:list={['nav-link relative text-black', { active: isActive }]}
+>
+  <slot />
+</a>
+
+<style define:vars={{ highlightColor }}>
+  .nav-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2em;
+    left: calc(50% - 2em / 2);
+    top: 1.35em;
+    height: 0.125em;
+    background-color: var(--highlightColor);
+    transition: all var(--anim-medium) ease;
+  }
+
+  .nav-link:hover {
+    opacity: 100%;
+    scale: 1.1;
+  }
+
+  .nav-link:hover::after {
+    width: max(50%, 2em);
+    left: calc(50% - max(50%, 2em) / 2);
+    top: 1.5em;
+  }
+
+  .nav-link.active::after {
+    width: 100%;
+    left: 0;
+    height: 0.2em;
+    top: calc(1.35em + 0.125em + 0.5 * 0.2em);
+  }
+</style>

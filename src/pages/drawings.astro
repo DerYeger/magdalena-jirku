@@ -1,0 +1,14 @@
+---
+import Gallery from '~/components/Gallery.vue'
+import { useDrawingsGallery } from '~/composables'
+import MainLayout from '~/layouts/MainLayout.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = useDrawingsGallery()
+---
+
+<MainLayout>
+  <div class="max-w-85rem mx-auto w-full">
+    <Gallery images={images} client:load />
+  </div>
+</MainLayout>

@@ -1,3 +1,7 @@
+---
+layout: ~/layouts/MarkdownLayout.astro
+---
+
 # Legal Notice
 
 Information in accordance with §5 of the E-Commerce Act, §14 of the Unternehmensgesetzbuch, §63 of the Commercial Code and disclosure requirements under §25 of the Media Act.

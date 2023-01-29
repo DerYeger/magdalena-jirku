@@ -1,0 +1,15 @@
+---
+import Showcase from '~/components/Showcase.astro'
+import { useGraphicDesignShowcases } from '~/composables'
+import MainLayout from '~/layouts/MainLayout.astro'
+
+const showcases = useGraphicDesignShowcases()
+---
+
+<MainLayout>
+  {
+    showcases.map((showcase) => (
+      <Showcase title={showcase.title} images={showcase.images} />
+    ))
+  }
+</MainLayout>

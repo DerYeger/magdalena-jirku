@@ -1,0 +1,53 @@
+---
+import Gallery from '~/components/Gallery.vue'
+import Project from '~/components/projects/Project.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/creartive/pencilrow.webp',
+    thumbnail: '/img/projects/creartive/pencilrow_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/creartive/overview.webp',
+    thumbnail: '/img/projects/creartive/overview_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/creartive/closing.webp',
+    thumbnail: '/img/projects/creartive/closing_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/creartive/closing_overview.webp',
+    thumbnail: '/img/projects/creartive/closing_overview_thumbnail.webp',
+  },
+]
+---
+
+<Project>
+  <div class="prose text-center">
+    <h1 class="font-serif">Creartive</h1>
+    <h2 class="text-lighter -mt-6 font-serif text-lg">July 2021</h2>
+  </div>
+  <div class="flex flex-col items-center justify-center gap-8 lg:flex-row">
+    <video
+      controls
+      controlslist="nodownload"
+      playsinline
+      class="block w-full shrink-0 md:max-w-[32rem]"
+      poster={images[0].src}
+    >
+      <source src="/img/projects/creartive/Creartive.webm" />
+      <source src="/img/projects/creartive/Creartive.mp4" />
+    </video>
+    <div class="prose">
+      <span class="text-justify">
+        Creative is the result of my diploma project. The goal was to create an
+        advertisement for a colored pencil case. The color scheme is colorful
+        and playful, yet classy. The focus was to achieve a flow within the
+        video, along with advertising and simulations. All content in this video
+        except the audio track was created by me.
+      </span>
+    </div>
+  </div>
+  <Gallery images={images} image-width={200} client:visible />
+</Project>

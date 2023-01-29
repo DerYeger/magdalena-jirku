@@ -1,0 +1,48 @@
+---
+import { getHighlightColor } from '~/composables'
+import MainLayout from '~/layouts/MainLayout.astro'
+
+const highlightColor = getHighlightColor(Astro.url.pathname, 0.5)
+---
+
+<MainLayout>
+  <div
+    class="container mx-auto flex h-full flex-col items-center justify-center gap-4"
+  >
+    <div class="prose">
+      <span>This page does not exist</span>
+    </div>
+    <div class="relative h-4 w-full max-w-[16rem]">
+      <div class="ball"></div>
+    </div>
+  </div>
+</MainLayout>
+
+<style define:vars={{ highlightColor }}>
+  .ball {
+    background-color: var(--highlightColor);
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    animation: ball 5s infinite linear both;
+    position: absolute;
+  }
+
+  .ball:hover {
+    transform: scale(2);
+  }
+
+  @keyframes ball {
+    0%,
+    50%,
+    100% {
+      left: 50%;
+    }
+    25% {
+      left: 100%;
+    }
+    75% {
+      left: 0%;
+    }
+  }
+</style>

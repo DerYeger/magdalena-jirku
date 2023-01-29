@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-serif {
+    @apply font-serif font-extralight;
+  }
+
+  .text-primary {
+    @apply text-black;
+  }
+
+  .text-light {
+    @apply opacity-95;
+  }
+
+  .text-lighter {
+    @apply opacity-70;
+  }
+
+  .btn-base {
+    @apply px-2 py-1 rounded inline-flex justify-center gap-2 leading-[30px] !no-underline cursor-pointer text-black opacity-50 hover:opacity-80;
+  }
+
+  .icon-btn {
+    @apply btn-base text-white opacity-100 w-9 h-9;
+  }
+
+  .flex-center {
+    @apply flex items-center;
+  }
+
+  .subheading {
+    @apply mt-0 mb-2;
+  }
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+}
+
+mark {
+  background: none;
+  color: inherit;
+  font-style: italic;
+  font-weight: bold;
+}
+
+:root {
+  --primary: rgba(0, 50, 255, 0.8);
+  --background: #eee;
+  --c-link: var(--primary);
+  --c-shadow: #42424266;
+  --anim-slow: 500ms;
+  --anim-medium: 200ms;
+}
+
+a,
+.prose a {
+  color: var(--c-link);
+  text-decoration: none;
+  transition: opacity var(--anim-medium) ease;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+img.square::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}

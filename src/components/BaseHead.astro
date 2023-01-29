@@ -1,0 +1,57 @@
+---
+import '~/styles/base.css'
+
+export interface Props {
+  title?: string | undefined
+  description?: string | undefined
+  image?: string | undefined
+}
+
+const { title, description, image } = Astro.props as Props
+
+const finalTitle = title ? `${title} – Magdalena Jirku` : 'Magdalena Jirku'
+const finalDescription =
+  description ??
+  'Personal portfolio website of Magdalena Jirku, a graphic design and visual effects artist.'
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site)
+const finalImage = new URL(image ?? `${Astro.site}/og-logo.png`)
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+<link rel="mask-icon" href="/favicon.svg" color="#333" />
+<meta name="theme-color" content="#eee" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Primary Meta Tags -->
+<title>{finalTitle}</title>
+<meta name="title" content={finalTitle} />
+<meta name="description" content={finalDescription} />
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:title" content={finalTitle} />
+<meta property="og:description" content={finalDescription} />
+<meta property="og:image" content={finalImage} />
+
+<style is:global>
+  @media (prefers-reduced-motion: no-preference) {
+    .slide-in-invisible {
+      opacity: 0;
+      transform: translateY(5rem);
+      transition: opacity var(--anim-slow) ease-out,
+        transform var(--anim-slow) ease-out;
+    }
+
+    .slide-in-visible {
+      opacity: initial;
+      transform: unset;
+    }
+  }
+</style>
+<script src="~/components/slide-in.ts"></script>

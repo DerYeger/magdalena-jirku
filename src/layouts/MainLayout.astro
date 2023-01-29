@@ -1,0 +1,33 @@
+---
+import type { Props as BaseHeadProps } from '~/components/BaseHead.astro'
+import BaseHead from '~/components/BaseHead.astro'
+import Footer from '~/components/Footer.astro'
+import Header from '~/components/Header.astro'
+import Main from '~/components/Main.astro'
+import Sidebar from '~/components/Sidebar.astro'
+
+export interface Props extends Partial<BaseHeadProps> {}
+
+const { title, description, image } = Astro.props as Props
+
+const path = Astro.url.pathname
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head class="max-w-full overflow-x-hidden">
+    <BaseHead title={title} description={description} image={image} />
+  </head>
+  <body class="text-primary font-sans">
+    <div class="flex h-full w-full flex-row overflow-y-hidden">
+      <Sidebar path={path} />
+      <div class="flex flex-1 flex-col overflow-y-auto">
+        <Header />
+        <Main class="flex-1">
+          <slot />
+        </Main>
+        <Footer />
+      </div>
+    </div>
+  </body>
+</html>
