@@ -12,7 +12,7 @@ const { title, images } = Astro.props
 
 <section class="showcase slide-in mx-auto max-w-[85rem]">
   <div class="prose my-12 mx-auto w-full text-center">
-    <h1 class="font-serif">{title}</h1>
+    <span class="text-4xl font-medium">{title}</span>
   </div>
   <slot />
   <Gallery images={images} client:visible />

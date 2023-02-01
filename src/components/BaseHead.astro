@@ -39,6 +39,13 @@ const finalImage = new URL(image ?? `${Astro.site}/og-logo.png`)
 <meta property="og:description" content={finalDescription} />
 <meta property="og:image" content={finalImage} />
 
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+/>
+
 <style is:global>
   @media (prefers-reduced-motion: no-preference) {
     .slide-in-invisible {

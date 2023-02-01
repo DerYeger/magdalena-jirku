@@ -104,23 +104,7 @@ const vectorGraphicsShowcase: Showcase = {
   ],
 }
 
-const weddingShowcase: Showcase = {
-  title: 'Wedding',
-  images: [
-    {
-      title: 'Photo by Philipp Schuster',
-      src: '/img/graphic-design/wedding/Wedding_Photo.webp',
-      thumbnail: '/img/graphic-design/wedding/Wedding_Photo_Thumbnail.webp',
-    },
-    {
-      src: '/img/graphic-design/wedding/Wedding_Mockup.webp',
-      thumbnail: '/img/graphic-design/wedding/Wedding_Mockup_Thumbnail.webp',
-    },
-  ],
-}
-
 const showcases = [
-  weddingShowcase,
   logoDesignShowcase,
   vectorGraphicsShowcase,
   storyboardShowcase,

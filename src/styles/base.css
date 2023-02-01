@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  .text-serif {
-    @apply font-serif font-extralight;
-  }
-
   .text-primary {
     @apply text-black;
   }
