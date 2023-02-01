@@ -3,13 +3,60 @@ import Showcase from '~/components/Showcase.astro'
 import { useGraphicDesignShowcases } from '~/composables'
 import MainLayout from '~/layouts/MainLayout.astro'
 
-const showcases = useGraphicDesignShowcases()
+const {
+  logoDesignShowcase,
+  vectorGraphicsShowcase,
+  storyboardShowcase,
+  exhibitionCatalogShowcase,
+  illustratedCardsShowcase,
+} = useGraphicDesignShowcases()
+
+const posterVideos = [
+  '/img/graphic-design/posters/burger',
+  '/img/graphic-design/posters/wine',
+]
 ---
 
 <MainLayout>
-  {
-    showcases.map((showcase) => (
-      <Showcase title={showcase.title} images={showcase.images} />
-    ))
-  }
+  <Showcase {...logoDesignShowcase} />
+  <Showcase {...vectorGraphicsShowcase} />
+  <Showcase title="Posters">
+    <script>
+      const videos = [
+        ...document.querySelectorAll<HTMLVideoElement>('.video-gallery video'),
+      ]
+      videos.forEach((video) =>
+        video.addEventListener('mouseover', () => video.play())
+      )
+
+      videos.forEach((video) =>
+        video.addEventListener('mouseleave', () => video.pause())
+      )
+    </script>
+    <div
+      class="video-gallery flex w-full flex-row flex-wrap justify-center gap-4"
+    >
+      {
+        posterVideos.map((video) => (
+          <video
+            controls
+            controlslist="nodownload"
+            playsinline
+            loop
+            class="block md:max-h-[32rem]"
+            poster={`${video}.png`}
+          >
+            <source src={`${video}.mp4`} />
+          </video>
+        ))
+      }
+      <img
+        class="block md:max-h-[32rem]"
+        src="/img/graphic-design/posters/dreamteam.png"
+      />
+    </div>
+  </Showcase>
 </MainLayout>
+<Showcase {...storyboardShowcase} />
+<Showcase {...exhibitionCatalogShowcase} />
+<Showcase {...illustratedCardsShowcase} />

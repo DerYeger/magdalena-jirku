@@ -4,7 +4,7 @@ import type { GalleryImage } from '~/types'
 
 interface Props {
   title: string
-  images: GalleryImage[]
+  images?: GalleryImage[]
 }
 
 const { title, images } = Astro.props
@@ -15,7 +15,7 @@ const { title, images } = Astro.props
     <span class="text-4xl font-medium">{title}</span>
   </div>
   <slot />
-  <Gallery images={images} client:visible />
+  {images ? <Gallery images={images} client:visible /> : null}
 </section>
 
 <style>

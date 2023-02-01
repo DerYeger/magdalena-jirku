@@ -104,14 +104,12 @@ const vectorGraphicsShowcase: Showcase = {
   ],
 }
 
-const showcases = [
-  logoDesignShowcase,
-  vectorGraphicsShowcase,
-  storyboardShowcase,
-  exhibitionCatalogShowcase,
-  illustratedCardsShowcase,
-]
-
-export function useGraphicDesignShowcases(): Showcase[] {
-  return showcases
+export function useGraphicDesignShowcases() {
+  return {
+    logoDesignShowcase,
+    vectorGraphicsShowcase,
+    storyboardShowcase,
+    exhibitionCatalogShowcase,
+    illustratedCardsShowcase,
+  }
 }
