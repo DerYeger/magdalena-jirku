@@ -40,7 +40,7 @@ const posterVideos = [
         posterVideos.map((video) => (
           <video
             controls
-            controlslist="nodownload"
+            controlslist="nodownload nofullscreen"
             playsinline
             loop
             class="block md:max-h-[32rem]"
@@ -56,7 +56,7 @@ const posterVideos = [
       />
     </div>
   </Showcase>
+  <Showcase {...storyboardShowcase} />
+  <Showcase {...exhibitionCatalogShowcase} />
+  <Showcase {...illustratedCardsShowcase} />
 </MainLayout>
-<Showcase {...storyboardShowcase} />
-<Showcase {...exhibitionCatalogShowcase} />
-<Showcase {...illustratedCardsShowcase} />

@@ -46,14 +46,13 @@ const logoDesignShowcase: Showcase = {
   title: 'Logo Designs',
   images: [
     {
+      src: '/img/graphic-design/dreamteam.webp',
+      thumbnail: '/img/graphic-design/dreamteam-thumbnail.webp',
+    },
+    {
       src: '/img/graphic-design/Luminosity_Pictures/LP_Logo.webp',
       thumbnail:
         '/img/graphic-design/Luminosity_Pictures/LP_Logo_Thumbnail.webp',
-    },
-    {
-      src: '/img/graphic-design/Luminosity_Pictures/LP_Businesscard_V2.webp',
-      thumbnail:
-        '/img/graphic-design/Luminosity_Pictures/LP_Businesscard_V2_Thumbnail.webp',
     },
     {
       src: '/img/graphic-design/VollesPotenzial/Mockup_Volles_Potenzial.webp',
@@ -67,9 +66,13 @@ const storyboardShowcase: Showcase = {
   title: 'Storyboards',
   images: [
     {
-      src: '/img/graphic-design/Storyboards/High_Rise_Storyboard.webp',
+      src: '/img/graphic-design/Storyboards/bauhaus.webp',
+      thumbnail: '/img/graphic-design/Storyboards/bauhaus-thumbnail.webp',
+    },
+    {
+      src: '/img/graphic-design/Storyboards/Storyboard_tv_v4.webp',
       thumbnail:
-        '/img/graphic-design/Storyboards/High_Rise_Storyboard_Thumbnail.webp',
+        '/img/graphic-design/Storyboards/Storyboard_tv_v4_Thumbnail.webp',
     },
     {
       src: '/img/graphic-design/Storyboards/Monday_Morning_Storyboard_Final.webp',
@@ -77,9 +80,9 @@ const storyboardShowcase: Showcase = {
         '/img/graphic-design/Storyboards/Monday_Morning_Storyboard_Final_Thumbnail.webp',
     },
     {
-      src: '/img/graphic-design/Storyboards/Storyboard_tv_v4.webp',
+      src: '/img/graphic-design/Storyboards/High_Rise_Storyboard.webp',
       thumbnail:
-        '/img/graphic-design/Storyboards/Storyboard_tv_v4_Thumbnail.webp',
+        '/img/graphic-design/Storyboards/High_Rise_Storyboard_Thumbnail.webp',
     },
   ],
 }
@@ -88,14 +91,18 @@ const vectorGraphicsShowcase: Showcase = {
   title: 'Vector Graphics',
   images: [
     {
-      src: '/img/graphic-design/Vector_Graphics/Dangerous_Eyes.webp',
-      thumbnail:
-        '/img/graphic-design/Vector_Graphics/Dangerous_Eyes_Thumbnail.webp',
+      src: '/img/graphic-design/Vector_Graphics/mountains.webp',
+      thumbnail: '/img/graphic-design/Vector_Graphics/mountains-thumbnail.webp',
     },
     {
       src: '/img/graphic-design/Vector_Graphics/Howling_Sunset.webp',
       thumbnail:
         '/img/graphic-design/Vector_Graphics/Howling_Sunset_Thumbnail.webp',
+    },
+    {
+      src: '/img/graphic-design/Vector_Graphics/Dangerous_Eyes.webp',
+      thumbnail:
+        '/img/graphic-design/Vector_Graphics/Dangerous_Eyes_Thumbnail.webp',
     },
     {
       src: '/img/graphic-design/Vector_Graphics/Snacking.webp',
