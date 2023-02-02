@@ -21,18 +21,7 @@ const posterVideos = [
   <Showcase {...logoDesignShowcase} />
   <Showcase {...vectorGraphicsShowcase} />
   <Showcase title="Posters">
-    <script>
-      const videos = [
-        ...document.querySelectorAll<HTMLVideoElement>('.video-gallery video'),
-      ]
-      videos.forEach((video) =>
-        video.addEventListener('mouseover', () => video.play())
-      )
-
-      videos.forEach((video) =>
-        video.addEventListener('mouseleave', () => video.pause())
-      )
-    </script>
+    <script src="~/composables/play-videos.ts"></script>
     <div
       class="video-gallery flex w-full flex-row flex-wrap justify-center gap-4"
     >
