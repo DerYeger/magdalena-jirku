@@ -1,3 +1,20 @@
+# [2.12.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.11.2...v2.12.0) (2023-02-02)
+
+
+### Bug Fixes
+
+* check correctly for active nav links ([e59d5c4](https://github.com/DerYeger/magdalena-jirku/commit/e59d5c42748b2f8070fbbfc3ae26638f1a1006c1))
+* optimize poster height ([cdbba05](https://github.com/DerYeger/magdalena-jirku/commit/cdbba058706cf51df6737246289a58f5918edb1c))
+
+
+### Features
+
+* add poster videos ([6a46cf6](https://github.com/DerYeger/magdalena-jirku/commit/6a46cf6946c991fa259664c71167867187d34e7c))
+* add webm videos ([5f42856](https://github.com/DerYeger/magdalena-jirku/commit/5f4285699dee8e24f0b371d6452cf38db22c7eac))
+* design overhaul ([e092586](https://github.com/DerYeger/magdalena-jirku/commit/e0925866df1cdeb978c9740b74c2c74c5844d6ab))
+* extend graphic design showcase ([8094e9b](https://github.com/DerYeger/magdalena-jirku/commit/8094e9bd84ec5a489d9dfd2130cd1dbc3da5492c))
+* migrate to astro ([82e8122](https://github.com/DerYeger/magdalena-jirku/commit/82e812274f00e7b824789a32dcd5cb8e03c5b310))
+
 ## [2.11.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.11.1...v2.11.2) (2023-01-28)
 
 
