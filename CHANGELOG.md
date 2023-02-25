@@ -1,3 +1,10 @@
+## [2.12.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.12.0...v2.12.1) (2023-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.4.4 ([a8c01aa](https://github.com/DerYeger/magdalena-jirku/commit/a8c01aaf6d2e04eda6e3edc3c9e30aeded7b9706))
+
 # [2.12.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.11.2...v2.12.0) (2023-02-02)
 
 
