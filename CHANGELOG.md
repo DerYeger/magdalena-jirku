@@ -1,3 +1,10 @@
+# [2.13.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.12.2...v2.13.0) (2023-03-20)
+
+
+### Features
+
+* update portfolio ([05cb7d8](https://github.com/DerYeger/magdalena-jirku/commit/05cb7d805441014874d9075a47c3f2cbe1450bb6))
+
 ## [2.12.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.12.1...v2.12.2) (2023-03-11)
 
 
