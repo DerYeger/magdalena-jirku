@@ -1,3 +1,13 @@
+# [2.14.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.13.0...v2.14.0) (2023-03-23)
+
+
+### Features
+
+* add new reel ([0c284ec](https://github.com/DerYeger/magdalena-jirku/commit/0c284ecfcec9b2a2f27bb416f6e609b492d23ead))
+* add vimeo reel redirect ([018e62f](https://github.com/DerYeger/magdalena-jirku/commit/018e62f70bb8ff4f0c90219ccff0d2b746b0f726))
+* add youtube reel redirect ([16a95a6](https://github.com/DerYeger/magdalena-jirku/commit/16a95a6d08209aee96d7bf7cd2aef89b8bf1b420))
+* update portfolio ([7020ddb](https://github.com/DerYeger/magdalena-jirku/commit/7020ddb304587b4b885d3d8ce2f227fd54d451ff))
+
 # [2.13.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.12.2...v2.13.0) (2023-03-20)
 
 
