@@ -1,3 +1,10 @@
+## [2.14.4](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.3...v2.14.4) (2023-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/node to v18.15.9 ([#86](https://github.com/DerYeger/magdalena-jirku/issues/86)) ([66ebcfd](https://github.com/DerYeger/magdalena-jirku/commit/66ebcfd0a9b2045be563f24ad931bcb513bedcfe))
+
 ## [2.14.3](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.2...v2.14.3) (2023-03-25)
 
 
