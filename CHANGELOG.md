@@ -1,3 +1,10 @@
+## [2.14.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.0...v2.14.1) (2023-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v8 ([#88](https://github.com/DerYeger/magdalena-jirku/issues/88)) ([71d542b](https://github.com/DerYeger/magdalena-jirku/commit/71d542b3b9a0e9f04d9afbebdb6e8b6dbd4b9b63))
+
 # [2.14.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.13.0...v2.14.0) (2023-03-23)
 
 
