@@ -1,3 +1,11 @@
+## [2.14.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.1...v2.14.2) (2023-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([8189fc3](https://github.com/DerYeger/magdalena-jirku/commit/8189fc35d0a2d405b7ff22d40427fa5288037570))
+* **deps:** update dependency @commitlint/cli to v17.5.0 ([c8343b6](https://github.com/DerYeger/magdalena-jirku/commit/c8343b69b7d3b5288ef9a66b3020d5cc51b29b5a))
+
 ## [2.14.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.0...v2.14.1) (2023-03-25)
 
 
