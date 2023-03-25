@@ -1,3 +1,10 @@
+## [2.14.3](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.2...v2.14.3) (2023-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v5 ([1156753](https://github.com/DerYeger/magdalena-jirku/commit/1156753395ab90bb8fe6592b41ee33f861b78dca))
+
 ## [2.14.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.1...v2.14.2) (2023-03-25)
 
 
