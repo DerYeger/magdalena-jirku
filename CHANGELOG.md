@@ -1,3 +1,10 @@
+# [2.15.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.4...v2.15.0) (2023-03-27)
+
+
+### Features
+
+* add portfolio redirects ([4b4e72c](https://github.com/DerYeger/magdalena-jirku/commit/4b4e72c9bb67c08b7aa8b5892b2a6e768150b992))
+
 ## [2.14.4](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.3...v2.14.4) (2023-03-25)
 
 
