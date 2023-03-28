@@ -1,3 +1,10 @@
+## [2.15.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.0...v2.15.1) (2023-03-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v17.5.0 ([#87](https://github.com/DerYeger/magdalena-jirku/issues/87)) ([565d925](https://github.com/DerYeger/magdalena-jirku/commit/565d92543d9fc01c1a474a731841dfa054f62837))
+
 # [2.15.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.14.4...v2.15.0) (2023-03-27)
 
 
