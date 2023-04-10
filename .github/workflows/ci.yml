@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 16
       - name: Build, check, and lint
-        run: pnpm ci
+        run: pnpm run ci
       - name: Upload
         uses: actions/upload-artifact@v3
         with:
@@ -42,7 +42,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
       - name: Release
-        uses: cycjimmy/semantic-release-action@v3.4.0
+        uses: cycjimmy/semantic-release-action@v3.4.2
         with:
           extra_plugins: |
             @semantic-release/changelog
