@@ -8,10 +8,10 @@ dependencies:
 devDependencies:
   '@astrojs/image':
     specifier: 1.0.0-beta.2
-    version: 1.0.0-beta.2(astro@2.2.1)(sharp@0.32.0)
+    version: 1.0.0-beta.2(astro@2.3.0)(sharp@0.32.0)
   '@astrojs/mdx':
     specifier: 1.0.0-beta.2
-    version: 1.0.0-beta.2(astro@2.2.1)(rollup@3.20.2)
+    version: 1.0.0-beta.2(astro@2.3.0)(rollup@3.20.2)
   '@astrojs/prefetch':
     specifier: 0.2.1
     version: 0.2.1
@@ -20,10 +20,10 @@ devDependencies:
     version: 1.2.2
   '@astrojs/tailwind':
     specifier: 3.1.1
-    version: 3.1.1(astro@2.2.1)(tailwindcss@3.3.1)(ts-node@10.9.1)
+    version: 3.1.1(astro@2.3.0)(tailwindcss@3.3.1)(ts-node@10.9.1)
   '@astrojs/vue':
     specifier: 2.1.1
-    version: 2.1.1(@babel/core@7.21.0)(astro@2.2.1)(vite@4.2.1)(vue@3.2.47)
+    version: 2.1.1(@babel/core@7.21.0)(astro@2.3.0)(vite@4.2.1)(vue@3.2.47)
   '@babel/core':
     specifier: '7'
     version: 7.21.0
@@ -43,8 +43,8 @@ devDependencies:
     specifier: 1.9.1
     version: 1.9.1(@typescript-eslint/parser@5.54.1)(eslint@8.38.0)(tailwindcss@3.3.1)(typescript@5.0.4)
   astro:
-    specifier: 2.2.1
-    version: 2.2.1(@types/node@18.15.11)(sharp@0.32.0)
+    specifier: 2.3.0
+    version: 2.3.0(@types/node@18.15.11)(sharp@0.32.0)
   astro-critters:
     specifier: 1.1.31
     version: 1.1.31
@@ -97,8 +97,8 @@ devDependencies:
     specifier: 10.9.1
     version: 10.9.1(@types/node@18.15.11)(typescript@5.0.4)
   turbo:
-    specifier: 1.8.8
-    version: 1.8.8
+    specifier: 1.9.1
+    version: 1.9.1
   typescript:
     specifier: 5.0.4
     version: 5.0.4
@@ -233,7 +233,7 @@ packages:
     resolution: {integrity: sha512-xV/3r+Hrfpr4ECfJjRjeaMkJvU73KiOADowHjhkqidfNPVAWPzbqw1KePXuMK1TjzMvoAVE7E163oqfH3lDwSw==}
     dev: true
 
-  /@astrojs/image@1.0.0-beta.2(astro@2.2.1)(sharp@0.32.0):
+  /@astrojs/image@1.0.0-beta.2(astro@2.3.0)(sharp@0.32.0):
     resolution: {integrity: sha512-lwgXfQ9k5elPE+9XbRk087GPppFr9aJhRxQPVZJgjgkozmH2OH8PkJpxCjenx8Q2n+BqdGBuQyBhhVOotBj+yQ==}
     peerDependencies:
       astro: ^2.0.0-beta.2
@@ -243,7 +243,7 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.2.1(@types/node@18.15.11)(sharp@0.32.0)
+      astro: 2.3.0(@types/node@18.15.11)(sharp@0.32.0)
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
@@ -272,13 +272,13 @@ packages:
       vscode-uri: 3.0.7
     dev: true
 
-  /@astrojs/markdown-remark@2.1.0(astro@2.2.1):
+  /@astrojs/markdown-remark@2.1.0(astro@2.3.0):
     resolution: {integrity: sha512-w9T5o3UWQIfMcCkM2nLWrlfVQazh/7mw+2N/85QGcSUkZy6oNJoyy8Xz/ZkDhHLx8HPO0RT9fABR0B/H+aDaEw==}
     peerDependencies:
       astro: ^2.1.0
     dependencies:
       '@astrojs/prism': 2.1.0
-      astro: 2.2.1(@types/node@18.15.11)(sharp@0.32.0)
+      astro: 2.3.0(@types/node@18.15.11)(sharp@0.32.0)
       github-slugger: 1.5.0
       image-size: 1.0.2
       import-meta-resolve: 2.2.2
@@ -296,13 +296,13 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/markdown-remark@2.1.3(astro@2.2.1):
-    resolution: {integrity: sha512-Di8Qbit9p7L7eqKklAJmiW9nVD+XMsNHpaNzCLduWjOonDu9fVgEzdjeDrTVCDtgrvkfhpAekuNXrp5+w4F91g==}
+  /@astrojs/markdown-remark@2.1.4(astro@2.3.0):
+    resolution: {integrity: sha512-z5diCcFo2xkBAJ11KySAIKpZZkULZmzUvWsZ2VWIOrR6QrEgEfVl5jTpgPSedx4m+xUPuemlUviOotGB7ItNsQ==}
     peerDependencies:
-      astro: ^2.2.0
+      astro: ^2.3.0
     dependencies:
       '@astrojs/prism': 2.1.0
-      astro: 2.2.1(@types/node@18.15.11)(sharp@0.32.0)
+      astro: 2.3.0(@types/node@18.15.11)(sharp@0.32.0)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -319,11 +319,11 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx@1.0.0-beta.2(astro@2.2.1)(rollup@3.20.2):
+  /@astrojs/mdx@1.0.0-beta.2(astro@2.3.0)(rollup@3.20.2):
     resolution: {integrity: sha512-jGdM+5zQfS7BB7q2DUi/vZlJnv164pjJZ6x3EOzU+uLgtw9ycWJSNOf3/AsTujrRPvaPVXXQ6IPwoSwz/mIAvA==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.1.0(astro@2.2.1)
+      '@astrojs/markdown-remark': 2.1.0(astro@2.3.0)
       '@astrojs/prism': 2.1.0
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0(rollup@3.20.2)
@@ -366,14 +366,14 @@ packages:
       zod: 3.21.4
     dev: true
 
-  /@astrojs/tailwind@3.1.1(astro@2.2.1)(tailwindcss@3.3.1)(ts-node@10.9.1):
+  /@astrojs/tailwind@3.1.1(astro@2.3.0)(tailwindcss@3.3.1)(ts-node@10.9.1):
     resolution: {integrity: sha512-Wx/ZtVnmtfqHWGVzvUEYZm8rufVKVgDIef0q6fzwUxoT1EpTTwBkTbpnzooogewMLOh2eTscasGe3Ih2HC1wVA==}
     peerDependencies:
       astro: ^2.1.3
       tailwindcss: ^3.0.24
     dependencies:
       '@proload/core': 0.3.3
-      astro: 2.2.1(@types/node@18.15.11)(sharp@0.32.0)
+      astro: 2.3.0(@types/node@18.15.11)(sharp@0.32.0)
       autoprefixer: 10.4.14(postcss@8.4.21)
       postcss: 8.4.21
       postcss-load-config: 4.0.1(postcss@8.4.21)(ts-node@10.9.1)
@@ -398,7 +398,7 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/vue@2.1.1(@babel/core@7.21.0)(astro@2.2.1)(vite@4.2.1)(vue@3.2.47):
+  /@astrojs/vue@2.1.1(@babel/core@7.21.0)(astro@2.3.0)(vite@4.2.1)(vue@3.2.47):
     resolution: {integrity: sha512-o0zfGg93df6pXxtHjzLe5IfvuBR3a2JXPHKnnnkAeir4tz5Qen6Eg+q7PBj2chHQPdIhkaPACyBQAcyUTKIAkQ==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -409,7 +409,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.0.0(vite@4.2.1)(vue@3.2.47)
       '@vue/babel-plugin-jsx': 1.1.1(@babel/core@7.21.0)
       '@vue/compiler-sfc': 3.2.47
-      astro: 2.2.1(@types/node@18.15.11)(sharp@0.32.0)
+      astro: 2.3.0(@types/node@18.15.11)(sharp@0.32.0)
       vue: 3.2.47
     transitivePeerDependencies:
       - '@babel/core'
@@ -2302,8 +2302,8 @@ packages:
       zod: 3.21.4
     dev: true
 
-  /astro@2.2.1(@types/node@18.15.11)(sharp@0.32.0):
-    resolution: {integrity: sha512-yYPRzh3su38bi3VBCKmYAUBkQSaFQMKFsu8JAVDzFRoGLbskJ/6JkDX2abSB9/iRug8GAKaH/FWxXOTzIsSQ7Q==}
+  /astro@2.3.0(@types/node@18.15.11)(sharp@0.32.0):
+    resolution: {integrity: sha512-1t8U6vDHQLT0gw0IXZLtJKDIShCcJwOuh0K1JyPgFwu1famb/ggyvsqp9nxBZIbNV8BcAWDHrJA+Z7hh1oEiWA==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     peerDependencies:
@@ -2314,7 +2314,7 @@ packages:
     dependencies:
       '@astrojs/compiler': 1.3.1
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.1.3(astro@2.2.1)
+      '@astrojs/markdown-remark': 2.1.4(astro@2.3.0)
       '@astrojs/telemetry': 2.1.0
       '@astrojs/webapi': 2.1.0
       '@babel/core': 7.21.0
@@ -9341,65 +9341,65 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /turbo-darwin-64@1.8.8:
-    resolution: {integrity: sha512-18cSeIm7aeEvIxGyq7PVoFyEnPpWDM/0CpZvXKHpQ6qMTkfNt517qVqUTAwsIYqNS8xazcKAqkNbvU1V49n65Q==}
+  /turbo-darwin-64@1.9.1:
+    resolution: {integrity: sha512-IX/Ph4CO80lFKd9pPx3BWpN2dynt6mcUFifyuHUNVkOP1Usza/G9YuZnKQFG6wUwKJbx40morFLjk1TTeLe04w==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64@1.8.8:
-    resolution: {integrity: sha512-ruGRI9nHxojIGLQv1TPgN7ud4HO4V8mFBwSgO6oDoZTNuk5ybWybItGR+yu6fni5vJoyMHXOYA2srnxvOc7hjQ==}
+  /turbo-darwin-arm64@1.9.1:
+    resolution: {integrity: sha512-6tCbmIboy9dTbhIZ/x9KIpje73nvxbiyVnHbr9xKnsxLJavD0xqjHZzbL5U2tHp8chqmYf0E4WYOXd+XCNg+OQ==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64@1.8.8:
-    resolution: {integrity: sha512-N/GkHTHeIQogXB1/6ZWfxHx+ubYeb8Jlq3b/3jnU4zLucpZzTQ8XkXIAfJG/TL3Q7ON7xQ8yGOyGLhHL7MpFRg==}
+  /turbo-linux-64@1.9.1:
+    resolution: {integrity: sha512-ti8XofnJFO1XaadL92lYJXgxb0VBl03Yu9VfhxkOTywFe7USTLBkJcdvQ4EpFk/KZwLiTdCmT2NQVxsG4AxBiQ==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64@1.8.8:
-    resolution: {integrity: sha512-hKqLbBHgUkYf2Ww8uBL9UYdBFQ5677a7QXdsFhONXoACbDUPvpK4BKlz3NN7G4NZ+g9dGju+OJJjQP0VXRHb5w==}
+  /turbo-linux-arm64@1.9.1:
+    resolution: {integrity: sha512-XYvIbeiCCCr+ENujd2Jtck/lJPTKWb8T2MSL/AEBx21Zy3Sa7HgrQX6LX0a0pNHjaleHz00XXt1D0W5hLeP+tA==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64@1.8.8:
-    resolution: {integrity: sha512-2ndjDJyzkNslXxLt+PQuU21AHJWc8f6MnLypXy3KsN4EyX/uKKGZS0QJWz27PeHg0JS75PVvhfFV+L9t9i+Yyg==}
+  /turbo-windows-64@1.9.1:
+    resolution: {integrity: sha512-x7lWAspe4/v3XQ0gaFRWDX/X9uyWdhwFBPEfb8BA0YKtnsrPOHkV0mRHCRrXzvzjA7pcDCl2agGzb7o863O+Jg==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64@1.8.8:
-    resolution: {integrity: sha512-xCA3oxgmW9OMqpI34AAmKfOVsfDljhD5YBwgs0ZDsn5h3kCHhC4x9W5dDk1oyQ4F5EXSH3xVym5/xl1J6WRpUg==}
+  /turbo-windows-arm64@1.9.1:
+    resolution: {integrity: sha512-QSLNz8dRBLDqXOUv/KnoesBomSbIz2Huef/a3l2+Pat5wkQVgMfzFxDOnkK5VWujPYXz+/prYz+/7cdaC78/kw==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo@1.8.8:
-    resolution: {integrity: sha512-qYJ5NjoTX+591/x09KgsDOPVDUJfU9GoS+6jszQQlLp1AHrf1wRFA3Yps8U+/HTG03q0M4qouOfOLtRQP4QypA==}
+  /turbo@1.9.1:
+    resolution: {integrity: sha512-Rqe8SP96e53y4Pk29kk2aZbA8EF11UtHJ3vzXJseadrc1T3V6UhzvAWwiKJL//x/jojyOoX1axnoxmX3UHbZ0g==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.8.8
-      turbo-darwin-arm64: 1.8.8
-      turbo-linux-64: 1.8.8
-      turbo-linux-arm64: 1.8.8
-      turbo-windows-64: 1.8.8
-      turbo-windows-arm64: 1.8.8
+      turbo-darwin-64: 1.9.1
+      turbo-darwin-arm64: 1.9.1
+      turbo-linux-64: 1.9.1
+      turbo-linux-arm64: 1.9.1
+      turbo-windows-64: 1.9.1
+      turbo-windows-arm64: 1.9.1
     dev: true
 
   /tweetnacl@0.14.5:
