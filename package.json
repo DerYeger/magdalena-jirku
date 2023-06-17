@@ -1,7 +1,7 @@
 {
   "name": "magdalena-jirku",
   "type": "module",
-  "version": "2.15.13",
+  "version": "2.15.14",
   "private": true,
   "scripts": {
     "build": "astro build",
