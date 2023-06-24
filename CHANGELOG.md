@@ -1,3 +1,10 @@
+## [2.15.16](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.15...v2.15.16) (2023-06-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @astrojs/tailwind to v4 ([db209ba](https://github.com/DerYeger/magdalena-jirku/commit/db209ba64e8624909da27ec5c9f777a2411220e5))
+
 ## [2.15.15](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.14...v2.15.15) (2023-06-17)
 
 
