@@ -1,3 +1,11 @@
+## [2.15.20](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.19...v2.15.20) (2023-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([38a19e4](https://github.com/DerYeger/magdalena-jirku/commit/38a19e4aeba7276e9bc6bedc203292206c073aa8))
+* **deps:** update dependency rollup to v3.26.3 ([#93](https://github.com/DerYeger/magdalena-jirku/issues/93)) ([2365950](https://github.com/DerYeger/magdalena-jirku/commit/236595054afea2f523730be93022c144dbc4a93e))
+
 ## [2.15.19](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.18...v2.15.19) (2023-07-08)
 
 
