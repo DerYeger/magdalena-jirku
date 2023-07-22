@@ -1,3 +1,10 @@
+## [2.15.23](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.22...v2.15.23) (2023-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @astrojs/sitemap to v2 ([#94](https://github.com/DerYeger/magdalena-jirku/issues/94)) ([a501d77](https://github.com/DerYeger/magdalena-jirku/commit/a501d779627f50192e27399765274ec7114e1485))
+
 ## [2.15.22](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.21...v2.15.22) (2023-07-22)
 
 
