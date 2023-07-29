@@ -1,3 +1,11 @@
+## [2.15.24](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.23...v2.15.24) (2023-07-29)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#96](https://github.com/DerYeger/magdalena-jirku/issues/96)) ([7d22d14](https://github.com/DerYeger/magdalena-jirku/commit/7d22d143098756f9e0c7587b4aed7a0f2bc1f7f6))
+* **deps:** update dependency turbo to v1.10.12 ([#95](https://github.com/DerYeger/magdalena-jirku/issues/95)) ([966d44f](https://github.com/DerYeger/magdalena-jirku/commit/966d44f9c3a9a4b5c8d7712ba14d9ef5e10d9d43))
+
 ## [2.15.23](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.22...v2.15.23) (2023-07-22)
 
 
