@@ -1,3 +1,10 @@
+## [2.15.27](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.26...v2.15.27) (2023-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo ([#100](https://github.com/DerYeger/magdalena-jirku/issues/100)) ([5b80688](https://github.com/DerYeger/magdalena-jirku/commit/5b806881dce6a5b126fd0c86b1bcc8d56eb9802c))
+
 ## [2.15.26](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.25...v2.15.26) (2023-08-15)
 
 
