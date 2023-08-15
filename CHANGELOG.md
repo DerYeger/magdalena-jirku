@@ -1,3 +1,10 @@
+## [2.15.26](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.25...v2.15.26) (2023-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro-critters to v2 ([#101](https://github.com/DerYeger/magdalena-jirku/issues/101)) ([0c2bbcf](https://github.com/DerYeger/magdalena-jirku/commit/0c2bbcf0b12a054ec37e256c0d7c364fa7e6b8da))
+
 ## [2.15.25](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.24...v2.15.25) (2023-08-05)
 
 
