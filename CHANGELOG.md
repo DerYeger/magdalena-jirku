@@ -1,3 +1,12 @@
+## [2.15.28](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.27...v2.15.28) (2023-08-19)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([1335c43](https://github.com/DerYeger/magdalena-jirku/commit/1335c435073fcb841e478813dfe59d59b65e4507))
+* **deps:** update all non-major dependencies ([#99](https://github.com/DerYeger/magdalena-jirku/issues/99)) ([34fee25](https://github.com/DerYeger/magdalena-jirku/commit/34fee259964f7c750858691d108e6489899c42d5))
+* **deps:** update dependency hastscript to v8 ([#97](https://github.com/DerYeger/magdalena-jirku/issues/97)) ([e4faf9b](https://github.com/DerYeger/magdalena-jirku/commit/e4faf9ba5cda8d425725d6914411288d3310ba0b))
+
 ## [2.15.27](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.26...v2.15.27) (2023-08-15)
 
 
