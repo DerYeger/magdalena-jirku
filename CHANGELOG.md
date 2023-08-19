@@ -1,3 +1,10 @@
+## [2.15.29](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.28...v2.15.29) (2023-08-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lint-staged to v14 ([#102](https://github.com/DerYeger/magdalena-jirku/issues/102)) ([375f831](https://github.com/DerYeger/magdalena-jirku/commit/375f831319192c0fa6303d33971394c0d40e4448))
+
 ## [2.15.28](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.27...v2.15.28) (2023-08-19)
 
 
