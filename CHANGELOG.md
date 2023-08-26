@@ -1,3 +1,10 @@
+## [2.15.32](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.31...v2.15.32) (2023-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vite-plugin-lib to v2 ([#103](https://github.com/DerYeger/magdalena-jirku/issues/103)) ([6c4b145](https://github.com/DerYeger/magdalena-jirku/commit/6c4b145e69aff92d1e55635856e3b927832f43e0))
+
 ## [2.15.31](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.30...v2.15.31) (2023-08-26)
 
 
