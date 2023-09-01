@@ -43,7 +43,7 @@
     "autoprefixer": "10.4.15",
     "cypress": "12.17.4",
     "eslint": "8.48.0",
-    "hast-util-to-string": "2.0.0",
+    "hast-util-to-string": "3.0.0",
     "hastscript": "8.0.0",
     "html-escaper": "3.0.3",
     "husky": "8.0.3",
