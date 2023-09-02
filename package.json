@@ -27,7 +27,7 @@
     "@astrojs/image": "1.0.0-beta.2",
     "@astrojs/mdx": "1.0.0",
     "@astrojs/prefetch": "0.4.0",
-    "@astrojs/sitemap": "2.0.2",
+    "@astrojs/sitemap": "3.0.0",
     "@astrojs/tailwind": "4.0.0",
     "@astrojs/vue": "2.2.1",
     "@babel/core": "7",
