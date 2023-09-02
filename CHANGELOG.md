@@ -1,3 +1,11 @@
+## [2.15.35](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.34...v2.15.35) (2023-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update cycjimmy/semantic-release-action action to v4 ([#104](https://github.com/DerYeger/magdalena-jirku/issues/104)) ([83b7779](https://github.com/DerYeger/magdalena-jirku/commit/83b777948423f9da56f2c57da1f023128f40f13d))
+* **deps:** update dependency cypress to v13 ([#109](https://github.com/DerYeger/magdalena-jirku/issues/109)) ([99726f2](https://github.com/DerYeger/magdalena-jirku/commit/99726f20ec5ef246a0e3f9784b43410d0a1873c1))
+
 ## [2.15.34](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.33...v2.15.34) (2023-09-02)
 
 
