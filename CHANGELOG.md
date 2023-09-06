@@ -1,3 +1,14 @@
+## [2.15.37](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.36...v2.15.37) (2023-09-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @astrojs/sitemap to v3 ([44beb90](https://github.com/DerYeger/magdalena-jirku/commit/44beb90f7a1a892d42d6bdb8865a569852443e24))
+* **deps:** update dependency @astrojs/tailwind to v5 ([f339be7](https://github.com/DerYeger/magdalena-jirku/commit/f339be7246450bc167a0147f1572e226319ebed7))
+* **deps:** update dependency @astrojs/vue to v3 ([01c00e1](https://github.com/DerYeger/magdalena-jirku/commit/01c00e14d9ce4f413b5f8cdf875e7b3079ddf152))
+* **deps:** update dependency astro to v3 ([2d062f7](https://github.com/DerYeger/magdalena-jirku/commit/2d062f7defb04ac0fd371dab6f12b6f8cc1d64c5))
+* **deps:** update dependency hast-util-to-string to v3 ([72cff75](https://github.com/DerYeger/magdalena-jirku/commit/72cff75fc587e494191f1dbb74c57c18256720a1))
+
 ## [2.15.36](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.35...v2.15.36) (2023-09-04)
 
 
