@@ -1,4 +1,3 @@
-import image from '@astrojs/image'
 import mdx from '@astrojs/mdx'
 import prefetch from '@astrojs/prefetch'
 import sitemap from '@astrojs/sitemap'
@@ -17,9 +16,6 @@ export default defineConfig({
     host: true,
   },
   integrations: [
-    image({
-      serviceEntryPoint: '@astrojs/image/sharp',
-    }),
     mdx({
       extendMarkdownConfig: true,
     }),

@@ -24,7 +24,7 @@
     "vue-easy-lightbox": "1.16.0"
   },
   "devDependencies": {
-    "@astrojs/image": "1.0.0-beta.2",
+    "@astrojs/check": "0.2.0",
     "@astrojs/mdx": "1.0.0",
     "@astrojs/prefetch": "0.4.0",
     "@astrojs/sitemap": "3.0.0",
