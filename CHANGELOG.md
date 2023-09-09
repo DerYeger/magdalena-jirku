@@ -1,3 +1,11 @@
+## [2.15.38](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.37...v2.15.38) (2023-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v4 ([#111](https://github.com/DerYeger/magdalena-jirku/issues/111)) ([10357f2](https://github.com/DerYeger/magdalena-jirku/commit/10357f278d067be3a5c6da7aa38e54473da2574e))
+* **deps:** update dependency astro-robots-txt to v1 ([#112](https://github.com/DerYeger/magdalena-jirku/issues/112)) ([ec4c17c](https://github.com/DerYeger/magdalena-jirku/commit/ec4c17cc74e0c80153ca8d515b3d54e57a9d3279))
+
 ## [2.15.37](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.36...v2.15.37) (2023-09-06)
 
 
