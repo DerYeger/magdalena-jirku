@@ -1,7 +1,7 @@
 {
   "name": "magdalena-jirku",
   "type": "module",
-  "version": "2.15.39",
+  "version": "2.15.40",
   "private": true,
   "packageManager": "pnpm@8.7.4",
   "scripts": {
