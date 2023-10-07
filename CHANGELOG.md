@@ -1,3 +1,10 @@
+## [2.15.48](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.47...v2.15.48) (2023-10-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency turbo to v1.10.15 ([edb0182](https://github.com/DerYeger/magdalena-jirku/commit/edb01820acb741998735484fdc3b1021b830334a))
+
 ## [2.15.47](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.46...v2.15.47) (2023-09-30)
 
 
