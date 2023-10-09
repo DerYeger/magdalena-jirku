@@ -1,3 +1,10 @@
+## [2.15.50](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.49...v2.15.50) (2023-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v4 ([#113](https://github.com/DerYeger/magdalena-jirku/issues/113)) ([e11f700](https://github.com/DerYeger/magdalena-jirku/commit/e11f700661980343a9d9df8a48acadcc2be36d33))
+
 ## [2.15.49](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.48...v2.15.49) (2023-10-07)
 
 
