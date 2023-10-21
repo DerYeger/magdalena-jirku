@@ -1,3 +1,11 @@
+## [2.15.53](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.52...v2.15.53) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v18 ([#114](https://github.com/DerYeger/magdalena-jirku/issues/114)) ([9893c30](https://github.com/DerYeger/magdalena-jirku/commit/9893c3039df748d82d381864988206b7f41f4981))
+* **deps:** update dependency lint-staged to v15 ([#115](https://github.com/DerYeger/magdalena-jirku/issues/115)) ([e5edce9](https://github.com/DerYeger/magdalena-jirku/commit/e5edce9e16457215845ff457fd28deaff54e56b5))
+
 ## [2.15.52](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.51...v2.15.52) (2023-10-16)
 
 
