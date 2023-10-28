@@ -1,3 +1,10 @@
+## [2.15.61](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.60...v2.15.61) (2023-10-28)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo ([73a9860](https://github.com/DerYeger/magdalena-jirku/commit/73a9860e39139dc4c63d7a426fc61c6da24c06fe))
+
 ## [2.15.60](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.59...v2.15.60) (2023-10-28)
 
 
