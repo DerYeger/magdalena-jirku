@@ -1,3 +1,10 @@
+## [2.15.59](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.58...v2.15.59) (2023-10-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node to v20 ([#119](https://github.com/DerYeger/magdalena-jirku/issues/119)) ([99ad434](https://github.com/DerYeger/magdalena-jirku/commit/99ad4347fd5208fad5c0c80fc70538b909a92694))
+
 ## [2.15.58](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.57...v2.15.58) (2023-10-28)
 
 
