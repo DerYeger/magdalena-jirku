@@ -34,7 +34,7 @@
     "@commitlint/cli": "18.0.0",
     "@commitlint/config-conventional": "18.0.0",
     "@tailwindcss/typography": "0.5.10",
-    "@types/node": "18.18.7",
+    "@types/node": "20.8.9",
     "@yeger/eslint-config": "1.9.1",
     "astro": "3.4.0",
     "astro-critters": "2.0.11",
