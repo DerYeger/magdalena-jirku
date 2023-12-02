@@ -1,3 +1,10 @@
+## [2.15.76](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.75...v2.15.76) (2023-12-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue to v3.3.9 ([21c5936](https://github.com/DerYeger/magdalena-jirku/commit/21c5936d27b26482fdac2d370c9700311f9875d4))
+
 ## [2.15.75](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.74...v2.15.75) (2023-12-02)
 
 
