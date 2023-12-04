@@ -1,3 +1,10 @@
+## [2.15.77](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.76...v2.15.77) (2023-12-04)
+
+
+### Bug Fixes
+
+* **deps:** lock file maintenance ([0eae569](https://github.com/DerYeger/magdalena-jirku/commit/0eae56916c683476bef984469c6cd939eff8a1eb))
+
 ## [2.15.76](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.75...v2.15.76) (2023-12-02)
 
 
