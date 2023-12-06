@@ -1,3 +1,10 @@
+## [2.15.78](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.77...v2.15.78) (2023-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vite to v4.5.1 [security] ([d44d695](https://github.com/DerYeger/magdalena-jirku/commit/d44d695d92f551dca90eab45f3cdc224dd52a4a9))
+
 ## [2.15.77](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.76...v2.15.77) (2023-12-04)
 
 
