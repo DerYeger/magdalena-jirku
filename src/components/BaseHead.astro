@@ -51,7 +51,8 @@ const finalImage = new URL(image ?? `${Astro.site}/og-logo.png`)
     .slide-in-invisible {
       opacity: 0;
       transform: translateY(5rem);
-      transition: opacity var(--anim-slow) ease-out,
+      transition:
+        opacity var(--anim-slow) ease-out,
         transform var(--anim-slow) ease-out;
     }
 

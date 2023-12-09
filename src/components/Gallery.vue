@@ -9,7 +9,7 @@ const props = withDefaults(
     images: GalleryImage[]
     imageWidth?: number
   }>(),
-  { imageWidth: 200 }
+  { imageWidth: 200 },
 )
 const { images, imageWidth } = toRefs(props)
 

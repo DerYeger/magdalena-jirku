@@ -11,7 +11,7 @@ const observer = new IntersectionObserver(
       slideInObserver.unobserve(entry.target)
     })
   },
-  { threshold: 0.2 }
+  { threshold: 0.2 },
 )
 
 slideIn.forEach((element) => observer.observe(element))
