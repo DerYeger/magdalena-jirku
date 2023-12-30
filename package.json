@@ -3,7 +3,7 @@
   "type": "module",
   "version": "2.15.78",
   "private": true,
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@8.13.1",
   "scripts": {
     "build": "astro build",
     "check:astro": "astro check",
@@ -21,27 +21,27 @@
     "turbo": "FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "vue-easy-lightbox": "1.16.0"
+    "vue-easy-lightbox": "1.17.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.3.4",
-    "@astrojs/mdx": "2.0.2",
+    "@astrojs/mdx": "2.0.3",
     "@astrojs/prefetch": "0.4.1",
-    "@astrojs/sitemap": "3.0.3",
-    "@astrojs/tailwind": "5.0.4",
-    "@astrojs/vue": "4.0.5",
+    "@astrojs/sitemap": "3.0.4",
+    "@astrojs/tailwind": "5.1.0",
+    "@astrojs/vue": "4.0.6",
     "@babel/core": "7",
     "@commitlint/cli": "18.4.3",
     "@commitlint/config-conventional": "18.4.3",
     "@tailwindcss/typography": "0.5.10",
-    "@types/node": "20.10.5",
+    "@types/node": "20.10.6",
     "@yeger/eslint-config": "1.9.2",
-    "astro": "4.0.7",
+    "astro": "4.0.8",
     "astro-critters": "2.0.11",
     "astro-icon": "0.8.2",
     "astro-robots-txt": "1.0.0",
     "autoprefixer": "10.4.16",
-    "cypress": "13.6.1",
+    "cypress": "13.6.2",
     "eslint": "8.56.0",
     "hast-util-to-string": "3.0.0",
     "hastscript": "8.0.0",
@@ -49,7 +49,7 @@
     "husky": "8.0.3",
     "is-ci": "3.0.1",
     "lint-staged": "15.2.0",
-    "moment": "2.29.4",
+    "moment": "2.30.1",
     "rollup": "4.9.1",
     "sharp": "0.33.1",
     "tailwindcss": "3.4.0",
@@ -58,8 +58,8 @@
     "typescript": "5.3.3",
     "vite": "5.0.10",
     "vite-plugin-lib": "2.0.3",
-    "vue": "3.3.13",
-    "vue-tsc": "1.8.26"
+    "vue": "3.4.1",
+    "vue-tsc": "1.8.27"
   },
   "lint-staged": {
     "*.{js,json,md,ts,vue,yaml,yml}": "eslint --fix"
