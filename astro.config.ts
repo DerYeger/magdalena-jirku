@@ -5,6 +5,7 @@ import tailwind from '@astrojs/tailwind'
 import vue from '@astrojs/vue'
 import { defineConfig } from 'astro/config'
 import critters from 'astro-critters'
+import icon from 'astro-icon'
 import robotsTxt from 'astro-robots-txt'
 import autoprefixer from 'autoprefixer'
 import { tsconfigPaths } from 'vite-plugin-lib'
@@ -16,6 +17,7 @@ export default defineConfig({
     host: true,
   },
   integrations: [
+    icon(),
     mdx({
       extendMarkdownConfig: true,
     }),

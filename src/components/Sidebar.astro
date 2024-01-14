@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon'
+import { Icon } from 'astro-icon/components'
 
 import { getHighlightColor } from '~/composables'
 
@@ -41,7 +41,7 @@ const bannerImage = (() => {
       target="_blank"
       title="ArtStation"
     >
-      <Icon name="simple-icons:artstation" />
+      <Icon name="simple-icons:artstation" class="h-[1.2em] w-[1.2em]" />
     </a>
     <a
       class="icon-btn"
@@ -50,7 +50,7 @@ const bannerImage = (() => {
       target="_blank"
       title="DeviantArt"
     >
-      <Icon name="simple-icons:deviantart" />
+      <Icon name="simple-icons:deviantart" class="h-[1.2em] w-[1.2em]" />
     </a>
     <a
       class="icon-btn"
@@ -59,7 +59,7 @@ const bannerImage = (() => {
       target="_blank"
       title="LinkedIn"
     >
-      <Icon name="simple-icons:linkedin" />
+      <Icon name="simple-icons:linkedin" class="h-[1.2em] w-[1.2em]" />
     </a>
     <a
       class="icon-btn"
@@ -68,7 +68,7 @@ const bannerImage = (() => {
       target="_blank"
       title="XING"
     >
-      <Icon name="simple-icons:xing" />
+      <Icon name="simple-icons:xing" class="h-[1.2em] w-[1.2em]" />
     </a>
   </div>
 </aside>

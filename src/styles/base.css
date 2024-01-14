@@ -20,7 +20,7 @@
   }
 
   .icon-btn {
-    @apply btn-base text-white opacity-100 w-9 h-9;
+    @apply btn-base text-white opacity-100 w-9;
   }
 
   .flex-center {
