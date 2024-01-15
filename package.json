@@ -21,7 +21,7 @@
     "turbo": "FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.1.87",
+    "@iconify-json/simple-icons": "1.1.88",
     "vue-easy-lightbox": "1.17.0"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "@commitlint/cli": "18.4.4",
     "@commitlint/config-conventional": "18.4.4",
     "@tailwindcss/typography": "0.5.10",
-    "@types/node": "20.11.0",
+    "@types/node": "20.11.1",
     "@yeger/eslint-config": "1.9.3",
     "astro": "4.1.2",
     "astro-critters": "2.0.11",
