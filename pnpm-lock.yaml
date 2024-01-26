@@ -63,7 +63,7 @@ devDependencies:
     version: 1.0.0
   autoprefixer:
     specifier: 10.4.17
-    version: 10.4.17(postcss@8.4.32)
+    version: 10.4.17(postcss@8.4.33)
   cypress:
     specifier: 13.6.3
     version: 13.6.3
@@ -74,8 +74,8 @@ devDependencies:
     specifier: 3.0.0
     version: 3.0.0
   hastscript:
-    specifier: 8.0.0
-    version: 8.0.0
+    specifier: 9.0.0
+    version: 9.0.0
   html-escaper:
     specifier: 3.0.3
     version: 3.0.3
@@ -1949,7 +1949,7 @@ packages:
   /@types/hast@3.0.0:
     resolution: {integrity: sha512-SoytUJRuf68HXYqcXicQIhCrLQjqeYU2anikr4G3p3Iz+OZO5QDQpDj++gv+RenHsnUBwNZ2dumBArF8VLSk2Q==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.2
     dev: true
 
   /@types/json-schema@7.0.12:
@@ -3022,6 +3022,22 @@ packages:
       normalize-range: 0.1.2
       picocolors: 1.0.0
       postcss: 8.4.32
+      postcss-value-parser: 4.2.0
+    dev: true
+
+  /autoprefixer@10.4.17(postcss@8.4.33):
+    resolution: {integrity: sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==}
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      browserslist: 4.22.2
+      caniuse-lite: 1.0.30001579
+      fraction.js: 4.3.7
+      normalize-range: 0.1.2
+      picocolors: 1.0.0
+      postcss: 8.4.33
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -5674,6 +5690,16 @@ packages:
 
   /hastscript@8.0.0:
     resolution: {integrity: sha512-dMOtzCEd3ABUeSIISmrETiKuyydk1w0pa+gE/uormcTpSYuaNJPbX1NU3JLyscSLjwAQM8bWMhhIlnCqnRvDTw==}
+    dependencies:
+      '@types/hast': 3.0.0
+      comma-separated-tokens: 2.0.3
+      hast-util-parse-selector: 4.0.0
+      property-information: 6.2.0
+      space-separated-tokens: 2.0.2
+    dev: true
+
+  /hastscript@9.0.0:
+    resolution: {integrity: sha512-jzaLBGavEDKHrc5EfFImKN7nZKKBdSLIdGvCwDZ9TfzbF2ffXiov8CKE445L2Z1Ek2t/m4SKQ2j6Ipv7NyUolw==}
     dependencies:
       '@types/hast': 3.0.0
       comma-separated-tokens: 2.0.3
