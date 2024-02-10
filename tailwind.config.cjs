@@ -28,7 +28,7 @@ module.exports = {
         },
         {
           values: theme('transitionDelay'),
-        }
+        },
       )
     },
     require('@tailwindcss/typography'),

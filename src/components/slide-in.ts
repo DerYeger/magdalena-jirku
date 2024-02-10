@@ -1,7 +1,7 @@
 const slideIn = [...document.querySelectorAll('.slide-in')]
 
 const observer = new IntersectionObserver(
-  function (entries, slideInObserver) {
+  (entries, slideInObserver) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) {
         entry.target.classList.add('slide-in-invisible')
