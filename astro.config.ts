@@ -7,7 +7,6 @@ import { defineConfig } from 'astro/config'
 import critters from 'astro-critters'
 import icon from 'astro-icon'
 import robotsTxt from 'astro-robots-txt'
-import autoprefixer from 'autoprefixer'
 import { tsconfigPaths } from 'vite-plugin-lib'
 
 // https://astro.build/config
@@ -29,15 +28,10 @@ export default defineConfig({
     sitemap(),
     robotsTxt(),
     // Critters is disabled because it doesn't support some selectors used by Tailwind
-    critters({ critters: false && { pruneSource: true } }),
+    critters({ Critters: false && { pruneSource: true } }),
   ],
   vite: {
     plugins: [tsconfigPaths({ verbose: true })],
-    css: {
-      postcss: {
-        plugins: [autoprefixer()],
-      },
-    },
   },
   markdown: {
     gfm: true,
