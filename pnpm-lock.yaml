@@ -30,7 +30,7 @@ devDependencies:
     version: 5.1.0(astro@4.4.4)(tailwindcss@3.4.1)(ts-node@10.9.2)
   '@astrojs/vue':
     specifier: 4.0.8
-    version: 4.0.8(@babel/core@7.0.0)(astro@4.4.4)(vite@5.1.4)(vue@3.4.19)
+    version: 4.0.8(@babel/core@7.0.0)(astro@4.4.4)(vite@5.1.7)(vue@3.4.19)
   '@babel/core':
     specifier: '7'
     version: 7.0.0
@@ -107,11 +107,11 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   vite:
-    specifier: 5.1.4
-    version: 5.1.4(@types/node@20.11.20)
+    specifier: 5.1.7
+    version: 5.1.7(@types/node@20.11.20)
   vite-plugin-lib:
     specifier: 2.0.8
-    version: 2.0.8(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.4)
+    version: 2.0.8(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.7)
   vue:
     specifier: 3.4.19
     version: 3.4.19(typescript@5.3.3)
@@ -397,15 +397,15 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/vue@4.0.8(@babel/core@7.0.0)(astro@4.4.4)(vite@5.1.4)(vue@3.4.19):
+  /@astrojs/vue@4.0.8(@babel/core@7.0.0)(astro@4.4.4)(vite@5.1.7)(vue@3.4.19):
     resolution: {integrity: sha512-RnNA4wFy4HvQxU4vswH3c6sa7Br1F/JVzWdQvHYLP4CEe5OZ6yhEqxAUUo3LDkF+sNn23XznFLOPqZak6ziBwg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^4.0.0
       vue: ^3.2.30
     dependencies:
-      '@vitejs/plugin-vue': 4.5.2(vite@5.1.4)(vue@3.4.19)
-      '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.1.4)(vue@3.4.19)
+      '@vitejs/plugin-vue': 4.5.2(vite@5.1.7)(vue@3.4.19)
+      '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.1.7)(vue@3.4.19)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.0.0)
       '@vue/compiler-sfc': 3.4.1
       astro: 4.4.4(@types/node@20.11.20)(typescript@5.3.3)
@@ -2522,7 +2522,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-vue-jsx@3.1.0(vite@5.1.4)(vue@3.4.19):
+  /@vitejs/plugin-vue-jsx@3.1.0(vite@5.1.7)(vue@3.4.19):
     resolution: {integrity: sha512-w9M6F3LSEU5kszVb9An2/MmXNxocAnUb3WhRr8bHlimhDrXNt6n6D2nJQR3UXpGlZHh/EsgouOHCsM8V3Ln+WA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2532,20 +2532,20 @@ packages:
       '@babel/core': 7.23.5
       '@babel/plugin-transform-typescript': 7.23.5(@babel/core@7.23.5)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.23.5)
-      vite: 5.1.4(@types/node@20.11.20)
+      vite: 5.1.7(@types/node@20.11.20)
       vue: 3.4.19(typescript@5.3.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue@4.5.2(vite@5.1.4)(vue@3.4.19):
+  /@vitejs/plugin-vue@4.5.2(vite@5.1.7)(vue@3.4.19):
     resolution: {integrity: sha512-UGR3DlzLi/SaVBPX0cnSyE37vqxU3O6chn8l0HJNzQzDia6/Au2A4xKv+iIJW8w2daf80G7TYHhi1pAUjdZ0bQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.4(@types/node@20.11.20)
+      vite: 5.1.7(@types/node@20.11.20)
       vue: 3.4.19(typescript@5.3.3)
     dev: true
 
@@ -2767,7 +2767,7 @@ packages:
       '@vue/shared': 3.4.19
       estree-walker: 2.0.2
       magic-string: 0.30.7
-      postcss: 8.4.33
+      postcss: 8.4.35
       source-map-js: 1.0.2
 
   /@vue/compiler-ssr@3.4.1:
@@ -3300,8 +3300,8 @@ packages:
       tsconfck: 3.0.0(typescript@5.3.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.1.4(@types/node@20.11.20)
-      vitefu: 0.2.5(vite@5.1.4)
+      vite: 5.1.7(@types/node@20.11.20)
+      vitefu: 0.2.5(vite@5.1.7)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -8627,6 +8627,7 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
 
   /postcss@8.4.35:
     resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
@@ -8635,7 +8636,6 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /prebuild-install@7.1.1:
     resolution: {integrity: sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==}
@@ -11190,7 +11190,7 @@ packages:
       vfile-message: 4.0.2
     dev: true
 
-  /vite-plugin-dts@3.7.2(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.4):
+  /vite-plugin-dts@3.7.2(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.7):
     resolution: {integrity: sha512-kg//1nDA01b8rufJf4TsvYN8LMkdwv0oBYpiQi6nRwpHyue+wTlhrBiqgipdFpMnW1oOYv6ywmzE5B0vg6vSEA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -11206,7 +11206,7 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       kolorist: 1.8.0
       typescript: 5.3.3
-      vite: 5.1.4(@types/node@20.11.20)
+      vite: 5.1.7(@types/node@20.11.20)
       vue-tsc: 1.8.27(typescript@5.3.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -11214,7 +11214,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-lib@2.0.8(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.4):
+  /vite-plugin-lib@2.0.8(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.7):
     resolution: {integrity: sha512-qXLubiMAmnLN0WTt0pblnAOsxLap9x591mflyHF+MEuU8xhtaaU+RvSKTvyMo9BWP/7MGWRm5C5WOs3pBCcXhA==}
     peerDependencies:
       typescript: '*'
@@ -11222,16 +11222,16 @@ packages:
     dependencies:
       picocolors: 1.0.0
       typescript: 5.3.3
-      vite: 5.1.4(@types/node@20.11.20)
-      vite-plugin-dts: 3.7.2(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.4)
+      vite: 5.1.7(@types/node@20.11.20)
+      vite-plugin-dts: 3.7.2(@types/node@20.11.20)(rollup@4.12.0)(typescript@5.3.3)(vite@5.1.7)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: true
 
-  /vite@5.1.4(@types/node@20.11.20):
-    resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
+  /vite@5.1.7(@types/node@20.11.20):
+    resolution: {integrity: sha512-sgnEEFTZYMui/sTlH1/XEnVNHMujOahPLGMxn1+5sIT45Xjng1Ec1K78jRP15dSmVgg5WBin9yO81j3o9OxofA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -11266,7 +11266,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.1.4):
+  /vitefu@0.2.5(vite@5.1.7):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -11274,7 +11274,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.4(@types/node@20.11.20)
+      vite: 5.1.7(@types/node@20.11.20)
     dev: true
 
   /volar-service-css@0.0.30(@volar/language-service@2.0.4):
