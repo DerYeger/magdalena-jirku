@@ -3,7 +3,7 @@
   "type": "module",
   "version": "2.15.78",
   "private": true,
-  "packageManager": "pnpm@8.15.3",
+  "packageManager": "pnpm@9.0.4",
   "scripts": {
     "build": "astro build",
     "check:astro": "astro check",
