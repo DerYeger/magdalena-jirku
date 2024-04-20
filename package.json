@@ -42,7 +42,7 @@
     "astro-icon": "1.1.0",
     "astro-robots-txt": "1.0.0",
     "cypress": "13.6.6",
-    "eslint": "8.57.0",
+    "eslint": "9.1.0",
     "hast-util-to-string": "3.0.0",
     "hastscript": "9.0.0",
     "html-escaper": "3.0.3",
