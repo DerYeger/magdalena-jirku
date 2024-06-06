@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.5.5",
-    "@astrojs/mdx": "2.1.1",
+    "@astrojs/mdx": "3.1.0",
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/sitemap": "3.1.1",
     "@astrojs/tailwind": "5.1.0",
@@ -37,7 +37,7 @@
     "@tailwindcss/typography": "0.5.10",
     "@types/node": "20.11.20",
     "@yeger/eslint-config": "2.2.0",
-    "astro": "4.4.4",
+    "astro": "4.8.0",
     "astro-critters": "2.1.1",
     "astro-icon": "1.1.0",
     "astro-robots-txt": "1.0.0",
@@ -56,7 +56,7 @@
     "ts-node": "10.9.2",
     "turbo": "2.0.3",
     "typescript": "5.3.3",
-    "vite": "5.1.7",
+    "vite": "5.2.13",
     "vite-plugin-lib": "2.0.8",
     "vue": "3.4.19",
     "vue-tsc": "2.0.1"
