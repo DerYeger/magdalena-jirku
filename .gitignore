@@ -1,7 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
-.turbo/cookies
+.turbo/*
 /logs
 *.log
 npm-debug.log*
