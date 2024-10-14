@@ -37,7 +37,7 @@
     "@tailwindcss/typography": "0.5.10",
     "@types/node": "20.11.20",
     "@yeger/eslint-config": "2.2.0",
-    "astro": "4.8.0",
+    "astro": "4.16.1",
     "astro-critters": "2.1.1",
     "astro-icon": "1.1.0",
     "astro-robots-txt": "1.0.0",
