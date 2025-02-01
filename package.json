@@ -41,7 +41,7 @@
     "astro-critters": "2.2.0",
     "astro-icon": "1.1.1",
     "astro-robots-txt": "1.0.0",
-    "cypress": "13.15.0",
+    "cypress": "14.0.1",
     "eslint": "9.13.0",
     "hast-util-to-string": "3.0.1",
     "hastscript": "9.0.0",
