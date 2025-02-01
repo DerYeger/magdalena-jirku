@@ -29,7 +29,7 @@
     "@astrojs/mdx": "4.0.1",
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/sitemap": "3.2.1",
-    "@astrojs/tailwind": "5.1.2",
+    "@astrojs/tailwind": "6.0.0",
     "@astrojs/vue": "5.0.1",
     "@babel/core": "7",
     "@commitlint/cli": "19.5.0",
