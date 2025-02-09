@@ -1,3 +1,10 @@
+## [2.16.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.16.0...v2.16.1) (2025-02-09)
+
+
+### Bug Fixes
+
+* **photography:** prevent image dragging ([b8ba3b8](https://github.com/DerYeger/magdalena-jirku/commit/b8ba3b8c13139521dfc88b26d243ada472017204))
+
 # [2.16.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.80...v2.16.0) (2025-02-09)
 
 
