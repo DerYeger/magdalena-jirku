@@ -8,7 +8,7 @@ Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §6
 
 Magdalena Jirku
 
-1090 Wien,\
+1140 Wien,\
 Österreich
 
 **E-Mail:** magi.jirku@hotmail.com

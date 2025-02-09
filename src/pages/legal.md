@@ -8,7 +8,7 @@ Information in accordance with §5 of the E-Commerce Act, §14 of the Unternehme
 
 Magdalena Jirku
 
-1090 Wien,\
+1140 Wien,\
 Österreich
 
 **Email:** magi.jirku@hotmail.com
