@@ -30,6 +30,7 @@ export interface GalleryImage {
         :src="image.src"
         :alt="image.alt"
         :loading="image.lazy ? 'lazy' : 'eager'"
+        dragg
         decoding="async"
         class="w-full select-none shadow-2xl"
         style="pointer-events: none !important;"
