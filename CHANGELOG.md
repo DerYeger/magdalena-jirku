@@ -1,3 +1,10 @@
+## [2.15.80](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.79...v2.15.80) (2025-02-09)
+
+
+### Bug Fixes
+
+* **legal:** update district ([cf34800](https://github.com/DerYeger/magdalena-jirku/commit/cf3480074fdb93c62b8579f416a39a8614d20545))
+
 ## [2.15.79](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.78...v2.15.79) (2025-02-01)
 
 
