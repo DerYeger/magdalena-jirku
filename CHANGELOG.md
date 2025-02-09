@@ -1,3 +1,11 @@
+# [2.16.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.80...v2.16.0) (2025-02-09)
+
+
+### Features
+
+* **photography:** implement gallery ([ce95581](https://github.com/DerYeger/magdalena-jirku/commit/ce95581067b3d72f5e6c4448634b7ef6f850d06a))
+* update text ([487562c](https://github.com/DerYeger/magdalena-jirku/commit/487562c1cf7598ce46c85678b2d8728d8154f471))
+
 ## [2.15.80](https://github.com/DerYeger/magdalena-jirku/compare/v2.15.79...v2.15.80) (2025-02-09)
 
 
