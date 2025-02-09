@@ -10,7 +10,10 @@ const { href } = Astro.props
 const path = Astro.url.pathname
 const highlightColor = getHighlightColor(path, 0.8)
 
-const isActive = href === Astro.url.pathname
+const isHome = href === '/'
+const isExact = href === path
+const isSub = typeof href === 'string' && path.startsWith(href)
+const isActive = isExact || (!isHome && isSub)
 ---
 
 <a

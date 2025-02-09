@@ -5,6 +5,8 @@ export function getHighlightColor(path: string, opacity = 1) {
     return `rgba(255, 0, 0, ${opacity})`
   } else if (path.startsWith(`/motion-design`)) {
     return `rgba(46, 204, 113, ${opacity})`
+  } else if (path.startsWith(`/photography`)) {
+    return `rgba(18, 53, 36, ${opacity})`
   } else if (path.startsWith('/drawings')) {
     return `rgba(165, 55, 253, ${opacity})`
   }
