@@ -23,14 +23,14 @@ export interface GalleryImage {
     class="w-full"
   >
     <div
-      class="h-0 shadow-sm"
+      class="h-0"
       :style="{ paddingBottom: `${100 * (1 / image.aspectRatio)}%` }"
     >
       <img
         :src="image.src"
         :alt="image.alt"
         :loading="image.lazy ? 'lazy' : 'eager'"
-        dragg
+        draggable="false"
         decoding="async"
         class="w-full select-none shadow-2xl"
         style="pointer-events: none !important;"
