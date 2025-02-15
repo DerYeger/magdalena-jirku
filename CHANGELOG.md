@@ -1,3 +1,10 @@
+## [2.17.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.17.0...v2.17.1) (2025-02-15)
+
+
+### Bug Fixes
+
+* **photography:** remove stacked shadow ([0c563b4](https://github.com/DerYeger/magdalena-jirku/commit/0c563b4d1476d3c5cdb873ea2a34ad2ad91bee65))
+
 # [2.17.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.16.1...v2.17.0) (2025-02-15)
 
 
