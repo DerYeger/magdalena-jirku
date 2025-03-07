@@ -1,3 +1,10 @@
+## [2.17.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.17.1...v2.17.2) (2025-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#151](https://github.com/DerYeger/magdalena-jirku/issues/151)) ([bff0a5a](https://github.com/DerYeger/magdalena-jirku/commit/bff0a5a94bdeb6697411f23d6b374165abe0f2d1))
+
 ## [2.17.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.17.0...v2.17.1) (2025-02-15)
 
 
