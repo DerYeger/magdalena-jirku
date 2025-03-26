@@ -1,0 +1,32 @@
+---
+import Gallery from '~/components/Gallery.vue'
+import type { GalleryImage } from '~/types'
+
+interface Props {
+  video?: {
+    thumbnail: string
+    webm: string
+    mp4: string
+  }
+  images?: GalleryImage[]
+}
+
+const { video, images } = Astro.props
+---
+
+<div class="flex flex-col items-center justify-center gap-8 lg:flex-row">
+  {video ? <video
+    controls
+    controlslist="nodownload"
+    playsinline
+    class="block w-full shrink-0 md:max-w-lg"
+    poster={video.thumbnail}
+  >
+    <source src={video.webm} />
+    <source src={video.mp4} />
+  </video> : null }
+  <div class="prose">
+    <slot />
+  </div>
+</div>
+{images ? <Gallery images={images} image-width={250} client:visible /> : null }

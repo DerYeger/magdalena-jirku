@@ -10,9 +10,7 @@ const bannerColor = getHighlightColor(path, 0.3)
 const bannerImage = (() => {
   if (path === `/`) {
     return 'url(/img/drawings/A_Drop_Of_Water.webp)'
-  } else if (path.startsWith(`/graphic-design`)) {
-    return 'url(/img/graphic-design/Vector_Graphics/Howling_Sunset.webp)'
-  } else if (path.startsWith(`/motion-design`)) {
+  } else if (path.startsWith(`/design`)) {
     return 'url(/img/projects/creartive/overview.webp)'
   } else if (path.startsWith(`/photography`)) {
     return 'url(/img/photography/banner.jpeg)'
@@ -44,15 +42,6 @@ const bannerImage = (() => {
       title="ArtStation"
     >
       <Icon name="simple-icons:artstation" class="size-[1.2em]" />
-    </a>
-    <a
-      class="icon-btn"
-      href="https://www.deviantart.com/keshyx"
-      rel="noopener"
-      target="_blank"
-      title="DeviantArt"
-    >
-      <Icon name="simple-icons:deviantart" class="size-[1.2em]" />
     </a>
     <a
       class="icon-btn"

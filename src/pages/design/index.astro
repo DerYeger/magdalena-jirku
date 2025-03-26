@@ -1,0 +1,86 @@
+---
+import Image from 'astro/components/Image.astro'
+
+import MainLayout from '~/layouts/MainLayout.astro'
+
+type DesignCard = {
+  title: string
+  url: string
+  image: typeof import('*.png')
+}
+
+const cards: DesignCard[] = [
+  {
+    title: 'Client Projects',
+    url: '/design/client-projects',
+    image: await import('~/assets/projects/thumbnail-client-projects.png'),
+  },
+  {
+    title: 'Showreel 2025',
+    url: '/design/showreel-2025',
+    image: await import('~/assets/projects/thumbnail-showreel-2025.png'),
+  },
+  {
+    title: 'Poster Series',
+    url: '/design/poster-series',
+    image: await import('~/assets/projects/thumbnail-poster-series.png'),
+  },
+  {
+    title: 'Bird Walk Cycle',
+    url: '/design/bird-walk-cycle',
+    image: await import('~/assets/projects/thumbnail-bird-walk-cycle.png'),
+  },
+  {
+    title: 'Clean Energy',
+    url: '/design/clean-energy',
+    image: await import('~/assets/projects/thumbnail-clean-energy.png'),
+  },
+  {
+    title: 'Green Starts Here',
+    url: '/design/green-starts-here',
+    image: await import('~/assets/projects/thumbnail-green-starts-here.png'),
+  },
+  {
+    title: 'Baufon',
+    url: '/design/baufon',
+    image: await import('~/assets/projects/thumbnail-baufon.png'),
+  },
+  {
+    title: 'Keenscreen',
+    url: '/design/keenscreen',
+    image: await import('~/assets/projects/thumbnail-keenscreen.png'),
+  },
+  {
+    title: 'Creartive',
+    url: '/design/creartive',
+    image: await import('~/assets/projects/thumbnail-creartive.png'),
+  },
+  {
+    title: 'Bicycle Tracking',
+    url: '/design/bicycle-tracking',
+    image: await import('~/assets/projects/thumbnail-bicycle-tracking.png'),
+  },
+  {
+    title: 'Jotunheim is Calling',
+    url: '/design/jotunheim-is-calling',
+    image: await import('~/assets/projects/thumbnail-jotunheim-is-calling.png'),
+  },
+]
+---
+
+<MainLayout>
+  <div class="mx-auto grid max-w-[100rem] grid-cols-1 gap-6 lg:grid-cols-2 2xl:grid-cols-3">
+    {cards.map((card) => (
+      <a class="relative block h-0 pb-[56.25%] shadow-2xl hover:opacity-100" href={card.url}>
+        <div class="absolute inset-0 overflow-hidden">
+          <Image src={card.image.default} format="webp" alt={card.title} />
+        </div>
+        <div class="absolute inset-4 flex items-center justify-center text-center font-bold text-white" style="container-type: size;">
+          <span class="[text-shadow:_3px_3px_0_rgb(0_0_0_/_40%)]" style={{ fontSize: `min(72px, calc(100cqw / ${card.title.length * 0.5625}))`, lineHeight: 1 }}>
+            {card.title}
+          </span>
+        </div>
+      </a>
+    ))}
+  </div>
+</MainLayout>

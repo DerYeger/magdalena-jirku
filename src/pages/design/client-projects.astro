@@ -1,0 +1,86 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+
+type ClientProject = {
+  name: string
+  link: string
+}
+
+type Group = {
+  name: string
+  projects: ClientProject[]
+}
+
+const groups: Group[] = [
+  {
+    name: 'Annual/Sustainability Reports',
+    projects: [
+      {
+        name: 'HUGO BOSS AR 2024',
+        link: 'https://annualreport-2024.hugoboss.com',
+      },
+      {
+        name: 'Metro AR 2024',
+        link: 'https://reports.metroag.de/annual-report/2023-2024/ ',
+      },
+      {
+        name: 'VIG AR 2023',
+        link: 'https://www.geschaeftsbericht.vig/2023/',
+      },
+      {
+        name: 'ProSieben AR 2023',
+        link: 'https://geschaeftsbericht.prosiebensat1.com/2023/',
+      },
+      {
+        name: 'Deutsche Telekom AR 2023',
+        link: 'https://report.telekom.com/annual-report-2023/',
+      },
+      {
+        name: 'Metro SR 2023',
+        link: 'https://reports.metroag.de/cr-kpi-report/2022-2023/',
+      },
+    ],
+  },
+  {
+    name: 'Explainer Videos',
+    projects: [
+      {
+        name: 'Merck Solvent Recycling',
+        link: 'https://www.merckgroup.com/de/nachhaltigkeitsbericht/2023/stories.html#solvent-recycling',
+      },
+      {
+        name: 'Merck Fight Against Malaria',
+        link: 'https://www.merckgroup.com/de/nachhaltigkeitsbericht/2023/stories.html#fight-against-malaria',
+      },
+      {
+        name: 'UBM Equity Story',
+        link: 'https://youtu.be/mB3CikI7qvI?si=slPoc4UGX95_8BIn',
+      },
+    ],
+  },
+]
+---
+
+<Project title="Client Projects" subtitle="2023 - 2025">
+  <ProjectBody>
+    <div class="flex flex-col gap-16">
+      <div class="text-justify">
+        During my time at nexxar, I had the opportunity to work on the animation on several projects, including annual/sustainability reports and explainer videos.
+        These reports have been officially published and are publicly accessible.
+        Each project was developed in close collaboration with the team and the client to create a high-quality and visually compelling report.
+        Below are links to projects for which I did the animation.
+      </div>
+      <div class="flex flex-wrap justify-evenly gap-4">
+        {groups.map((group) =>
+          <div class="flex flex-col gap-2">
+            <div class="font-bold">{ group.name }</div>
+            {group.projects.map((project) => <div>
+              <a href={project.link} target="_blank" rel="norefferer">{project.name}</a>
+            </div>)}
+          </div>,
+        )}
+      </div>
+    </div>
+  </ProjectBody>
+</Project>
