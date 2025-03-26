@@ -1,6 +1,6 @@
 ---
 import Gallery from '~/components/Gallery.vue'
-import Project from '~/components/projects/Project.astro'
+import Project from '~/components/Project.astro'
 import type { GalleryImage } from '~/types'
 
 const images: GalleryImage[] = [
@@ -23,11 +23,7 @@ const images: GalleryImage[] = [
 ]
 ---
 
-<Project>
-  <div class="prose text-center">
-    <h2 class="text-4xl font-medium">Creartive</h2>
-    <h3 class="text-lighter -mt-6 text-xl">July 2021</h3>
-  </div>
+<Project title="Creartive" subtitle="July 2021">
   <div class="flex flex-col items-center justify-center gap-8 lg:flex-row">
     <video
       controls
@@ -49,5 +45,5 @@ const images: GalleryImage[] = [
       </span>
     </div>
   </div>
-  <Gallery images={images} image-width={200} client:visible />
+  <Gallery images={images} image-width={250} client:visible />
 </Project>
