@@ -1,0 +1,34 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const video = {
+  thumbnail: '/img/projects/bicycle_tracking/beautyshot.webp',
+  webm: '/img/projects/bicycle_tracking/Bicycle.webm',
+  mp4: '/img/projects/bicycle_tracking/Bicycle.mp4',
+}
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/bicycle_tracking/1-bicycle-tracking.jpg',
+  },
+  {
+    src: '/img/projects/bicycle_tracking/2-bicycle-tracking.jpg',
+  },
+  {
+    src: '/img/projects/bicycle_tracking/2-bicycle-tracking.jpg',
+  },
+]
+---
+
+<Project title="Bicycle Tracking" subtitle="January 2021">
+  <ProjectBody video={video} images={images}>
+    <span class="text-justify">
+      This is the result of my first tracking project. The goal was to embed a
+      3D object into real footage. I chose an old gate in the woods with an
+      already rusted bike leaning against it. All content in this video was
+      created by me.
+    </span>
+  </ProjectBody>
+</Project>

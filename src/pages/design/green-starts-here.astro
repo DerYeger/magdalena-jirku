@@ -1,0 +1,19 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+
+const video = {
+  thumbnail: '/img/projects/green_starts_here/thumbnail-green-starts-here.png',
+  webm: '/img/projects/green_starts_here/green-starts-here.webm',
+  mp4: '/img/projects/green_starts_here/green-starts-here.mp4',
+}
+---
+
+<Project title="Green Starts Here" subtitle="2025">
+  <ProjectBody video={video}>
+    <span class="text-justify">
+      I wanted to create an illustration that fits the three words "Sustainable energy", "environmental protection" and "nature".
+      Those keywords led me to this short intro animation.
+    </span>
+  </ProjectBody>
+</Project>

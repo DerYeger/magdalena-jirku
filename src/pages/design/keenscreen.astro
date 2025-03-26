@@ -1,0 +1,56 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/keenscreen/concept.png',
+  },
+  {
+    src: '/img/projects/keenscreen/storyboard.png',
+  },
+  {
+    src: '/img/projects/keenscreen/waves.webp',
+    thumbnail: '/img/projects/keenscreen/waves_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/keenscreen/animation.webp',
+    thumbnail: '/img/projects/keenscreen/animation_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/keenscreen/hue.webp',
+    thumbnail: '/img/projects/keenscreen/hue_thumbnail.webp',
+  },
+]
+
+const video = {
+  thumbnail: images[2].src,
+  webm: '/img/projects/keenscreen/keenscreen.webm',
+  mp4: '/img/projects/keenscreen/keenscreen.mp4',
+}
+---
+
+<Project title="Keenscreen" subtitle="July 2022">
+  <ProjectBody video={video} images={images}>
+    <span class="text-justify">
+      Keenscreen is another 3D animation project and promotes a new TV model
+      designed by me. For this project I focused mainly on the use of motion
+      graphics.
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-justify text-xs children:block">
+      <span>3D Footage by me.</span>
+      <span>Real Footage Videos by Pexels.</span>
+      <span>
+        The song can be found on
+        <a
+          href="https://inaudio.org/track/digital-technology-background/"
+          target="_blank"
+          rel="norefferer"
+        >
+          inaudio.org</a
+        >.
+      </span>
+    </div>
+  </ProjectBody>
+</Project>

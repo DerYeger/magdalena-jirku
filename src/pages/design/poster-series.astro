@@ -1,0 +1,20 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+
+const video = {
+  thumbnail: '/img/projects/poster_series/thumbnail-poster-series.png',
+  webm: '/img/projects/poster_series/poster-series.webm',
+  mp4: '/img/projects/poster_series/poster-series.mp4',
+}
+---
+
+<Project title="Poster Series" subtitle="2025">
+  <ProjectBody video={video}>
+    <span class="text-justify">
+      I love to mix graphic design with motion design.
+      That's why I wanted to create a series of posters, that contain small micro animations.
+      Bringing static design to life will always be one of my favorite things.
+    </span>
+  </ProjectBody>
+</Project>

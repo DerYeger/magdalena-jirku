@@ -1,0 +1,32 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+
+const video = {
+  thumbnail: '/img/projects/clean_energy/thumbnail-clean-energy.png',
+  webm: '/img/projects/clean_energy/Clean-Energy.webm',
+  mp4: '/img/projects/clean_energy/Clean-Energy.mp4',
+}
+---
+
+<Project title="Clean Energy" subtitle="2025">
+  <ProjectBody video={video}>
+    <span class="text-justify">
+      This animation shows the process of solar energy across three houses in an isometric art style.
+      As the sun shines, solar panels on each rooftop capture its rays, converting sunlight into clean, renewable energy.
+      This short animation should showcase how simple and effective solar power can be for modern homes.
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-justify text-xs children:block">
+      <span>
+        The song can be found on
+        <a
+          href="https://pixabay.com/music/corporate-background-corporate-music-short-2-version-206507/"
+          target="_blank"
+          rel="norefferer"
+        >
+          Pixabay</a
+        >.
+      </span>
+    </div>
+  </ProjectBody>
+</Project>

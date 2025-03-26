@@ -1,0 +1,36 @@
+---
+import Image from 'astro/components/Image.astro'
+
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const image = await import('~/assets/projects/jotunheim-is-calling-final.png')
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/jotunheim_is_calling/jotunheim1.jpg',
+  },
+  {
+    src: '/img/projects/jotunheim_is_calling/jotunheim2.jpg',
+  },
+  {
+    src: '/img/projects/jotunheim_is_calling/jotunheim3.jpg',
+  },
+  {
+    src: '/img/projects/jotunheim_is_calling/jotunheim-is-calling-final.png',
+  },
+]
+---
+
+<Project title="Jotunheim is Calling" subtitle="2021">
+  <ProjectBody images={images}>
+    <Image src={image.default} format="webp" alt="Jotunheim is Calling" />
+    <span class="text-justify">
+      This was my very first university project while studying at SAE Institute Vienna.
+      I had to create an environment based on the concept art technique.
+      I was always fascinated by the Norse mythology, so I chose one of the nine realms, Jotunheim.
+      Through a series of developmental steps, the artwork evolves from rough sketches to a fully realized version.
+    </span>
+  </ProjectBody>
+</Project>

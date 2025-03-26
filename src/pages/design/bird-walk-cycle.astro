@@ -1,0 +1,21 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+
+const video = {
+  thumbnail: '/img/projects/bird_walk_cycle/thumbnail-bird-walk-cycle.png',
+  webm: '/img/projects/bird_walk_cycle/bird-walk-cycle.webm',
+  mp4: '/img/projects/bird_walk_cycle/bird-walk-cycle.mp4',
+}
+---
+
+<Project title="Bird Walk Cycle" subtitle="2025">
+  <ProjectBody video={video}>
+    <span class="text-justify">
+      Doing one walk cycle wasn't enough.
+      Which is why this animation showcases three different scenarios with three different bird species.
+      For this I wanted to capture a duck at a lake, a pigeon in the city and a seagull at the beach.
+      I love to play around with different designs and environments.
+    </span>
+  </ProjectBody>
+</Project>

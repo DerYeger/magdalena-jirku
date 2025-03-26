@@ -1,0 +1,24 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+
+const video = {
+  thumbnail: '/img/reels/2025/thumbnail.png',
+  webm: '/img/reels/2025/reel.webm',
+  mp4: '/img/reels/2025/reel.mp4',
+}
+---
+
+<Project title="Showreel 2025">
+  <ProjectBody video={video}>
+    <span class="text-justify">
+      My most recent Showreel.
+      It contains some projects I did in the past and also some entirely new created scenes only for this showreel.
+      I created all of the illustrations myself.
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-justify text-xs children:block">
+      <span>The live action video footage was not created by me and can be found on Pexels.</span>
+      <span>Soundtrack "Powerful Beat" by Penguinmusic on Pixabay.</span>
+    </div>
+  </ProjectBody>
+</Project>

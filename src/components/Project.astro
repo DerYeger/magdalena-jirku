@@ -1,0 +1,22 @@
+---
+import MainLayout from '~/layouts/MainLayout.astro'
+
+interface Props {
+  title: string
+  subtitle?: string
+}
+
+const props = Astro.props
+---
+
+<MainLayout title={props.title}>
+  <section class="slide-in flex flex-col items-center justify-center">
+    <div class="flex max-w-[65rem] flex-col gap-16">
+      <div class="prose max-w-none text-center">
+        <h2 class="text-4xl font-medium">{ props.title }</h2>
+        {props.subtitle ? <h3 class="text-lighter -mt-6 text-xl"> {props.subtitle }</h3> : null}
+      </div>
+      <slot />
+    </div>
+  </section>
+</MainLayout>

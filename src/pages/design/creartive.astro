@@ -1,0 +1,49 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/creartive/storyboard.png',
+  },
+  {
+    src: '/img/projects/creartive/wireframe.png',
+  },
+  {
+    src: '/img/projects/creartive/pencilrow.webp',
+    thumbnail: '/img/projects/creartive/pencilrow_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/creartive/overview.webp',
+    thumbnail: '/img/projects/creartive/overview_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/creartive/closing.webp',
+    thumbnail: '/img/projects/creartive/closing_thumbnail.webp',
+  },
+  {
+    src: '/img/projects/creartive/closing_overview.webp',
+    thumbnail: '/img/projects/creartive/closing_overview_thumbnail.webp',
+  },
+
+]
+
+const video = {
+  thumbnail: images[2].src,
+  webm: '/img/projects/creartive/Creartive.webm',
+  mp4: '/img/projects/creartive/Creartive.mp4',
+}
+---
+
+<Project title="Creartive" subtitle="July 2021">
+  <ProjectBody video={video} images={images}>
+    <span class="text-justify">
+      Creative is the result of my diploma project. The goal was to create an
+      advertisement for a colored pencil case. The color scheme is colorful
+      and playful, yet classy. The focus was to achieve a flow within the
+      video, along with advertising and simulations. All content in this video
+      except the audio track was created by me.
+    </span>
+  </ProjectBody>
+</Project>

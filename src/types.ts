@@ -1,4 +1,4 @@
-export type ImageType = 'webp'
+export type ImageType = 'webp' | 'jpg' | 'png'
 
 export type ImagePath = `/img/${string}.${ImageType}`
 

@@ -2,6 +2,34 @@ import type { GalleryImage } from '~/types'
 
 const drawings: GalleryImage[] = [
   {
+    src: '/img/drawings/Adulthood-suits-you-small.png',
+    title: 'Adulthood Suits You',
+  },
+  {
+    src: '/img/drawings/beige-world-small.png',
+    title: 'Beige World',
+  },
+  {
+    src: '/img/drawings/Insanity.png',
+    title: 'Insanity',
+  },
+  {
+    src: '/img/drawings/autumn-is-coming-small.png',
+    title: 'Autumn Is Coming',
+  },
+  {
+    src: '/img/drawings/Kingfisher-small.png',
+    title: 'Kingfisher',
+  },
+  {
+    src: '/img/drawings/Rare-Smile-small.png',
+    title: 'Rare Smile',
+  },
+  {
+    src: '/img/drawings/Springtime-small.png',
+    title: 'Springtime',
+  },
+  {
     src: '/img/drawings/A_Drop_Of_Water.webp',
     thumbnail: '/img/drawings/A_Drop_Of_Water_Thumbnail.webp',
     title: 'A Drop Of Water',
@@ -30,11 +58,6 @@ const drawings: GalleryImage[] = [
     src: '/img/drawings/leading_the_pack_by_keshyx.webp',
     thumbnail: '/img/drawings/leading_the_pack_by_keshyx_Thumbnail.webp',
     title: 'Leading The Pack By Keshyx',
-  },
-  {
-    src: '/img/drawings/smaug_the_magnificent_by_keshyx.webp',
-    thumbnail: '/img/drawings/smaug_the_magnificent_by_keshyx_Thumbnail.webp',
-    title: 'Smaug The Magnificent By Keshyx',
   },
   {
     src: '/img/drawings/Underwater_Tour.webp',
