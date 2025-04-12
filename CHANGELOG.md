@@ -1,3 +1,10 @@
+## [2.18.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.18.0...v2.18.1) (2025-04-12)
+
+
+### Bug Fixes
+
+* update path ([6ef7dd9](https://github.com/DerYeger/magdalena-jirku/commit/6ef7dd98788ba73c1dd3adf0624682119591b235))
+
 # [2.18.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.17.6...v2.18.0) (2025-04-12)
 
 
