@@ -1,3 +1,11 @@
+# [2.18.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.17.6...v2.18.0) (2025-04-12)
+
+
+### Features
+
+* implement new pages ([21785e1](https://github.com/DerYeger/magdalena-jirku/commit/21785e1cbfc2a8564c5877294c0122857613c336))
+* use astro optimized images for drawings ([f4527cf](https://github.com/DerYeger/magdalena-jirku/commit/f4527cf1823a76e74967d016424d27b48de1467f))
+
 ## [2.17.6](https://github.com/DerYeger/magdalena-jirku/compare/v2.17.5...v2.17.6) (2025-04-12)
 
 
