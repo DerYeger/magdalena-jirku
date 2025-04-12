@@ -9,13 +9,13 @@ const bannerColor = getHighlightColor(path, 0.3)
 
 const bannerImage = (() => {
   if (path === `/`) {
-    return 'url(/img/drawings/A_Drop_Of_Water.webp)'
+    return 'url(/img/banner/home.webp)'
   } else if (path.startsWith(`/design`)) {
     return 'url(/img/projects/creartive/overview.webp)'
   } else if (path.startsWith(`/photography`)) {
     return 'url(/img/photography/banner.jpeg)'
   } else if (path.startsWith(`/drawings`)) {
-    return 'url(/img/drawings/waiting_in_the_twilight.webp)'
+    return 'url(/img/banner/drawings.webp)'
   }
   return 'url(/banner.webp)'
 })()
