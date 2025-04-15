@@ -4,28 +4,32 @@ import type { GalleryImage } from '~/types'
 
 const drawings: GalleryImage[] = [
   {
-    src: 'Adulthood-suits-you-small.png',
-    title: 'Adulthood Suits You',
+    src: 'autumn_mystery.png',
+    title: 'Autumn Mystery',
   },
   {
-    src: 'beige-world-small.png',
+    src: 'beige-world.png',
     title: 'Beige World',
   },
   {
-    src: 'Insanity.png',
-    title: 'Insanity',
+    src: 'Adulthood-suits-you-small.png',
+    title: 'Adulthood Suits You',
   },
   {
     src: 'autumn-is-coming-small.png',
     title: 'Autumn Is Coming',
   },
   {
+    src: 'Last-Flight.png',
+    title: 'Last Flight',
+  },
+  {
     src: 'Kingfisher-small.png',
     title: 'Kingfisher',
   },
   {
-    src: 'Rare-Smile-small.png',
-    title: 'Rare Smile',
+    src: 'fire_on_fire.jpg',
+    title: 'Fire On Fire',
   },
   {
     src: 'Springtime-small.png',
