@@ -1,3 +1,10 @@
+# [2.19.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.18.2...v2.19.0) (2025-04-15)
+
+
+### Features
+
+* add drawings ([3e5145e](https://github.com/DerYeger/magdalena-jirku/commit/3e5145e0774181eda396567a6c83ca0b7f51f2bb))
+
 ## [2.18.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.18.1...v2.18.2) (2025-04-12)
 
 
