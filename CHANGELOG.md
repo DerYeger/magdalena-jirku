@@ -1,3 +1,10 @@
+## [2.19.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.19.0...v2.19.1) (2025-04-17)
+
+
+### Bug Fixes
+
+* capitalization ([fbdf3fc](https://github.com/DerYeger/magdalena-jirku/commit/fbdf3fc31e170d2f11614a5ff2ecce4490ccfd86))
+
 # [2.19.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.18.2...v2.19.0) (2025-04-15)
 
 
