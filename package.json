@@ -3,7 +3,7 @@
   "type": "module",
   "version": "2.20.0",
   "private": true,
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "build": "astro build",
     "check:astro": "astro check",
@@ -21,7 +21,7 @@
     "turbo": "FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.2.33",
+    "@iconify-json/simple-icons": "1.2.34",
     "@yeger/vue-masonry-wall": "5.0.18",
     "vue-easy-lightbox": "1.19.0"
   },
@@ -29,21 +29,21 @@
     "@astrojs/check": "0.9.4",
     "@astrojs/mdx": "4.2.6",
     "@astrojs/prefetch": "0.4.1",
-    "@astrojs/sitemap": "3.3.1",
+    "@astrojs/sitemap": "3.4.0",
     "@astrojs/tailwind": "6.0.2",
     "@astrojs/vue": "5.0.13",
     "@babel/core": "7",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@tailwindcss/typography": "0.5.16",
-    "@types/node": "22.15.17",
+    "@types/node": "22.15.18",
     "@yeger/eslint-config": "2.6.0",
-    "astro": "5.7.12",
+    "astro": "5.7.13",
     "astro-critters": "2.2.1",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
     "cypress": "14.3.3",
-    "eslint": "9.26.0",
+    "eslint": "9.27.0",
     "hast-util-to-string": "3.0.1",
     "hastscript": "9.0.1",
     "html-escaper": "3.0.3",
@@ -59,7 +59,7 @@
     "typescript": "5.8.3",
     "vite": "6.3.5",
     "vite-plugin-lib": "3.0.0",
-    "vue": "3.5.13",
+    "vue": "3.5.14",
     "vue-tsc": "2.2.10"
   },
   "pnpm": {
