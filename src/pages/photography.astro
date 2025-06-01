@@ -12,7 +12,7 @@ const rawImages = await Promise.all(Object.entries(import.meta.glob('/src/assets
     throw new Error(`Invalid photo: ${name}`)
   }
   return module.default as ImageMetadata
-}))
+})).then((images) => images.reverse())
 
 function getAltFromFilename(filename: string): string {
   const startMarker = '__'
