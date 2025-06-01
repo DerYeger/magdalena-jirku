@@ -1,3 +1,10 @@
+# [2.21.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.20.2...v2.21.0) (2025-06-01)
+
+
+### Features
+
+* add images ([1ba0711](https://github.com/DerYeger/magdalena-jirku/commit/1ba07115fd40a3fa67fddcc15a0b47d46b58dba8))
+
 ## [2.20.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.20.1...v2.20.2) (2025-05-28)
 
 
