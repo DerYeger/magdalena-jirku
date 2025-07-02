@@ -1,3 +1,10 @@
+# [2.22.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.21.5...v2.22.0) (2025-07-02)
+
+
+### Features
+
+* add client project link ([e26b25b](https://github.com/DerYeger/magdalena-jirku/commit/e26b25b6368d4e7d7bea3c7b7d89e68a6975418c))
+
 ## [2.21.5](https://github.com/DerYeger/magdalena-jirku/compare/v2.21.4...v2.21.5) (2025-06-28)
 
 
