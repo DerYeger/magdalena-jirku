@@ -11,7 +11,7 @@
     "check:vue": "vue-tsc --noEmit",
     "ci": "pnpm turbo build check lint",
     "dev": "astro dev",
-    "fix": "pnpm lint --fix ",
+    "fix": "pnpm lint --fix",
     "lint": "yeger-lint",
     "prepare": "is-ci || husky",
     "preview": "astro preview",
