@@ -1,3 +1,10 @@
+# [2.23.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.22.0...v2.23.0) (2025-07-04)
+
+
+### Features
+
+* update wording ([4654c93](https://github.com/DerYeger/magdalena-jirku/commit/4654c93622a78271e4a8194dcf0bd6a714551a8e))
+
 # [2.22.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.21.5...v2.22.0) (2025-07-02)
 
 
