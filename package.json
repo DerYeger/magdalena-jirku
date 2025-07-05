@@ -21,8 +21,8 @@
     "turbo": "FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.2.40",
-    "@yeger/vue-masonry-wall": "5.0.20",
+    "@iconify-json/simple-icons": "1.2.41",
+    "@yeger/vue-masonry-wall": "5.0.21",
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
@@ -35,14 +35,14 @@
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@tailwindcss/typography": "0.5.16",
-    "@types/node": "22.15.34",
+    "@types/node": "22.16.0",
     "@yeger/eslint-config": "2.7.0",
-    "astro": "5.10.1",
+    "astro": "5.11.0",
     "astro-critters": "2.2.1",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
-    "cypress": "14.5.0",
-    "eslint": "9.30.0",
+    "cypress": "14.5.1",
+    "eslint": "9.30.1",
     "hast-util-to-string": "3.0.1",
     "hastscript": "9.0.1",
     "html-escaper": "3.0.3",
@@ -50,7 +50,7 @@
     "is-ci": "4.1.0",
     "lint-staged": "16.1.2",
     "moment": "2.30.1",
-    "rollup": "4.44.1",
+    "rollup": "4.44.2",
     "sharp": "0.34.2",
     "tailwindcss": "3.4.17",
     "ts-node": "10.9.2",
