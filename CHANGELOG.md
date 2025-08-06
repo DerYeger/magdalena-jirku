@@ -1,3 +1,10 @@
+# [2.26.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.25.0...v2.26.0) (2025-08-06)
+
+
+### Features
+
+* update assets ([b54ec9d](https://github.com/DerYeger/magdalena-jirku/commit/b54ec9da77774c78748a32dcde13c89ea7544981))
+
 # [2.25.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.24.0...v2.25.0) (2025-08-06)
 
 
