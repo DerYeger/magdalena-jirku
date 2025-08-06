@@ -1,3 +1,10 @@
+# [2.25.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.24.0...v2.25.0) (2025-08-06)
+
+
+### Features
+
+* add design projects ([7dfab50](https://github.com/DerYeger/magdalena-jirku/commit/7dfab50752188a0560830ac825feee0295aaeb06))
+
 # [2.24.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.23.5...v2.24.0) (2025-08-06)
 
 
