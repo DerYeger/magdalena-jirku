@@ -1,3 +1,10 @@
+# [2.27.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.26.0...v2.27.0) (2025-08-06)
+
+
+### Features
+
+* add link ([511b5ab](https://github.com/DerYeger/magdalena-jirku/commit/511b5abeb39ce425bbd495f24551a152280f12f2))
+
 # [2.26.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.25.0...v2.26.0) (2025-08-06)
 
 
