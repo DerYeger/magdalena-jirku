@@ -5,7 +5,7 @@ import type { GalleryImage } from '~/types'
 interface Props {
   video?: {
     thumbnail: string
-    webm: string
+    webm?: string
     mp4: string
   }
   images?: GalleryImage[]
@@ -22,7 +22,7 @@ const { video, images } = Astro.props
     class="block w-full shrink-0 md:max-w-lg"
     poster={video.thumbnail}
   >
-    <source src={video.webm} />
+    {video.webm !== undefined ? <source src={video.webm} /> : null}
     <source src={video.mp4} />
   </video> : null }
   <div class="prose">

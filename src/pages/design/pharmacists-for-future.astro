@@ -1,0 +1,25 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/pharmacists_for_future/Pharmacists-for-future.png',
+  },
+]
+---
+
+<Project title="Pharmacists for Future" subtitle="2024">
+  <ProjectBody images={images}>
+    <span class="text-justify">
+      I designed the logo for "Pharmacists for Future", a group of pharmacists that care for sustainability and for our environment.
+      They can be found on <a href="https://www.instagram.com/pharmacistsforfuture/">Instagram</a>.
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-xs children:block">
+      <span>
+        The mockup can be found on freepik.
+      </span>
+    </div>
+  </ProjectBody>
+</Project>

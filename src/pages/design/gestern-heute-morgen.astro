@@ -1,0 +1,38 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/gestern_heute_morgen/01_Gestern_Heute_Morgen_Cover.png',
+  },
+  {
+    src: '/img/projects/gestern_heute_morgen/02_Gestern_Heute_Morgen_Margit_Doppler.png',
+  },
+  {
+    src: '/img/projects/gestern_heute_morgen/03_Gestern_Heute_Morgen_Trude_Fleischmann.png',
+  },
+  {
+    src: '/img/projects/gestern_heute_morgen/04_Gestern_Heute_Morgen_Grafikdesign.png',
+  },
+]
+---
+
+<Project title="Gestern –  Heute – Morgen " subtitle="2018">
+  <ProjectBody images={images}>
+    <span class="text-justify">
+      This is the final project (diploma thesis) of my school days.
+      My colleague Hana Stein and I decided to create a project about the alumni of «die Graphische».
+      My task was to create a catalog for the exhibition while my colleague planned a fictional exhibition and transformed it into a three-dimensional space.
+      Together, we wrote biographies about the artists who were once students at the school.
+      We included artists like Trude Fleischmann or Margit Doppler, who were already creatively active in the 1910s and 1920s.
+      In total, I assembled information about more than 30 artists, all of whom were immortalized in this catalog with their biographies and works.
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-xs children:block">
+      <span>
+        The mockup can be found on freepik.
+      </span>
+    </div>
+  </ProjectBody>
+</Project>

@@ -1,0 +1,31 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/volles_potenzial/Mockup_Volles_Potenzial.png',
+  },
+  {
+    src: '/img/projects/volles_potenzial/Volles-Potenzial-Mockup.png',
+  },
+]
+---
+
+<Project title="Volles Potenzial" subtitle="2019">
+  <ProjectBody images={images}>
+    <span class="text-justify">
+      A logo design for "VollesPotenzial".
+      The business card mockup is for presentation purposes.
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-xs children:block">
+      <span>
+        <a href="https://www.vollespotenzial.at/">www.vollespotenzial.at</a>
+      </span>
+      <span>
+        The mockup can be found on freepik.
+      </span>
+    </div>
+  </ProjectBody>
+</Project>

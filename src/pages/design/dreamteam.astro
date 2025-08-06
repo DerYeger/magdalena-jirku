@@ -1,0 +1,37 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const video = {
+  thumbnail: '/img/projects/dreamteam/Dreamteam-Mockup-Flyer.png',
+  mp4: '/img/projects/dreamteam/Dreamteam_Logoanimation.mp4',
+}
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/dreamteam/Dreamteam-Mockup-Flyer.png',
+  },
+  {
+    src: '/img/projects/dreamteam/Logo_Dreamteam_Mockup.png',
+  },
+]
+---
+
+<Project title="Dreamteam" subtitle="2022 - 2023">
+  <ProjectBody video={video} images={images}>
+    <span class="text-justify">
+      Dreamteam is a theater group from Vienna.
+      I had the opportunity to take care of their branding for their first performance, starting with the logo.
+      After the logo was done, I created a complete package including flyers, posters, a program booklet, gift cards, and more for their debut performance titled "Der Muss Es Sein."
+    </span>
+    <div class="mt-4 flex flex-col gap-1 text-xs children:block">
+      <span>
+        <a href="https://www.dreamteam.wien/">www.dreamteam.wien</a>
+      </span>
+      <span>
+        The mockup can be found on freepik.
+      </span>
+    </div>
+  </ProjectBody>
+</Project>

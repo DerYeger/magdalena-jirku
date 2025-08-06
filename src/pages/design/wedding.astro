@@ -1,0 +1,38 @@
+---
+import Project from '~/components/Project.astro'
+import ProjectBody from '~/components/ProjectBody.astro'
+import type { GalleryImage } from '~/types'
+
+const images: GalleryImage[] = [
+  {
+    src: '/img/projects/wedding/wedding-logo.png',
+  },
+  {
+    src: '/img/projects/wedding/invitation.jpg',
+  },
+  {
+    src: '/img/projects/wedding/invitation_2.jpg',
+  },
+  {
+    src: '/img/projects/wedding/table.jpg',
+  },
+  {
+    src: '/img/projects/wedding/jar.jpg',
+  },
+  {
+    src: '/img/projects/wedding/info.jpg',
+  },
+  {
+    src: '/img/projects/wedding/info_closeup.jpg',
+  },
+]
+---
+
+<Project title="Wedding" subtitle="2022">
+  <ProjectBody images={images}>
+    <span class="text-justify">
+      In 2022, I was given the honor of planning and realizing the graphic design for my sister's wedding.
+      I created everything that was needed: the invitation, a directions map, a seating chart, stickers, and a logo that was used to make a wax seal.
+    </span>
+  </ProjectBody>
+</Project>
