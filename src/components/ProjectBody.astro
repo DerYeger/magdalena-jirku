@@ -7,6 +7,7 @@ interface Props {
     thumbnail: string
     webm?: string
     mp4: string
+    loop?: boolean
   }
   images?: GalleryImage[]
 }
@@ -19,6 +20,7 @@ const { video, images } = Astro.props
     controls
     controlslist="nodownload"
     playsinline
+    loop={video.loop}
     class="block w-full shrink-0 md:max-w-lg"
     poster={video.thumbnail}
   >
