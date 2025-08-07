@@ -1,3 +1,10 @@
+# [2.28.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.27.0...v2.28.0) (2025-08-07)
+
+
+### Features
+
+* add projects ([5b4d7e6](https://github.com/DerYeger/magdalena-jirku/commit/5b4d7e653dc1edd6e729a16bc0936971d6c02243))
+
 # [2.27.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.26.0...v2.27.0) (2025-08-06)
 
 
