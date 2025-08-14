@@ -71,6 +71,43 @@ const groups: Group[] = [
       },
     ],
   },
+  {
+    name: 'Social Media Assets',
+    projects: [
+      {
+        name: 'Adidas KPI Animation',
+        link: 'https://www.linkedin.com/posts/adidas_results-activity-7356306323405217794-1vJh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
+      },
+      {
+        name: 'PORR KPI Animation',
+        link: 'https://www.linkedin.com/posts/porr-group_porr-results-q1-3-2024-ugcPost-7265241439259795456-Hv8V',
+      },
+      {
+        name: 'VIG AR 24 Announcement',
+        link: 'https://www.linkedin.com/posts/vig-investor-relations_our-group-annual-report-2024-is-out-now-activity-7322515351110320128-cGt8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
+      },
+      {
+        name: 'VIG Stability Resilience Growth',
+        link: 'https://www.linkedin.com/posts/vig-investor-relations_vigceo-vigshare-ugcPost-7351590817578352642-UFGN',
+      },
+      {
+        name: 'Paradots IR Channels',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7343970856722722818',
+      },
+      {
+        name: 'nexxar Mark and Share Tool',
+        link: 'https://www.linkedin.com/posts/nexxar_onlinereporting-highlight-feature-activity-7346502556031815681-b6jn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
+      },
+      {
+        name: 'nexxar Onsite Event',
+        link: 'https://www.linkedin.com/posts/nexxar_strategyinmotion-dominoday-teamgoals-activity-7346833200821821440-Fv6e?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
+      },
+      {
+        name: 'nexxar Table Layout',
+        link: 'https://www.linkedin.com/posts/nexxar_datavisualization-uxdesign-datapresentation-activity-7312456054414487552-2NBf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
+      },
+    ],
+  },
 ]
 ---
 
@@ -78,14 +115,14 @@ const groups: Group[] = [
   <ProjectBody>
     <div class="flex flex-col gap-16">
       <div class="text-justify">
-        During my time at nexxar, I had the opportunity to work on the animation on several projects, including annual/sustainability reports and explainer videos.
+        During my time at nexxar and Paradots, I had the opportunity to work on the animation on several projects, including annual/sustainability reports, explainer videos, and social media assets.
         These reports have been officially published and are publicly accessible.
         Each project was developed in close collaboration with the team and the client to create a high-quality and visually compelling report.
         Below are links to a selection of projects for which I did the animation.
       </div>
       <div class="flex flex-wrap justify-evenly gap-4">
         {groups.map((group) =>
-          <div class="flex flex-col gap-2">
+          <div class="flex flex-col gap-4">
             <div class="font-bold">{ group.name }</div>
             {group.projects.map((project) => <div>
               <a href={project.link} target="_blank" rel="norefferer">{project.name}</a>
