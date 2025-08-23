@@ -8,6 +8,7 @@
     },
     "skipLibCheck": true
   },
+  "exclude": ["playwright-report", "dist", "node_modules"],
   "vueCompilerOptions": {
     "strictCssModules": true,
     "strictTemplates": true

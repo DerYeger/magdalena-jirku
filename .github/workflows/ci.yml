@@ -13,11 +13,6 @@ jobs:
           node-version-file: .node-version
       - name: Build, check, and lint
         run: pnpm run ci
-      - name: Upload
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: dist
   release:
     name: Release
     runs-on: ubuntu-latest

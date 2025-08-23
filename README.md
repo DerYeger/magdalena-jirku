@@ -28,10 +28,9 @@
 - Vue 3 with composition API and `<script setup>`
 - SSG based on [Vitesse](https://github.com/antfu/vitesse)
 - Styled using [UnoCSS](https://github.com/antfu/unocss)
-- E2E testing with [Cypress](https://www.cypress.io/)
-- Unit testing with [Vitest](https://vitest.dev/)
+- E2E testing with [Playwright](https://playwright.dev/)
 - Automated CI/CD pipeline using GitHub Actions
-- Hosted by GitHub Pages at [magdalena-jirku.at](https://magdalena-jirku.at)
+- Hosted on Vercel at [magdalena-jirku.at](https://magdalena-jirku.at)
 
 ## Build Setup
 

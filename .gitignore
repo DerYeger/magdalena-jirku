@@ -91,3 +91,5 @@ sw.*
 *.swp
 
 .astro
+playwright-report
+test-results

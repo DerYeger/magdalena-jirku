@@ -9,16 +9,16 @@
     "check:astro": "astro check",
     "check:tsc": "tsc --noEmit",
     "check:vue": "vue-tsc --noEmit",
-    "ci": "pnpm turbo build check lint",
+    "ci": "pnpm turbo build check e2e lint",
     "dev": "astro dev",
+    "e2e": "playwright test",
     "fix": "pnpm lint --fix",
     "lint": "yeger-lint",
+    "postinstall": "playwright install",
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "sync": "astro sync",
-    "test:e2e": "cypress open",
-    "test:e2e:run": "cypress run",
-    "turbo": "FORCE_COLOR=1 turbo"
+    "turbo": "CI=true FORCE_COLOR=1 turbo"
   },
   "dependencies": {
     "@iconify-json/simple-icons": "1.2.48",
@@ -26,6 +26,7 @@
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
+    "@antfu/ni": "25.0.0",
     "@astrojs/check": "0.9.4",
     "@astrojs/mdx": "4.3.4",
     "@astrojs/prefetch": "0.4.1",
@@ -34,6 +35,7 @@
     "@astrojs/vue": "5.1.0",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
+    "@playwright/test": "1.55.0",
     "@tailwindcss/typography": "0.5.16",
     "@types/node": "22.17.2",
     "@yeger/eslint-config": "2.7.2",
@@ -41,7 +43,6 @@
     "astro-critters": "2.2.1",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
-    "cypress": "14.5.4",
     "eslint": "9.34.0",
     "hast-util-to-string": "3.0.1",
     "hastscript": "9.0.1",
@@ -60,16 +61,6 @@
     "vite-plugin-lib": "3.0.2",
     "vue": "3.5.19",
     "vue-tsc": "3.0.6"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp",
-      "unrs-resolver"
-    ],
-    "ignoredBuiltDependencies": [
-      "cypress"
-    ]
   },
   "lint-staged": {
     "*.{astro,cjs,html,js,jsx,json,md,mjs,mts,svelte,ts,tsx,vue,yaml,yml}": "eslint --fix"
