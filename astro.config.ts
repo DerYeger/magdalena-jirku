@@ -1,5 +1,4 @@
 import mdx from '@astrojs/mdx'
-import prefetch from '@astrojs/prefetch'
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
 import vue from '@astrojs/vue'
@@ -24,7 +23,6 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     vue(),
-    prefetch(),
     sitemap(),
     robotsTxt(),
     // Critters is disabled because it doesn't support some selectors used by Tailwind
@@ -32,6 +30,9 @@ export default defineConfig({
   ],
   vite: {
     plugins: [tsconfigPaths({ verbose: true })],
+  },
+  prefetch: {
+    prefetchAll: true,
   },
   markdown: {
     gfm: true,
