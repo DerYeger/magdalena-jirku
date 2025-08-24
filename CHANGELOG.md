@@ -1,3 +1,10 @@
+# [2.31.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.30.2...v2.31.0) (2025-08-24)
+
+
+### Features
+
+* migrate to built-in prefetch ([5789574](https://github.com/DerYeger/magdalena-jirku/commit/578957478311cc45832b912297184c259fff7f9c))
+
 ## [2.30.2](https://github.com/DerYeger/magdalena-jirku/compare/v2.30.1...v2.30.2) (2025-08-23)
 
 
