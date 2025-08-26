@@ -1,3 +1,10 @@
+## [2.31.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.31.0...v2.31.1) (2025-08-26)
+
+
+### Bug Fixes
+
+* include sitemap in head ([1d488a1](https://github.com/DerYeger/magdalena-jirku/commit/1d488a1315043a404827ffdee08771059d1ea9bd))
+
 # [2.31.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.30.2...v2.31.0) (2025-08-24)
 
 
