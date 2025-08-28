@@ -42,7 +42,7 @@
   "markdownlint.config": {
     "MD033": false
   },
-  "vitest.commandLine": "pnpm test --run",
+
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -56,8 +56,6 @@
     "**/.settings": true,
     "**/*.unotation": true
   },
-  "i18n-ally.localesPaths": ["locales"],
-  "i18n-ally.keystyle": "nested",
 
   "files.associations": {
     "*.css": "tailwindcss"
