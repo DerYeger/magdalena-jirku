@@ -1,3 +1,10 @@
+# [2.32.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.31.1...v2.32.0) (2025-08-28)
+
+
+### Features
+
+* upgrade to tailwind v4 ([3902b5f](https://github.com/DerYeger/magdalena-jirku/commit/3902b5ff837571c78d0b26dc41288830effe72e5))
+
 ## [2.31.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.31.0...v2.31.1) (2025-08-26)
 
 
