@@ -99,14 +99,14 @@ const cards: DesignCard[] = [
 ---
 
 <MainLayout>
-  <div class="mx-auto grid max-w-[100rem] grid-cols-1 gap-6 lg:grid-cols-2 2xl:grid-cols-3">
+  <div class="mx-auto grid max-w-400 grid-cols-1 gap-6 lg:grid-cols-2 2xl:grid-cols-3">
     {cards.map((card) => (
-      <a class="relative block h-0 pb-[56.25%] shadow-2xl hover:opacity-100" href={card.url}>
+      <a class="relative block h-0 pb-[56.25%] shadow-2xl hover:opacity-100!" href={card.url}>
         <div class="absolute inset-0 overflow-hidden">
           <Image src={card.image.default} format="webp" alt={card.title} />
         </div>
         <div class="absolute inset-4 flex items-center justify-center text-center font-bold text-white" style="container-type: size;">
-          <span class="[text-shadow:_3px_3px_0_rgb(0_0_0_/_40%)]" style={{ fontSize: `min(72px, calc(100cqw / ${card.title.length * 0.5625}))`, lineHeight: 1 }}>
+          <span class="[text-shadow:3px_3px_0_rgb(0_0_0/40%)]" style={{ fontSize: `min(72px, calc(100cqw / ${card.title.length * 0.5625}))`, lineHeight: 1 }}>
             {card.title}
           </span>
         </div>

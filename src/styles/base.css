@@ -1,35 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 
-@layer components {
-  .text-primary {
-    @apply text-black;
-  }
+@utility btn-base {
+  @apply px-2 py-1 rounded-sm inline-flex justify-center gap-2 leading-[30px] no-underline! cursor-pointer text-black hover:opacity-80;
+}
 
-  .text-light {
-    @apply opacity-95;
-  }
+@utility icon-btn {
+  @apply btn-base text-white/100! opacity-100 w-9;
+}
 
-  .text-lighter {
-    @apply opacity-70;
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
+}
 
-  .btn-base {
-    @apply px-2 py-1 rounded inline-flex justify-center gap-2 leading-[30px] !no-underline cursor-pointer text-black opacity-50 hover:opacity-80;
-  }
-
-  .icon-btn {
-    @apply btn-base text-white opacity-100 w-9;
-  }
-
-  .flex-center {
-    @apply flex items-center;
-  }
-
-  .subheading {
-    @apply mt-0 mb-2;
-  }
+@theme {
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system,
+               BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+               Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+               "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 html,

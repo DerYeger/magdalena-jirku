@@ -1,12 +1,12 @@
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
-import tailwind from '@astrojs/tailwind'
 import vue from '@astrojs/vue'
 import { defineConfig } from 'astro/config'
 import critters from 'astro-critters'
 import icon from 'astro-icon'
 import robotsTxt from 'astro-robots-txt'
 import { tsconfigPaths } from 'vite-plugin-lib'
+import tailwindcss from '@tailwindcss/vite'
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,9 +19,6 @@ export default defineConfig({
     mdx({
       extendMarkdownConfig: true,
     }),
-    tailwind({
-      applyBaseStyles: false,
-    }),
     vue(),
     sitemap(),
     robotsTxt(),
@@ -29,7 +26,7 @@ export default defineConfig({
     critters({ Critters: false && { pruneSource: true } }),
   ],
   vite: {
-    plugins: [tsconfigPaths({ verbose: true })],
+    plugins: [tailwindcss(), tsconfigPaths({ verbose: true })],
   },
   prefetch: {
     prefetchAll: true,
