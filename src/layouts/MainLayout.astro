@@ -19,9 +19,9 @@ const path = Astro.url.pathname
     <BaseHead title={title} description={description} image={image} />
   </head>
   <body class="text-primary font-sans">
-    <div class="flex size-full flex-row overflow-y-hidden">
+    <div class="relative flex size-full flex-row">
       <Sidebar path={path} />
-      <div class="flex flex-1 flex-col overflow-y-auto">
+      <div class="flex flex-1 flex-col md:ml-48">
         <Header />
         <Main class="flex-1">
           <slot />

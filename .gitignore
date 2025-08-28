@@ -93,3 +93,4 @@ sw.*
 .astro
 playwright-report
 test-results
+lighthouse-reports
