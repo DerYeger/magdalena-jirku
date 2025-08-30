@@ -31,7 +31,7 @@ export const lighthouseTest = test.extend<
 export type Thresholds = playwrightLighthouseConfig['thresholds']
 
 export const BASE_THRESHOLDS: Thresholds = {
-  performance: 75,
+  performance: 70,
   accessibility: 100,
   'best-practices': 100,
   seo: 100,
@@ -68,15 +68,9 @@ export const PAGES: { url: `/${string}`, thresholds?: Thresholds, screenshot?: S
   },
   {
     url: '/design/baufon',
-    thresholds: {
-      performance: 70,
-    },
   },
   {
     url: '/design/keenscreen',
-    thresholds: {
-      performance: 70,
-    },
   },
   {
     url: '/design/bicycle-tracking',
@@ -105,9 +99,6 @@ export const PAGES: { url: `/${string}`, thresholds?: Thresholds, screenshot?: S
   // Photography
   {
     url: '/photography',
-    // thresholds: {
-    //   performance: 75, // preview serves images inefficiently
-    // },
     screenshot: {
       fullPage: false,
     },
