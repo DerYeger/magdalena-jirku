@@ -1,3 +1,10 @@
+## [2.32.1](https://github.com/DerYeger/magdalena-jirku/compare/v2.32.0...v2.32.1) (2025-08-30)
+
+
+### Bug Fixes
+
+* improve accessibility ([43832fa](https://github.com/DerYeger/magdalena-jirku/commit/43832fa03166e0de5980671d0dc054b7bc14276f))
+
 # [2.32.0](https://github.com/DerYeger/magdalena-jirku/compare/v2.31.1...v2.32.0) (2025-08-28)
 
 
