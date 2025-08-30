@@ -35,6 +35,8 @@ import MainLayout from '~/layouts/MainLayout.astro'
     <video
       controls
       controlslist="nodownload"
+      preload="none"
+      onmouseenter="event.target.setAttribute('preload','metadata')"
       playsinline
       class="mx-auto mt-16 block max-w-[min(100%,600px)]"
       poster="/img/reels/2025/thumbnail-text.png"

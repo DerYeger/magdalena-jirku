@@ -14,6 +14,8 @@ test.describe('Screenshots', () => {
       await page.goto(url)
       const mask: Locator[] = [
         page.locator('video'),
+        page.getByTestId('card-image'),
+        page.locator('.photo-gallery'),
       ]
       await expect(page).toHaveScreenshot({ ...BASE_SCREENSHOT, ...(screenshot ?? {}), mask })
     })

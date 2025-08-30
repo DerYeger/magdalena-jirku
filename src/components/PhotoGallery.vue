@@ -20,7 +20,7 @@ export interface GalleryImage {
     :gap="16"
     :max-columns="undefined"
     :key-mapper="(image: GalleryImage) => image.src"
-    class="w-full"
+    class="w-full photo-gallery"
   >
     <div
       class="h-0"

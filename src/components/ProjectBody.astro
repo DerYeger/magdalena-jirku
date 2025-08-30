@@ -19,6 +19,8 @@ const { video, images } = Astro.props
   {video ? <video
     controls
     controlslist="nodownload"
+    preload="none"
+    onmouseenter="event.target.setAttribute('preload','metadata')"
     playsinline
     loop={video.loop}
     class="block w-full shrink-0 md:max-w-lg"
