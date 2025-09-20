@@ -26,7 +26,7 @@
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
-    "@antfu/ni": "25.0.0",
+    "@antfu/ni": "26.0.1",
     "@astrojs/check": "0.9.4",
     "@astrojs/mdx": "4.3.4",
     "@astrojs/sitemap": "3.5.1",
