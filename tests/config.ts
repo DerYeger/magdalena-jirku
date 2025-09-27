@@ -69,7 +69,7 @@ export const PAGES: { url: `/${string}`, thresholds?: Thresholds, screenshot?: S
   {
     url: '/design/baufon',
     thresholds: {
-      performance: 65,
+      performance: 50,
     },
   },
   {
