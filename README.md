@@ -25,9 +25,9 @@
 
 ## Features
 
-- Vue 3 with composition API and `<script setup>`
-- SSG based on [Vitesse](https://github.com/antfu/vitesse)
-- Styled using [UnoCSS](https://github.com/antfu/unocss)
+- Astro and Vue
+- Tailwind
+- MDX
 - E2E testing with [Playwright](https://playwright.dev/)
 - Automated CI/CD pipeline using GitHub Actions
 - Hosted on Vercel at [magdalena-jirku.at](https://magdalena-jirku.at)
@@ -45,11 +45,8 @@ $ pnpm dev
 $ pnpm build
 $ pnpm preview
 
-# run unit tests
-$ pnpm test
-
 # run e2e tests
-$ pnpm test:e2e
+$ pnpm e2e
 
 # lint
 $ pnpm lint
