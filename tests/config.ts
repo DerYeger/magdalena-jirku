@@ -35,7 +35,6 @@ export const BASE_THRESHOLDS: Thresholds = {
   accessibility: 100,
   'best-practices': 100,
   seo: 100,
-  pwa: undefined,
 }
 
 export type ScreenshotOptions = Omit<PageAssertionsToHaveScreenshotOptions, 'mask'>
