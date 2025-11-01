@@ -60,7 +60,7 @@
     "turbo": "2.5.8",
     "typescript": "5.9.3",
     "vite": "6.4.1",
-    "vite-plugin-lib": "3.0.3",
+    "vite-plugin-lib": "4.0.0",
     "vue": "3.5.22",
     "vue-tsc": "3.1.2"
   },
