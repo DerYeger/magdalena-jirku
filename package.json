@@ -38,7 +38,7 @@
     "@tailwindcss/vite": "4.1.17",
     "@types/node": "24.10.1",
     "@yeger/eslint-config": "3.0.1",
-    "astro": "5.15.4",
+    "astro": "5.15.6",
     "astro-critters": "2.2.1",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
