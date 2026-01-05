@@ -16,6 +16,7 @@ test.describe('Screenshots', () => {
         page.locator('video'),
         page.getByTestId('card-image'),
         page.locator('.photo-gallery'),
+        page.locator('footer .copyright'),
       ]
       await expect(page).toHaveScreenshot({ ...BASE_SCREENSHOT, ...(screenshot ?? {}), mask })
     })
