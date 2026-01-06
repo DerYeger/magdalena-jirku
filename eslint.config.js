@@ -6,7 +6,7 @@ export default yeger(
   },
   {
     rules: {
-      'react-hooks-extra/no-unnecessary-use-prefix': 'off',
+      'react/no-unnecessary-use-prefix': 'off',
     },
   },
 )

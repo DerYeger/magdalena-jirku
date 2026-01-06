@@ -43,7 +43,7 @@ export const BASE_SCREENSHOT: ScreenshotOptions = {
   fullPage: true,
 }
 
-export const PAGES: { url: `/${string}`, thresholds?: Thresholds, screenshot?: ScreenshotOptions }[] = [
+export const PAGES: { url: `/${string}`, thresholds?: Thresholds, screenshot?: ScreenshotOptions, skip?: { accessibility?: boolean } }[] = [
   // Home
   {
     url: '/',

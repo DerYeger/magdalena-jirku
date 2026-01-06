@@ -8,6 +8,7 @@ const images: GalleryImage[] = await useDrawingsGallery()
 ---
 
 <MainLayout>
+  <h1 class="sr-only">Drawings</h1>
   <div class="max-w-85rem mx-auto w-full">
     <Gallery images={images} client:load imageWidth={300} />
   </div>

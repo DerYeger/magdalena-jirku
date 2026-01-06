@@ -39,5 +39,6 @@ const images: GalleryImage[] = await Promise.all(processedImages)
 ---
 
 <MainLayout title="Photography">
+  <h1 class="sr-only">Photography</h1>
   <PhotoGallery client:load images={images} />
 </MainLayout>
