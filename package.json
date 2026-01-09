@@ -21,16 +21,16 @@
     "turbo": "CI=true FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.2.64",
+    "@iconify-json/simple-icons": "1.2.65",
     "@yeger/vue-masonry-wall": "5.1.4",
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
-    "@antfu/ni": "28.0.0",
+    "@antfu/ni": "28.1.0",
     "@astrojs/check": "0.9.6",
     "@astrojs/mdx": "4.3.13",
-    "@astrojs/sitemap": "3.6.0",
-    "@astrojs/vue": "5.1.3",
+    "@astrojs/sitemap": "3.6.1",
+    "@astrojs/vue": "5.1.4",
     "@axe-core/playwright": "4.11.0",
     "@commitlint/cli": "20.3.0",
     "@commitlint/config-conventional": "20.3.0",
@@ -39,7 +39,7 @@
     "@tailwindcss/vite": "4.1.18",
     "@types/node": "24.10.4",
     "@yeger/eslint-config": "3.0.1",
-    "astro": "5.16.6",
+    "astro": "5.16.7",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
     "eslint": "9.39.2",
@@ -53,16 +53,16 @@
     "lint-staged": "16.2.7",
     "moment": "2.30.1",
     "playwright-lighthouse": "4.0.0",
-    "rollup": "4.54.0",
+    "rollup": "4.55.1",
     "sharp": "0.34.5",
     "tailwindcss": "4.1.18",
     "ts-node": "10.9.2",
-    "turbo": "2.7.2",
+    "turbo": "2.7.3",
     "typescript": "5.9.3",
     "vite": "6.4.1",
     "vite-plugin-lib": "4.0.1",
     "vue": "3.5.26",
-    "vue-tsc": "3.2.1"
+    "vue-tsc": "3.2.2"
   },
   "lint-staged": {
     "*.{astro,cjs,html,js,jsx,json,md,mjs,mts,svelte,ts,tsx,vue,yaml,yml}": "eslint --fix"
