@@ -11,5 +11,5 @@ jobs:
         uses: DerYeger/pnpm-setup-action@master
         with:
           node-version-file: .node-version
-      - name: Build, check, and lint
+      - name: Build, check, lint, and test
         run: pnpm run ci

@@ -94,15 +94,17 @@ async function importSrc(src: string) {
 }
 
 export async function useDrawingsGallery(): Promise<GalleryImage[]> {
-  return Promise.all(drawings.map(async (drawing) => {
-    const rawImage = await importSrc(drawing.src)
-    const image = await getImage({ src: rawImage.default, quality: 'max', format: 'webp' })
-    const rawThumbnail = await importSrc(drawing.thumbnail ?? drawing.src)
-    const thumbnail = await getImage({ src: rawThumbnail.default, quality: 80, format: 'webp' })
-    return {
-      src: image.src,
-      title: drawing.title,
-      thumbnail: thumbnail.src,
-    }
-  }))
+  return Promise.all(
+    drawings.map(async (drawing) => {
+      const rawImage = await importSrc(drawing.src)
+      const image = await getImage({ src: rawImage.default, quality: 'max', format: 'webp' })
+      const rawThumbnail = await importSrc(drawing.thumbnail ?? drawing.src)
+      const thumbnail = await getImage({ src: rawThumbnail.default, quality: 80, format: 'webp' })
+      return {
+        src: image.src,
+        title: drawing.title,
+        thumbnail: thumbnail.src,
+      }
+    }),
+  )
 }

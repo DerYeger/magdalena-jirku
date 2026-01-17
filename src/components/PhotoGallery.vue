@@ -22,10 +22,7 @@ export interface GalleryImage {
     :key-mapper="(image: GalleryImage) => image.src"
     class="w-full photo-gallery"
   >
-    <div
-      class="h-0"
-      :style="{ paddingBottom: `${100 * (1 / image.aspectRatio)}%` }"
-    >
+    <div class="h-0" :style="{ paddingBottom: `${100 * (1 / image.aspectRatio)}%` }">
       <img
         :src="image.src"
         :alt="image.alt"
@@ -33,8 +30,8 @@ export interface GalleryImage {
         draggable="false"
         decoding="async"
         class="w-full select-none shadow-2xl"
-        style="pointer-events: none !important;"
-      >
+        style="pointer-events: none !important"
+      />
     </div>
   </MasonryWall>
 </template>
