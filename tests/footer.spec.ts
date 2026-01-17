@@ -22,7 +22,10 @@ test.describe('Footer', () => {
 
   test('has a link to LinkedIn', async ({ page }) => {
     const link = page.locator('footer').getByRole('link', { name: 'LinkedIn' })
-    await expect(link).toHaveAttribute('href', 'https://www.linkedin.com/in/magdalena-jirku-81bb16210/?original_referer=https%3A%2F%2Fmagdalena-jirku.at%2F')
+    await expect(link).toHaveAttribute(
+      'href',
+      'https://www.linkedin.com/in/magdalena-jirku-81bb16210/?original_referer=https%3A%2F%2Fmagdalena-jirku.at%2F',
+    )
   })
 
   test('has a link to XING', async ({ page }) => {

@@ -13,8 +13,7 @@ lighthouseTest.describe('Lighthouse', () => {
       await page.goto(url)
 
       if (!skip?.accessibility) {
-        const accessibilityScanResults = await new AxeBuilder({ page })
-          .analyze()
+        const accessibilityScanResults = await new AxeBuilder({ page }).analyze()
         expect(accessibilityScanResults.violations).toEqual([])
       }
 
@@ -29,7 +28,7 @@ lighthouseTest.describe('Lighthouse', () => {
           name: url.replace(/\//g, '_').replace(/^_/, ''),
         },
         disableLogs: true,
-        thresholds: { ...BASE_THRESHOLDS, ...(thresholds ?? {}) },
+        thresholds: { ...BASE_THRESHOLDS, ...thresholds },
       })
     })
   }
