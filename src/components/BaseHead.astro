@@ -1,5 +1,5 @@
 ---
-import '~/styles/base.css'
+import '@styles/base.css'
 
 export interface Props {
   title?: string | undefined
@@ -63,4 +63,4 @@ const finalImage = new URL(image ?? `${Astro.site}/og-logo.png`)
     }
   }
 </style>
-<script src="~/components/slide-in.ts"></script>
+<script src="@components/slide-in.ts"></script>

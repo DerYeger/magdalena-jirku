@@ -2,7 +2,7 @@
 import { computed, ref, toRefs } from 'vue'
 import Lightbox from 'vue-easy-lightbox'
 
-import type { GalleryImage } from '~/types'
+import type { GalleryImage } from '@composables/types'
 
 const props = withDefaults(
   defineProps<{

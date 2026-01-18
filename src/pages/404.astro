@@ -1,6 +1,6 @@
 ---
-import { getHighlightColor } from '~/composables'
-import MainLayout from '~/layouts/MainLayout.astro'
+import { getHighlightColor } from '@composables/color'
+import MainLayout from '@layouts/MainLayout.astro'
 
 const highlightColor = getHighlightColor(Astro.url.pathname, 0.5)
 ---

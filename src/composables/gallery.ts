@@ -1,6 +1,6 @@
 import { getImage } from 'astro:assets'
 
-import type { GalleryImage } from '~/types'
+import type { GalleryImage } from '@composables/types'
 
 const drawings: GalleryImage[] = [
   {
@@ -85,11 +85,11 @@ const drawings: GalleryImage[] = [
 async function importSrc(src: string) {
   const [rawSrc, fileType] = src.split('.')
   if (fileType === 'png') {
-    return import(`~/assets/drawings/${rawSrc}.png`)
+    return import(`../assets/drawings/${rawSrc}.png`)
   } else if (fileType === 'webp') {
-    return import(`~/assets/drawings/${rawSrc}.webp`)
+    return import(`../assets/drawings/${rawSrc}.webp`)
   } else {
-    return import(`~/assets/drawings/${rawSrc}.jpg`)
+    return import(`../assets/drawings/${rawSrc}.jpg`)
   }
 }
 
