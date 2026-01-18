@@ -4,7 +4,6 @@ import vue from '@astrojs/vue'
 import { defineConfig } from 'astro/config'
 import icon from 'astro-icon'
 import robotsTxt from 'astro-robots-txt'
-import { tsconfigPaths } from 'vite-plugin-lib'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://astro.build/config
@@ -23,7 +22,7 @@ export default defineConfig({
     robotsTxt(),
   ],
   vite: {
-    plugins: [tailwindcss(), tsconfigPaths({ verbose: true })],
+    plugins: [tailwindcss()],
   },
   prefetch: {
     prefetchAll: true,

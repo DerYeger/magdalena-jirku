@@ -1,11 +1,11 @@
 ---
 import Image from 'astro/components/Image.astro'
 
-import Project from '~/components/Project.astro'
-import ProjectBody from '~/components/ProjectBody.astro'
-import type { GalleryImage } from '~/types'
+import Project from '@components/Project.astro'
+import ProjectBody from '@components/ProjectBody.astro'
+import type { GalleryImage } from '@composables/types'
 
-const image = await import('~/assets/projects/jotunheim-is-calling-final.png')
+const image = await import('@assets/projects/jotunheim-is-calling-final.png')
 
 const images: GalleryImage[] = [
   {

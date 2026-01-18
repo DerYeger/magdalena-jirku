@@ -1,8 +1,8 @@
 ---
-import Gallery from '~/components/Gallery.vue'
-import { useDrawingsGallery } from '~/composables'
-import MainLayout from '~/layouts/MainLayout.astro'
-import type { GalleryImage } from '~/types'
+import Gallery from '@components/Gallery.vue'
+import { useDrawingsGallery } from '@composables/gallery'
+import MainLayout from '@layouts/MainLayout.astro'
+import type { GalleryImage } from '@composables/types'
 
 const images: GalleryImage[] = await useDrawingsGallery()
 ---
