@@ -1,5 +1,4 @@
 import type { GalleryImage } from '@composables/types'
-
 import { getImage } from 'astro:assets'
 
 const drawings: GalleryImage[] = [
