@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MasonryWall from '@yeger/vue-masonry-wall'
+import { MasonryWall } from '@yeger/vue-masonry-wall'
 
 const props = defineProps<{ images: GalleryImage[] }>()
 
@@ -19,7 +19,7 @@ export interface GalleryImage {
     :column-width="420"
     :gap="16"
     :max-columns="undefined"
-    :key-mapper="(image: GalleryImage) => image.src"
+    :key-mapper="(image) => image.src"
     class="w-full photo-gallery"
   >
     <div class="h-0" :style="{ paddingBottom: `${100 * (1 / image.aspectRatio)}%` }">
