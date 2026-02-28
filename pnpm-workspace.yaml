@@ -1,5 +1,5 @@
 minimumReleaseAge: 2880
-minimumReleaseAgeExclusions:
+minimumReleaseAgeExclude:
   - '@yeger/*'
 
 trustPolicy: no-downgrade
