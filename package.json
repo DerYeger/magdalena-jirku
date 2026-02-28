@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@iconify-json/simple-icons": "1.2.71",
-    "@yeger/vue-masonry-wall": "5.1.5",
+    "@yeger/vue-masonry-wall": "6.1.0",
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
