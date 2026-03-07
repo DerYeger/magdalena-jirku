@@ -1,8 +1,7 @@
 <script setup lang="ts">
+import type { GalleryImage } from '@composables/types'
 import { computed, ref, toRefs } from 'vue'
 import Lightbox from 'vue-easy-lightbox'
-
-import type { GalleryImage } from '@composables/types'
 
 const props = withDefaults(
   defineProps<{

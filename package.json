@@ -24,7 +24,7 @@
     "turbo": "CI=true FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.2.71",
+    "@iconify-json/simple-icons": "1.2.72",
     "@yeger/vue-masonry-wall": "6.1.0",
     "vue-easy-lightbox": "1.19.0"
   },
@@ -35,25 +35,25 @@
     "@astrojs/sitemap": "3.7.0",
     "@astrojs/vue": "5.1.4",
     "@axe-core/playwright": "4.11.1",
-    "@commitlint/cli": "20.4.2",
-    "@commitlint/config-conventional": "20.4.2",
+    "@commitlint/cli": "20.4.3",
+    "@commitlint/config-conventional": "20.4.3",
     "@playwright/test": "1.58.2",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "4.2.1",
-    "@types/node": "24.10.14",
+    "@types/node": "24.11.0",
     "astro": "5.18.0",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
     "get-port": "7.1.0",
     "husky": "9.1.7",
     "lighthouse": "13.0.3",
-    "lint-staged": "16.2.7",
-    "oxfmt": "0.35.0",
-    "oxlint": "1.50.0",
+    "lint-staged": "16.3.2",
+    "oxfmt": "0.36.0",
+    "oxlint": "1.51.0",
     "playwright-lighthouse": "4.0.0",
     "sharp": "0.34.5",
     "tailwindcss": "4.2.1",
-    "turbo": "2.8.11",
+    "turbo": "2.8.13",
     "typescript": "5.9.3",
     "vite": "6.4.1",
     "vue": "3.5.29",
@@ -62,5 +62,5 @@
   "lint-staged": {
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@10.30.2"
+  "packageManager": "pnpm@10.30.3"
 }
