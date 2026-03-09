@@ -20,7 +20,7 @@ export interface GalleryImage {
     :gap="16"
     :max-columns="undefined"
     :key-mapper="(image) => image.src"
-    class="w-full photo-gallery"
+    class="photo-gallery w-full"
   >
     <div class="h-0" :style="{ paddingBottom: `${100 * (1 / image.aspectRatio)}%` }">
       <img
@@ -29,7 +29,7 @@ export interface GalleryImage {
         :loading="image.lazy ? 'lazy' : 'eager'"
         draggable="false"
         decoding="async"
-        class="w-full select-none shadow-2xl"
+        class="w-full shadow-2xl select-none"
         style="pointer-events: none !important"
       />
     </div>

@@ -2,11 +2,11 @@
 @plugin '@tailwindcss/typography';
 
 @utility btn-base {
-  @apply px-2 py-1 rounded-sm inline-flex justify-center gap-2 leading-[30px] no-underline! cursor-pointer text-black hover:opacity-80;
+  @apply inline-flex cursor-pointer justify-center gap-2 rounded-sm px-2 py-1 leading-[30px] text-black no-underline! hover:opacity-80;
 }
 
 @utility icon-btn {
-  @apply btn-base text-white/100! opacity-100 w-9;
+  @apply btn-base w-9 text-white/100! opacity-100;
 }
 
 @layer base {
