@@ -48,7 +48,7 @@
     "husky": "9.1.7",
     "lighthouse": "13.0.3",
     "lint-staged": "16.4.0",
-    "oxfmt": "0.40.0",
+    "oxfmt": "0.41.0",
     "oxlint": "1.56.0",
     "playwright-lighthouse": "4.0.0",
     "sharp": "0.34.5",
