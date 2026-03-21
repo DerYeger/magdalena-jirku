@@ -29,7 +29,7 @@
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
-    "@antfu/ni": "28.3.0",
+    "@antfu/ni": "29.0.0",
     "@astrojs/check": "0.9.8",
     "@astrojs/mdx": "5.0.2",
     "@astrojs/sitemap": "3.7.1",
@@ -48,7 +48,7 @@
     "husky": "9.1.7",
     "lighthouse": "13.0.3",
     "lint-staged": "16.4.0",
-    "oxfmt": "0.41.0",
+    "oxfmt": "0.40.0",
     "oxlint": "1.56.0",
     "playwright-lighthouse": "4.0.0",
     "sharp": "0.34.5",
