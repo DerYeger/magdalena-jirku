@@ -1,6 +1,8 @@
 minimumReleaseAge: 2880
 minimumReleaseAgeExclude:
   - '@yeger/*'
+  # Renovate security update: vite@7.3.2
+  - vite@7.3.2
 
 trustPolicy: no-downgrade
 trustPolicyExclude:
