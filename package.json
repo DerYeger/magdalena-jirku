@@ -24,43 +24,43 @@
     "turbo": "CI=true FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.2.78",
+    "@iconify-json/simple-icons": "1.2.79",
     "@yeger/vue-masonry-wall": "6.1.0",
     "vue-easy-lightbox": "1.19.0"
   },
   "devDependencies": {
-    "@antfu/ni": "30.0.0",
+    "@antfu/ni": "30.1.0",
     "@astrojs/check": "0.9.8",
-    "@astrojs/mdx": "5.0.3",
+    "@astrojs/mdx": "5.0.4",
     "@astrojs/sitemap": "3.7.2",
     "@astrojs/vue": "6.0.1",
-    "@axe-core/playwright": "4.11.1",
+    "@axe-core/playwright": "4.11.2",
     "@commitlint/cli": "20.5.0",
     "@commitlint/config-conventional": "20.5.0",
     "@playwright/test": "1.59.1",
     "@tailwindcss/typography": "0.5.19",
-    "@tailwindcss/vite": "4.2.2",
+    "@tailwindcss/vite": "4.2.4",
     "@types/node": "25.6.0",
-    "astro": "6.1.7",
+    "astro": "6.1.9",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
     "get-port": "7.2.0",
     "husky": "9.1.7",
     "lighthouse": "13.1.0",
     "lint-staged": "16.4.0",
-    "oxfmt": "0.45.0",
-    "oxlint": "1.60.0",
+    "oxfmt": "0.46.0",
+    "oxlint": "1.61.0",
     "playwright-lighthouse": "4.0.0",
     "sharp": "0.34.5",
-    "tailwindcss": "4.2.2",
+    "tailwindcss": "4.2.4",
     "turbo": "2.9.6",
-    "typescript": "6.0.2",
+    "typescript": "6.0.3",
     "vite": "7.3.2",
-    "vue": "3.5.32",
-    "vue-tsc": "3.2.6"
+    "vue": "3.5.33",
+    "vue-tsc": "3.2.7"
   },
   "lint-staged": {
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.1"
 }
