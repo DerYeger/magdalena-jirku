@@ -1,18 +1,10 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+
 minimumReleaseAge: 2880
 minimumReleaseAgeExclude:
   - '@yeger/*'
-  # Renovate security update: vite@7.3.2
-  - vite@7.3.2
 
 trustPolicy: no-downgrade
-trustPolicyExclude:
-  - chokidar@4.0.3
-  - semver@5.7.2 || 6.3.1
-  - ua-parser-js@1.0.41
-  - vite@6.4.1
-
-onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
-  - esbuild
-  - sharp
-  - unrs-resolver
+trustPolicyIgnoreAfter: 2880
