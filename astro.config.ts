@@ -1,3 +1,4 @@
+import { unified } from '@astrojs/markdown-remark'
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import vue from '@astrojs/vue'
@@ -28,6 +29,8 @@ export default defineConfig({
     prefetchAll: true,
   },
   markdown: {
-    gfm: true,
+    processor: unified({
+      gfm: true,
+    }),
   },
 })
