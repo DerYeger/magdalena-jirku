@@ -75,6 +75,9 @@ export const PAGES: {
   },
   {
     url: '/design/keenscreen',
+    thresholds: {
+      performance: 40,
+    },
   },
   {
     url: '/design/bicycle-tracking',

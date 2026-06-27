@@ -4,28 +4,34 @@ import MainLayout from '@layouts/MainLayout.astro'
 ---
 
 <MainLayout>
-  <div class="container mx-auto max-w-260 md:p-8">
+  <div class='container mx-auto max-w-260 md:p-8'>
     <section
-      class="flex flex-col items-center justify-center gap-16 lg:flex-row"
+      class='flex flex-col items-center justify-center gap-16 lg:flex-row'
     >
       <Avatar />
-      <div class="prose flex max-w-full flex-col gap-4 *:text-justify">
-        <h1 class="mb-2 text-4xl font-semibold">Magdalena</h1>
-        <span class="text-neutral-600 italic">Motion Graphic Designer / Illustrator / Storyteller / Artist</span>
-        <span data-testid="about-me">
-          Hi! I am Magdalena, a motion graphic designer based in Vienna, Austria.
-          I love developing fun and colorful projects that allow me to combine my skills in both animation and illustration.
-          For multiple years, I have been working in the fields of motion and graphic design as a professional and can't get enough of it!
-          In my spare time I enjoy reading about new design trends and watching movies to keep in touch with the industry.
-          I also love to go on walks with my camera and take pictures of interesting motives.
+      <div class='prose flex max-w-full flex-col gap-4 *:text-justify'>
+        <h1 class='mb-2 text-4xl font-semibold'>Magdalena</h1>
+        <span class='text-neutral-600 italic'
+          >Motion Graphic Designer / Illustrator / Storyteller / Artist</span
+        >
+        <span data-testid='about-me'>
+          Hi! I am Magdalena, a motion graphic designer based in Vienna,
+          Austria. I love developing fun and colorful projects that allow me to
+          combine my skills in both animation and illustration. For multiple
+          years, I have been working in the fields of motion and graphic design
+          as a professional and can't get enough of it! In my spare time I enjoy
+          reading about new design trends and watching movies to keep in touch
+          with the industry. I also love to go on walks with my camera and take
+          pictures of interesting motives.
         </span>
         <span>
           If you would like to get in touch with me, please contact me via
+          {' '}
           <a
-            href="https://www.linkedin.com/in/magdalena-jirku-81bb16210/"
-            rel="noopener"
-            class="inline-block"
-            target="_blank"
+            href='https://www.linkedin.com/in/magdalena-jirku-81bb16210/'
+            rel='noopener'
+            class='inline-block'
+            target='_blank'
           >
             LinkedIn
           </a>. :)
@@ -34,15 +40,15 @@ import MainLayout from '@layouts/MainLayout.astro'
     </section>
     <video
       controls
-      controlslist="nodownload"
-      preload="none"
+      controlslist='nodownload'
+      preload='none'
       onmouseenter="event.target.setAttribute('preload','metadata')"
       playsinline
-      class="mx-auto mt-16 block max-w-[min(100%,600px)]"
-      poster="/img/reels/2025/thumbnail-text.png"
+      class='mx-auto mt-16 block max-w-[min(100%,600px)]'
+      poster='/img/reels/2025/thumbnail-text.png'
     >
-      <source src="/img/reels/2025/reel.webm" />
-      <source src="/img/reels/2025/reel.mp4" />
+      <source src='/img/reels/2025/reel.webm' />
+      <source src='/img/reels/2025/reel.mp4' />
     </video>
   </div>
 </MainLayout>

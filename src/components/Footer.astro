@@ -6,34 +6,39 @@ const accounts = useAccounts()
 const currentYear = new Date().getFullYear()
 ---
 
-<footer class="footer mt-24 flex justify-center gap-8 p-4 text-xs">
-  <div aria-label="Legal" role="navigation">
+<footer class='footer mt-24 flex justify-center gap-8 p-4 text-xs'>
+  <div aria-label='Legal' role='navigation'>
     <span>Legal</span>
-    <a href="/impressum" lang="de" title="Impressum" active-class="!text-$primary op90">
+    <a
+      href='/impressum'
+      lang='de'
+      title='Impressum'
+      active-class='!text-$primary op90'
+    >
       Impressum
     </a>
-    <a href="/legal" title="Legal" active-class="!text-$primary op90">Legal</a>
-    <span class="text-neutral-600 copyright">
-      2021 - {currentYear} &copy;<br />
+    <a href='/legal' title='Legal' active-class='!text-$primary op90'>Legal</a>
+    <span class='text-neutral-600 copyright'>
+      2021 - {currentYear} &copy;{' '}<br />
       Magdalena Jirku
     </span>
   </div>
-  <div aria-label="Contact" role="navigation">
+  <div aria-label='Contact' role='navigation'>
     <span>Social</span>
     {
       accounts.map((account) => (
-        <a href={account.link} rel="noopener" target="_blank">
+        <a href={account.link} rel='noopener' target='_blank'>
           {account.name}
         </a>
       ))
     }
   </div>
-  <div aria-label="Resources" role="navigation">
+  <div aria-label='Resources' role='navigation'>
     <span>Credits</span>
     <a
-      href="https://github.com/DerYeger/magdalena-jirku"
-      rel="noopener"
-      target="_blank"
+      href='https://github.com/DerYeger/magdalena-jirku'
+      rel='noopener'
+      target='_blank'
     >
       Website by Jan Müller
     </a>
