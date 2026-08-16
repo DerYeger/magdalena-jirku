@@ -14,8 +14,24 @@ type Group = {
 
 const groups: Group[] = [
   {
-    name: 'Annual/Sustainability Reports',
+    name: 'Landing Page Animations',
     projects: [
+      {
+        name: 'HUGO BOSS AR 2025',
+        link: 'https://annualreport.hugoboss.com/2025/',
+      },
+      {
+        name: 'VIG AR 2025',
+        link: 'https://www.geschaeftsbericht.vig/2025/',
+      },
+      {
+        name: 'Fresenius SM 2025',
+        link: 'https://report.fresenius.com/2025/sustainability-magazine/',
+      },
+      {
+        name: 'CP Chemical AR 2025',
+        link: 'https://sustainability-report.cpchem.com/2025/',
+      },
       {
         name: 'HUGO BOSS AR 2024',
         link: 'https://annualreport-2024.hugoboss.com',
@@ -50,6 +66,10 @@ const groups: Group[] = [
     name: 'Explainer Videos',
     projects: [
       {
+        name: 'DHL ROIC',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7467866064790634496',
+      },
+      {
         name: 'Fresenius Water in Production',
         link: 'https://report.fresenius.com/2024/sustainability-magazine/#water',
       },
@@ -72,15 +92,15 @@ const groups: Group[] = [
     ],
   },
   {
-    name: 'Social Media Assets',
+    name: 'KPI Animations',
     projects: [
       {
-        name: 'VIG Share Performance',
-        link: 'https://www.linkedin.com/posts/vig-investor-relations_2025-delivered-a-lot-of-milestones-for-the-activity-7422618472104214529-5qhp'
+        name: 'Wienerberger FY 25',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7431964208726065152',
       },
       {
-        name: 'Wienerberger on the Road',
-        link: 'https://www.linkedin.com/posts/wienerberger-investor-relations_wienerberger-ir-on-the-road-frankfurt-activity-7417178435216629760-w6HE'
+        name: 'Adidas 2025 AR Results',
+        link: 'https://www.linkedin.com/posts/adidas_our-2025-annual-report-is-out-with-activity-7434953297234432000-jyap?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
       },
       {
         name: 'Adidas KPI Animation',
@@ -89,6 +109,31 @@ const groups: Group[] = [
       {
         name: 'PORR KPI Animation',
         link: 'https://www.linkedin.com/posts/porr-group_porr-results-q1-3-2024-ugcPost-7265241439259795456-Hv8V',
+      },
+    ],
+  },
+  {
+    name: 'Social Media Assets',
+    projects: [
+      {
+        name: 'Adidas Red Dot Award 2025',
+        link: 'https://www.linkedin.com/posts/adidas_`reddot`award-3stripes-activity-7393562485863129088-K0JH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADWPAhcBMnN2a_XPciOw2QSZDVWZ6Ph4H8w',
+      },
+      {
+        name: 'Fresenius Save The Date',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7429841146723590144',
+      },
+      {
+        name: 'VIG Nürnberger',
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7416405838740877312',
+      },
+      {
+        name: 'Fresenius 5000 Follower',
+        link: 'https://www.linkedin.com/posts/fresenius-ir-community-ugcPost-7440695489789956096-eRPc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACsOMKYBrnud5ysI-RxR_8FDK2uzhKjspr8',
+      },
+      {
+        name: 'Wienerberger on the Road',
+        link: 'https://www.linkedin.com/posts/wienerberger-investor-relations_wienerberger-ir-on-the-road-frankfurt-activity-7417178435216629760-w6HE',
       },
       {
         name: 'VIG AR 24 Announcement',
@@ -119,24 +164,33 @@ const groups: Group[] = [
 ]
 ---
 
-<Project title="Client Projects" subtitle="2023 - 2026">
+<Project title='Client Projects' subtitle='2023 - 2026'>
   <ProjectBody>
-    <div class="flex flex-col gap-16">
-      <div class="text-justify">
-        During my time at nexxar and Paradots, I had the opportunity to work on the animation on several projects, including annual/sustainability reports, explainer videos, and social media assets.
-        These reports have been officially published and are publicly accessible.
-        Each project was developed in close collaboration with the team and the client to create a high-quality and visually compelling report.
-        Below are links to a selection of projects for which I did the animation.
+    <div class='flex flex-col gap-16'>
+      <div class='text-justify'>
+        During my time at nexxar and Paradots, I had the opportunity to work on
+        the animation on several projects, including annual/sustainability
+        reports, explainer videos, and social media assets. These reports have
+        been officially published and are publicly accessible. Each project was
+        developed in close collaboration with the team and the client to create
+        a high-quality and visually compelling report. Below are links to a
+        selection of projects for which I did the animation.
       </div>
-      <div class="flex flex-wrap justify-evenly gap-4">
-        {groups.map((group) =>
-          <div class="flex flex-col gap-4">
-            <div class="font-bold">{ group.name }</div>
-            {group.projects.map((project) => <div>
-              <a href={project.link} target="_blank" rel="norefferer">{project.name}</a>
-            </div>)}
-          </div>,
-        )}
+      <div class='flex flex-wrap justify-evenly gap-4'>
+        {
+          groups.map((group) => (
+            <div class='flex flex-col gap-4'>
+              <div class='font-bold'>{group.name}</div>
+              {group.projects.map((project) => (
+                <div>
+                  <a href={project.link} target='_blank' rel='norefferer'>
+                    {project.name}
+                  </a>
+                </div>
+              ))}
+            </div>
+          ))
+        }
       </div>
     </div>
   </ProjectBody>
