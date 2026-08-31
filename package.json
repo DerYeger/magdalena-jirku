@@ -24,7 +24,7 @@
     "turbo": "CI=true FORCE_COLOR=1 turbo"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "1.2.93",
+    "@iconify-json/simple-icons": "1.2.94",
     "@yeger/vue-masonry-wall": "6.1.4",
     "vue-easy-lightbox": "1.19.0"
   },
