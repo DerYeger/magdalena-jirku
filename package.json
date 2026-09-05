@@ -31,9 +31,9 @@
   "devDependencies": {
     "@antfu/ni": "30.5.0",
     "@astrojs/check": "0.9.10",
-    "@astrojs/markdown-remark": "7.2.4",
+    "@astrojs/markdown-remark": "7.3.0",
     "@astrojs/mdx": "7.0.8",
-    "@astrojs/sitemap": "3.7.3",
+    "@astrojs/sitemap": "3.7.4",
     "@astrojs/vue": "7.0.2",
     "@axe-core/playwright": "4.13.0",
     "@commitlint/cli": "21.2.2",
@@ -41,16 +41,16 @@
     "@playwright/test": "1.62.1",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.3",
-    "@types/node": "26.4.0",
-    "astro": "7.2.9",
+    "@types/node": "26.4.1",
+    "astro": "7.2.10",
     "astro-icon": "1.2.0",
     "astro-robots-txt": "1.0.0",
     "get-port": "7.2.0",
     "husky": "9.1.7",
     "lighthouse": "13.4.1",
     "lint-staged": "17.4.1",
-    "oxfmt": "0.65.0",
-    "oxlint": "1.80.0",
+    "oxfmt": "0.66.0",
+    "oxlint": "1.81.0",
     "playwright-lighthouse": "4.0.0",
     "sharp": "0.35.4",
     "tailwindcss": "4.3.3",
@@ -63,5 +63,5 @@
   "lint-staged": {
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@11.24.0"
+  "packageManager": "pnpm@11.25.0"
 }
