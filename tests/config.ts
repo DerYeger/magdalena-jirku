@@ -57,7 +57,7 @@ export const PAGES: {
   { url: '/design' },
   { url: '/design/client-projects' },
   {
-    url: '/design/showreel-2025',
+    url: '/design/showreel',
   },
   { url: '/design/poster-series' },
   {
