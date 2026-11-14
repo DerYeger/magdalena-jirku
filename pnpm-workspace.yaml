@@ -5,6 +5,8 @@ allowBuilds:
 minimumReleaseAge: 2880
 minimumReleaseAgeExclude:
   - '@yeger/*'
+  # Renovate security update: astro@7.4.7
+  - astro@7.4.7
 
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 2880

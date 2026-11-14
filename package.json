@@ -42,7 +42,7 @@
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.3",
     "@types/node": "26.6.6",
-    "astro": "7.4.4",
+    "astro": "7.4.7",
     "astro-icon": "1.2.0",
     "astro-robots-txt": "1.0.0",
     "get-port": "7.2.0",
